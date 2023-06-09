@@ -1,0 +1,17 @@
+const plugin = () => ({
+    postcssPlugin: 'postcss-reverse-props',
+    Once(root) {
+        // Transform CSS AST here
+        root.walkRules(rule => {
+            // Transform each rule here
+            rule.walkDecls(decl => {
+                // Transform each property declaration here
+                decl.prop = decl.prop.split('').reverse().join('');
+            });
+        });
+    }
+});
+
+plugin.postcss = true;
+
+module.exports =  plugin;
