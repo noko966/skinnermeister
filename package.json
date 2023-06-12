@@ -10,6 +10,7 @@
   "license": "ISC",
   "dependencies": {
     "fs-extra": "^11.1.1",
+    "node-fetch": "^2.6.11",
     "postcss": "^8.4.24"
   }
 }

@@ -1391,7 +1391,7 @@ body,
     color: var(--eventTxt);
 }
 
-..print_page .print_selection_widget .print_selection_content {
+.print_page .print_selection_widget .print_selection_content {
     background-color: var(--eventBg);
     color: var(--eventTxt);
 }
