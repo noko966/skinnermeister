@@ -1,44 +1,57 @@
-const fs = require("fs");
-const path = require("path");
-const fsExtra = require("fs-extra");
 const postcss = require("postcss");
-const filterVarsPlugin = require("./js/onlyVars");
+const fs = require("fs").promises;
+const path = require("path");
+const postCSSPlugin = require("./js/plugins/addToRoot");
 
-const filesPathStarter = path.join(__dirname, "starter");
-const outputPath = path.join(__dirname, "output");
-const workingFiles = fs.readdirSync(filesPathStarter);
-const encoding = "utf8";
+const logFilePath = path.resolve(__dirname, "logs", "log.txt");
 
-function clearDirectory(dir) {
-  fsExtra.emptyDirSync(dir);
+// const SPORT_PARTNER_SPATH = path.resolve(
+//   "D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners"
+// );
+
+const SPORT_PARTNER_SPATH = path.resolve(__dirname, "starter");
+
+async function processFiles(files) {
+  for (const file of files) {
+    await processFile(file);
+  }
 }
 
-clearDirectory(outputPath);
+async function processFile(file) {
+  const inputPath = path.resolve(SPORT_PARTNER_SPATH, `${file}`);
+  const outputPath = path.resolve(__dirname, "output", `${file}`);
+  // await fs.appendFile(logFilePath, `\n-----------${file}-----------\n`, "utf8");
+  try {
+    const css = await fs.readFile(inputPath, "utf8");
 
-for (let i = 0; i < workingFiles.length; i++) {
-  const fileContent = fs.readFileSync(
-    path.join(filesPathStarter, "/", workingFiles[i]),
-    encoding
-  );
+    // Process the CSS with PostCSS
+    const result = await postcss([postCSSPlugin({partnerId: file})]).process(css, { from: undefined });
+    const modifiedCss = result.css;
+    const messages = result.messages;
 
-  
+    // Write the modified CSS to a file
+    await fs.writeFile(outputPath, modifiedCss, "utf8");
 
-  // let result = postcss(pl).process(fileContent)
-
-  // const root = postcss.parse(fileContent);
-  // const rootRules = root.nodes.filter((node) => node.selector === ":root");
-
-  postcss(filterVarsPlugin).process(fileContent,  { from: 'a.css', to: 'a.out.css' }).then(result => {
-    fs.writeFileSync(
-    path.join(__dirname, "output", "/", `${workingFiles[i]}`),
-    result.css
-  );
- })
-
-  
-
-
-
-
+    for (const message of messages) {
+      if (message.type === "custom" && message.plugin === "plugin_nik") {
+        console.log("Custom message:", message.text);
+        await fs.appendFile(logFilePath, message.text, "utf8");
+      }
+    }
+    console.log(`File ${file} processed successfully.`);
+  } catch (error) {
+    console.error(`Error processing file ${file}:`, error);
+  }
 }
 
+(async () => {
+  try {
+    const filesArray = await fs.readdir(SPORT_PARTNER_SPATH);
+    await fs.writeFile(logFilePath, 'new log file\n', "utf8");
+    await processFiles(filesArray);
+  } catch (error) {
+    console.error("Error reading directory:", error);
+  }
+})().then(() => {
+  console.log("done");
+});

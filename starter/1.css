@@ -326,6 +326,8 @@
     --spritePositionX: 0px;
 }
 
+
+
 [class^='digi_tournament_']:before, [class*='digi_tournament_']:before {
     background-position-x: var(--spritePositionX) !important;
 }

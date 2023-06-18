@@ -1,0 +1,41 @@
+new log file
+1.css----------------
+------------
+contains 1 root selectors
+contains 0 dark theme
+contains 0 light theme
+    var1 spotted 0 times
+    var2 spotted 0 times
+..................................
+144.css----------------
+------------
+contains 1 root selectors
+contains 1 dark theme
+contains 0 light theme
+    var1 spotted 0 times
+    var2 spotted 0 times
+..................................
+2.css----------------
+------------
+contains 0 root selectors
+contains 1 dark theme
+contains 0 light theme
+    var1 spotted 0 times
+    var2 spotted 0 times
+..................................
+256.css----------------
+------------
+contains 1 root selectors
+contains 0 dark theme
+contains 1 light theme
+    var1 spotted 0 times
+    var2 spotted 0 times
+..................................
+3.css----------------
+------------
+contains 1 root selectors
+contains 2 dark theme
+contains 1 light theme
+    var1 spotted 0 times
+    var2 spotted 0 times
+..................................

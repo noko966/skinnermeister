@@ -1,4 +1,4 @@
-const filterOnlyVarsPlugin = () => ({
+const plugin = () => ({
   postcssPlugin: "postcss-filter-vars",
   Once(root) {
     root.nodes = root.nodes.filter(node => node.type === "rule")
@@ -17,6 +17,6 @@ const filterOnlyVarsPlugin = () => ({
   },
 });
 
-filterOnlyVarsPlugin.postcss = true;
+plugin.postcss = true;
 
-module.exports = filterOnlyVarsPlugin;
+module.exports =  plugin;
