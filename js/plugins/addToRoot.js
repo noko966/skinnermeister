@@ -1,6 +1,7 @@
 module.exports = plugin = (opts = {}) => {
   // checkOpts(opts);
   let var1 = {
+    selector: "tg__submenu__item",
     count: false,
     background: "",
     color: "",
@@ -8,6 +9,7 @@ module.exports = plugin = (opts = {}) => {
     txtName: "--menuItemTxt",
   };
   let var2 = {
+    selector: "tg__submenu__item:hover",
     count: false,
     background: "",
     color: "",
@@ -26,37 +28,22 @@ module.exports = plugin = (opts = {}) => {
   return {
     postcssPlugin: "plugin_nik",
     Once(root, { result }) {
-      // Collecting data
-      // root.walkRules(":root", (rule) => {
-      //   data.rootSelectors++;
-      // });
-    
-      root.walk((node) => {
-        if (node.type === 'rule') {
-          if (node.selector === ':root' && node.selector.split(',').length === 1) {
-            data.rootSelectors++;
-          } else if (node.selector.includes('data-theme="dark"')) {
-            data.darkThemeCount++;
-          } else if (node.selector.includes('data-theme="light"')) {
-            data.lightThemeCount++;
-          }
+      root.walkRules((rule) => {
+        if (rule.selector.includes(var1.selector) && !rule.selector.includes(var2.selector)) {
+          data.var1Selector++;
         }
+        else if (rule.selector.includes(var2.selector) && rule.selector.includes(var1.selector)) {
+          data.var1Selector++;
+        } else if (rule.selector === ':root' && rule.selector.split(',').length === 1) {
+          data.rootSelectors++;
+        } else if (rule.selector.includes('data-theme="dark"')) {
+          data.darkThemeCount++;
+        } else if (rule.selector.includes('data-theme="light"')) {
+          data.lightThemeCount++;
+        }
+        
     })
     
-      // root.walkRules(':root[data-theme="light"]', (rule) => {
-      //   data.lightThemeCount++;
-      // });
-    
-      // root.walkRules(':root, :root[data-theme="dark"], :root [data-theme="dark"]', (rule) => {
-      //   if (
-      //     rule.selector.includes(':root') &&
-      //     !rule.selector.includes(':root[data-theme="light"]') &&
-      //     !rule.selector.includes(':root [data-theme="light"]')
-      //   ) {
-      //     data.rootSelectors++;
-      //   }
-      // });
-
       result.messages.push({
         type: "custom",
         plugin: "plugin_nik",

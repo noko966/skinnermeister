@@ -1,7 +1,9 @@
 const postcss = require("postcss");
 const fs = require("fs").promises;
 const path = require("path");
-const postCSSPlugin = require("./js/plugins/addToRoot");
+const pluginAnalize = require("./js/plugins/analize");
+const pluginTransform = require("./js/plugins/transform");
+
 
 const logFilePath = path.resolve(__dirname, "logs", "log.txt");
 
@@ -25,7 +27,7 @@ async function processFile(file) {
     const css = await fs.readFile(inputPath, "utf8");
 
     // Process the CSS with PostCSS
-    const result = await postcss([postCSSPlugin({partnerId: file})]).process(css, { from: undefined });
+    const result = await postcss([pluginAnalize({partnerId: file}), pluginTransform({partnerId: file})]).process(css, { from: undefined });
     const modifiedCss = result.css;
     const messages = result.messages;
 
@@ -33,7 +35,7 @@ async function processFile(file) {
     await fs.writeFile(outputPath, modifiedCss, "utf8");
 
     for (const message of messages) {
-      if (message.type === "custom" && message.plugin === "plugin_nik") {
+      if (message.type === "custom" && message.plugin === "analizer") {
         console.log("Custom message:", message.text);
         await fs.appendFile(logFilePath, message.text, "utf8");
       }
