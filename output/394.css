@@ -1,0 +1,808 @@
+:root,
+:root[data-theme="light"],
+:root [data-theme="light"] {
+--bodyBg:#a1a1a4;
+--bodyBg2:#87878b;
+--bodyBg3:#7a7a7e;
+--bodyBgHover:#99999c;
+--bodyBg2Hover:#7f7f83;
+--bodyBg3Hover:#727276;
+--bodyTxt:rgba(0, 0, 0, 0.9);
+--bodyTxt2:rgba(0, 0, 0, 0.6);
+--bodyTxt3:rgba(0, 0, 0, 0.4);
+--bodyAccent:#00788c;
+--bodyAccentTxt:#fff;
+--bodyBorder:#99999c;
+--bodyG:#a1a1a4;
+--bodyRGBA:rgba(161, 161, 164, 0.7);
+--bodyRGBA2:rgba(161, 161, 164, 0.5);
+--bodyRGBA3:rgba(161, 161, 164, 0.3);
+--dominantBg:#e2e2e2;
+--dominantBg2:#c8c8c8;
+--dominantBg3:#bcbcbc;
+--dominantBgHover:#dadada;
+--dominantBg2Hover:#c0c0c0;
+--dominantBg3Hover:#b4b4b4;
+--dominantTxt:rgba(0, 0, 0, 0.9);
+--dominantTxt2:rgba(0, 0, 0, 0.6);
+--dominantTxt3:rgba(0, 0, 0, 0.4);
+--dominantTxtInverse:#fff;
+--dominantAccent:#1d1160;
+--dominantAccentTxt:#fff;
+--dominantBorder:#dadada;
+--dominantG:#e2e2e2;
+--dominantRGBA:rgba(226, 226, 226, 0.7);
+--dominantRGBA2:rgba(226, 226, 226, 0.5);
+--dominantRGBA3:rgba(226, 226, 226, 0.3);
+--accentBg:#1d1160;
+--accentBg2:#2a198b;
+--accentBg3:#311da1;
+--accentBgHover:#21136d;
+--accentBg2Hover:#2e1b98;
+--accentBg3Hover:#351fae;
+--accentTxt:rgba(255, 255, 255, 0.9);
+--accentTxt2:rgba(255, 255, 255, 0.8);
+--accentTxt3:rgba(255, 255, 255, 0.6);
+--accentBorder:#21136d;
+--accentG:#1d1160;
+--inputBg:#c4c4c4;
+--inputBg2:#aaaaaa;
+--inputBg3:#9e9e9e;
+--inputBgHover:#bcbcbc;
+--inputBg2Hover:#a2a2a2;
+--inputBg3Hover:#969696;
+--inputTxt:rgba(0, 0, 0, 0.9);
+--inputTxt2:rgba(0, 0, 0, 0.6);
+--inputTxt3:rgba(0, 0, 0, 0.4);
+--inputAccent:#1d1160;
+--inputAccentTxt:#fff;
+--inputBorder:#bcbcbc;
+--inputG:#c4c4c4;
+--inputSecondaryBg:#d5d5d5;
+--inputSecondaryBg2:#bbbbbb;
+--inputSecondaryBg3:#afafaf;
+--inputSecondaryBgHover:#cdcdcd;
+--inputSecondaryBg2Hover:#b3b3b3;
+--inputSecondaryBg3Hover:#a7a7a7;
+--inputSecondaryTxt:rgba(0, 0, 0, 0.9);
+--inputSecondaryTxt2:rgba(0, 0, 0, 0.6);
+--inputSecondaryTxt3:rgba(0, 0, 0, 0.4);
+--inputSecondaryAccent:#1d1160;
+--inputSecondaryAccentTxt:#fff;
+--inputSecondaryG:#e2e2e2;
+--headerBg:#00788c;
+--headerBg2:#00a4bf;
+--headerBg3:#00bad8;
+--headerBgHover:#00859b;
+--headerBg2Hover:#00b1ce;
+--headerBg3Hover:#00c7e7;
+--headerTxt:rgba(255, 255, 255, 0.9);
+--headerTxt2:rgba(255, 255, 255, 0.6);
+--headerTxt3:rgba(255, 255, 255, 0.4);
+--headerAccent:#1d1160;
+--headerAccentTxt:#fff;
+--headerBorder:#00859b;
+--headerG:#00788c;
+--subHeaderBg:#c4c4c4;
+--subHeaderBg2:#aaaaaa;
+--subHeaderBg3:#9e9e9e;
+--subHeaderBgHover:#bcbcbc;
+--subHeaderBg2Hover:#a2a2a2;
+--subHeaderBg3Hover:#969696;
+--subHeaderTxt:rgba(0, 0, 0, 0.9);
+--subHeaderTxt2:rgba(0, 0, 0, 0.6);
+--subHeaderTxt3:rgba(0, 0, 0, 0.4);
+--subHeaderAccent:#1d1160;
+--subHeaderAccentTxt:#fff;
+--subHeaderBorder:#bcbcbc;
+--subHeaderG:#c4c4c4;
+--eventBg:#e2e2e2;
+--eventBg2:#c8c8c8;
+--eventBg3:#bcbcbc;
+--eventBgHover:#dadada;
+--eventBg2Hover:#c0c0c0;
+--eventBg3Hover:#b4b4b4;
+--eventTxt:rgba(0, 0, 0, 0.9);
+--eventTxt2:rgba(0, 0, 0, 0.6);
+--eventTxt3:rgba(0, 0, 0, 0.4);
+--eventAccent:#1d1160;
+--eventAccentTxt:#fff;
+--eventBorder:#dadada;
+--eventG:#e2e2e2;
+--buttonBg:#00788c;
+--buttonBg2:#00a4bf;
+--buttonBg3:#00bad8;
+--buttonBgHover:#00859b;
+--buttonBg2Hover:#00b1ce;
+--buttonBg3Hover:#00c7e7;
+--buttonTxt:rgba(255, 255, 255, 0.9);
+--buttonTxt2:rgba(255, 255, 255, 0.6);
+--buttonTxt3:rgba(255, 255, 255, 0.4);
+--buttonAccent:#2a198b;
+--buttonAccentTxt:rgba(255, 255, 255, 0.9);
+--buttonBorder:#00859b;
+--buttonG:#00788c;
+--buttonSecondaryBg:#d5d5d5;
+--buttonSecondaryBg2:#bbbbbb;
+--buttonSecondaryBg3:#afafaf;
+--buttonSecondaryBgHover:#cdcdcd;
+--buttonSecondaryBg2Hover:#b3b3b3;
+--buttonSecondaryBg3Hover:#a7a7a7;
+--buttonSecondaryTxt:rgba(0, 0, 0, 0.9);
+--buttonSecondaryTxt2:rgba(0, 0, 0, 0.6);
+--buttonSecondaryTxt3:rgba(0, 0, 0, 0.4);
+--buttonSecondaryAccent:#2a198b;
+--buttonSecondaryAccentTxt:rgba(255, 255, 255, 0.9);
+--buttonSecondaryBorder:#cdcdcd;
+--buttonSecondaryG:#e2e2e2;
+--modalBg:#ccc8c8;
+--modalBg2:#b3aeae;
+--modalBg3:#a7a0a0;
+--modalBgHover:#c5c0c0;
+--modalBg2Hover:#aca6a6;
+--modalBg3Hover:#a09898;
+--modalTxt:rgba(0, 0, 0, 0.9);
+--modalTxt2:rgba(0, 0, 0, 0.8);
+--modalTxt3:rgba(0, 0, 0, 0.6);
+--modalAccent:#1d1160;
+--modalAccentTxt:rgba(255, 255, 255, 0.9);
+--modalBorder:#c5c0c0;
+--modalG:#ccc8c8;
+--oddBg:#ffffff;
+--oddBg2:#e6e6e6;
+--oddBg3:#d9d9d9;
+--oddBgHover:#f7f7f7;
+--oddBg2Hover:#dedede;
+--oddBg3Hover:#d1d1d1;
+--oddTxt:rgba(0, 0, 0, 0.9);
+--oddTxt2:rgba(0, 0, 0, 0.6);
+--oddTxt3:rgba(0, 0, 0, 0.4);
+--oddAccent:#1d1160;
+--oddAccentTxt:rgba(255, 255, 255, 0.9);
+--oddBorder:#000000;
+--oddG:#ffffff;
+--oddActiveBg:#00788c;
+--oddActiveBg2:#00a4bf;
+--oddActiveBg3:#00bad8;
+--oddActiveBgHover:#00859b;
+--oddActiveBg2Hover:#00b1ce;
+--oddActiveBg3Hover:#00c7e7;
+--oddActiveTxt:rgba(255, 255, 255, 0.9);
+--oddActiveTxt2:rgba(255, 255, 255, 0.6);
+--oddActiveTxt3:rgba(255, 255, 255, 0.4);
+--oddActiveBorder:#00788c;
+--oddActiveG:#00788c;
+--showMoreBg:#c4c4c4;
+--showMoreBg2:#aaaaaa;
+--showMoreBg3:#9e9e9e;
+--showMoreBgHover:#bcbcbc;
+--showMoreBg2Hover:#a2a2a2;
+--showMoreBg3Hover:#969696;
+--showMoreTxt:rgba(0, 0, 0, 0.9);
+--showMoreTxt2:rgba(0, 0, 0, 0.6);
+--showMoreTxt3:rgba(0, 0, 0, 0.4);
+--showMoreAccent:#1d1160;
+--showMoreAccentTxt:rgba(255, 255, 255, 0.9);
+--showMoreBorder:#c4c4c4;
+--showMoreG:#c4c4c4;
+--tabBg:#c4c4c4;
+--tabBg2:#aaaaaa;
+--tabBg3:#9e9e9e;
+--tabBgHover:#bcbcbc;
+--tabBg2Hover:#a2a2a2;
+--tabBg3Hover:#969696;
+--tabTxt:rgba(0, 0, 0, 0.9);
+--tabTxt2:rgba(0, 0, 0, 0.6);
+--tabTxt3:rgba(0, 0, 0, 0.4);
+--tabAccent:#1d1160;
+--tabAccentTxt:rgba(255, 255, 255, 0.9);
+--tabBorder:#bcbcbc;
+--tabG:#c4c4c4;
+--tabActiveBg:#00788c;
+--tabActiveBg2:#00a4bf;
+--tabActiveBg3:#00bad8;
+--tabActiveBgHover:#00859b;
+--tabActiveBg2Hover:#00b1ce;
+--tabActiveBg3Hover:#00c7e7;
+--tabActiveTxt:rgba(255, 255, 255, 0.9);
+--tabActiveTxt2:rgba(255, 255, 255, 0.6);
+--tabActiveTxt3:rgba(255, 255, 255, 0.4);
+--tabActiveAccent:#1d1160;
+--tabActiveAccentTxt:rgba(255, 255, 255, 0.9);
+--tabActiveBorder:#00859b;
+--tabActiveG:#00788c;
+--tabSecondaryActiveBg:#b7b7b7;
+--tabSecondaryActiveBg2:#9d9d9d;
+--tabSecondaryActiveBg3:#919191;
+--tabSecondaryActiveBgHover:#afafaf;
+--tabSecondaryActiveBg2Hover:#959595;
+--tabSecondaryActiveBg3Hover:#898989;
+--tabSecondaryActiveTxt:rgba(0, 0, 0, 0.9);
+--tabSecondaryActiveTxt2:rgba(0, 0, 0, 0.6);
+--tabSecondaryActiveTxt3:rgba(0, 0, 0, 0.4);
+--tabSecondaryAccent:#1d1160;
+--tabSecondaryAccentTxt:rgba(255, 255, 255, 0.9);
+--tabSecondaryActiveG:#c4c4c4;
+--filterBg:#d0d0d0;
+--filterBg2:#b6b6b6;
+--filterBg3:#aaaaaa;
+--filterBgHover:#c8c8c8;
+--filterBg2Hover:#aeaeae;
+--filterBg3Hover:#a2a2a2;
+--filterTxt:rgba(0, 0, 0, 0.9);
+--filterTxt2:rgba(0, 0, 0, 0.6);
+--filterTxt3:rgba(0, 0, 0, 0.4);
+--filterAccent:#1d1160;
+--filterAccentTxt:rgba(255, 255, 255, 0.9);
+--filterBorder:#c8c8c8;
+--filterG:#e2e2e2;
+--menu_1Bg:#e2e2e2;
+--menu_1Bg2:#c8c8c8;
+--menu_1Bg3:#bcbcbc;
+--menu_1BgHover:#dadada;
+--menu_1Bg2Hover:#c0c0c0;
+--menu_1Bg3Hover:#b4b4b4;
+--menu_1Txt:rgba(0, 0, 0, 0.9);
+--menu_1Txt2:rgba(0, 0, 0, 0.6);
+--menu_1Txt3:rgba(0, 0, 0, 0.4);
+--menu_1Accent:#1d1160;
+--menu_1AccentTxt:rgba(255, 255, 255, 0.9);
+--menu_1Border:#dadada;
+--menu_1G:#e2e2e2;
+--menu_2Bg:#d4d4d4;
+--menu_2Bg2:#bababa;
+--menu_2Bg3:#aeaeae;
+--menu_2BgHover:#cccccc;
+--menu_2Bg2Hover:#b2b2b2;
+--menu_2Bg3Hover:#a6a6a6;
+--menu_2Txt:rgba(0, 0, 0, 0.9);
+--menu_2Txt2:rgba(0, 0, 0, 0.6);
+--menu_2Txt3:rgba(0, 0, 0, 0.4);
+--menu_2Accent:#1d1160;
+--menu_2AccentTxt:rgba(255, 255, 255, 0.9);
+--menu_2Border:#cccccc;
+--menu_2G:#d4d4d4;
+--menu_3Bg:#c4c4c4;
+--menu_3Bg2:#aaaaaa;
+--menu_3Bg3:#9e9e9e;
+--menu_3BgHover:#bcbcbc;
+--menu_3Bg2Hover:#a2a2a2;
+--menu_3Bg3Hover:#969696;
+--menu_3Txt:rgba(0, 0, 0, 0.9);
+--menu_3Txt2:rgba(0, 0, 0, 0.6);
+--menu_3Txt3:rgba(0, 0, 0, 0.4);
+--menu_3Accent:#1d1160;
+--menu_3AccentTxt:rgba(255, 255, 255, 0.9);
+--menu_3Border:#bcbcbc;
+--menu_3G:#c4c4c4;
+--tooltipBg:#e6e6e6;
+--tooltipBg2:#cccccc;
+--tooltipBg3:#c0c0c0;
+--tooltipBgHover:#dedede;
+--tooltipBg2Hover:#c4c4c4;
+--tooltipBg3Hover:#b8b8b8;
+--tooltipTxt:rgba(0, 0, 0, 0.9);
+--tooltipTxt2:rgba(0, 0, 0, 0.8);
+--tooltipTxt3:rgba(0, 0, 0, 0.6);
+--tooltipAccent:#1d1160;
+--tooltipAccentTxt:rgba(255, 255, 255, 0.9);
+--tooltipBorder:#dedede;
+--tooltipG:#e6e6e6;
+--menuItemActiveTxt:#333333;
+--menuItemTxt:#000;
+}/*
+*/
+  
+  /*--*/
+  :root {
+    --primaryBg:  #A1A1A4;
+    --primaryBg3: #6e6e71;
+    --primaryTxt: #000;
+    --primaryTxt2: #4d4d4d;
+    --primaryTxt3: #666666;
+
+    --accentBg: #FFB803;
+    --accentG: #FFB803;
+    --accentRGBA: rgba(255, 184, 3, 0.6);
+    --accentTxt: #000;
+
+    --brandG: #00788C;
+    --brandBg: #00788C;
+    --brandTxt: #fff;
+
+    --actionButtonG: #FFB803;
+    --actionButtonTxt: #000;
+
+    --widgetG: #E2E2E2;
+    --widgetBg: #E2E2E2;
+    --widgetBgHover: #d5d5d5;
+    --widgetBg2: #c8c8c8;
+    --widgetBg2Hover: #bbbbbb;
+    --widgetBg3: #aeaeae;
+    --widgetBg3Hover: #a1a1a1;
+    --widgetRGBA: rgba(226, 226, 226, 0.6);
+    --widgetTxt: #000;
+    --widgetTxt2: #4d4d4d;
+    --widgetTxt3: #666666;
+
+    --oddG: #fff;
+    --oddBg: #fff;
+    --oddTxt: #000;
+    --oddTxt2: #4d4d4d;
+
+    --oddActiveG: #00788C;
+    --oddActiveBg: #00788C;
+    --oddActiveBg2: #004c59;
+    --oddActiveTxt: #fff;
+    --oddActiveTxt2: #b3b3b3;
+
+    --showMoreG: #c4c4c4;
+    --showMoreBg: #c4c4c4;
+    --showMoreTxt: #000;
+    --showMoreTxt2: #4d4d4d;
+
+    --headerG: #00788C;
+    --headerBg: #00788C;
+    --headerTxt: #fff;
+
+    --popupHeaderG: #00788C;
+    --popupHeaderBg: #00788C;
+    --popupHeaderTxt: #fff;
+
+    --popupBg: #E2E2E2;
+    --popupG: #E2E2E2;
+    --popupTxt: #000;
+    --popupTxt2: #4d4d4d;
+
+    --tabG: #4d4d4d;
+    --tabBg: #4d4d4d;
+    --tabTxt: #fff;
+    --tabTxt2: #b3b3b3;
+
+    --activeTabG: #00788C;
+    --activeTabBg: #00788C;
+    --activeTabTxt: #fff;
+
+    --sideBarTabG: #4d4d4d;
+    --sideBarTabTxt: #fff;
+
+    --sideBarActiveTabG: #00788C;
+    --sideBarActiveTabTxt: #fff;
+
+    --inputG: #C4C4C4;
+    --inputBg: #C4C4C4;
+    --inputBg2: #aaaaaa;
+    --inputTxt:  #000;
+    --inputTxt2: #4d4d4d;
+
+    --borderRadius: 2px;
+    --inputBirderRadius:  2px;
+    --bottomBirderRadius:  2px;
+    --menuItemActiveTxt:#333333;
+    --menuItemTxt:#000;
+
+}
+/*---*/
+
+
+/* - - - - Primary - - - - */
+.tg_bg,
+.tg__result_item,
+.sportLeftPane .liveFilterContainer {
+	background-color: #A1A1A4;
+	color: #000
+}
+
+.ss__step_slider .ss__ruller > div.off {
+	background: #CCCCCC;
+}
+
+.tg__step_slider {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+.tg__left_menu_item,
+.live_menu_item_left,
+.live_menu_item_left .tg--left_live_odds,
+.tg__one_game,
+.tg__match_item_stake,
+.tg__step_slider {
+	border-color: #A1A1A4;
+}
+
+/* - - - - Widget - - - - - */
+.tg_widget_bg,
+.tg__live_list_header,
+.tg__banner,
+.newsSliderMarketContainer,
+.tg_left_tabs,
+.posCombItemCont {
+	background: #C4C4C4;
+	color: #4d4d4d;
+}
+
+.tg--pos_comb_row {
+	border-color: #C4C4C4;
+}
+
+.tg__input-ico,
+.tg__live_filter_item,
+.africanView .tg_left_filter_tabs,
+.tg__step_slider,
+.tg__banner__date {
+	color: #4d4d4d;
+}
+
+/* - - - - Left Menu Level 1 - - - - */
+.tg__left_menu_item--lvl1 {
+	background: #E2E2E2;
+	color: #000;
+}
+
+.ss__step_slider .ss__slider,
+.ss__step_slider .ss__ruller > div {
+	background: #999999;
+}
+
+/* - - - - Left Menu Level 2 - - - - */
+.tg__left_menu_item--lvl2,
+.tg_bet_history_order_row_sub,
+.africanView .SBhead {
+	background: #D4D4D4;
+	color: #4d4d4d;
+}
+
+	/* - - - - Left Menu Level 3 - - - - */
+	.tg__left_menu_item--lvl3,
+	.tg__list_row_heading,
+	.tg_bet_history_order_row_sub:nth-child(even) {
+		background: #C4C4C4;
+		color: #4d4d4d;
+	}
+
+/* - - - - Passive Tab - - - - */
+.tab_selector {
+	background: #C4C4C4;
+	color: #4d4d4d;
+}
+
+	/* - - - - Active Tab - - - - */
+	.tab_selector.tab_selector_active,
+	.tab_selector:hover,
+	.tg__subhead .tg__dropdown_control,
+	.tg_subheader_btn,
+	.tg_live_center-wrapper .selectorWrapper,
+	.tab_cupon:hover {
+		background: #00788C;
+		color: #fff;
+	}
+.tg__subhead .tg__input {
+	background-color: #C4C4C4;
+}
+.tg__step_slider {
+	background-color: #EEEAEA;
+}
+.tg__live_filter_item.checked {
+	background: #00788C;
+	color: #fff;
+}
+
+/* - - - - Header - - - - */
+.gameContentTitle,
+.tg__result_group_heading,
+.africanView .tg--home2__stakeItem {
+	background: #00788C;
+	color: #fff;
+}
+
+/* - - - - SubHeader - - - - */
+.tg__prematch_header,
+.live_sport_list .tg__left_menu_item--lvl3,
+.tg__calendar_header,
+.tg__calendar_cont,
+.tg__res_rus,
+.tg__multibet_heading,
+.tg__score_box,
+.overViewDataDanel .tg__btn_arrow,
+.tg__cashout--header,
+.live_menu_item_left_header,
+.tg_bet_history_order_row,
+.tg__match_header,
+.tg__home_game_heading,
+.africanView .tg--home2__stakeTypes {
+	background: #C4C4C4;
+	color: #4d4d4d;
+}
+
+.tg__modal_header {
+	background-color: #00788C;
+	color: #fff;
+}
+	/* - - - - Single Game - - - - */
+	.tg__one_game,
+	.tg__banner,
+	.news_slider .oddsContainer,
+	.prematch_event_odds_container,
+	.tg__multi_game,
+	.live_menu_item_left .tg--left_live_odds,
+	.tg__calendar_item,
+	.dg1,
+	.overviewEventBody,
+	.tg_popup_body_static,
+	.tg__modal,
+	.matchListWrapper,
+	.multiViewHeaderCont,
+	.posCombGridItem {
+		background: #E2E2E2;
+		color: #000;
+	}
+
+		.tg__one_game_col,
+		.tg__home_game_time,
+		.tg__one_game_icons,
+		.tg__one_game .maIcons {
+			color: #333333;
+		}
+
+/* - - - - Odd - - - - */
+.l_od,
+.l_od_empty {
+	background: #FFFFFF;
+	color: #000;
+}
+
+/* - - - - Show More - - - - */
+.tg__more {
+	background: #C4C4C4;
+	color: #4d4d4d;
+}
+
+/* - - - - Accordion Header - - - - */
+.tg__block_header {
+	background: #00788C;
+	color: #fff;
+}
+
+/* - - - - Accent - - - - */
+.tg_sidebar_text_akcent,
+.liveGameSelected .liveSportNamesContainer,
+.left_menu_line_active .tg__left_menu_item_text,
+.tg_widget_text_akcent,
+.tg-ico-fav--active,
+.tg-ico-fav.active,
+.tg__coupon_square,
+.tg-clr-akcent,
+.tg-clr-akcent2,
+.tg__score_box,
+.tg__fix_btn.checked {
+	color: #1D1160;
+}
+
+.tg__more:hover,
+.tg__btn-coupon:hover,
+.tg__btn-text:hover,
+.tg__fix_btn:hover {
+	color: #1D1160;
+}
+input:checked + .tg__switch_ico,
+.tg_coin {
+	background-color: #1D1160;
+}
+
+.tg_coin {
+	color: #fff;
+}
+
+.tg_popup_body_static .tab_selector_active {
+	border-bottom: 2px solid #1D1160;
+}
+
+.live_calendar .tab_selector,
+.tg__coupon_tabs_cont {
+	border-bottom: 2px solid;
+}
+
+	.live_calendar .tab_selector:not(:last-child) {
+		margin-right: 1px;
+	}
+
+.live_menu_item_left_header {
+	border-bottom: 1px solid;
+}
+
+.live_calendar .tab_selector.tab_selector_active,
+.live_menu_item_left_header {
+	border-bottom-color: #1D1160;
+}
+
+/* - - - - Brand - - - - */
+.l_od:hover,
+.l_od.selectedOdd,
+.tg__btn-ternary,
+.tg__modal_confirm:hover,
+.africanView .tg--home2__stakeItem:hover,
+.africanView .stItem_active.tg--home2__stakeItem,
+.africanView .active .tg--home2__stakeItem {
+	background: #00788C;
+	color: #fff;
+}
+
+.tabSelectorHeading {
+	color: #00788C;
+}
+
+/* - - - - BetSlip Bg - - - - */
+.tg__coupon .tg--coupon-bg {
+	background: #E2E2E2;
+	color: #4d4d4d
+}
+
+.tab_cupon.tab_selected {
+	background: #C4C4C4;
+	color: #1A1A1A;
+}
+
+.tab_cupon {
+	background-color: #E2E2E2;
+	color: #666666;
+}
+
+.tg__coupon_tabs_cont {
+	border-bottom-color: #E2E2E2;
+}
+
+/* - - - - BetSlip Line - - - - */
+.stake_item_panel {
+	background: #C4C4C4;
+	color: #666666;
+	border-color: #E2E2E2;
+}
+
+/* - - - - BetSlip Input - - - - */
+.tg_input.tg_input_coupon_amount {
+	background: #FFFFFF;
+	color: #1a1a1a;
+}
+
+.tg__coupon_square {
+	background: #FFFFFF;
+}
+
+/* - - - - BetSlip Button - - - - */
+.tg__btn-coupon,
+.tg__btn-text {
+	background: #00788C;
+	color: #fff;
+}
+
+	.sportRightPane .tg__btn-ternary,
+	.tg__btn-coupon.tg__login {
+		background: #00788C;
+		color: #FFFFFF;
+	}
+
+.tg--cashout-body, .tg__cashout_popup, .booking_number {
+	background-color: #E2E2E2;
+	color: #4d4d4d;
+}
+
+/* - - - - DropDown - - - - */
+.tg__input,
+.tg_input,
+.tg__dropdown_control,
+.tg_input + .ui-datepicker-trigger {
+	background: #FFFFFF;
+	color: #1a1a1a;
+}
+
+.ss__step_slider .ss__ruller > div.off {
+	color: #FFFFFF;
+}
+
+.tg__dropdown__item {
+	background: #FFFFFF;
+	color: #1a1a1a
+}
+
+	.tg__dropdown__item:hover,
+	.tg__dropdown__item-active {
+		background-color: #E2E2E2;
+	}
+
+.tg__dropdown_content {
+	background: #A1A1A4;
+}
+
+/* - - - - Sections - - - - */
+.tg--coupon-bg,
+.tg__info_panel,
+.tg__results_header,
+.tg__cashout--wrapper,
+.bet_generator_wrapper .tg_widget_bg_2 {
+	background: #E2E2E2;
+	color: #000;
+}
+
+/* Styles we don't usually change */
+.tg__badge_live {
+	background-color: #E2E2E2;
+	color: #999999;
+}
+
+.tab_selector_active .tg__badge_live {
+	background-color: #CB0000;
+	color: #fff;
+}
+
+.tg__coupon_factor {
+	background-color: #666;
+	color: #fff;
+}
+
+.tg__switch_ico {
+	background-color: #999;
+}
+
+.tg__open_event_img {
+	color: #000;
+}
+
+.tg__switch .tg__switch_ico:before {
+	background-color: #fff;
+}
+
+.tab_cupon {
+	text-transform: uppercase;
+}
+
+/* - + - - - - + - > AFRICAN VIEW < - + - - - - + - */
+.africanView .tabSelectorHeading {
+	color: #fff;
+}
+
+.africanView .tg_left_filter_tabs.tg_left_filter_tabs_active {
+	color: #000;
+}
+
+.digi_tournament.tg_sidebar_text_akcent {
+	color: #FFB803;
+}
+
+#line_tabs .selectorWrapper,
+#live_tabs_header .selectorWrapper,
+#line_tabs .tabsWithMarketFilter,
+#live_tabs_header .tabsWithMarketFilter {
+	background-color: #A1A1A4;
+}
+
+.tg-bg_transparent {
+	background-color: rgba(255, 255, 255, 0.3);
+}
+
+.multiViewLiveEventPanel .tg__one_game_team {
+	color: #1D1160;
+}
+
+.tg__multiview_header .tg__one_game_team,
+.tg__multiview_item .tg__multiview_header {
+	color: #fff;
+}
+
+.tg__bet_history_row .tg-ico-cheque_redact {
+	color: #4D4D4D;
+}
+
+.tg__modal_wrapper .tg__list_row_sub,
+.tg__modal_wrapper .tg__list_row {
+	background-color: #E2E2E2;
+	margin-bottom: 1px;
+}
+
+.digi_scroll_dragger {
+	background-color: #1D1160;
+}
+
+.ds--myacc-history_list_cont {
+	background-color: #A1A1A4;
+}

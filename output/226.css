@@ -1,0 +1,1014 @@
+:root,
+:root[data-theme="light"],
+:root [data-theme="light"] {
+--bodyBg:#ffffff;
+--bodyBg2:#e6e6e6;
+--bodyBg3:#d9d9d9;
+--bodyBgHover:#f7f7f7;
+--bodyBg2Hover:#dedede;
+--bodyBg3Hover:#d1d1d1;
+--bodyTxt:rgba(0, 0, 0, 0.9);
+--bodyTxt2:rgba(0, 0, 0, 0.6);
+--bodyTxt3:rgba(0, 0, 0, 0.4);
+--bodyAccent:#ff7e00;
+--bodyAccentTxt:#fff;
+--bodyBorder:#f7f7f7;
+--bodyG:#ffffff;
+--bodyRGBA:rgba(255, 255, 255, 0.7);
+--bodyRGBA2:rgba(255, 255, 255, 0.5);
+--bodyRGBA3:rgba(255, 255, 255, 0.3);
+--dominantBg:#f4f4f4;
+--dominantBg2:#dadada;
+--dominantBg3:#cecece;
+--dominantBgHover:#ececec;
+--dominantBg2Hover:#d2d2d2;
+--dominantBg3Hover:#c6c6c6;
+--dominantTxt:rgba(0, 0, 0, 0.9);
+--dominantTxt2:rgba(0, 0, 0, 0.6);
+--dominantTxt3:rgba(0, 0, 0, 0.4);
+--dominantTxtInverse:#fff;
+--dominantAccent:#ff7e00;
+--dominantAccentTxt:#fff;
+--dominantBorder:#ececec;
+--dominantG:#f4f4f4;
+--dominantRGBA:rgba(244, 244, 244, 0.7);
+--dominantRGBA2:rgba(244, 244, 244, 0.5);
+--dominantRGBA3:rgba(244, 244, 244, 0.3);
+--accentBg:#ff7e00;
+--accentBg2:#cc6500;
+--accentBg3:#b35800;
+--accentBgHover:#f07600;
+--accentBg2Hover:#bd5d00;
+--accentBg3Hover:#a45000;
+--accentTxt:rgba(255, 255, 255, 0.9);
+--accentTxt2:rgba(255, 255, 255, 0.8);
+--accentTxt3:rgba(255, 255, 255, 0.6);
+--accentBorder:#f07600;
+--accentG:#ff7e00;
+--inputBg:#e5e5e5;
+--inputBg2:#cbcbcb;
+--inputBg3:#bfbfbf;
+--inputBgHover:#dddddd;
+--inputBg2Hover:#c3c3c3;
+--inputBg3Hover:#b7b7b7;
+--inputTxt:rgba(0, 0, 0, 0.9);
+--inputTxt2:rgba(0, 0, 0, 0.6);
+--inputTxt3:rgba(0, 0, 0, 0.4);
+--inputAccent:#ff7e00;
+--inputAccentTxt:#fff;
+--inputBorder:#dddddd;
+--inputG:#e5e5e5;
+--inputSecondaryBg:#e7e7e7;
+--inputSecondaryBg2:#cdcdcd;
+--inputSecondaryBg3:#c1c1c1;
+--inputSecondaryBgHover:#dfdfdf;
+--inputSecondaryBg2Hover:#c5c5c5;
+--inputSecondaryBg3Hover:#b9b9b9;
+--inputSecondaryTxt:rgba(0, 0, 0, 0.9);
+--inputSecondaryTxt2:rgba(0, 0, 0, 0.6);
+--inputSecondaryTxt3:rgba(0, 0, 0, 0.4);
+--inputSecondaryAccent:#ff7e00;
+--inputSecondaryAccentTxt:#fff;
+--inputSecondaryG:#f4f4f4;
+--headerBg:#f4f4f4;
+--headerBg2:#dadada;
+--headerBg3:#cecece;
+--headerBgHover:#ececec;
+--headerBg2Hover:#d2d2d2;
+--headerBg3Hover:#c6c6c6;
+--headerTxt:rgba(0, 0, 0, 0.9);
+--headerTxt2:rgba(0, 0, 0, 0.6);
+--headerTxt3:rgba(0, 0, 0, 0.4);
+--headerAccent:#ff7e00;
+--headerAccentTxt:#fff;
+--headerBorder:#ececec;
+--headerG:#f4f4f4;
+--subHeaderBg:#e7e7e7;
+--subHeaderBg2:#cdcdcd;
+--subHeaderBg3:#c1c1c1;
+--subHeaderBgHover:#dfdfdf;
+--subHeaderBg2Hover:#c5c5c5;
+--subHeaderBg3Hover:#b9b9b9;
+--subHeaderTxt:rgba(0, 0, 0, 0.9);
+--subHeaderTxt2:rgba(0, 0, 0, 0.6);
+--subHeaderTxt3:rgba(0, 0, 0, 0.4);
+--subHeaderAccent:#ff7e00;
+--subHeaderAccentTxt:#fff;
+--subHeaderBorder:#dfdfdf;
+--subHeaderG:#e7e7e7;
+--eventBg:#f4f4f4;
+--eventBg2:#dadada;
+--eventBg3:#cecece;
+--eventBgHover:#ececec;
+--eventBg2Hover:#d2d2d2;
+--eventBg3Hover:#c6c6c6;
+--eventTxt:rgba(0, 0, 0, 0.9);
+--eventTxt2:rgba(0, 0, 0, 0.6);
+--eventTxt3:rgba(0, 0, 0, 0.4);
+--eventAccent:#ff7e00;
+--eventAccentTxt:#fff;
+--eventBorder:#ececec;
+--eventG:#f4f4f4;
+--buttonBg:#ffef00;
+--buttonBg2:#ccbf00;
+--buttonBg3:#b3a700;
+--buttonBgHover:#f0e100;
+--buttonBg2Hover:#bdb100;
+--buttonBg3Hover:#a49900;
+--buttonTxt:rgba(0, 0, 0, 0.9);
+--buttonTxt2:rgba(0, 0, 0, 0.6);
+--buttonTxt3:rgba(0, 0, 0, 0.4);
+--buttonAccent:#cc6500;
+--buttonAccentTxt:rgba(255, 255, 255, 0.9);
+--buttonBorder:#f0e100;
+--buttonG:#ffef00;
+--buttonSecondaryBg:#e7e7e7;
+--buttonSecondaryBg2:#cdcdcd;
+--buttonSecondaryBg3:#c1c1c1;
+--buttonSecondaryBgHover:#dfdfdf;
+--buttonSecondaryBg2Hover:#c5c5c5;
+--buttonSecondaryBg3Hover:#b9b9b9;
+--buttonSecondaryTxt:rgba(0, 0, 0, 0.9);
+--buttonSecondaryTxt2:rgba(0, 0, 0, 0.6);
+--buttonSecondaryTxt3:rgba(0, 0, 0, 0.4);
+--buttonSecondaryAccent:#cc6500;
+--buttonSecondaryAccentTxt:rgba(255, 255, 255, 0.9);
+--buttonSecondaryBorder:#dfdfdf;
+--buttonSecondaryG:#f4f4f4;
+--modalBg:#ccc8c8;
+--modalBg2:#b3aeae;
+--modalBg3:#a7a0a0;
+--modalBgHover:#c5c0c0;
+--modalBg2Hover:#aca6a6;
+--modalBg3Hover:#a09898;
+--modalTxt:rgba(0, 0, 0, 0.9);
+--modalTxt2:rgba(0, 0, 0, 0.8);
+--modalTxt3:rgba(0, 0, 0, 0.6);
+--modalAccent:#ff7e00;
+--modalAccentTxt:rgba(255, 255, 255, 0.9);
+--modalBorder:#c5c0c0;
+--modalG:#ccc8c8;
+--oddBg:#ffffff;
+--oddBg2:#e6e6e6;
+--oddBg3:#d9d9d9;
+--oddBgHover:#f7f7f7;
+--oddBg2Hover:#dedede;
+--oddBg3Hover:#d1d1d1;
+--oddTxt:rgba(0, 0, 0, 0.9);
+--oddTxt2:rgba(0, 0, 0, 0.6);
+--oddTxt3:rgba(0, 0, 0, 0.4);
+--oddAccent:#ff7e00;
+--oddAccentTxt:rgba(255, 255, 255, 0.9);
+--oddBorder:#000000;
+--oddG:#ffffff;
+--oddActiveBg:#ffef00;
+--oddActiveBg2:#ccbf00;
+--oddActiveBg3:#b3a700;
+--oddActiveBgHover:#f0e100;
+--oddActiveBg2Hover:#bdb100;
+--oddActiveBg3Hover:#a49900;
+--oddActiveTxt:rgba(0, 0, 0, 0.9);
+--oddActiveTxt2:rgba(0, 0, 0, 0.6);
+--oddActiveTxt3:rgba(0, 0, 0, 0.4);
+--oddActiveBorder:#ffef00;
+--oddActiveG:#ffef00;
+--showMoreBg:#e7e7e7;
+--showMoreBg2:#cdcdcd;
+--showMoreBg3:#c1c1c1;
+--showMoreBgHover:#dfdfdf;
+--showMoreBg2Hover:#c5c5c5;
+--showMoreBg3Hover:#b9b9b9;
+--showMoreTxt:rgba(0, 0, 0, 0.9);
+--showMoreTxt2:rgba(0, 0, 0, 0.6);
+--showMoreTxt3:rgba(0, 0, 0, 0.4);
+--showMoreAccent:#ff7e00;
+--showMoreAccentTxt:rgba(255, 255, 255, 0.9);
+--showMoreBorder:#e7e7e7;
+--showMoreG:#e7e7e7;
+--tabBg:#ffffff;
+--tabBg2:#e6e6e6;
+--tabBg3:#d9d9d9;
+--tabBgHover:#f7f7f7;
+--tabBg2Hover:#dedede;
+--tabBg3Hover:#d1d1d1;
+--tabTxt:rgba(0, 0, 0, 0.9);
+--tabTxt2:rgba(0, 0, 0, 0.6);
+--tabTxt3:rgba(0, 0, 0, 0.4);
+--tabAccent:#ff7e00;
+--tabAccentTxt:rgba(255, 255, 255, 0.9);
+--tabBorder:#f7f7f7;
+--tabG:#ffffff;
+--tabActiveBg:#f4f4f4;
+--tabActiveBg2:#dadada;
+--tabActiveBg3:#cecece;
+--tabActiveBgHover:#ececec;
+--tabActiveBg2Hover:#d2d2d2;
+--tabActiveBg3Hover:#c6c6c6;
+--tabActiveTxt:rgba(0, 0, 0, 0.9);
+--tabActiveTxt2:rgba(0, 0, 0, 0.6);
+--tabActiveTxt3:rgba(0, 0, 0, 0.4);
+--tabActiveAccent:#ff7e00;
+--tabActiveAccentTxt:rgba(255, 255, 255, 0.9);
+--tabActiveBorder:#ececec;
+--tabActiveG:#f4f4f4;
+--tabSecondaryActiveBg:#f2f2f2;
+--tabSecondaryActiveBg2:#d8d8d8;
+--tabSecondaryActiveBg3:#cccccc;
+--tabSecondaryActiveBgHover:#eaeaea;
+--tabSecondaryActiveBg2Hover:#d0d0d0;
+--tabSecondaryActiveBg3Hover:#c4c4c4;
+--tabSecondaryActiveTxt:rgba(0, 0, 0, 0.9);
+--tabSecondaryActiveTxt2:rgba(0, 0, 0, 0.6);
+--tabSecondaryActiveTxt3:rgba(0, 0, 0, 0.4);
+--tabSecondaryAccent:#ff7e00;
+--tabSecondaryAccentTxt:rgba(255, 255, 255, 0.9);
+--tabSecondaryActiveG:#ffffff;
+--filterBg:#e2e2e2;
+--filterBg2:#c8c8c8;
+--filterBg3:#bcbcbc;
+--filterBgHover:#dadada;
+--filterBg2Hover:#c0c0c0;
+--filterBg3Hover:#b4b4b4;
+--filterTxt:rgba(0, 0, 0, 0.9);
+--filterTxt2:rgba(0, 0, 0, 0.6);
+--filterTxt3:rgba(0, 0, 0, 0.4);
+--filterAccent:#ff7e00;
+--filterAccentTxt:rgba(255, 255, 255, 0.9);
+--filterBorder:#dadada;
+--filterG:#f4f4f4;
+--menu_1Bg:#f4f4f4;
+--menu_1Bg2:#dadada;
+--menu_1Bg3:#cecece;
+--menu_1BgHover:#ececec;
+--menu_1Bg2Hover:#d2d2d2;
+--menu_1Bg3Hover:#c6c6c6;
+--menu_1Txt:rgba(0, 0, 0, 0.9);
+--menu_1Txt2:rgba(0, 0, 0, 0.6);
+--menu_1Txt3:rgba(0, 0, 0, 0.4);
+--menu_1Accent:#ff7e00;
+--menu_1AccentTxt:rgba(255, 255, 255, 0.9);
+--menu_1Border:#ececec;
+--menu_1G:#f4f4f4;
+--menu_2Bg:#e5e5e5;
+--menu_2Bg2:#cbcbcb;
+--menu_2Bg3:#bfbfbf;
+--menu_2BgHover:#dddddd;
+--menu_2Bg2Hover:#c3c3c3;
+--menu_2Bg3Hover:#b7b7b7;
+--menu_2Txt:rgba(0, 0, 0, 0.9);
+--menu_2Txt2:rgba(0, 0, 0, 0.6);
+--menu_2Txt3:rgba(0, 0, 0, 0.4);
+--menu_2Accent:#ff7e00;
+--menu_2AccentTxt:rgba(255, 255, 255, 0.9);
+--menu_2Border:#dddddd;
+--menu_2G:#e5e5e5;
+--menu_3Bg:#d5d5d5;
+--menu_3Bg2:#bbbbbb;
+--menu_3Bg3:#afafaf;
+--menu_3BgHover:#cdcdcd;
+--menu_3Bg2Hover:#b3b3b3;
+--menu_3Bg3Hover:#a7a7a7;
+--menu_3Txt:rgba(0, 0, 0, 0.9);
+--menu_3Txt2:rgba(0, 0, 0, 0.6);
+--menu_3Txt3:rgba(0, 0, 0, 0.4);
+--menu_3Accent:#ff7e00;
+--menu_3AccentTxt:rgba(255, 255, 255, 0.9);
+--menu_3Border:#cdcdcd;
+--menu_3G:#d5d5d5;
+--tooltipBg:#e6e6e6;
+--tooltipBg2:#cccccc;
+--tooltipBg3:#c0c0c0;
+--tooltipBgHover:#dedede;
+--tooltipBg2Hover:#c4c4c4;
+--tooltipBg3Hover:#b8b8b8;
+--tooltipTxt:rgba(0, 0, 0, 0.9);
+--tooltipTxt2:rgba(0, 0, 0, 0.8);
+--tooltipTxt3:rgba(0, 0, 0, 0.6);
+--tooltipAccent:#ff7e00;
+--tooltipAccentTxt:rgba(255, 255, 255, 0.9);
+--tooltipBorder:#dedede;
+--tooltipG:#e6e6e6;
+--menuItemActiveTxt:#999;
+--menuItemTxt:#000;
+}/*
+*/  /*--*/
+:root {
+    --primaryBg: #ffffff;
+    --primaryBg3: #cccccc;
+    --primaryTxt: #000;
+    --primaryTxt2: #4d4d4d;
+    --primaryTxt3: #666666;
+    --accentBg: #ff7e00;
+    --accentG: #ff7e00;
+    --accentRGBA: rgba(255, 126, 0, 0.6);
+    --accentTxt: #000;
+    --brandG: #ffef00;
+    --brandBg: #ffef00;
+    --brandTxt: #000;
+    --actionButtonG: #ff7e00;
+    --actionButtonTxt: #000;
+    --widgetG: #F4F4F4;
+    --widgetBg: #F4F4F4;
+    --widgetBgHover: #e7e7e7;
+    --widgetBg2: #dadada;
+    --widgetBg2Hover: #cdcdcd;
+    --widgetBg3: #c0c0c0;
+    --widgetBg3Hover: #b3b3b3;
+    --widgetRGBA: rgba(244, 244, 244, 0.6);
+    --widgetTxt: #000;
+    --widgetTxt2: #4d4d4d;
+    --widgetTxt3: #666666;
+    --oddG: #ffffff;
+    --oddBg: #ffffff;
+    --oddTxt: #000;
+    --oddTxt2: #4d4d4d;
+    --oddActiveG: #ffef00;
+    --oddActiveBg: #ffef00;
+    --oddActiveBg2: #ccbf00;
+    --oddActiveTxt: #000;
+    --oddActiveTxt2: #4d4d4d;
+    --showMoreG: #e7e7e7;
+    --showMoreBg: #e7e7e7;
+    --showMoreTxt: #000;
+    --showMoreTxt2: #4d4d4d;
+    --headerG: #f4f4f4;
+    --headerBg: #f4f4f4;
+    --headerTxt: #000;
+    --popupHeaderG: #f4f4f4;
+    --popupHeaderBg: #f4f4f4;
+    --popupHeaderTxt: #000;
+    --popupBg: #000000;
+    --popupG: #000000;
+    --popupTxt: #fff;
+    --popupTxt2: #b3b3b3;
+    --tabG: #ffffff;
+    --tabBg: #ffffff;
+    --tabTxt: #000;
+    --tabTxt2: #4d4d4d;
+    --activeTabG: #f4f4f4;
+    --activeTabBg: #f4f4f4;
+    --activeTabTxt: #000;
+    --sideBarTabG: #ffffff;
+    --sideBarTabTxt: #000;
+    --sideBarActiveTabG: #f4f4f4;
+    --sideBarActiveTabTxt: #000;
+    --inputG: #e5e5e5;
+    --inputBg: #e5e5e5;
+    --inputBgHover: #eee;
+    --inputBg2: #cbcbcb;
+    --inputTxt: #000;
+    --inputTxt2: #4d4d4d;
+    --borderRadius: 2px;
+    --inputBirderRadius: 2px;
+    --bottomBirderRadius: 2px;
+    --menuItemActiveTxt:#999;
+    --menuItemTxt:#000;
+}
+/*---*/
+
+
+/*Variables for searsh page*/
+
+.sr-tab-wrapper {
+    --brandBg: #FF7E00;
+}
+
+/* Megabet */
+
+  /*coupon*/
+  .tg_widget_bg_2, .tg--cashout-body, .tg__cashout_popup{
+      background-color: #F0F0F0;
+      color: #333;
+  }
+  .tg_widget_bg_2 .tg--border-bot-1{
+    border:none;
+  }
+  .stake_item_panel{
+    background-color: #dedede;
+    color: #333;
+    border-color: #F0F0F0;
+  }
+  .coupon_sport_name_container{
+    color: #000;
+  }
+  /*input inside widget2*/
+  .tg_widget_bg_2 .tg_input,
+  .tg_widget_bg_2 .tg__dropdown_coupon{
+    background-color: #dedede;
+    color: #333;
+  }
+  .tg_widget_bg_2 .tg__switch .tg__switch_ico:before{
+    background-color: #F0F0F0;
+  }
+  .tg__btn-coupon{
+    background-color: #333;
+    color: #F0F0F0;
+  }
+  .tg__btn-coupon:hover{
+    background-color: #000;
+    color: #F0F0F0;
+  }
+  .tab_cupon{
+    background-color: #dedede;
+    color: #333;
+  }
+  .tab_cupon.tab_selected,
+  .tab_cupon:hover {
+    background-color: #F0F0F0;
+    color: #000;
+  }
+  .tg__coupon_factor,
+  .tg__coupon_square{
+    background-color: #F0F0F0;
+    color: #000;
+    border:1px solid #dedede;
+  }
+
+  /*input inside widget*/
+  .tg_widget_bg .tg_input{
+    background-color: #e5e5e5;
+    color: #333;
+  }
+  .tg_widget_bg .tg__switch .tg__switch_ico:before{
+    background-color: #F4F4F4;
+  }
+
+  /*mainBg*/
+  .tg_bg,
+  .tg__modal_close,
+  .tg--close,
+  .tg__live_filter_item.checked,
+  .tg__info_panel .selector_panel {
+      background-color: #FFFFFF;
+      color: #000;
+  }
+
+  .gameContentTitle.tg_widget_header{
+    background-color: #F4F4F4;
+    color: #000;
+  }
+  .gameContentTitle.tg_widget_header .tg-ico-arrow{
+    color: #fff;
+  }
+
+  .tg_widget_heading{
+      background-color: #E7E7E7;
+      color: #1a1a1a;
+  }
+
+  /*widget*/
+    /*sidebar*/
+  .tg_sidebar_bg{
+    background-color:#F4F4F4
+  }
+  .tg__left_menu_item [class*='sport_front_icon-'].tg_sidebar_text_akcent,
+  .tg_sidebar_text_akcent,
+  .tg-bg_transparent .teamName,
+  .tg-bg_transparent .tg_team_name,
+  .tg__open_event_img .tg-clr-akcent2.tg_score{
+    color: #FF7E00;
+  }
+  .tg_sidebar_bg .tg__left_menu_item_text,
+  .tg__left_menu_item [class*='sport_front_icon-'] {
+    color: #000;
+  }
+  .tg_sidebar_bg_2 .tg__left_menu_item_text,
+  .tg_sidebar_bg_3 .tg__left_menu_item_text{
+    color: #333;
+  }
+  .tg_sidebar_bg_2{
+    background-color: #e5e5e5;
+  }
+  .tg_sidebar_bg_3{
+    background-color: #d5d5d5;
+    color: #333;
+  }
+  
+  .tg_sidebar_bg_3.left_menu_line_active .tg__left_menu_item_text,
+  .liveGameSelected .tg_sidebar_bg_3 .liveSportNamesContainer,
+  .liveGameSelected .tg_sidebar_bg_3 .tg_sidebar_text_akcent{
+      color: #FF7E00;
+  }
+
+  /*end of sidebar*****************************************/
+
+  .sportHeaderPaneUpperRow,
+  .sportHeaderPaneLowerRow,
+  .tg__footer {
+    background-color: #F4F4F4;
+    color: #000;
+  }
+  .tg__coupon_tabs_cont {
+    padding-bottom: 5px;
+  }
+  .tg--issue {
+    background-color: #fff;
+    color: #000;
+  }
+  .tg__text_with_shadow{
+      text-shadow:none;    
+  }
+  .tg__match_item{
+    padding:0;
+  }
+  .tg__left_menu_item,
+  .live_menu_item_left{
+    margin-bottom: 0;
+  }
+  .tsModalContent,
+  .tg__dropdown_content,
+  .tg__modal_big,
+  .tg--express_combination{
+    -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
+    -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
+    box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
+  }
+  
+  .tg_team_name,
+  .tg__open_event_img .title {
+    color: #333;
+  }
+  .tab_selector{
+      background-color: #FFFFFF;
+      color: #333;
+  }
+  
+  .ss__step_slider .ss__ruller > div.off{
+    background-color: #FFFFFF;
+  }
+  #line_tabs .selectorWrapper, #live_tabs_header .selectorWrapper{
+      background-color: #FFFFFF;
+  }
+
+  .tg__banner__heading,
+  .tg__one_game_team,
+  .tg_sidebar_bg_3 .liveSportNamesContainer,
+  .tg__open_event_img .tg_score {
+    color: #000;
+  }
+  
+  .tab_selector_active{
+    background-color: #F4F4F4;
+    color: #000;
+  }
+  
+  .tg__step_slider,
+  .tg_widget_bg,
+  .tg_subheader_btn{
+    background-color: #F4F4F4;
+    color: #333;
+  }
+  .tab_selector:hover{
+    color:#000;
+  }
+  
+  .tg_widget_row {
+  	  border-bottom: 1px solid #FFFFFF;
+  }
+  .tg__match_item_stake,
+  .tg--pos_comb_row,
+  .tg__coupon_switches .tg__switch_cont,
+  .tg--border-bot-1{
+      border-color: #FFFFFF;
+  }
+
+  /*sidebar*/
+  .tg_sidebar_bg_2.tg__step_slider{
+      background-color: #E7E7E7;
+      color: #1a1a1a;
+  }
+  .ss__step_slider .ss__slider,
+  .ss__step_slider .ss__ruller > div{
+      background: currentColor;
+  }
+
+  .tg_widget_header{
+    background-color: #1C1C1C;
+    color: #fff;
+  }
+    .tg_widget_header .tg-ico-arrow {
+        color: #1C1C1C;
+    }
+
+  .tg__more{
+    background-color: #E7E7E7;
+    color: #000;
+  }
+
+  .tg_widget_sub_row,
+  .tg__dropdown_value,
+  .tg__input,
+  .tg_input,
+  .tg__input-ico,
+  .posCombItem,
+  .tg__slider__btn:hover,
+  #calc_new .tg__btn {
+  	  background-color: #e5e5e5;
+  	  color: #333;
+  }
+  #calc_new .tg__btn-ternary {
+  	 background-color: #FFEF00;
+     color: #000;
+  }
+  .tg_input_coupon_amount{
+    color:#000;
+  }
+  .tg__dropdown__item{
+    border-bottom:1px solid #FFFFFF;
+    margin-bottom:0;
+  }
+  .tg__dropdown__item:hover,
+  .tg__dropdown__item.activeItem{
+    color:#000;
+  }
+  .tg__dropdown_content{
+      background-color: #e5e5e5;
+  	  color: #333;
+  }
+  .tg__subhead .tg__dropdown_value {
+      background-color: #F4F4F4;
+  }
+  .tg__input,
+  .tg_input,
+  .tg__btn{
+    transition: all 0.2s;
+  }
+  .tg__input:focus,
+  .tg_input:focus{
+    outline: 0;
+    box-shadow: 0 0 0 2px rgba(255,239,0,0.5);
+  }
+  .tg__modal_wrapper{
+    background-color: rgba(255,255,255,0.4);
+  }
+  .tg-ico-date{
+    color: #000;
+  }
+  .tg__score_box{
+      background-color: #FFFFFF;
+  }
+  .tg__more:hover{
+      background-color: #FF7E00;
+      color: #fff;
+  }
+  .tg_widget_header_2, .tg--cashout-row,
+  .tg--cashout-pagination-item,
+  .tg_widget_header_2 .tab_selector_active,
+  .tg--coupon-container .selector_panel,
+  .tg__info_panel .selectorWrapper,
+  .tg__match_header.tg_widget_header,
+  .tg__prematch_header.tg_widget_bg,
+  .lineEventHeaderWide.tg_widget_bg,
+  .tg__live_list_header.tg_widget_header,
+  .tg__multiview_header.tg_widget_header,
+  .tg__calendar_header.tg_widget_heading,
+  .tg__results_header.tg_widget_bg      
+   {
+      background-color: #E7E7E7;
+      color: #1C1C1C;
+  }
+  .l_od,
+  .l_od_empty{
+  	  background-color: #FFFFFF;
+  	  color: #000;
+  }
+  .l_od:hover,
+  .odCnt:hover .l_od,
+  .l_od.selectedOdd, .tg--cashout-item-cashout, .tg--cashout-pagination-item.active,
+  .tab_selector.tab_selector_active .tg__badge_live{
+    background-color: #FFEF00;
+    color: #000;
+  }
+  .tab_selector .tg__badge_live{
+    background-color: #F4F4F4;
+    color: #333;
+  }
+  .tg_widget_tab_text,
+  .tg__srv{
+    color: #FF7E00;
+  }
+  .tg__fix_btn{
+    color: #fff;
+  }
+  .tg_widget_bg_2 .selectorWrapper .tg__fix_btn{
+    color: #fff;
+  }
+  .tg_widget_bg_2 .tg__fix_btn{
+    color: #000;
+  }
+  .tg_widget_bg_2 .tg__dropdown_value{
+    background-color: #dedede;
+    color: #000;
+  }
+  .tg_widget_text_akcent,
+  .tg__fix_btn.checked{
+    color: #FF7E00;
+  }
+   .tg_widget_bg .tg-ico.active{
+    color: #FF7E00 !important;
+   }
+  .tg__btn-ternary{
+    background-color: #FFEF00;
+    color: #000;
+  }
+  .tg_widget_bg .tg__btn .tg-ico{
+    color: #000;
+  }
+  .tg__btn-ternary:hover{
+    background-color: #e6d700;
+    color: #000;
+  }
+  .digi_scroll_dragger{
+    background-color: #333;
+  }
+    
+  .tg_widget_row .tg__one_game_icons, 
+  .tg_widget_row .tg__home_game_time,
+  .tg-ico-arrow,
+  .tg_widget_bg .tg__chb{
+    color: #333;
+  }
+  .tg-bg_transparent{
+    background-color: rgba(255,255,255,0.85);
+  }
+  .tg__switch .tg__switch_ico{
+    background-color: #999999;
+  }
+  .tg__switch .tg__switch_ico:before{
+    background-color: #F4F4F4;
+  }
+  .tg__switch input:checked + .tg__switch_ico:before{
+    background-color: #FFEF00;
+  }
+  /*calendar*/
+  .ui-widget-content {
+    border: none;
+    background: #e5e5e5;
+    color: #333;
+  }
+  .ui-widget-header {
+    border: none;
+    background: #e5e5e5;
+    color: #333;
+  }
+  .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
+    border: none;
+    background: #d5d5d5;
+    color: #333;
+  }
+  .ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+    border: none;
+    background-color: #FFEF00;
+    color: #000;
+  }
+  .ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+    border: none;
+    background-color: #e6d700;
+    color: #000;
+  }
+  /*calendar end*/
+   
+  /*border radius (roundness)*/
+  .tab_selector_active{
+      border-radius: 0px 0px 0 0;
+  }
+  .tg__btn,
+  .l_od_empty,
+  .l_od,
+  .tg__dropdown_value,
+  .tg__dropdown_content,
+  .tg__input,
+  .tg_input{
+    border-radius: 0px;
+  }
+
+  @keyframes lightbox {
+    from {
+        color: #000;
+    }
+
+    to {
+        color: #FFEF00
+    }
+  }
+
+.tg__tournament_ico_switch .tg__switch_text:before {
+    content: 'ÿ';
+    background: none;
+    font-family: TotoFont;
+    font-size: 38px;
+    line-height: 16px;
+    color: #FF7E00;
+}
+
+  .tg_coin {
+    background: #FFEF00;
+    color: #000;
+  }
+
+/* custom changes */
+.stake_item_panel {
+    background-color: #FFFFFF;
+}
+.tab_cupon {
+    background-color: #F4F4F4;
+    color: #666666;
+}
+.tab_cupon.tab_selected, .tab_cupon:hover{
+    background-color: #FFFFFF;
+    color: #1C1C1C;
+}
+.tg__btn-coupon {
+    background-color: #FFFFFF;
+    color: #999999;
+}
+.tg__btn-coupon:hover {
+    background-color: #DEDEDE;
+    color: #000;
+}
+.tg__list_row_sub .tg-clr-akcent2,
+.tg__bet_history_row .tg-clr-akcent,
+.tg__partial_cashout--icon {
+    color: #FF7E00;
+}
+
+ /* book a bet skinning */
+.tg__modal_book_bet {
+    top: 150px;
+    background-color: #FFFFFF;
+    color: #ccc;
+}
+.tg__modal_book_bet .tg__modal_header{
+    background-color: #1C1C1C;
+    color: #FFFFFF;
+}
+.tg__modal_book_bet .tg__list_bg{
+    background-color: #E7E7E7;
+}
+.tg__modal_book_bet .tg__list_row {
+    background-color: #FFFFFF;
+}
+.tg__modal_book_bet .tg__list_row:nth-child(even) {
+    background-color: #F4F4F4;
+}
+.tg__modal_book_bet .tg__border--color-akcent{
+    border-color: #FF7E00;
+}
+.tg__modal_book_bet .tg-clr-akcent{
+    color: #FF7E00;
+}
+.tg__match_item_btn{
+    background-color: #fff;
+}
+.tg__results_header.tg_widget_bg {
+    background-color: #F4F4F4;
+}
+.tg__bet_history .tg__list_row.tg_sticky_bot {
+    background-color: #E7E7E7;
+}
+.tg__modal_account {
+    height: 700px;
+}
+.tg__modal_big {
+    top: 30px;
+}
+
+.info_panel .tg_widget_bg_2 {
+    background-color: #1C1C1C;
+}
+    .info_panel .tg_widget_bg_2 .tg__dropdown_value {
+        background-color: #FFFFFF;
+        color: #999999;
+    }
+    .info_panel .tg_widget_bg_2 .tg__fix_btn {
+        color: #999999;
+    }
+    .info_panel .tg_widget_bg_2 .tg__fix_btn.checked{
+        color: #FF7E00;
+    }
+    
+.tg_widget_header_2, 
+.tg_widget_header_2 .tab_selector_active,
+.tg--coupon-container .selector_panel {
+    background-color: #1C1C1C !important;
+    color: #F4F4F4;
+}
+ 
+ /* Right banner styles */
+.tg__custom_rightBanner_line,
+.tg__custom_rightBanner_desc {
+    border-top-color: #FFEF00;
+}
+
+.tg__rightBanner_seeMore {
+    background-color: #FFEF00;
+    color: #000;
+}
+   
+  /* Betslip tax engine 2020-05-25*/
+  .component_tax_data {
+    background-color: #FFFFFF;
+    color: #999;
+  }
+  .component_tax_data .tg-ico {
+      color:#FF7E00;
+  }
+  .component_tax_data_wrapper .component_tax_data_row strong {
+    color: #000;
+	}
+   
+  /* Betslip tax engine 2020-06-11*/
+  .tg_badge_transparent{
+    background-color:rgba(0,0,0,0.5);
+    color:#fff;
+  }
+  
+  /* top banner gradient */
+
+.component_top_banner_tiny_item,
+.component_top_banner_tiny_item .component_top_banner_tiny_team_score_container,
+.component_top_banner_tiny_item .component_top_banner_tiny_team_sub_score {
+    position:relative;
+}
+
+    .component_top_banner_tiny_item:before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: linear-gradient(0deg, rgba(0,0,0,0.6951155462184874) 0%, rgba(0,0,0,0.6166841736694677) 15%, rgba(0,0,0,0.5018382352941176) 30%, rgba(0,0,0,0.3533788515406162) 50%, rgba(0,0,0,0.20211834733893552) 70%, rgba(0,0,0,0.10127801120448177) 85%, rgba(0,0,0,0) 100%);
+    } 
+    .tg__modal_confirm {
+      background-color: #FF7E00;
+      color: #000;
+    }
+    .tg__modal_confirm:hover {
+        background-color: #994c00;
+    }
+    .tg__modal_header {
+      background-color: #F4F4F4;
+    }
+    .tg__modal_special_content {
+      background-color: #F4F4F4;
+    }
+
+.tg__banner,
+.newsSliderMarketContainer {
+    background-color: #F4F4F4;
+    color: #333;
+} 
+/*multi bet of the day skinning*/
+.tg__exp_of_day_header,
+.es__express_slider_arrow{
+	background-color: #F4F4F4;
+	color: #333333;
+}
+.es__express_slider_arrow:hover {
+	background-color: #e7e7e7;
+	color: #000;
+}
+.tg__exp_of_day_one_game {
+	background-color: #F4F4F4;
+	color: #333333;
+	border-bottom: 1px solid #ffffff !important;
+}
+.es__total_odd_container .tg-clr-secondary {
+	color: #333333;
+}
+
+.tg__exp_of_day_one_game .tg-ico,
+.digi-pv-multibets-event-name-container {
+	color: #000;
+}
+.es__express_day_odd {
+	border-color: #ffffff;
+  color: #333333;
+}
+.es__bonus_odd_container,
+.es__express_day_coupon-button-container {
+	background-color: #e7e7e7;
+	color: #333333;
+}
+.es__bonus_odd_container i,
+.es__express_day_odd--total{
+	color: #ff7e00;
+}
+.es__express_day_coupon {
+	background-color: #F4F4F4;
+	color: #333333;
+}
+/*multi bet of the day skinning*/
+
+/* print popup styling */
+.print_page .print_filter_widget {
+    background-color: #fff;
+    color: #333;
+}
+
+.print_page .print_selection_widget .print_selection_content .print_template_header,
+.print_page .print_selection_widget .print_selection_content .print_template_row {
+    color: #333;
+}

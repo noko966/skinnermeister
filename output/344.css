@@ -1,0 +1,816 @@
+:root,
+:root[data-theme="dark"],
+:root [data-theme="dark"] {
+--bodyBg:#191919;
+--bodyBg2:#323232;
+--bodyBg3:#3f3f3f;
+--bodyBgHover:#212121;
+--bodyBg2Hover:#3a3a3a;
+--bodyBg3Hover:#474747;
+--bodyTxt:rgba(255, 255, 255, 0.9);
+--bodyTxt2:rgba(255, 255, 255, 0.6);
+--bodyTxt3:rgba(255, 255, 255, 0.4);
+--bodyAccent:#3ba437;
+--bodyAccentTxt:#fff;
+--bodyBorder:#212121;
+--bodyG:#191919;
+--bodyRGBA:rgba(25, 25, 25, 0.7);
+--bodyRGBA2:rgba(25, 25, 25, 0.5);
+--bodyRGBA3:rgba(25, 25, 25, 0.3);
+--dominantBg:#262626;
+--dominantBg2:#3f3f3f;
+--dominantBg3:#4c4c4c;
+--dominantBgHover:#2e2e2e;
+--dominantBg2Hover:#474747;
+--dominantBg3Hover:#545454;
+--dominantTxt:rgba(255, 255, 255, 0.9);
+--dominantTxt2:rgba(255, 255, 255, 0.6);
+--dominantTxt3:rgba(255, 255, 255, 0.4);
+--dominantTxtInverse:#262626;
+--dominantAccent:#ffe63d;
+--dominantAccentTxt:#000;
+--dominantBorder:#2e2e2e;
+--dominantG:#262626;
+--dominantRGBA:rgba(38, 38, 38, 0.7);
+--dominantRGBA2:rgba(38, 38, 38, 0.5);
+--dominantRGBA3:rgba(38, 38, 38, 0.3);
+--accentBg:#ffe63d;
+--accentBg2:#ffdf0a;
+--accentBg3:#efd100;
+--accentBgHover:#ffe42e;
+--accentBg2Hover:#fad900;
+--accentBg3Hover:#e0c400;
+--accentTxt:rgba(0, 0, 0, 0.9);
+--accentTxt2:rgba(0, 0, 0, 0.8);
+--accentTxt3:rgba(0, 0, 0, 0.6);
+--accentBorder:#ffe42e;
+--accentG:#ffe63d;
+--inputBg:#454545;
+--inputBg2:#5e5e5e;
+--inputBg3:#6b6b6b;
+--inputBgHover:#4d4d4d;
+--inputBg2Hover:#666666;
+--inputBg3Hover:#737373;
+--inputTxt:rgba(255, 255, 255, 0.9);
+--inputTxt2:rgba(255, 255, 255, 0.6);
+--inputTxt3:rgba(255, 255, 255, 0.4);
+--inputAccent:#ffe63d;
+--inputAccentTxt:#000;
+--inputBorder:#4d4d4d;
+--inputG:#454545;
+--inputSecondaryBg:#333333;
+--inputSecondaryBg2:#4d4d4d;
+--inputSecondaryBg3:#595959;
+--inputSecondaryBgHover:#3b3b3b;
+--inputSecondaryBg2Hover:#555555;
+--inputSecondaryBg3Hover:#616161;
+--inputSecondaryTxt:rgba(255, 255, 255, 0.9);
+--inputSecondaryTxt2:rgba(255, 255, 255, 0.6);
+--inputSecondaryTxt3:rgba(255, 255, 255, 0.4);
+--inputSecondaryAccent:#ffe63d;
+--inputSecondaryAccentTxt:#000;
+--inputSecondaryG:#262626;
+--headerBg:#454545;
+--headerBg2:#5e5e5e;
+--headerBg3:#6b6b6b;
+--headerBgHover:#4d4d4d;
+--headerBg2Hover:#666666;
+--headerBg3Hover:#737373;
+--headerTxt:rgba(255, 255, 255, 0.9);
+--headerTxt2:rgba(255, 255, 255, 0.6);
+--headerTxt3:rgba(255, 255, 255, 0.4);
+--headerAccent:#ffe63d;
+--headerAccentTxt:#000;
+--headerBorder:#4d4d4d;
+--headerG:#454545;
+--subHeaderBg:#363636;
+--subHeaderBg2:#4f4f4f;
+--subHeaderBg3:#5c5c5c;
+--subHeaderBgHover:#3e3e3e;
+--subHeaderBg2Hover:#575757;
+--subHeaderBg3Hover:#646464;
+--subHeaderTxt:rgba(255, 255, 255, 0.9);
+--subHeaderTxt2:rgba(255, 255, 255, 0.6);
+--subHeaderTxt3:rgba(255, 255, 255, 0.4);
+--subHeaderAccent:#ffe63d;
+--subHeaderAccentTxt:#000;
+--subHeaderBorder:#3e3e3e;
+--subHeaderG:#363636;
+--eventBg:#262626;
+--eventBg2:#3f3f3f;
+--eventBg3:#4c4c4c;
+--eventBgHover:#2e2e2e;
+--eventBg2Hover:#474747;
+--eventBg3Hover:#545454;
+--eventTxt:rgba(255, 255, 255, 0.9);
+--eventTxt2:rgba(255, 255, 255, 0.6);
+--eventTxt3:rgba(255, 255, 255, 0.4);
+--eventAccent:#ffe63d;
+--eventAccentTxt:#000;
+--eventBorder:#2e2e2e;
+--eventG:#262626;
+--buttonBg:#454545;
+--buttonBg2:#5e5e5e;
+--buttonBg3:#6b6b6b;
+--buttonBgHover:#4d4d4d;
+--buttonBg2Hover:#666666;
+--buttonBg3Hover:#737373;
+--buttonTxt:rgba(255, 255, 255, 0.9);
+--buttonTxt2:rgba(255, 255, 255, 0.6);
+--buttonTxt3:rgba(255, 255, 255, 0.4);
+--buttonAccent:#ffdf0a;
+--buttonAccentTxt:rgba(0, 0, 0, 0.9);
+--buttonBorder:#4d4d4d;
+--buttonG:#454545;
+--buttonSecondaryBg:#333333;
+--buttonSecondaryBg2:#4d4d4d;
+--buttonSecondaryBg3:#595959;
+--buttonSecondaryBgHover:#3b3b3b;
+--buttonSecondaryBg2Hover:#555555;
+--buttonSecondaryBg3Hover:#616161;
+--buttonSecondaryTxt:rgba(255, 255, 255, 0.9);
+--buttonSecondaryTxt2:rgba(255, 255, 255, 0.6);
+--buttonSecondaryTxt3:rgba(255, 255, 255, 0.4);
+--buttonSecondaryAccent:#ffdf0a;
+--buttonSecondaryAccentTxt:rgba(0, 0, 0, 0.9);
+--buttonSecondaryBorder:#3b3b3b;
+--buttonSecondaryG:#262626;
+--modalBg:#ccc8c8;
+--modalBg2:#b3aeae;
+--modalBg3:#a7a0a0;
+--modalBgHover:#c5c0c0;
+--modalBg2Hover:#aca6a6;
+--modalBg3Hover:#a09898;
+--modalTxt:rgba(0, 0, 0, 0.9);
+--modalTxt2:rgba(0, 0, 0, 0.8);
+--modalTxt3:rgba(0, 0, 0, 0.6);
+--modalAccent:#ffe63d;
+--modalAccentTxt:rgba(0, 0, 0, 0.9);
+--modalBorder:#c5c0c0;
+--modalG:#ccc8c8;
+--oddBg:#191919;
+--oddBg2:#323232;
+--oddBg3:#3f3f3f;
+--oddBgHover:#212121;
+--oddBg2Hover:#3a3a3a;
+--oddBg3Hover:#474747;
+--oddTxt:rgba(255, 255, 255, 0.9);
+--oddTxt2:rgba(255, 255, 255, 0.6);
+--oddTxt3:rgba(255, 255, 255, 0.4);
+--oddAccent:#ffe63d;
+--oddAccentTxt:rgba(0, 0, 0, 0.9);
+--oddBorder:#ffe63d;
+--oddG:#191919;
+--oddActiveBg:#3ba437;
+--oddActiveBg2:#50c34b;
+--oddActiveBg3:#62c95e;
+--oddActiveBgHover:#3faf3b;
+--oddActiveBg2Hover:#5bc756;
+--oddActiveBg3Hover:#6dcd69;
+--oddActiveTxt:rgba(255, 255, 255, 0.9);
+--oddActiveTxt2:rgba(255, 255, 255, 0.6);
+--oddActiveTxt3:rgba(255, 255, 255, 0.4);
+--oddActiveBorder:#3ba437;
+--oddActiveG:#3ba437;
+--showMoreBg:#404040;
+--showMoreBg2:#595959;
+--showMoreBg3:#666666;
+--showMoreBgHover:#484848;
+--showMoreBg2Hover:#616161;
+--showMoreBg3Hover:#6e6e6e;
+--showMoreTxt:rgba(255, 255, 255, 0.9);
+--showMoreTxt2:rgba(255, 255, 255, 0.6);
+--showMoreTxt3:rgba(255, 255, 255, 0.4);
+--showMoreAccent:#ffe63d;
+--showMoreAccentTxt:rgba(0, 0, 0, 0.9);
+--showMoreBorder:#404040;
+--showMoreG:#404040;
+--tabBg:#363636;
+--tabBg2:#4f4f4f;
+--tabBg3:#5c5c5c;
+--tabBgHover:#3e3e3e;
+--tabBg2Hover:#575757;
+--tabBg3Hover:#646464;
+--tabTxt:rgba(255, 255, 255, 0.9);
+--tabTxt2:rgba(255, 255, 255, 0.6);
+--tabTxt3:rgba(255, 255, 255, 0.4);
+--tabAccent:#ffe63d;
+--tabAccentTxt:rgba(0, 0, 0, 0.9);
+--tabBorder:#3e3e3e;
+--tabG:#363636;
+--tabActiveBg:#454545;
+--tabActiveBg2:#5e5e5e;
+--tabActiveBg3:#6b6b6b;
+--tabActiveBgHover:#4d4d4d;
+--tabActiveBg2Hover:#666666;
+--tabActiveBg3Hover:#737373;
+--tabActiveTxt:rgba(255, 255, 255, 0.9);
+--tabActiveTxt2:rgba(255, 255, 255, 0.6);
+--tabActiveTxt3:rgba(255, 255, 255, 0.4);
+--tabActiveAccent:#ffe63d;
+--tabActiveAccentTxt:rgba(0, 0, 0, 0.9);
+--tabActiveBorder:#4d4d4d;
+--tabActiveG:#454545;
+--tabSecondaryActiveBg:#434343;
+--tabSecondaryActiveBg2:#5c5c5c;
+--tabSecondaryActiveBg3:#696969;
+--tabSecondaryActiveBgHover:#4b4b4b;
+--tabSecondaryActiveBg2Hover:#646464;
+--tabSecondaryActiveBg3Hover:#717171;
+--tabSecondaryActiveTxt:rgba(255, 255, 255, 0.9);
+--tabSecondaryActiveTxt2:rgba(255, 255, 255, 0.6);
+--tabSecondaryActiveTxt3:rgba(255, 255, 255, 0.4);
+--tabSecondaryAccent:#ffe63d;
+--tabSecondaryAccentTxt:rgba(0, 0, 0, 0.9);
+--tabSecondaryActiveG:#363636;
+--filterBg:#383838;
+--filterBg2:#515151;
+--filterBg3:#5e5e5e;
+--filterBgHover:#404040;
+--filterBg2Hover:#595959;
+--filterBg3Hover:#666666;
+--filterTxt:rgba(255, 255, 255, 0.9);
+--filterTxt2:rgba(255, 255, 255, 0.6);
+--filterTxt3:rgba(255, 255, 255, 0.4);
+--filterAccent:#ffe63d;
+--filterAccentTxt:rgba(0, 0, 0, 0.9);
+--filterBorder:#404040;
+--filterG:#262626;
+--menu_1Bg:#262626;
+--menu_1Bg2:#3f3f3f;
+--menu_1Bg3:#4c4c4c;
+--menu_1BgHover:#2e2e2e;
+--menu_1Bg2Hover:#474747;
+--menu_1Bg3Hover:#545454;
+--menu_1Txt:rgba(255, 255, 255, 0.9);
+--menu_1Txt2:rgba(255, 255, 255, 0.6);
+--menu_1Txt3:rgba(255, 255, 255, 0.4);
+--menu_1Accent:#ffe63d;
+--menu_1AccentTxt:rgba(0, 0, 0, 0.9);
+--menu_1Border:#2e2e2e;
+--menu_1G:#262626;
+--menu_2Bg:#363636;
+--menu_2Bg2:#4f4f4f;
+--menu_2Bg3:#5c5c5c;
+--menu_2BgHover:#3e3e3e;
+--menu_2Bg2Hover:#575757;
+--menu_2Bg3Hover:#646464;
+--menu_2Txt:rgba(255, 255, 255, 0.9);
+--menu_2Txt2:rgba(255, 255, 255, 0.6);
+--menu_2Txt3:rgba(255, 255, 255, 0.4);
+--menu_2Accent:#ffe63d;
+--menu_2AccentTxt:rgba(0, 0, 0, 0.9);
+--menu_2Border:#3e3e3e;
+--menu_2G:#363636;
+--menu_3Bg:#454545;
+--menu_3Bg2:#5e5e5e;
+--menu_3Bg3:#6b6b6b;
+--menu_3BgHover:#4d4d4d;
+--menu_3Bg2Hover:#666666;
+--menu_3Bg3Hover:#737373;
+--menu_3Txt:rgba(255, 255, 255, 0.9);
+--menu_3Txt2:rgba(255, 255, 255, 0.6);
+--menu_3Txt3:rgba(255, 255, 255, 0.4);
+--menu_3Accent:#ffe63d;
+--menu_3AccentTxt:rgba(0, 0, 0, 0.9);
+--menu_3Border:#4d4d4d;
+--menu_3G:#454545;
+--tooltipBg:#e6e6e6;
+--tooltipBg2:#cccccc;
+--tooltipBg3:#c0c0c0;
+--tooltipBgHover:#dedede;
+--tooltipBg2Hover:#c4c4c4;
+--tooltipBg3Hover:#b8b8b8;
+--tooltipTxt:rgba(0, 0, 0, 0.9);
+--tooltipTxt2:rgba(0, 0, 0, 0.8);
+--tooltipTxt3:rgba(0, 0, 0, 0.6);
+--tooltipAccent:#ffe63d;
+--tooltipAccentTxt:rgba(0, 0, 0, 0.9);
+--tooltipBorder:#dedede;
+--tooltipG:#e6e6e6;
+--menuItemActiveTxt:#cccccc;
+--menuItemTxt:#fff;
+}/*
+*/
+  
+  /*--*/
+  :root {
+    --primaryBg:  #191919;
+    --primaryBg3: #181818;
+    --primaryTxt: #fff;
+    --primaryTxt2: #b3b3b3;
+    --primaryTxt3: #999999;
+
+    --accentBg: #ffe63d;
+    --accentG: #ffe63d;
+    --accentRGBA: rgba(255, 230, 61, 0.6);
+    --accentTxt: #000;
+
+    --brandG: #3ba437;
+    --brandBg: #3ba437;
+    --brandTxt: #fff;
+
+    --actionButtonG: #ffe63d;
+    --actionButtonTxt: #000;
+
+    --widgetG: #262626;
+    --widgetBg: #262626;
+    --widgetBgHover: #191919;
+    --widgetBg2: #0c0c0c;
+    --widgetBg2Hover: #191919;
+    --widgetBg3: #252525;
+    --widgetBg3Hover: #181818;
+    --widgetRGBA: rgba(38, 38, 38, 0.6);
+    --widgetTxt: #fff;
+    --widgetTxt2: #b3b3b3;
+    --widgetTxt3: #999999;
+
+    --oddG: #191919;
+    --oddBg: #191919;
+    --oddTxt: #fff;
+    --oddTxt2: #b3b3b3;
+
+    --oddActiveG: #3ba437;
+    --oddActiveBg: #3ba437;
+    --oddActiveBg2: #2d7e2a;
+    --oddActiveTxt: #fff;
+    --oddActiveTxt2: #b3b3b3;
+
+    --showMoreG: #404040;
+    --showMoreBg: #404040;
+    --showMoreTxt: #fff;
+    --showMoreTxt2: #b3b3b3;
+
+    --headerG: #007337;
+    --headerBg: #007337;
+    --headerTxt: #fff;
+
+    --popupHeaderG: #363636;
+    --popupHeaderBg: #363636;
+    --popupHeaderTxt: #fff;
+
+    --popupBg: #262626;
+    --popupG: #262626;
+    --popupTxt: #fff;
+    --popupTxt2: #b3b3b3;
+
+    --tabG: #363636;
+    --tabBg: #363636;
+    --tabTxt: #fff;
+    --tabTxt2: #b3b3b3;
+
+    --activeTabG: #454545;
+    --activeTabBg: #454545;
+    --activeTabTxt: #fff;
+
+    --sideBarTabG: #363636;
+    --sideBarTabTxt: #fff;
+
+    --sideBarActiveTabG: #454545;
+    --sideBarActiveTabTxt: #fff;
+
+    --inputG: #454545;
+    --inputBg: #454545;
+    --inputBg2: #2b2b2b;
+    --inputTxt:  #fff;
+    --inputTxt2: #b3b3b3;
+
+    --borderRadius: 2px;
+    --inputBirderRadius:  2px;
+    --bottomBirderRadius:  2px;
+    --menuItemActiveTxt:#cccccc;
+    --menuItemTxt:#fff;
+
+}
+/*---*/
+
+
+/* - - - - Primary - - - - */
+.tg_bg,
+.tg__result_item,
+.sportLeftPane .liveFilterContainer {
+	background-color: #191919;
+	color: #fff
+}
+
+.ss__step_slider .ss__ruller > div.off {
+	background: #191919;
+}
+
+.tg__step_slider {
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+}
+
+.tg__left_menu_item,
+.live_menu_item_left,
+.live_menu_item_left .tg--left_live_odds,
+.tg__one_game,
+.tg__match_item_stake,
+.tg__step_slider {
+	border-color: #191919;
+}
+
+/* - - - - Widget - - - - - */
+.tg_widget_bg,
+.tg__live_list_header,
+.tg__banner,
+.newsSliderMarketContainer,
+.tg_left_tabs,
+.posCombItemCont {
+	background-color: #454545;
+	color: #cccccc;
+}
+
+.tg__input-ico,
+.tg__live_filter_item,
+.africanView .tg_left_filter_tabs,
+.tg__step_slider {
+	color: #cccccc;
+}
+
+.tg--pos_comb_row {
+	border-color: #454545;
+}
+/* - - - - Left Menu Level 1 - - - - */
+.tg__left_menu_item--lvl1 {
+	background: #262626;
+	color: #ffffff;
+}
+
+.ss__step_slider .ss__slider,
+.ss__step_slider .ss__ruller > div {
+	background: #cccccc;
+}
+
+/* - - - - Left Menu Level 2 - - - - */
+.tg__left_menu_item--lvl2,
+.tg_bet_history_order_row_sub,
+.africanView .SBhead {
+	background: #363636;
+	color: #cccccc;
+}
+
+	/* - - - - Left Menu Level 3 - - - - */
+	.tg__left_menu_item--lvl3,
+	.tg__list_row_heading,
+	.tg_bet_history_order_row_sub:nth-child(even) {
+		background: #454545;
+		color: #cccccc;
+	}
+
+/* - - - - Passive Tab - - - - */
+.tab_selector,
+.tab_cupon {
+	background: #363636;
+	color: #999999;
+}
+
+	/* - - - - Active Tab - - - - */
+	.tab_selector.tab_selector_active,
+	.tab_selector:hover,
+	.tg__subhead .tg__dropdown_control,
+	.tg__subhead .tg__input,
+	.tg_subheader_btn,
+	.tg_live_center-wrapper .selectorWrapper,
+	.tab_cupon:hover {
+		background: #454545;
+		color: #ffffff;
+	}
+
+.tg__live_filter_item.checked,
+.tg__left_menu_item.tg__step_slider {
+	background: #333;
+}
+
+/* - - - - Header - - - - */
+.gameContentTitle,
+.tg__result_group_heading,
+.africanView .tg--home2__stakeItem {
+	background: #454545;
+	color: #ffffff;
+}
+
+/* - - - - SubHeader - - - - */
+.tg__prematch_header,
+.live_sport_list .tg__left_menu_item--lvl3,
+.tg__calendar_header,
+.tg__calendar_cont,
+.tg__res_rus,
+.tg__multibet_heading,
+.tg__score_box,
+.overViewDataDanel .tg__btn_arrow,
+.tg__modal_header,
+.tg__cashout--header,
+.live_menu_item_left_header,
+.tg_bet_history_order_row,
+.tg__match_header,
+.africanView .tg--home2__stakeTypes,
+.tg__home_game_heading {
+	background: #363636;
+	color: #999999;
+}
+
+.tg__banner__date {
+	color: #999;
+}
+
+.tg__banner__heading {
+	color: #fff;
+}
+
+	/* - - - - Single Game - - - - */
+	.tg__one_game,
+	.tg__banner,
+	.prematch_event_odds_container,
+	.tg__multi_game,
+	.live_menu_item_left .tg--left_live_odds,
+	.tg__calendar_item,
+	.dg1,
+	.overviewEventBody,
+	.tg_popup_body_static,
+	.tg__modal,
+	.tg_bet_history_order_row:nth-child(even),
+	.matchListWrapper,
+	.multiViewHeaderCont,
+	.posCombGridItem {
+		background: #262626;
+		color: #ffffff;
+	}
+
+		.tg__one_game_col,
+		.tg__home_game_time,
+		.tg__one_game_icons,
+		.tg__one_game .maIcons {
+			color: #cccccc;
+		}
+
+/* - - - - Odd - - - - */
+.l_od,
+.l_od_empty {
+	background: #191919;
+	color: #ffe63d;
+}
+
+/* - - - - Show More - - - - */
+.tg__more {
+	background: #404040;
+	color: #ffffff;
+}
+
+/* - - - - Accordion Header - - - - */
+.tg__block_header {
+	background: #454545;
+	color: #ffffff;
+}
+
+/* - - - - Accent - - - - */
+.tg_sidebar_text_akcent,
+.liveGameSelected .liveSportNamesContainer,
+.left_menu_line_active .tg__left_menu_item_text,
+.tg_widget_text_akcent,
+.tg-ico-fav--active,
+.tg-ico-fav.active,
+.tg__coupon_square,
+.tg-clr-akcent,
+.tg-clr-akcent2,
+.tg__score_box,
+.tg__more:hover,
+.tg__btn-coupon:hover,
+.tg__btn-text:hover,
+.tg__fix_btn:hover,
+.tg__fix_btn.checked {
+	color: #ffe63d;
+}
+
+.tg__coupon_square {
+	background: #4D4D4D;
+}
+input:checked + .tg__switch_ico,
+.tg_coin {
+	background-color: #ffe63d;
+}
+
+.tg_coin {
+	color: #000000;
+}
+
+.tg_popup_body_static .tab_selector_active {
+	border-bottom: 2px solid #ffe63d;
+}
+
+.live_calendar .tab_selector,
+.tg__coupon_tabs_cont {
+	border-bottom: 2px solid;
+}
+
+.live_menu_item_left_header {
+	border-bottom: 1px solid;
+}
+
+.live_calendar .tab_selector.tab_selector_active,
+.live_menu_item_left_header {
+	border-bottom-color: #ffe63d;
+}
+
+.tg__match_item_btn {
+	background-color: #262626;
+	color: #fff;
+}
+/* - - - - Brand - - - - */
+.l_od:hover,
+.l_od.selectedOdd,
+.tg__modal_confirm:hover,
+.africanView .tg--home2__stakeItem:hover,
+.africanView .stItem_active.tg--home2__stakeItem,
+.africanView .active .tg--home2__stakeItem {
+	background: #3ba437;
+	color: #ffffff;
+}
+
+.tabSelectorHeading {
+	color: #3ba437;
+}
+
+/* - - - - BetSlip Bg- - - - */
+.tg__coupon .tg--coupon-bg {
+	background: #262626;
+	color: #999999
+}
+
+.tab_cupon.tab_selected {
+	background: #262626;
+	color: #ffffff;
+}
+
+.tg__coupon_tabs_cont {
+	border-bottom-color: #262626;
+}
+
+/* - - - - BetSlip Line - - - - */
+.stake_item_panel {
+	background: #363636;
+	color: #999999;
+	border-color: #262626;
+}
+
+.coupon_sport_name_container {
+	color: #fff;
+}
+
+/* - - - - BetSlip Input - - - - */
+.tg_input.tg_input_coupon_amount {
+	background: #191919;
+	color: #ffffff;
+}
+
+/* - - - - BetSlip Button - - - - */
+.tg__btn-coupon,
+.tg__btn-text {
+	background: #454545;
+	color: #999999;
+}
+
+.sportRightPane .tg__btn-ternary {
+	background-color: #3BA437;
+	color: #fff;
+}
+	.tg__btn-coupon.tg__login {
+		background: #ffe63d;
+		color: #262626;
+	}
+
+.tg--cashout-body, .tg__cashout_popup, .booking_number {
+	background-color: #262626;
+	color: #999999;
+}
+
+/* - - - - DropDown - - - - */
+.tg__input,
+.tg_input,
+.tg__dropdown_control,
+.tg_input + .ui-datepicker-trigger {
+	background: #191919;
+	color: #ffffff;
+}
+
+.ss__step_slider .ss__ruller > div.off {
+	color: #191919;
+}
+
+.tg__dropdown__item {
+	background: #191919;
+	color: #cccccc
+}
+
+	.tg__dropdown__item:hover,
+	.tg__dropdown__item-active,
+	.liveSportNamesContainer,
+	.tg__teams {
+		color: #ffffff;
+	}
+
+.tg__dropdown_content {
+	background: #191919;
+}
+
+/* - - - - Sections - - - - */
+.tg--coupon-bg,
+.tg__info_panel,
+.tg__results_header,
+.tg__cashout--wrapper,
+.bet_generator_wrapper .tg_widget_bg_2 {
+	background: #262626;
+	color: #ffffff;
+}
+
+/* Styles we don't usually change */
+.tg__badge_live {
+	background-color: #262626;
+	color: #999999;
+}
+
+.tab_selector_active .tg__badge_live {
+	background-color: #CB0000;
+	color: #fff;
+}
+
+.tg__coupon_factor {
+	background-color: #666;
+	color: #fff;
+}
+
+.tg__switch_ico {
+	background-color: #999;
+}
+
+.tg__open_event_img {
+	color: #fff;
+}
+
+.tg__switch .tg__switch_ico:before {
+	background-color: #fff;
+}
+
+.tab_cupon {
+	text-transform: uppercase;
+}
+
+/* - + - - - - + - > AFRICAN VIEW < - + - - - - + - */
+.africanView .tabSelectorHeading {
+	color: #ffffff;
+}
+
+.africanView .tg_left_filter_tabs.tg_left_filter_tabs_active {
+	color: #fff;
+}
+
+.news_slider .oddsContainer {
+	background-color: #262626;
+}
+
+.tg__bet_history .tg__btn-ternary {
+	background-color: #3BA437;
+	color: #fff;
+} 
+/*multi bet of the day skinning*/
+.tg__exp_of_day_header,
+.es__express_slider_arrow{
+	background-color: #262626;
+	color: #cccccc;
+}
+.es__express_slider_arrow:hover {
+	background-color: #191919;
+	color: #fff;
+}
+.tg__exp_of_day_one_game {
+	background-color: #262626;
+	color: #cccccc;
+	border-bottom: 1px solid #191919 !important;
+}
+.es__total_odd_container .tg-clr-secondary {
+	color: #cccccc;
+}
+
+.tg__exp_of_day_one_game .tg-ico,
+.digi-pv-multibets-event-name-container {
+	color: #fff;
+}
+.es__express_day_odd {
+	border-color: #191919;
+  color: #cccccc;
+}
+.es__bonus_odd_container,
+.es__express_day_coupon-button-container {
+	background-color: #191919;
+	color: #cccccc;
+}
+.es__bonus_odd_container i,
+.es__express_day_odd--total{
+	color: #ffe63d;
+}
+.es__express_day_coupon {
+	background-color: #262626;
+	color: #cccccc;
+}
+/*multi bet of the day skinning*/

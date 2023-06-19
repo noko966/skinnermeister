@@ -55,6 +55,7 @@ module.exports = plugin = (opts = {}) => {
                 matchedSelectors.push({
                   prop: variable.txtName,
                   val: decl.value,
+                  rule: rule
                 });
               });
             }
@@ -87,6 +88,7 @@ contains ${data.lightThemeCount} light theme
 ${variables[0].selector} spotted ${variables[0].count} times | ${variables[0].color}
 ${variables[1].selector} spotted ${variables[1].count} times | ${variables[1].color}
 ..................................
+
 `,
       });
 

@@ -1,0 +1,1602 @@
+:root,
+:root[data-theme="dark"],
+:root [data-theme="dark"] {
+    --bodyBg: #170017;
+    --bodyBg2: #4a004a;
+    --bodyBg3: #630063;
+    --bodyBgHover: #260026;
+    --bodyBg2Hover: #590059;
+    --bodyBg3Hover: #720072;
+    --bodyRGBA: rgba(23, 0, 23, 0.7);
+    --bodyRGBA2: rgba(23, 0, 23, 0.5);
+    --bodyRGBA3: rgba(23, 0, 23, 0.3);
+    --bodyTxt: rgba(255, 255, 255, 0.9);
+    --bodyTxt2: rgba(255, 255, 255, 0.6);
+    --bodyTxt3: rgba(255, 255, 255, 0.4);
+    --bodyAccent: #E0AA3E;
+    --bodyAccentTxt: rgba(0, 0, 0, 0.9);
+    --bodyBorder: #170017;
+    --bodyRadius: 0px;
+    --dominantG: #030003;
+    --dominantRGBA: rgba(3, 0, 3, 0.7);
+    --dominantRGBA2: rgba(3, 0, 3, 0.5);
+    --dominantRGBA3: rgba(3, 0, 3, 0.3);
+    --dominantBg: #030003;
+    --dominantBg2: #360036;
+    --dominantBg3: #4f004f;
+    --dominantBgHover: #120012;
+    --dominantBg2Hover: #450045;
+    --dominantBg3Hover: #5e005e;
+    --dominantTxt: rgba(255, 255, 255, 0.9);
+    --dominantTxt2: rgba(255, 255, 255, 0.6);
+    --dominantTxt3: rgba(255, 255, 255, 0.4);
+    --dominantTxtInverse: #262626;
+    --dominantRadius: 0px;
+    --accentBg: #E0AA3E;
+    --accentBg2: #e7bd6a;
+    --accentBg3: #ebc780;
+    --accentBgHover: #e2b04b;
+    --accentBg2Hover: #e9c377;
+    --accentBg3Hover: #edcd8d;
+    --accentG: #E0AA3E;
+    --accentTxt: rgba(0, 0, 0, 0.9);
+    --accentTxt2: rgba(0, 0, 0, 0.6);
+    --accentTxt3: rgba(0, 0, 0, 0.4);
+    --buttonG: #E0AA3E;
+    --buttonBg: #E0AA3E;
+    --buttonBg2: #e7bd6a;
+    --buttonBg3: #ebc780;
+    --buttonBgHover: #e2b04b;
+    --buttonBg2Hover: #e9c377;
+    --buttonBg3Hover: #edcd8d;
+    --buttonTxt: rgba(0, 0, 0, 0.9);
+    --buttonTxt2: rgba(0, 0, 0, 0.6);
+    --buttonTxt3: rgba(0, 0, 0, 0.4);
+    --buttonAccent: #E0AA3E;
+    --buttonAccentTxt: rgba(0, 0, 0, 0.9);
+    --buttonBorder: #170017;
+    --buttonRadius: 0px;
+    --buttonSecondaryG: #720072;
+    --buttonSecondaryBg: #720072;
+    --buttonSecondaryBg2: #a500a5;
+    --buttonSecondaryBg3: #be00be;
+    --buttonSecondaryBgHover: #810081;
+    --buttonSecondaryBg2Hover: #b400b4;
+    --buttonSecondaryBg3Hover: #cd00cd;
+    --buttonSecondaryTxt: rgba(255, 255, 255, 0.9);
+    --buttonSecondaryTxt2: rgba(255, 255, 255, 0.6);
+    --buttonSecondaryTxt3: rgba(255, 255, 255, 0.4);
+    --buttonSecondaryAccent: #E0AA3E;
+    --buttonSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --buttonSecondaryBorder: #170017;
+    --buttonSecondaryRadius: 0px;
+    --inputG: #360036;
+    --inputBg: #360036;
+    --inputBg2: #690069;
+    --inputBg3: #820082;
+    --inputBgHover: #450045;
+    --inputBg2Hover: #780078;
+    --inputBg3Hover: #910091;
+    --inputTxt: rgba(255, 255, 255, 0.9);
+    --inputTxt2: rgba(255, 255, 255, 0.6);
+    --inputTxt3: rgba(255, 255, 255, 0.4);
+    --inputAccent: #E0AA3E;
+    --inputAccentTxt: rgba(0, 0, 0, 0.9);
+    --inputRadius: 0px;
+    --inputBorder: #170017;
+    --inputSecondaryG: #450045;
+    --inputSecondaryBg: #450045;
+    --inputSecondaryBg2: #780078;
+    --inputSecondaryBg3: #910091;
+    --inputSecondaryBgHover: #540054;
+    --inputSecondaryBg2Hover: #870087;
+    --inputSecondaryBg3Hover: #a000a0;
+    --inputSecondaryTxt: rgba(255, 255, 255, 0.9);
+    --inputSecondaryTxt2: rgba(255, 255, 255, 0.6);
+    --inputSecondaryTxt3: rgba(255, 255, 255, 0.4);
+    --inputSecondaryAccent: #E0AA3E;
+    --inputSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --inputSecondaryRadius: 0px;
+    --inputSecondaryBorder: #170017;
+    --headerG: #360436;
+    --headerBg: #360436;
+    --headerBg2: #650865;
+    --headerBg3: #7d097d;
+    --headerBgHover: #440544;
+    --headerBg2Hover: #730973;
+    --headerBg3Hover: #8b0a8b;
+    --headerTxt: rgba(255, 255, 255, 0.9);
+    --headerTxt2: rgba(255, 255, 255, 0.6);
+    --headerTxt3: rgba(255, 255, 255, 0.4);
+    --headerAccent: #E0AA3E;
+    --headerAccentTxt: rgba(0, 0, 0, 0.9);
+    --headerBorder: #170017;
+    --headerRadius: 0px;
+    --subHeaderG: #4C084C;
+    --subHeaderBg: #4C084C;
+    --subHeaderBg2: #7a0d7a;
+    --subHeaderBg3: #910f91;
+    --subHeaderBgHover: #5a095a;
+    --subHeaderBg2Hover: #880e88;
+    --subHeaderBg3Hover: #9f109f;
+    --subHeaderTxt: rgba(255, 255, 255, 0.9);
+    --subHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --subHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --subHeaderAccent: #E0AA3E;
+    --subHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --subHeaderBorder: #170017;
+    --subHeaderRadius: 0px;
+    --eventG: #2A032A;
+    --eventBg: #2A032A;
+    --eventBg2: #5a065a;
+    --eventBg3: #710871;
+    --eventBgHover: #380438;
+    --eventBg2Hover: #680768;
+    --eventBg3Hover: #7f097f;
+    --eventTxt: rgba(255, 255, 255, 0.9);
+    --eventTxt2: rgba(255, 255, 255, 0.6);
+    --eventTxt3: rgba(255, 255, 255, 0.4);
+    --eventAccent: #E0AA3E;
+    --eventAccentTxt: rgba(0, 0, 0, 0.9);
+    --eventBorder: #170017;
+    --eventRadius: 0px;
+    --modalG: #360036;
+    --modalBg: #360036;
+    --modalBg2: #690069;
+    --modalBg3: #820082;
+    --modalBgHover: #450045;
+    --modalBg2Hover: #780078;
+    --modalBg3Hover: #910091;
+    --modalTxt: rgba(255, 255, 255, 0.9);
+    --modalTxt2: rgba(255, 255, 255, 0.6);
+    --modalTxt3: rgba(255, 255, 255, 0.4);
+    --modalAccent: #E0AA3E;
+    --modalAccentTxt: rgba(0, 0, 0, 0.9);
+    --modalRadius: 0px;
+    --modalBorder: #170017;
+    --oddG: #170017;
+    --oddBg: #170017;
+    --oddBg2: #4a004a;
+    --oddBg3: #630063;
+    --oddBgHover: #260026;
+    --oddBg2Hover: #590059;
+    --oddBg3Hover: #720072;
+    --oddTxt: rgba(255, 255, 255, 0.9);
+    --oddTxt2: rgba(255, 255, 255, 0.6);
+    --oddTxt3: rgba(255, 255, 255, 0.4);
+    --oddAccent: #E0AA3E;
+    --oddAccentTxt: rgba(0, 0, 0, 0.9);
+    --oddRadius: 0px;
+    --oddBorder: #170017;
+    --oddActiveG: #E0AA3E;
+    --oddActiveBg: #E0AA3E;
+    --oddActiveBg2: #e7bd6a;
+    --oddActiveBg3: #ebc780;
+    --oddActiveBgHover: #e2b04b;
+    --oddActiveBg2Hover: #e9c377;
+    --oddActiveBg3Hover: #edcd8d;
+    --oddActiveTxt: rgba(0, 0, 0, 0.9);
+    --oddActiveTxt2: rgba(0, 0, 0, 0.6);
+    --oddActiveTxt3: rgba(0, 0, 0, 0.4);
+    --oddActiveAccent: #E0AA3E;
+    --oddActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --oddActiveRadius: 0px;
+    --oddActiveBorder: #E0AA3E;
+    --showMoreG: #170017;
+    --showMoreBg: #170017;
+    --showMoreBg2: #4a004a;
+    --showMoreBg3: #630063;
+    --showMoreBgHover: #260026;
+    --showMoreBg2Hover: #590059;
+    --showMoreBg3Hover: #720072;
+    --showMoreTxt: rgba(255, 255, 255, 0.9);
+    --showMoreTxt2: rgba(255, 255, 255, 0.6);
+    --showMoreTxt3: rgba(255, 255, 255, 0.4);
+    --showMoreAccent: #E0AA3E;
+    --showMoreAccentTxt: rgba(0, 0, 0, 0.9);
+    --showMoreRadius: 0px;
+    --showMoreBorder: #170017;
+    --tabG: #220322;
+    --tabBg: #220322;
+    --tabBg2: #510751;
+    --tabBg3: #680968;
+    --tabBgHover: #300430;
+    --tabBg2Hover: #5f085f;
+    --tabBg3Hover: #760a76;
+    --tabTxt: rgba(255, 255, 255, 0.9);
+    --tabTxt2: rgba(255, 255, 255, 0.6);
+    --tabTxt3: rgba(255, 255, 255, 0.4);
+    --tabAccent: #E0AA3E;
+    --tabAccentTxt: rgba(0, 0, 0, 0.9);
+    --tabRadius: 0px;
+    --tabBorder: #170017;
+    --tabActiveG: #360436;
+    --tabActiveBg: #360436;
+    --tabActiveBg2: #650865;
+    --tabActiveBg3: #7d097d;
+    --tabActiveBgHover: #440544;
+    --tabActiveBg2Hover: #730973;
+    --tabActiveBg3Hover: #8b0a8b;
+    --tabActiveTxt: rgba(255, 255, 255, 0.9);
+    --tabActiveTxt2: rgba(255, 255, 255, 0.6);
+    --tabActiveTxt3: rgba(255, 255, 255, 0.4);
+    --tabActiveAccent: #E0AA3E;
+    --tabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --tabActiveRadius: 0px;
+    --tabActiveBorder: #170017;
+    --tabSecondaryActiveBg: #5f085f;
+    --tabSecondaryActiveBg2: #8e0c8e;
+    --tabSecondaryActiveBg3: #a60ea6;
+    --tabSecondaryActiveBgHover: #6d096d;
+    --tabSecondaryActiveBg2Hover: #9c0d9c;
+    --tabSecondaryActiveBg3Hover: #b40fb4;
+    --tabSecondaryActiveTxt: rgba(255, 255, 255, 0.9);
+    --tabSecondaryActiveTxt2: rgba(255, 255, 255, 0.6);
+    --tabSecondaryActiveTxt3: rgba(255, 255, 255, 0.4);
+    --tabSecondaryActiveAccent: #E0AA3E;
+    --tabSecondaryActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --tabSecondaryActiveRadius: 0px;
+    --tabSecondaryActiveBorder: #170017;
+    --filterG: #450045;
+    --filterBg: #450045;
+    --filterBg2: #780078;
+    --filterBg3: #910091;
+    --filterBgHover: #540054;
+    --filterBg2Hover: #870087;
+    --filterBg3Hover: #a000a0;
+    --filterTxt: rgba(255, 255, 255, 0.9);
+    --filterTxt2: rgba(255, 255, 255, 0.6);
+    --filterTxt3: rgba(255, 255, 255, 0.4);
+    --filterAccent: #E0AA3E;
+    --filterAccentTxt: rgba(0, 0, 0, 0.9);
+    --filterRadius: 0px;
+    --filterBorder: #170017;
+    --menu_1G: #200020;
+    --menu_1Bg: #200020;
+    --menu_1Bg2: #530053;
+    --menu_1Bg3: #6c006c;
+    --menu_1BgHover: #2f002f;
+    --menu_1Bg2Hover: #620062;
+    --menu_1Bg3Hover: #7b007b;
+    --menu_1Txt: rgba(255, 255, 255, 0.9);
+    --menu_1Txt2: rgba(255, 255, 255, 0.6);
+    --menu_1Txt3: rgba(255, 255, 255, 0.4);
+    --menu_1Accent: #E0AA3E;
+    --menu_1AccentTxt: rgba(0, 0, 0, 0.9);
+    --menu_1Radius: 0px;
+    --menu_1Border: #170017;
+    --menu_2G: #620062;
+    --menu_2Bg: #620062;
+    --menu_2Bg2: #950095;
+    --menu_2Bg3: #ae00ae;
+    --menu_2BgHover: #710071;
+    --menu_2Bg2Hover: #a400a4;
+    --menu_2Bg3Hover: #bd00bd;
+    --menu_2Txt: rgba(255, 255, 255, 0.9);
+    --menu_2Txt2: rgba(255, 255, 255, 0.6);
+    --menu_2Txt3: rgba(255, 255, 255, 0.4);
+    --menu_2Accent: #E0AA3E;
+    --menu_2AccentTxt: rgba(0, 0, 0, 0.9);
+    --menu_2Radius: 0px;
+    --menu_2Border: #170017;
+    --menu_3G: #6c006c;
+    --menu_3Bg: #6c006c;
+    --menu_3Bg2: #9f009f;
+    --menu_3Bg3: #b800b8;
+    --menu_3BgHover: #7b007b;
+    --menu_3Bg2Hover: #ae00ae;
+    --menu_3Bg3Hover: #c700c7;
+    --menu_3Txt: rgba(255, 255, 255, 0.9);
+    --menu_3Txt2: rgba(255, 255, 255, 0.6);
+    --menu_3Txt3: rgba(255, 255, 255, 0.4);
+    --menu_3Accent: #E0AA3E;
+    --menu_3AccentTxt: rgba(0, 0, 0, 0.9);
+    --menu_3Radius: 0px;
+    --menu_3Border: #170017;
+    --tooltipG: #360036;
+    --tooltipBg: #360036;
+    --tooltipBg2: #690069;
+    --tooltipBg3: #820082;
+    --tooltipBgHover: #450045;
+    --tooltipBg2Hover: #780078;
+    --tooltipBg3Hover: #910091;
+    --tooltipTxt: rgba(255, 255, 255, 0.9);
+    --tooltipTxt2: rgba(255, 255, 255, 0.6);
+    --tooltipTxt3: rgba(255, 255, 255, 0.4);
+    --tooltipAccent: #E0AA3E;
+    --tooltipAccentTxt: rgba(0, 0, 0, 0.9);
+    --tooltipRadius: 0px;
+    --tooltipBorder: #170017;
+    /* Old betslip */
+    --betSlipBg: #360036;
+    --betSlipBg2: #690069;
+    --betSlipBorder: #170017;
+    --betSlipTxt: rgba(255, 255, 255, 0.9);
+    --betSlipTxt2: rgba(255, 255, 255, 0.6);
+    --betSlipStakeG: #450045;
+    --betSlipStakeBg: #450045;
+    --betSlipStakeTxt: rgba(255, 255, 255, 0.9);
+    --betSlipStakeTxt2: rgba(255, 255, 255, 0.6);
+    --betSlipInputG: #450045;
+    --betSlipInputTxt: rgba(255, 255, 255, 0.9);
+    --betSlipButtonG: #450045;
+    --betSlipButtonBg2: #780078;
+    --betSlipButtonTxt: rgba(255, 255, 255, 0.9);
+    --betSlipButtonRadius: 0px;
+    --spritePositionX: 0px;
+    --menuItemActiveTxt: var(--bodyTxt2);
+    --menuItemTxt: var(--bodyTxt);
+}
+
+
+
+:root,
+:root[data-theme="light"],
+:root [data-theme="light"] {
+    --bodyBg: #F8F5F8;
+    --bodyBg2: #ebe3eb;
+    --bodyBg3: #dfd1df;
+    --bodyBgHover: #f2ecf2;
+    --bodyBg2Hover: #e5dae5;
+    --bodyBg3Hover: #d9c8d9;
+    --bodyRGBA: rgba(248, 245, 248, 0.7);
+    --bodyRGBA2: rgba(248, 245, 248, 0.5);
+    --bodyRGBA3: rgba(248, 245, 248, 0.3);
+    --bodyTxt: rgba(0, 0, 0, 0.9);
+    --bodyTxt2: rgba(0, 0, 0, 0.6);
+    --bodyTxt3: rgba(0, 0, 0, 0.4);
+    --bodyAccent: #B88C35;
+    --bodyAccentTxt: rgba(255, 255, 255, 0.9);
+    --bodyBorder: #F8F5F8;
+    --bodyRadius: 0px;
+    --dominantG: #EEE4EE;
+    --dominantRGBA: rgba(238, 228, 238, 0.7);
+    --dominantRGBA2: rgba(238, 228, 238, 0.5);
+    --dominantRGBA3: rgba(238, 228, 238, 0.3);
+    --dominantBg: #EEE4EE;
+    --dominantBg2: #e2d1e2;
+    --dominantBg3: #d6bed6;
+    --dominantBgHover: #e8dbe8;
+    --dominantBg2Hover: #dcc8dc;
+    --dominantBg3Hover: #d0b5d0;
+    --dominantTxt: rgba(0, 0, 0, 0.9);
+    --dominantTxt2: rgba(0, 0, 0, 0.6);
+    --dominantTxt3: rgba(0, 0, 0, 0.4);
+    --dominantTxtInverse: #fff;
+    --dominantRadius: 0px;
+    --accentBg: #B88C35;
+    --accentBg2: #cda453;
+    --accentBg3: #d3af66;
+    --accentBgHover: #c49538;
+    --accentBg2Hover: #d0aa5f;
+    --accentBg3Hover: #d6b572;
+    --accentG: #B88C35;
+    --accentTxt: rgba(255, 255, 255, 0.9);
+    --accentTxt2: rgba(255, 255, 255, 0.6);
+    --accentTxt3: rgba(255, 255, 255, 0.4);
+    --buttonG: #E0AA3E;
+    --buttonBg: #E0AA3E;
+    --buttonBg2: #e7bd6a;
+    --buttonBg3: #ebc780;
+    --buttonBgHover: #e2b04b;
+    --buttonBg2Hover: #e9c377;
+    --buttonBg3Hover: #edcd8d;
+    --buttonTxt: rgba(0, 0, 0, 0.9);
+    --buttonTxt2: rgba(0, 0, 0, 0.6);
+    --buttonTxt3: rgba(0, 0, 0, 0.4);
+    --buttonAccent: #B88C35;
+    --buttonAccentTxt: rgba(255, 255, 255, 0.9);
+    --buttonBorder: #F8F5F8;
+    --buttonRadius: 0px;
+    --buttonSecondaryG: #d9c8d9;
+    --buttonSecondaryBg: #d9c8d9;
+    --buttonSecondaryBg2: #ccb6cc;
+    --buttonSecondaryBg3: #c0a4c0;
+    --buttonSecondaryBgHover: #d3bfd3;
+    --buttonSecondaryBg2Hover: #c6adc6;
+    --buttonSecondaryBg3Hover: #ba9bba;
+    --buttonSecondaryTxt: rgba(0, 0, 0, 0.9);
+    --buttonSecondaryTxt2: rgba(0, 0, 0, 0.6);
+    --buttonSecondaryTxt3: rgba(0, 0, 0, 0.4);
+    --buttonSecondaryAccent: #B88C35;
+    --buttonSecondaryAccentTxt: rgba(255, 255, 255, 0.9);
+    --buttonSecondaryBorder: #F8F5F8;
+    --buttonSecondaryRadius: 0px;
+    --inputG: #e2d1e2;
+    --inputBg: #e2d1e2;
+    --inputBg2: #d6bed6;
+    --inputBg3: #caabca;
+    --inputBgHover: #dcc8dc;
+    --inputBg2Hover: #d0b5d0;
+    --inputBg3Hover: #c4a2c4;
+    --inputTxt: rgba(0, 0, 0, 0.9);
+    --inputTxt2: rgba(0, 0, 0, 0.6);
+    --inputTxt3: rgba(0, 0, 0, 0.4);
+    --inputAccent: #B88C35;
+    --inputAccentTxt: rgba(255, 255, 255, 0.9);
+    --inputRadius: 0px;
+    --inputBorder: #F8F5F8;
+    --inputSecondaryG: #dcc8dc;
+    --inputSecondaryBg: #dcc8dc;
+    --inputSecondaryBg2: #d0b5d0;
+    --inputSecondaryBg3: #c4a3c4;
+    --inputSecondaryBgHover: #d6bfd6;
+    --inputSecondaryBg2Hover: #caacca;
+    --inputSecondaryBg3Hover: #be9abe;
+    --inputSecondaryTxt: rgba(0, 0, 0, 0.9);
+    --inputSecondaryTxt2: rgba(0, 0, 0, 0.6);
+    --inputSecondaryTxt3: rgba(0, 0, 0, 0.4);
+    --inputSecondaryAccent: #B88C35;
+    --inputSecondaryAccentTxt: rgba(255, 255, 255, 0.9);
+    --inputSecondaryRadius: 0px;
+    --inputSecondaryBorder: #F8F5F8;
+    --headerG: #EEE4EE;
+    --headerBg: #EEE4EE;
+    --headerBg2: #e2d1e2;
+    --headerBg3: #d6bed6;
+    --headerBgHover: #e8dbe8;
+    --headerBg2Hover: #dcc8dc;
+    --headerBg3Hover: #d0b5d0;
+    --headerTxt: rgba(0, 0, 0, 0.9);
+    --headerTxt2: rgba(0, 0, 0, 0.6);
+    --headerTxt3: rgba(0, 0, 0, 0.4);
+    --headerAccent: #B88C35;
+    --headerAccentTxt: rgba(255, 255, 255, 0.9);
+    --headerBorder: #F8F5F8;
+    --headerRadius: 0px;
+    --subHeaderG: #dcc8dc;
+    --subHeaderBg: #dcc8dc;
+    --subHeaderBg2: #d0b5d0;
+    --subHeaderBg3: #c4a3c4;
+    --subHeaderBgHover: #d6bfd6;
+    --subHeaderBg2Hover: #caacca;
+    --subHeaderBg3Hover: #be9abe;
+    --subHeaderTxt: rgba(0, 0, 0, 0.9);
+    --subHeaderTxt2: rgba(0, 0, 0, 0.6);
+    --subHeaderTxt3: rgba(0, 0, 0, 0.4);
+    --subHeaderAccent: #B88C35;
+    --subHeaderAccentTxt: rgba(255, 255, 255, 0.9);
+    --subHeaderBorder: #F8F5F8;
+    --subHeaderRadius: 0px;
+    --eventG: #FFFFFF;
+    --eventBg: #FFFFFF;
+    --eventBg2: #f0f0f0;
+    --eventBg3: #e0e0e0;
+    --eventBgHover: #f7f7f7;
+    --eventBg2Hover: #e8e8e8;
+    --eventBg3Hover: #d8d8d8;
+    --eventTxt: rgba(0, 0, 0, 0.9);
+    --eventTxt2: rgba(0, 0, 0, 0.6);
+    --eventTxt3: rgba(0, 0, 0, 0.4);
+    --eventAccent: #B88C35;
+    --eventAccentTxt: rgba(255, 255, 255, 0.9);
+    --eventBorder: #F8F5F8;
+    --eventRadius: 0px;
+    --modalG: #e2d1e2;
+    --modalBg: #e2d1e2;
+    --modalBg2: #d6bed6;
+    --modalBg3: #caabca;
+    --modalBgHover: #dcc8dc;
+    --modalBg2Hover: #d0b5d0;
+    --modalBg3Hover: #c4a2c4;
+    --modalTxt: rgba(0, 0, 0, 0.9);
+    --modalTxt2: rgba(0, 0, 0, 0.6);
+    --modalTxt3: rgba(0, 0, 0, 0.4);
+    --modalAccent: #B88C35;
+    --modalAccentTxt: rgba(255, 255, 255, 0.9);
+    --modalRadius: 0px;
+    --modalBorder: #F8F5F8;
+    --oddG: #f2ecf2;
+    --oddBg: #f2ecf2;
+    --oddBg2: #e6dae6;
+    --oddBg3: #d9c8d9;
+    --oddBgHover: #ece3ec;
+    --oddBg2Hover: #e0d1e0;
+    --oddBg3Hover: #d3bfd3;
+    --oddTxt: rgba(0, 0, 0, 0.9);
+    --oddTxt2: rgba(0, 0, 0, 0.6);
+    --oddTxt3: rgba(0, 0, 0, 0.4);
+    --oddAccent: #B88C35;
+    --oddAccentTxt: rgba(255, 255, 255, 0.9);
+    --oddRadius: 0px;
+    --oddBorder: #F8F5F8;
+    --oddActiveG: #E0AA3E;
+    --oddActiveBg: #E0AA3E;
+    --oddActiveBg2: #e7bd6a;
+    --oddActiveBg3: #ebc780;
+    --oddActiveBgHover: #e2b04b;
+    --oddActiveBg2Hover: #e9c377;
+    --oddActiveBg3Hover: #edcd8d;
+    --oddActiveTxt: rgba(0, 0, 0, 0.9);
+    --oddActiveTxt2: rgba(0, 0, 0, 0.6);
+    --oddActiveTxt3: rgba(0, 0, 0, 0.4);
+    --oddActiveAccent: #B88C35;
+    --oddActiveAccentTxt: rgba(255, 255, 255, 0.9);
+    --oddActiveRadius: 0px;
+    --oddActiveBorder: #F8F5F8;
+    --showMoreG: #f2ecf2;
+    --showMoreBg: #f2ecf2;
+    --showMoreBg2: #e6dae6;
+    --showMoreBg3: #d9c8d9;
+    --showMoreBgHover: #ece3ec;
+    --showMoreBg2Hover: #e0d1e0;
+    --showMoreBg3Hover: #d3bfd3;
+    --showMoreTxt: rgba(0, 0, 0, 0.9);
+    --showMoreTxt2: rgba(0, 0, 0, 0.6);
+    --showMoreTxt3: rgba(0, 0, 0, 0.4);
+    --showMoreAccent: #B88C35;
+    --showMoreAccentTxt: rgba(255, 255, 255, 0.9);
+    --showMoreRadius: 0px;
+    --showMoreBorder: #F8F5F8;
+    --tabG: #E2D1E2;
+    --tabBg: #E2D1E2;
+    --tabBg2: #d6bed6;
+    --tabBg3: #caabca;
+    --tabBgHover: #dcc8dc;
+    --tabBg2Hover: #d0b5d0;
+    --tabBg3Hover: #c4a2c4;
+    --tabTxt: rgba(0, 0, 0, 0.9);
+    --tabTxt2: rgba(0, 0, 0, 0.6);
+    --tabTxt3: rgba(0, 0, 0, 0.4);
+    --tabAccent: #E0AA3E;
+    --tabAccentTxt: rgba(0, 0, 0, 0.9);
+    --tabRadius: 0px;
+    --tabBorder: #F8F5F8;
+    --tabActiveG: #EEE4EE;
+    --tabActiveBg: #EEE4EE;
+    --tabActiveBg2: #e2d1e2;
+    --tabActiveBg3: #d6bed6;
+    --tabActiveBgHover: #e8dbe8;
+    --tabActiveBg2Hover: #dcc8dc;
+    --tabActiveBg3Hover: #d0b5d0;
+    --tabActiveTxt: rgba(0, 0, 0, 0.9);
+    --tabActiveTxt2: rgba(0, 0, 0, 0.6);
+    --tabActiveTxt3: rgba(0, 0, 0, 0.4);
+    --tabActiveAccent: #B88C35;
+    --tabActiveAccentTxt: rgba(255, 255, 255, 0.9);
+    --tabActiveRadius: 0px;
+    --tabActiveBorder: #F8F5F8;
+    --tabSecondaryActiveBg: #d0b5d0;
+    --tabSecondaryActiveBg2: #c4a2c4;
+    --tabSecondaryActiveBg3: #b890b8;
+    --tabSecondaryActiveBgHover: #caacca;
+    --tabSecondaryActiveBg2Hover: #be99be;
+    --tabSecondaryActiveBg3Hover: #b287b2;
+    --tabSecondaryActiveTxt: rgba(0, 0, 0, 0.9);
+    --tabSecondaryActiveTxt2: rgba(0, 0, 0, 0.6);
+    --tabSecondaryActiveTxt3: rgba(0, 0, 0, 0.4);
+    --tabSecondaryActiveAccent: #E0AA3E;
+    --tabSecondaryActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --tabSecondaryActiveRadius: 0px;
+    --tabSecondaryActiveBorder: #F8F5F8;
+    --filterG: #dcc8dc;
+    --filterBg: #dcc8dc;
+    --filterBg2: #d0b5d0;
+    --filterBg3: #c4a3c4;
+    --filterBgHover: #d6bfd6;
+    --filterBg2Hover: #caacca;
+    --filterBg3Hover: #be9abe;
+    --filterTxt: rgba(0, 0, 0, 0.9);
+    --filterTxt2: rgba(0, 0, 0, 0.6);
+    --filterTxt3: rgba(0, 0, 0, 0.4);
+    --filterAccent: #B88C35;
+    --filterAccentTxt: rgba(255, 255, 255, 0.9);
+    --filterRadius: 0px;
+    --filterBorder: #F8F5F8;
+    --menu_1G: #FFFFFF;
+    --menu_1Bg: #FFFFFF;
+    --menu_1Bg2: #f0f0f0;
+    --menu_1Bg3: #e0e0e0;
+    --menu_1BgHover: #f7f7f7;
+    --menu_1Bg2Hover: #e8e8e8;
+    --menu_1Bg3Hover: #d8d8d8;
+    --menu_1Txt: rgba(0, 0, 0, 0.9);
+    --menu_1Txt2: rgba(0, 0, 0, 0.6);
+    --menu_1Txt3: rgba(0, 0, 0, 0.4);
+    --menu_1Accent: #B88C35;
+    --menu_1AccentTxt: rgba(255, 255, 255, 0.9);
+    --menu_1Radius: 0px;
+    --menu_1Border: #F8F5F8;
+    --menu_2G: #e8e8e8;
+    --menu_2Bg: #e8e8e8;
+    --menu_2Bg2: #d9d9d9;
+    --menu_2Bg3: #c9c9c9;
+    --menu_2BgHover: #e0e0e0;
+    --menu_2Bg2Hover: #d1d1d1;
+    --menu_2Bg3Hover: #c1c1c1;
+    --menu_2Txt: rgba(0, 0, 0, 0.9);
+    --menu_2Txt2: rgba(0, 0, 0, 0.6);
+    --menu_2Txt3: rgba(0, 0, 0, 0.4);
+    --menu_2Accent: #B88C35;
+    --menu_2AccentTxt: rgba(255, 255, 255, 0.9);
+    --menu_2Radius: 0px;
+    --menu_2Border: #F8F5F8;
+    --menu_3G: #e0e0e0;
+    --menu_3Bg: #e0e0e0;
+    --menu_3Bg2: #d1d1d1;
+    --menu_3Bg3: #c1c1c1;
+    --menu_3BgHover: #d8d8d8;
+    --menu_3Bg2Hover: #c9c9c9;
+    --menu_3Bg3Hover: #b9b9b9;
+    --menu_3Txt: rgba(0, 0, 0, 0.9);
+    --menu_3Txt2: rgba(0, 0, 0, 0.6);
+    --menu_3Txt3: rgba(0, 0, 0, 0.4);
+    --menu_3Accent: #B88C35;
+    --menu_3AccentTxt: rgba(255, 255, 255, 0.9);
+    --menu_3Radius: 0px;
+    --menu_3Border: #F8F5F8;
+    --tooltipG: #e2d1e2;
+    --tooltipBg: #e2d1e2;
+    --tooltipBg2: #d6bed6;
+    --tooltipBg3: #caabca;
+    --tooltipBgHover: #dcc8dc;
+    --tooltipBg2Hover: #d0b5d0;
+    --tooltipBg3Hover: #c4a2c4;
+    --tooltipTxt: rgba(0, 0, 0, 0.9);
+    --tooltipTxt2: rgba(0, 0, 0, 0.6);
+    --tooltipTxt3: rgba(0, 0, 0, 0.4);
+    --tooltipAccent: #B88C35;
+    --tooltipAccentTxt: rgba(255, 255, 255, 0.9);
+    --tooltipRadius: 0px;
+    --tooltipBorder: #F8F5F8;
+    /* Old betslip */
+    --betSlipBg: #e2d1e2;
+    --betSlipBg2: #d6bed6;
+    --betSlipBorder: #F8F5F8;
+    --betSlipTxt: rgba(0, 0, 0, 0.9);
+    --betSlipTxt2: rgba(0, 0, 0, 0.6);
+    --betSlipStakeG: #dcc8dc;
+    --betSlipStakeBg: #dcc8dc;
+    --betSlipStakeTxt: rgba(0, 0, 0, 0.9);
+    --betSlipStakeTxt2: rgba(0, 0, 0, 0.6);
+    --betSlipInputG: #dcc8dc;
+    --betSlipInputTxt: rgba(0, 0, 0, 0.9);
+    --betSlipButtonG: #dcc8dc;
+    --betSlipButtonBg2: #d0b5d0;
+    --betSlipButtonTxt: rgba(0, 0, 0, 0.9);
+    --betSlipButtonRadius: 0px;
+    --spritePositionX: 0px;
+    --menuItemActiveTxt: var(--bodyTxt2);
+    --menuItemTxt: var(--bodyTxt);
+}
+
+
+[class^='digi_tournament_']:before, [class*='digi_tournament_']:before {
+    background-position-x: var(--spritePositionX) !important;
+}
+
+.tg_widget_heading_1 {
+    margin-top: 0;
+}
+
+.tg__multi_game {
+    padding: 0 !important;
+}
+
+.tg_input::placeholder {
+    color: var(--inputTxt2);
+}
+/* - - - - body - - - - */
+
+body,
+.tg_bg,
+.tg__result_item {
+    background-color: var(--bodyBg);
+    color: var(--bodyTxt);
+}
+
+.paperView .champ_list:last-child,
+.tg--border-bot-1 {
+    border-color: var(--bodyBg);
+}
+
+.tg--pos_comb_row {
+    border-color: var(--modalBorder);
+}
+
+.tg__one_game,
+.tg__match_item_stake {
+    border-color: var(--eventBorder);
+}
+
+.tg__one_game_score {
+    color: var(--eventAccent) !important;
+}
+
+#line_tabs .selectorWrapper,
+#live_tabs_header .selectorWrapper,
+#line_tabs .tabsWithMarketFilter,
+#live_tabs_header .tabsWithMarketFilter {
+    background-color: var(--bodyBg);
+}
+
+.tg__btn-action {
+    background: var(--buttonG) !important;
+    color: var(--buttonTxt) !important;
+}
+/* - - - - Widget - - - - - */
+.tg__live_list_header {
+    background-color: var(--headerG);
+    color: var(--headerTxt);
+}
+
+.tg__multiview_content {
+    background-color: var(--eventG);
+    color: var(--eventTxt);
+}
+
+.tg-hero {
+    background-color: var(--dominantBg);
+    color: var(--dominantTxt);
+}
+
+.tg-bg_transparent {
+    background-color: var(--dominantRGBA2);
+    border: 1px solid var(--dominantRGBA3);
+    border-radius: var(--dominantRadius);
+}
+
+/* - - - - Left Menu Level 1 - - - - */
+.tg__left_menu_item--lvl1 {
+    background: var(--menu_1G);
+    color: var(--menu_1Txt);
+    border-color: var(--menu_1Border);
+}
+
+.tg__left_menu_item--lvl1:hover {
+    background: var(--menu_1BgHover);
+    color: var(--menu_1Txt);
+}
+
+.tg__left_menu_item--lvl1 .tg__left_menu_item_text {
+    color: var(--menu_1Txt);
+}
+
+.tg__left_menu_item--lvl1 .tg-ico-arrow {
+    color: var(--menu_1Txt3);
+}
+
+.ss__step_slider .ss__slider,
+.ss__step_slider .ss__ruller > div {
+    background: var(--dominantTxt2);
+}
+
+.ss__step_slider .ss__slider:hover {
+    background: var(--accentBg);
+}
+
+.ss__step_slider .ss__ruller > .off {
+    background: var(--dominantBg);
+}
+
+/* - - - - Left Menu Level 2 - - - - */
+.tg__left_menu_item--lvl2 {
+    background: var(--menu_2G);
+    color: var(--menu_2Txt);
+    border-color: var(--menu_2Border);
+}
+
+.tg__left_menu_item--lvl2:hover {
+    background: var(--menu_2BgHover);
+    color: var(--menu_2Txt);
+}
+
+.tg__left_menu_item--lvl2 .tg__left_menu_item_text {
+    color: var(--menu_2Txt);
+}
+
+.tg__left_menu_item--lvl2 .tg-ico-arrow {
+    color: var(--menu_2Txt3);
+}
+
+/* africanView */
+.africanView .SBhead {
+    background: var(--headerG);
+    color: var(--headerTxt);
+}
+
+.africanView .gameContentTitle {
+    background: var(--bodyBg);
+    color: var(--bodyTxt);
+}
+
+.africanView .champCont {
+    background: var(--eventG);
+    color: var(--eventTxt);
+}
+
+.africanView .tg_left_tabs {
+    background: var(--subHeaderG);
+    color: var(--subHeaderTxt2);
+    border-bottom-color: var(--accentBg);
+}
+
+.africanView .tg_left_filter_tabs_active {
+    color: var(--accentBg);
+}
+
+/* - - - - Left Menu Level 3 - - - - */
+.tg__left_menu_item--lvl3,
+.tg__list_row_heading {
+    background: var(--menu_3G);
+    color: var(--menu_3Txt);
+    border-color: var(--menu_3Border);
+}
+
+.live_menu_item_left_header {
+    background: var(--subHeaderG);
+    color: var(--subHeaderTxt2);
+}
+
+.live_menu_item_left {
+    border-color: var(--menu_3Border);
+}
+
+.tg__left_menu_item--lvl3 .tg__left_menu_item_text {
+    color: var(--menu_3Txt);
+}
+
+.tg__left_menu_item--lvl3 .tg-ico-arrow {
+    color: var(--menu_3Txt3);
+}
+
+.dg_game_tabs {
+    padding: 0 var(--headerRadius);
+}
+
+/* - - - - Passive Tab - - - - */
+.tab_selector {
+    background: var(--tabG);
+    color: var(--tabTxt2);
+    border-top-left-radius: var(--tabRadius);
+    border-top-right-radius: var(--tabRadius);
+}
+
+.sportLeftPane .tab_selector {
+    background: var(--tabG);
+    color: var(--tabTxt);
+}
+
+.tg__coupon_tabs_cont {
+    padding-top: 2px;
+    margin-bottom: 2px;
+}
+
+.tab_cupon {
+    background: var(--tabG);
+    color: var(--tabTxt2);
+}
+
+.tab_cupon.tab_selected,
+.tab_cupon:hover {
+    background: var(--tabActiveG);
+    color: var(--tabActiveTxt);
+}
+
+/* - - - - Active Tab - - - - */
+.tab_selector.tab_selector_active,
+.tab_selector:hover,
+.tg_subheader_btn,
+.tg__live_filter_item {
+    background: var(--tabActiveG);
+    color: var(--tabActiveTxt);
+}
+
+.tg__results_header .tg__dropdown_value,
+.tg__calendar_header .tg__dropdown_value,
+.tg__results .tg_input {
+    background: var(--filterG);
+    color: var(--filterTxt);
+    border-radius: var(--filterRadius);
+}
+
+.tg__results .tg_input::placeholder {
+    color: var(--filterTxt2);
+}
+
+.tg__results .tg_input:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: var(--filterTxt2);
+}
+
+.tg__results .tg_input::-ms-input-placeholder { /* Microsoft Edge */
+    color: var(--filterTxt2);
+}
+
+.tg__results_header .tg__dropdown_content,
+.tg__calendar_header .tg__dropdown_content {
+    background: var(--filterBg);
+}
+
+.tg__results_header .tg__dropdown__item,
+.tg__calendar_header .tg__dropdown__item {
+    background: var(--filterBg2);
+    color: var(--filterTxt2);
+}
+
+.tg__results_header .tg__dropdown__item:hover,
+.tg__calendar_header .tg__dropdown__item:hover {
+    background: var(--filterBg2Hover);
+    color: var(--filterTxt);
+}
+
+.tg__live_filter_item.checked {
+    background: var(--tabG);
+    color: var(--tabTxt);
+}
+
+.tg__dropdown_control {
+    background: var(--inputG);
+    color: var(--inputTxt);
+    border-radius: var(--inputRadius);
+}
+
+.sportLeftPane .tab_selector.tab_selector_active,
+.tg__step_slider,
+.liveFilterContainer {
+    background: var(--tabActiveG);
+    color: var(--tabActiveTxt);
+}
+
+.tg__step_slider {
+    border-color: var(--menu_1Border);
+}
+
+/* - - - - Header - - - - */
+.gameContentTitle,
+.tg__result_group_heading {
+    background: var(--headerG);
+    color: var(--headerTxt);
+    border-top-left-radius: var(--headerRadius);
+    border-top-right-radius: var(--headerRadius);
+}
+
+.gameContentTitle .tg-ico-arrow {
+    color: var(--headerTxt3);
+}
+
+/* africanView */
+.africanView .tg--home2__stakeItem {
+    background: var(--tabG);
+    color: var(--tabTxt);
+}
+
+.africanView .champCont {
+    margin: 0px;
+}
+
+.tg--selected_prem_game {
+    border: 0;
+}
+
+.tg__list_row {
+    margin: 0;
+    border-top: 1px solid var(--bodyBg);
+}
+
+.ds--myacc-history_list .tg_bet_history_order_row {
+    background: var(--menu_1Bg);
+    color: var(--menu_1Txt2);
+    border-color: var(--menu_1Border);
+}
+
+.ds--myacc-history_list .tg_bet_history_order_row:nth-child(Odd) {
+    background: var(--menu_1BgHover);
+}
+
+.tg_bet_history_order_row .tg-clr-akcent {
+    color: var(--accentBg);
+}
+
+.tg_bet_history_order_row_sub {
+    background: var(--menu_3Bg);
+    color: var(--menu_3Txt2);
+    border-color: var(--menu_3Border);
+}
+
+.tg_bet_history_order_row_sub:nth-child(Odd) {
+    background: var(--menu_3BgHover);
+}
+
+/* - - - - SubHeader - - - - */
+.tg__calendar_header,
+.tg__calendar_cont,
+.tg__res_rus,
+.overViewDataDanel .tg__btn_arrow {
+    background: var(--subHeaderG);
+    color: var(--subHeaderTxt);
+    border-top-left-radius: var(--subHeaderRadius);
+    border-top-right-radius: var(--subHeaderRadius);
+}
+
+.tg__results_header {
+    background: var(--filterBg2);
+    color: var(--filterTxt);
+}
+
+.tg__home_game_heading {
+    background: var(--subHeaderG);
+    color: var(--subHeaderTxt2);
+}
+
+/* - - - - Single Game - - - - */
+.tg__one_game,
+.tg__match_item_stake,
+.tg__banner,
+.prematch_event_odds_container,
+.tg__multi_game,
+.live_menu_item_left .tg--left_live_odds,
+.tg__calendar_item,
+.tg_onegame_chb,
+.news_slider .oddsContainer {
+    background: var(--eventG);
+    color: var(--eventTxt2);
+}
+
+.dg1 {
+    background: var(--eventG);
+    color: var(--eventTxt2);
+    margin-bottom: 0;
+    border-bottom: 1px solid var(--eventBorder);
+}
+
+.tg__one_game:hover {
+    background: var(--eventBgHover);
+    color: var(--eventTxt2);
+}
+
+/*popups*/
+.tg_popup_body_static,
+.tg__modal,
+.tg__modal_big,
+.tg__cashout--wrapper {
+    background: var(--modalBg);
+    color: var(--modalTxt);
+    border-radius: var(--modalRadius);
+}
+
+.tg__modal_header,
+.tg__modal_heading,
+.tg__cashout--header,
+.tg__modal_header-sm {
+    background: var(--modalBg2);
+    color: var(--modalTxt);
+    border-top-left-radius: var(--modalRadius);
+    border-top-right-radius: var(--modalRadius);
+}
+
+.tg__custom-range-slider {
+    color: var(--accentBg);
+}
+
+.tg--close {
+    background: var(--bodyBg);
+    color: var(--bodyTxt);
+}
+
+.tg__modal .tg__dropdown_control,
+.tg_popup_body_static .tg__dropdown_control,
+.tg__modal .tg_input,
+.tg_popup_body_static .tg_input,
+.tg__cashout--wrapper .tg_input {
+    background: var(--inputSecondaryG);
+    color: var(--inputSecondaryTxt);
+    border-radius: var(--inputSecondaryRadius);
+}
+
+.ui--dominant-content {
+    border-color: var(--dominantBg2);
+    background: var(--dominantBg);
+    color: var(--dominantTxt);
+}
+
+.ui--dominant-header {
+    border: 0;
+    background: var(--dominantG);
+    color: var(--dominantTxt);
+}
+
+.ui-state-default,
+.ui--dominant-content .ui-state-default,
+.ui--dominant-header .ui-state-default,
+.ui-datepicker-title select,
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-nex {
+    border: 0;
+    background: var(--bodyBg);
+    color: var(--bodyTxt);
+}
+
+.ui-state-highlight,
+.ui--dominant-content .ui-state-highlight,
+.ui--dominant-header .ui-state-highlight,
+.ui-state-active,
+.ui--dominant-content .ui-state-active,
+.ui--dominant-header .ui-state-active,
+.ui-datepicker-calendar .ui-state-hover {
+    background: var(--accentG);
+    color: var(--accentTxt);
+}
+
+.tg__btn-text {
+    background: var(--inputSecondaryG);
+    color: var(--inputSecondaryTxt);
+}
+
+.tg__one_game_team {
+    color: var(--eventTxt);
+}
+
+.tg__one_game_col,
+.tg__one_game_icons,
+.tg__one_game .maIcons {
+    color: var(--eventTxt2);
+}
+
+.tg__one_game .tg__home_game_time {
+    color: var(--eventTxt3);
+}
+
+.posCombItem {
+    background: var(--eventBg);
+    color: var(--eventTxt);
+}
+
+/* - - - - Odd - - - - */
+.l_od,
+.l_od_empty {
+    background: var(--oddG);
+    color: var(--oddTxt);
+    border: 1px solid var(--oddBorder);
+    border-radius: var(--oddRadius);
+}
+
+/* - - - - Show More - - - - */
+.tg__more {
+    background: var(--showMoreG);
+    color: var(--showMoreTxt);
+    border-radius: var(--showMoreRadius);
+    border: 1px solid var(--showMoreBorder);
+}
+
+.tg__more:hover {
+    background: var(--showMoreBg2);
+    color: var(--showMoreTxt);
+    border-radius: var(--showMoreRadius);
+    border-color: var(--showMoreBorder);
+}
+
+/* - - - - Betslip Header - - - - */
+.tg__block_header {
+    background: var(--dominantBg2);
+    color: var(--dominantTxt);
+}
+
+/* - - - - Accent - - - - */
+.liveGameSelected .liveSportNamesContainer,
+.tg_widget_text_akcent {
+    color: var(--accentBg);
+}
+
+.left_menu_line_active .tg__left_menu_item_text {
+    color: var(--menu_3Accent);
+}
+
+
+.tg_sidebar_text_akcent {
+    color: var(--menu_1Accent);
+}
+
+.tg_sidebar_bg_2 .tg_sidebar_text_akcent {
+    color: var(--menu_2Accent);
+}
+
+.tg_sidebar_bg_3 .tg_sidebar_text_akcent {
+    color: var(--menu_3Accent);
+}
+
+.liveGameSelected .tg__left_menu_item--lvl3 .liveSportNamesContainer {
+    color: var(--menu_3Accent);
+}
+
+.tg-ico-cheque_redact.tg-clr-akcent2 {
+    color: var(--accentBg);
+}
+
+.tg_popup_body_static .tab_selector_active {
+    border-bottom: 2px solid var(--accentBg);
+}
+
+.tg-ico-fav.active,
+.tg-ico-fav--active {
+    color: var(--accentBg);
+}
+
+.tg__fix_btn.checked, .tg__fix_btn:hover {
+    color: var(--accentBg);
+}
+
+/* - - - - Brand - - - - */
+.l_od:hover,
+.l_od.selectedOdd {
+    background: var(--oddActiveG);
+    color: var(--oddActiveTxt);
+    border-radius: var(--oddActiveRadius);
+    border-color: var(--oddActiveBorder);
+}
+
+.tg__btn-ternary {
+    background: var(--buttonG);
+    color: var(--buttonTxt);
+}
+
+.tabSelectorHeading {
+    color: var(--bodyAccent);
+}
+
+/* africanView */
+.africanView .tg--home2__stakeItem:hover,
+.africanView .active .tg--home2__stakeItem,
+.africanView .tg--home2__stakeItem.stItem_active {
+    background: var(--bodyAccent);
+    color: var(--bodyAccentTxt);
+}
+
+/* - - - - BetSlip - - - - */
+.tg__coupon .tg--coupon-bg {
+    background: var(--betSlipBg);
+    color: var(--betSlipTxt2)
+}
+
+.tg--coupon-bg {
+    background: var(--dominantBg);
+    color: var(--dominantTxt);
+}
+
+#info_panel_block .selectorWrapper {
+    background: var(--dominantBg2);
+    color: var(--dominantTxt);
+}
+
+.tg__info_panel .selectorWrapper {
+    background: var(--betSlipBg2);
+    color: var(--betSlipTxt);
+}
+
+.stake_item_panel {
+    background: var(--betSlipStakeG);
+    color: var(--betSlipStakeTxt2);
+    border-color: var(--betSlipBorder);
+    border-top: 0;
+}
+
+.coupon_sport_name_container {
+    color: var(--betSlipStakeTxt);
+}
+
+.tg__btn.tg__btn-coupon {
+    background: var(--betSlipButtonG);
+    color: var(--betSlipButtonTxt);
+    border-radius: var(--betSlipButtonRadius);
+}
+
+.tg--cashout-body, .tg__cashout_popup, .booking_number, .betchecker, #bookingBody {
+    background: var(--modalG);
+    color: var(--modalTxt);
+}
+
+.bet_generator_wrapper, .scout_panel, #betcheckerWrapper, .player_panel {
+    background-color: var(--dominantBg);
+    color: var(--dominantTxt);
+}
+
+.tg_coin {
+    background: var(--accentBg);
+    color: var(--accentTxt);
+}
+
+.tg__match_item_btn {
+    background: var(--showMoreG);
+    color: var(--showMoreTxt);
+}
+
+.tg--selected_prem_game .tg__match_item_btn {
+    background: var(--accentG);
+    color: var(--accentTxt);
+}
+
+.tg__modal_book_bet .tg__border--color-akcent {
+    border-color: var(--accentBg);
+}
+
+.tg__modal_book_bet .tg-clr-akcent {
+    color: var(--accentBg);
+}
+
+/* - - - - DropDown - - - - */
+.tg__dropdown_content {
+    background: var(--inputSecondaryBorder);
+}
+
+.tg__input,
+.tg__info_panel .tg__dropdown_control,
+.tg__dropdown__item,
+.sportRightPane .tg_input {
+    background: var(--inputSecondaryG);
+    color: var(--inputSecondaryTxt);
+}
+
+.tg__dropdown__item:hover {
+    background: var(--inputSecondaryBg2);
+}
+
+.sportRightPane .tg_input::placeholder {
+    color: var(--inputSecondaryTxt2);
+}
+
+.tg__search_cont .tg__input {
+    background: var(--inputG);
+    color: var(--inputTxt);
+}
+
+.sportRightPaneRow .tg_subheader_btn {
+    background: var(--inputG);
+    color: var(--inputTxt);
+    border-radius: var(--inputRadius);
+}
+
+.tg__search_cont .tg__input::placeholder {
+    color: var(--inputTxt2);
+}
+
+.tg__search_cont .tg__input-ico {
+    color: var(--inputTxt);
+}
+
+.tg__info_panel .tg_input_coupon_amount {
+    background: var(--betSlipInputG);
+    color: var(--betSlipInputTxt);
+}
+
+/* - - - - Input - - - - */
+.tg__input {
+    background: var(--inputG);
+    color: var(--inputTxt);
+    border-radius: var(--inputRadius);
+}
+
+.tg__btn {
+    border-radius: var(--buttonRadius);
+}
+
+/* - - - - Accent - - - - */
+.liveGameSelected .liveSportNamesContainer,
+.tg_widget_text_akcent,
+.tg__coupon_square,
+.tg__score_box,
+.tg__btn-coupon:hover {
+    color: var(--accentBg);
+}
+
+.tg_score.tg-clr-akcent2 {
+    color: var(--accentBg);
+}
+
+.tg__coupon_square {
+    background: var(--betSlipInputG);
+}
+
+.tg__coupon_factor {
+    background: var(--betSlipButtonBg2);
+    color: var(--betSlipButtonTxt)
+}
+
+.es__stepped_slider_cont {
+    background: var(--subHeaderG);
+    color: var(--subHeaderTxt);
+}
+
+.tg__badge_live {
+    background-color: var(--dominantBg);
+    color: var(--dominantTxt);
+}
+
+.tg-ico-date {
+    color: var(--filterTxt);
+}
+
+.tg__switch input:checked + .tg__switch_ico {
+    background: var(--accentBg);
+}
+
+/* Colors we can't change */
+.tab_selector_active .tg__badge_live {
+    background-color: #CB0000;
+    color: #fff;
+}
+
+.tg__switch .tg__switch_ico {
+    background-color: #999;
+}
+
+.tg__switch .tg__switch_ico:before {
+    background-color: #fff;
+}
+
+
+
+.tg--coupon-container.tg--coupon-single-tab .tab_selector_active {
+    background: transparent !important;
+    color: var(--modalTxt);
+}
+
+
+
+
+.paperView .es__home_bet_header {
+    background: var(--headerG);
+    color: var(--headerTxt);
+}
+/*paper view odds*/
+.paperView .component_odd_empty,
+.paperView .component_odd,
+.paperView .component_odd.selectedOdd {
+    background: var(--oddG);
+    color: var(--oddTxt);
+}
+
+.paperView .component_odd:hover,
+.paperView .component_odd_empty:hover,
+.paperView .EUodds:hover,
+.paperView .EUodds.selectedOdd,
+.paperView .component_odd.selectedOdd {
+    background: var(--oddActiveG);
+    color: var(--oddActiveTxt);
+}
+
+.showC {
+    background: var(--menu_1G);
+    color: var(--menu_1Txt);
+}
+
+/*multi bet of the day skinning*/
+.tg__exp_of_day_header,
+.es__express_slider_arrow {
+    background-color: var(--dominantBg);
+    color: var(--dominantTxt2);
+}
+
+.es__express_slider_arrow:hover {
+    background-color: var(--dominantBg2);
+    color: var(--dominantTxt);
+}
+
+.tg__exp_of_day_one_game {
+    background-color: var(--eventG);
+    color: var(--eventTxt2);
+    border-bottom: 1px solid var(--eventBorder) !important;
+}
+
+.es__total_odd_container .tg-clr-secondary {
+    color: var(--eventTxt2);
+}
+
+.tg__exp_of_day_one_game .tg-ico,
+.digi-pv-multibets-event-name-container {
+    color: var(--eventTxt);
+}
+
+.es__express_day_odd {
+    border-color: var(--eventBorder);
+    color: var(--eventTxt2);
+}
+
+.es__bonus_odd_container,
+.es__express_day_coupon-button-container {
+    background-color: var(--eventBg2);
+    color: var(--eventTxt2);
+}
+
+.es__bonus_odd_container i,
+.es__express_day_odd--total {
+    color: var(--accentBg);
+}
+
+.es__express_day_coupon {
+    background-color: var(--eventBg);
+    color: var(--eventTxt2);
+}
+/*multi bet of the day skinning*/
+
+
+/* Inmutable styles */
+.tg__multiview_header,
+.tg-hero .sport_count,
+.tg__multiview_header .tg__one_game_team {
+    color: #ffffff;
+}
+
+/*scroll*/
+.digi_scroll_dragger {
+    background-color: var(--dominantBg3Hover);
+}
+
+/*specific tabs*/
+.tg_calendar_subtab_wrapper {
+    border-bottom: 6px solid var(--tabActiveBg);
+}
+
+.tg--calendar-tab {
+    border-bottom: 6px solid var(--tabActiveBg);
+}
+
+.live_calendar .body_panel {
+    height: calc((100%) - 92px);
+}
+
+/*scroll*/
+.digi_scroll_dragger {
+    background-color: var(--dominantBg3Hover);
+}
+
+/*stakes event list*/
+.tg__match_header {
+    background: var(--headerG);
+    color: var(--headerTxt2);
+    border-bottom: 1px solid var(--headerBorder);
+    border-top-left-radius: var(--headerRadius);
+    border-top-right-radius: var(--headerRadius);
+}
+
+.tg__prematch_header {
+    background: var(--headerG);
+    color: var(--headerTxt2);
+    border-radius: var(--headerRadius);
+}
+
+.tg__match_header .tg__teams {
+    color: var(--headerTxt);
+}
+
+.tg__multibet_heading {
+    border-bottom: 1px solid var(--subHeaderBorder);
+}
+
+.tg__live_list_header {
+    background: var(--headerG);
+    color: var(--headerTxt2);
+}
+
+.tg__live_list_header .sport_type {
+    color: var(--headerTxt);
+}
+
+.overviewEventBody {
+    background: var(--eventG);
+    color: var(--eventTxt2);
+}
+
+.tg__score_box {
+    background: var(--eventBg2);
+    color: var(--accentBg);
+}
+
+.overviewEventBody .tg_team_name {
+    color: var(--eventTxt);
+}
+
+.globalInactiveState {
+    background: var(--bodyRGBA);
+}
+
+
+
+/*Search page*/
+.sr-odd {
+    border: 1px solid var(--oddBorder);
+    border-radius: var(--oddRadius);
+}
+
+.sr-odd.selected,
+.sr-odd:hover {
+    border-radius: var(--oddActiveRadius);
+    border: 1px solid var(--oddActiveBorder);
+}

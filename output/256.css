@@ -288,6 +288,8 @@
 --tooltipAccentTxt:rgba(0, 0, 0, 0.9);
 --tooltipBorder:#dedede;
 --tooltipG:#e6e6e6;
+--menuItemActiveTxt:#999999;
+--menuItemTxt:#2C3033;
 }/*
 */
   
@@ -376,6 +378,8 @@
     --borderRadius: 2px;
     --inputBirderRadius:  2px;
     --bottomBirderRadius:  2px;
+    --menuItemActiveTxt:#999999;
+    --menuItemTxt:#2C3033;
 
 }
 /*---*/
@@ -547,16 +551,6 @@
     -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
     box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
 }
-
-.tg__submenu__item,
-.tg__banner__date {
-    color: #999999;
-}
-
-    .tg__submenu__item.active,
-    .tg__submenu__item:hover {
-        color: #2C3033;
-    }
 
 .tg_team_name,
 .tg__open_event_img .title {
@@ -860,7 +854,7 @@
 }
 
 .tg__tournament_ico_switch .tg__switch_text:before {
-    content: 'Ã¿';
+    content: 'ÿ';
     background: none;
     font-family: TotoFont;
     font-size: 38px;

@@ -18,17 +18,15 @@ module.exports = plugin = (opts = {}) => {
         ? matchedSelectorMessage.matchedSelectors
         : [];
 
-
-        if(!matchedRoots){
-          return
-        }
         matchedRoots.forEach((rule) => {
-        if(rule.type = "selector"){
           matchedSelectors.forEach((selector) => {
-            // rule.append({ prop: selector.prop, value: selector.val });
+            rule.rule.append({ prop: selector.prop, value: selector.val });
           })
-        }
       });
+
+      matchedSelectors.forEach((rule) => {
+        rule.rule.remove();
+      })
     },
 
     RootExit(root, { result }) {
