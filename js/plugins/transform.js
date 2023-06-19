@@ -3,12 +3,11 @@ module.exports = plugin = (opts = {}) => {
     postcssPlugin: "transformer",
     Once(root, { result }) {
       const matchedRulesMessage = result.messages.find(
-        (message) =>
-          message.type === "root" && message.plugin === "analizer"
+        (message) => message.type === "root" && message.plugin === "analyzer"
       );
       const matchedSelectorMessage = result.messages.find(
         (message) =>
-          message.type === "selector" && message.plugin === "analizer"
+          message.type === "selector" && message.plugin === "analyzer"
       );
 
       const matchedRoots = matchedRulesMessage
@@ -18,15 +17,15 @@ module.exports = plugin = (opts = {}) => {
         ? matchedSelectorMessage.matchedSelectors
         : [];
 
-        matchedRoots.forEach((rule) => {
-          matchedSelectors.forEach((selector) => {
-            rule.rule.append({ prop: selector.prop, value: selector.val });
-          })
+      matchedRoots.forEach((rule) => {
+        matchedSelectors.forEach((selector) => {
+          rule.rule.append({ prop: selector.prop, value: selector.val });
+        });
       });
 
       matchedSelectors.forEach((rule) => {
         rule.rule.remove();
-      })
+      });
     },
 
     RootExit(root, { result }) {

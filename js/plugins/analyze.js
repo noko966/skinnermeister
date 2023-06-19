@@ -6,7 +6,7 @@ module.exports = plugin = (opts = {}) => {
   const matchedRoots = [];
   const matchedSelectors = [];
 
-  let variables = [
+  const variables = [
     {
       selector: "tg__submenu__item:hover",
       count: 0,
@@ -38,7 +38,7 @@ module.exports = plugin = (opts = {}) => {
   });
 
   return {
-    postcssPlugin: "analizer",
+    postcssPlugin: "analyzer",
     Once(root, { result }) {
       root.walkRules((rule) => {
         const individualSelectors = rule.selector.split(",");
@@ -49,13 +49,14 @@ module.exports = plugin = (opts = {}) => {
           // Loop through each variable and check if the selector matches exactly
           variables.forEach((variable) => {
             if (variable.selector.test(trimmedSelector)) {
+              console.log("~~ DEBUG: ", variable.selector, trimmedSelector);
               variable.count++;
               rule.walkDecls("color", (decl) => {
                 variable.color = decl.value;
                 matchedSelectors.push({
                   prop: variable.txtName,
                   val: decl.value,
-                  rule: rule
+                  rule: rule,
                 });
               });
             }
@@ -79,7 +80,7 @@ module.exports = plugin = (opts = {}) => {
 
       result.messages.push({
         type: "custom",
-        plugin: "analizer",
+        plugin: "analyzer",
         text: `${opts.partnerId}----------------
 ------------
 contains ${data.rootSelectors} root selectors
@@ -94,12 +95,12 @@ ${variables[1].selector} spotted ${variables[1].count} times | ${variables[1].co
 
       result.messages.push({
         type: "root",
-        plugin: "analizer",
+        plugin: "analyzer",
         matchedRoots: matchedRoots,
       });
       result.messages.push({
         type: "selector",
-        plugin: "analizer",
+        plugin: "analyzer",
         matchedSelectors: matchedSelectors,
       });
     },
