@@ -19,6 +19,9 @@ module.exports = plugin = (partnerID, opts = {}) => {
 
       matchedRoots.forEach((rule) => {
         matchedSelectors.forEach((selector) => {
+          if (selector.initialVariable === selector.val) {
+            return;
+          }
           rule.rule.append({ prop: selector.prop, value: selector.val });
         });
       });
@@ -29,7 +32,7 @@ module.exports = plugin = (partnerID, opts = {}) => {
     },
 
     RootExit(root, { result }) {
-      console.log(`transformer has processed ${partnerID} css`);
+      // console.log(`transformer has processed ${opts.partnerId} css`);
     },
   };
 };
