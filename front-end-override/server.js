@@ -6,11 +6,9 @@ const cors = require("cors");
 const dirPath = path.join(__dirname, "../", "output");
 
 const app = express();
+
 // CORS middleware
 app.use(cors());
-
-// serve static files from 'output' directory
-app.use("/partners", express.static(dirPath));
 
 function fileList(dirPath) {
   return new Promise((resolve, reject) => {
@@ -24,6 +22,9 @@ function fileList(dirPath) {
     });
   });
 }
+
+// serve static files from 'output' directory
+app.use("/partners", express.static(dirPath));
 
 app.get("/directories", async (req, res) => {
   console.log(dirPath);
