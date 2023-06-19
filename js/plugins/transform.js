@@ -1,13 +1,13 @@
-module.exports = plugin = (opts = {}) => {
+module.exports = plugin = (partnerID, opts = {}) => {
   return {
     postcssPlugin: "transformer",
     Once(root, { result }) {
       const matchedRulesMessage = result.messages.find(
-        (message) => message.type === "root" && message.plugin === "analizer"
+        (message) => message.type === "root" && message.plugin === "analyzer"
       );
       const matchedSelectorMessage = result.messages.find(
         (message) =>
-          message.type === "selector" && message.plugin === "analizer"
+          message.type === "selector" && message.plugin === "analyzer"
       );
 
       const matchedRoots = matchedRulesMessage

@@ -1,5 +1,5 @@
 new log file
-0----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 0 dark theme
@@ -8,7 +8,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 0 times | 
 ..................................
 
-1----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -17,7 +17,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #979797
 ..................................
 
-100----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -26,7 +26,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #fff
 ..................................
 
-105----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -35,7 +35,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-107----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 2 dark theme
@@ -44,7 +44,7 @@ contains 2 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-109----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -53,7 +53,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-11----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -62,7 +62,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #fff
 ..................................
 
-110----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -71,7 +71,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-1102420----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -80,7 +80,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-113----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -89,7 +89,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #979797
 ..................................
 
-114----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -98,7 +98,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #252323
 ..................................
 
-117----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -107,7 +107,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #696969
 ..................................
 
-118----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -116,7 +116,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #fff
 ..................................
 
-119----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -125,7 +125,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #787878
 ..................................
 
-120----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -134,7 +134,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #696969
 ..................................
 
-121----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -143,7 +143,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #878787
 ..................................
 
-122----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -152,7 +152,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #fffefd
 ..................................
 
-125----------------
+[object Object]----------------
 ------------
 contains 2 root selectors
 contains 1 dark theme
@@ -161,7 +161,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #979797
 ..................................
 
-126----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -170,7 +170,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #585D6D
 ..................................
 
-127----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -179,7 +179,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-128----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -188,7 +188,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-130----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -197,7 +197,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-131----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -206,7 +206,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #4d5059
 ..................................
 
-132----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -215,7 +215,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #979797
 ..................................
 
-134----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -224,7 +224,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-136----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -233,7 +233,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #9299A2
 ..................................
 
-137----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -242,7 +242,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #b7b7b7
 ..................................
 
-139----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -251,7 +251,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-14----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -260,7 +260,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #696969
 ..................................
 
-143----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -269,7 +269,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-144----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -278,7 +278,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-145----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -287,7 +287,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-146----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -296,7 +296,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-147----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -305,7 +305,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-148----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -314,7 +314,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #ccc
 ..................................
 
-151----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -323,7 +323,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-157----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -332,7 +332,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-163----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -341,7 +341,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-164----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -350,7 +350,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #B1AFAF
 ..................................
 
-165----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -359,7 +359,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-166----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -368,7 +368,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #FFFFFF
 ..................................
 
-167----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -377,7 +377,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-169----------------
+[object Object]----------------
 ------------
 contains 2 root selectors
 contains 1 dark theme
@@ -386,7 +386,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #979797
 ..................................
 
-170----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -395,7 +395,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-173----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -404,7 +404,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #DDDDDD
 ..................................
 
-179----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -413,7 +413,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-181----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -422,7 +422,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-182----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -431,7 +431,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-183----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -440,7 +440,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-185----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -449,7 +449,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #CCCCCC
 ..................................
 
-188----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -458,7 +458,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #899aaf
 ..................................
 
-189----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -467,7 +467,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-190----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -476,7 +476,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #979797
 ..................................
 
-191----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -485,7 +485,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #000
 ..................................
 
-193----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -494,7 +494,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #666
 ..................................
 
-197----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -503,7 +503,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-198----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -512,7 +512,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-200----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -521,7 +521,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-201----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -530,7 +530,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-205----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -539,16 +539,16 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-206----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
 /tg__submenu__item:hover$/ spotted 1 times | #000
-/tg__submenu__item$/ spotted 1 times | #B3B3B3
+/tg__submenu__item$/ spotted 2 times | #B3B3B3
 ..................................
 
-209----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -557,7 +557,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #899aaf
 ..................................
 
-210----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -566,7 +566,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-211----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -575,7 +575,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #707070
 ..................................
 
-212----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -584,7 +584,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #BFBFBF
 ..................................
 
-213----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -593,7 +593,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #ccc
 ..................................
 
-215----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -602,7 +602,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #ccc
 ..................................
 
-217----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -611,7 +611,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #333
 ..................................
 
-221----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -620,7 +620,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-222----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -629,7 +629,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #94A0AC
 ..................................
 
-225----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -638,7 +638,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-226----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -647,7 +647,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-227----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -656,7 +656,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-228----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -665,7 +665,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-23----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -674,7 +674,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #b7b7b7
 ..................................
 
-230----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -683,7 +683,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #75848E
 ..................................
 
-231----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -692,7 +692,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-233----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -701,7 +701,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-234----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -710,7 +710,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-235----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -719,7 +719,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #fff
 ..................................
 
-236----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -728,7 +728,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-237----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -737,7 +737,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-238----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -746,7 +746,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #ccc
 ..................................
 
-24----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -755,7 +755,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 0 times | 
 ..................................
 
-240----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -764,7 +764,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-243----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -773,7 +773,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-245----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -782,7 +782,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #ccc
 ..................................
 
-247----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -791,7 +791,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-248----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -800,7 +800,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-249----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -809,7 +809,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-250----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -818,7 +818,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-252----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -827,7 +827,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-253----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -836,7 +836,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-255----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -845,7 +845,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-256----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -854,7 +854,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-257----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -863,7 +863,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #707070
 ..................................
 
-258----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -872,7 +872,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-259----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -881,7 +881,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #899aaf
 ..................................
 
-260----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -890,7 +890,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-261----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -899,7 +899,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-262----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -908,7 +908,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #fff
 ..................................
 
-264----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -917,7 +917,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-265----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -926,7 +926,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #fff
 ..................................
 
-266----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -935,7 +935,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-267----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -944,7 +944,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-269----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -953,7 +953,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-271----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -962,7 +962,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-272----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -971,7 +971,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-273----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -980,7 +980,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-277----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -989,7 +989,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-279----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -998,7 +998,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-280----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1007,7 +1007,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-281----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1016,7 +1016,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-282----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1025,7 +1025,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-283----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1034,7 +1034,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #4D4D4D
 ..................................
 
-284----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1043,7 +1043,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-285----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1052,7 +1052,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #666
 ..................................
 
-286----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1061,7 +1061,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-29----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1070,7 +1070,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #b4b4b6
 ..................................
 
-290----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1079,7 +1079,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-291----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1088,7 +1088,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-294----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1097,7 +1097,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-295----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1106,7 +1106,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-297----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1115,7 +1115,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-299----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1124,7 +1124,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-300----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1135,9 +1135,9 @@ contains 0 light theme
 
 3000004--------------------------
 
-3000004 partner doesnot exist"
+3000004 partner doesn't exist"
 
-..................................3000012----------------
+..................................[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -1148,9 +1148,9 @@ contains 1 light theme
 
 3000013--------------------------
 
-3000013 partner doesnot exist"
+3000013 partner doesn't exist"
 
-..................................3000019----------------
+..................................[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1161,29 +1161,29 @@ contains 0 light theme
 
 3000023--------------------------
 
-3000023 partner doesnot exist"
+3000023 partner doesn't exist"
 
 ..................................3000052--------------------------
 
-3000052 partner doesnot exist"
+3000052 partner doesn't exist"
 
 ..................................3000056--------------------------
 
-3000056 partner doesnot exist"
+3000056 partner doesn't exist"
 
 ..................................3000057--------------------------
 
-3000057 partner doesnot exist"
+3000057 partner doesn't exist"
 
 ..................................3000060--------------------------
 
-3000060 partner doesnot exist"
+3000060 partner doesn't exist"
 
 ..................................3000061--------------------------
 
-3000061 partner doesnot exist"
+3000061 partner doesn't exist"
 
-..................................3000066----------------
+..................................[object Object]----------------
 ------------
 contains 0 root selectors
 contains 0 dark theme
@@ -1192,7 +1192,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 0 times | 
 ..................................
 
-3000067----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1201,7 +1201,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-301----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1210,7 +1210,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-302----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1219,7 +1219,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-303----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -1228,7 +1228,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-304----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1237,7 +1237,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-305----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -1246,7 +1246,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-307----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1255,7 +1255,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-308----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1264,7 +1264,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-309----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1273,7 +1273,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #B3B3B3
 ..................................
 
-310----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1282,7 +1282,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-311----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1291,7 +1291,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-312----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1300,7 +1300,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-313----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1309,7 +1309,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #666666
 ..................................
 
-314----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1318,7 +1318,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-315----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1327,7 +1327,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-316----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1336,7 +1336,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-317----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1345,7 +1345,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-318----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1354,7 +1354,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #000
 ..................................
 
-319----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1363,7 +1363,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-321----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1372,7 +1372,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-322----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1381,7 +1381,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-323----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1390,7 +1390,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #899aaf
 ..................................
 
-324----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1399,7 +1399,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-325----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1408,7 +1408,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-326----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -1417,7 +1417,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-327----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1426,7 +1426,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-328----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1435,7 +1435,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-329----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1444,34 +1444,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-330----------------
-------------
-contains 0 root selectors
-contains 1 dark theme
-contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
-..................................
-
-331----------------
-------------
-contains 1 root selectors
-contains 1 dark theme
-contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
-..................................
-
-332----------------
-------------
-contains 1 root selectors
-contains 1 dark theme
-contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
-..................................
-
-333----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -1480,7 +1453,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-334----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1489,7 +1462,34 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-335----------------
+[object Object]----------------
+------------
+contains 1 root selectors
+contains 1 dark theme
+contains 0 light theme
+/tg__submenu__item:hover$/ spotted 1 times | #fff
+/tg__submenu__item$/ spotted 1 times | #cccccc
+..................................
+
+[object Object]----------------
+------------
+contains 0 root selectors
+contains 1 dark theme
+contains 1 light theme
+/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
+/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+..................................
+
+[object Object]----------------
+------------
+contains 1 root selectors
+contains 1 dark theme
+contains 0 light theme
+/tg__submenu__item:hover$/ spotted 1 times | #fff
+/tg__submenu__item$/ spotted 1 times | #cccccc
+..................................
+
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1498,7 +1498,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-336----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1507,7 +1507,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-337----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1516,7 +1516,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-340----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1525,7 +1525,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-341----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1534,7 +1534,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-342----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1543,7 +1543,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-343----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1552,7 +1552,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-344----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1561,7 +1561,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-346----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1570,7 +1570,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-350----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1579,7 +1579,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-355----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1588,7 +1588,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-357----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1597,7 +1597,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-358----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1606,7 +1606,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-359----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1615,7 +1615,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-360----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1624,7 +1624,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-362----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1635,9 +1635,9 @@ contains 0 light theme
 
 368--------------------------
 
-368 partner doesnot exist"
+368 partner doesn't exist"
 
-..................................369----------------
+..................................[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1646,7 +1646,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-38----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1655,7 +1655,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #666
 ..................................
 
-384----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1664,7 +1664,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-385----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1673,7 +1673,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-387----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1682,7 +1682,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-388----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1691,7 +1691,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-389----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -1700,7 +1700,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-390----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1709,7 +1709,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-391----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1718,7 +1718,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-392----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1727,7 +1727,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #333333
 ..................................
 
-393----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1736,7 +1736,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-394----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1745,7 +1745,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #333333
 ..................................
 
-395----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1754,7 +1754,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-396----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1763,7 +1763,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-397----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1772,7 +1772,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-398----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1781,7 +1781,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-399----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1790,7 +1790,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-40----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1799,7 +1799,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-400----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1808,7 +1808,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-401----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1817,7 +1817,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-402----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1826,7 +1826,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-403----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1835,7 +1835,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-404----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1846,9 +1846,9 @@ contains 0 light theme
 
 406--------------------------
 
-406 partner doesnot exist"
+406 partner doesn't exist"
 
-..................................407----------------
+..................................[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1857,7 +1857,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #cccccc
 ..................................
 
-409----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1866,7 +1866,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-41----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1875,7 +1875,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-410----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1884,7 +1884,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-412----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1893,7 +1893,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-413----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -1902,7 +1902,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-414----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1911,7 +1911,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-415----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1920,7 +1920,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-416----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1929,7 +1929,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-418----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1938,7 +1938,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-419----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1947,7 +1947,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-421----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1956,7 +1956,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-422----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1965,7 +1965,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-424----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1974,7 +1974,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt3)
 ..................................
 
-425----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -1983,7 +1983,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-427----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -1992,7 +1992,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-428----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2001,7 +2001,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-429----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2010,7 +2010,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt3)
 ..................................
 
-43----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2019,7 +2019,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #5a6872
 ..................................
 
-430----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2028,7 +2028,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt3)
 ..................................
 
-433----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2037,7 +2037,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-434----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2046,7 +2046,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #000
 ..................................
 
-435----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2055,7 +2055,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-436----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2064,7 +2064,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-438----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2073,7 +2073,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-439----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2082,7 +2082,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-440----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2091,7 +2091,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-441----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2100,7 +2100,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-444----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2109,7 +2109,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-446----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2118,7 +2118,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-447----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2127,7 +2127,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-449----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2136,7 +2136,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-45----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2145,7 +2145,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-451----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2154,7 +2154,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-452----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2163,7 +2163,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-453----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2172,7 +2172,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-455----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2181,7 +2181,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-456----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2190,7 +2190,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-457----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2199,7 +2199,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-458----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2208,7 +2208,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-459----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2217,7 +2217,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-46----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2226,7 +2226,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #686868
 ..................................
 
-461----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2235,7 +2235,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-462----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2244,7 +2244,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-463----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2253,7 +2253,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-464----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2262,7 +2262,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
 ..................................
 
-466----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2271,7 +2271,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-468----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2280,7 +2280,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-469----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2291,9 +2291,9 @@ contains 1 light theme
 
 472--------------------------
 
-472 partner doesnot exist"
+472 partner doesn't exist"
 
-..................................473----------------
+..................................[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2302,7 +2302,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-474----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2311,7 +2311,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-478----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2320,7 +2320,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-479----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2329,7 +2329,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-480----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2338,7 +2338,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-483----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2347,7 +2347,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-484----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2356,7 +2356,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-486----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2365,7 +2365,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-488----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2374,7 +2374,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-490----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2383,7 +2383,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-496----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2392,7 +2392,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-497----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2401,7 +2401,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-498----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2410,7 +2410,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-499----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2419,7 +2419,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-500----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2428,7 +2428,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-502----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2437,7 +2437,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-504----------------
+[object Object]----------------
 ------------
 contains 4 root selectors
 contains 1 dark theme
@@ -2446,7 +2446,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-506----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2455,7 +2455,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-507----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2464,7 +2464,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-509----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2473,7 +2473,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-510----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2482,7 +2482,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-513----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2491,7 +2491,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-514----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2500,7 +2500,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-515----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2509,7 +2509,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-516----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2518,7 +2518,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-518----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2527,7 +2527,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-519----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2536,7 +2536,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-524----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2545,7 +2545,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-525----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2554,7 +2554,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-526----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2563,7 +2563,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-527----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2572,7 +2572,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-528----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 0 dark theme
@@ -2581,7 +2581,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-53----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2590,7 +2590,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-532----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 0 dark theme
@@ -2599,7 +2599,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-533----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 0 dark theme
@@ -2608,7 +2608,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-534----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 0 dark theme
@@ -2617,7 +2617,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-54----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2626,7 +2626,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #484848
 ..................................
 
-540----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2635,7 +2635,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-555----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2644,7 +2644,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-557----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2653,7 +2653,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-563----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2662,7 +2662,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-565----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2671,7 +2671,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-566----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2680,7 +2680,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-567----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2689,7 +2689,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-568----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2698,7 +2698,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-569----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2707,7 +2707,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-570----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2716,7 +2716,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-572----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2725,7 +2725,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-573----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2734,7 +2734,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-576----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2743,7 +2743,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-578----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2752,7 +2752,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-581----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2761,7 +2761,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-584----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2770,7 +2770,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-586----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2779,7 +2779,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-588----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2788,7 +2788,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-591----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2797,7 +2797,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-62----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2806,7 +2806,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999
 ..................................
 
-63----------------
+[object Object]----------------
 ------------
 contains 2 root selectors
 contains 1 dark theme
@@ -2815,7 +2815,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #979797
 ..................................
 
-64----------------
+[object Object]----------------
 ------------
 contains 2 root selectors
 contains 1 dark theme
@@ -2824,7 +2824,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #979797
 ..................................
 
-65----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2833,7 +2833,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 0 times | 
 ..................................
 
-69----------------
+[object Object]----------------
 ------------
 contains 0 root selectors
 contains 1 dark theme
@@ -2842,7 +2842,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-71----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2851,7 +2851,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 0 times | 
 ..................................
 
-72----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2860,7 +2860,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #696969
 ..................................
 
-76----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2869,7 +2869,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 0 times | 
 ..................................
 
-79----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2878,7 +2878,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #999999
 ..................................
 
-80----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2887,7 +2887,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #b8984d
 ..................................
 
-81----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2896,7 +2896,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #a3a8ae
 ..................................
 
-83----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2905,7 +2905,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 0 times | 
 ..................................
 
-89----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2914,7 +2914,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #fff
 ..................................
 
-9----------------
+[object Object]----------------
 ------------
 contains 2 root selectors
 contains 1 dark theme
@@ -2923,7 +2923,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #979797
 ..................................
 
-90----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2932,7 +2932,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
 ..................................
 
-94----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2941,7 +2941,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #899aaf
 ..................................
 
-95----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 0 dark theme
@@ -2950,7 +2950,7 @@ contains 1 light theme
 /tg__submenu__item$/ spotted 1 times | #A2A2A2
 ..................................
 
-97----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2959,7 +2959,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #bfc3c8
 ..................................
 
-98----------------
+[object Object]----------------
 ------------
 contains 1 root selectors
 contains 1 dark theme
@@ -2968,7 +2968,7 @@ contains 0 light theme
 /tg__submenu__item$/ spotted 1 times | #6d7d94
 ..................................
 
-99----------------
+[object Object]----------------
 ------------
 contains 2 root selectors
 contains 1 dark theme
