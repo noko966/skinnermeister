@@ -12,16 +12,18 @@ module.exports = plugin = (partnerID, opts = {}) => {
       count: 0,
       background: "",
       color: "",
-      bgName: "--menuItemBg",
-      txtName: "--menuItemTxt",
+      bgName: "--menuItemActiveBg",
+      txtName: "--menuItemActiveTxt",
+      initialVariableTxt: "var(--bodyTxt)",
     },
     {
       selector: "tg__submenu__item",
       count: 0,
       background: "",
       color: "",
-      bgName: "--menuItemActiveBg",
-      txtName: "--menuItemActiveTxt",
+      bgName: "--menuItemBg",
+      txtName: "--menuItemTxt",
+      initialVariableTxt: "var(--bodyTxt2)",
     },
   ];
 
@@ -49,12 +51,24 @@ module.exports = plugin = (partnerID, opts = {}) => {
           // Loop through each variable and check if the selector matches exactly
           variables.forEach((variable) => {
             if (variable.selector.test(trimmedSelector)) {
-              variable.count++;
               rule.walkDecls("color", (decl) => {
+                variable.count++;
                 variable.color = decl.value;
                 matchedSelectors.push({
                   prop: variable.txtName,
                   val: decl.value,
+                  initialVariable: variable.initialVariableTxt,
+                  rule: rule,
+                });
+              });
+
+              rule.walkDecls("background", (decl) => {
+                variable.count++;
+                variable.background = decl.value;
+                matchedSelectors.push({
+                  prop: variable.bgName,
+                  val: decl.value,
+                  initialVariable: variable.initialVariableTxt,
                   rule: rule,
                 });
               });

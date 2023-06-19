@@ -10,7 +10,9 @@ const app = express();
 app.use(cors());
 
 // serve static files from 'output' directory
-app.use("/partners", express.static(path.join(__dirname, "output")));
+app.use("/partners", express.static(path.join(__dirname, "../", "output")));
+
+console.log(path.join(__dirname, "../", "output"));
 
 function fileList(dirPath) {
   return new Promise((resolve, reject) => {
@@ -26,7 +28,7 @@ function fileList(dirPath) {
 }
 
 app.get("/directories", async (req, res) => {
-  const dirPath = path.join(__dirname, "output");
+  const dirPath = path.join(path.join(__dirname, "../", "output"));
   console.log(dirPath);
 
   try {
