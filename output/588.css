@@ -353,10 +353,6 @@
   --betSlipButtonRadius: 0px;
 
   --spritePositionX: 0px;
-
-  --menuItemActiveTxt: var(--bodyTxt2);
-
-  --menuItemTxt: var(--bodyTxt);
 }
 
 /* Alternative light! */
@@ -713,10 +709,6 @@
   --betSlipButtonRadius: 0px;
 
   --spritePositionX: 0px;
-
-  --menuItemActiveTxt: var(--bodyTxt2);
-
-  --menuItemTxt: var(--bodyTxt);
 }
 
 [class^="digi_tournament_"]:before,

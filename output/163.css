@@ -325,8 +325,6 @@
     --betSlipButtonTxt: rgba(255, 255, 255, 0.9);
     --betSlipButtonRadius: 0px;
     --spritePositionX: 0px;
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 
 :root,
@@ -619,8 +617,6 @@
 --tooltipAccentTxt:rgba(0, 0, 0, 0.9);
 --tooltipBorder:#dedede;
 --tooltipG:#e6e6e6;
---menuItemActiveTxt: var(--bodyTxt2);
---menuItemTxt: var(--bodyTxt);
 }/*
 */:root {
     --primaryBg: #FFFFFF;
@@ -772,8 +768,6 @@
     --widgetInputRadius: 0px;
     --widgetInputBorder: #FFFFFF;
     --spritePositionX: -24px;
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 
 

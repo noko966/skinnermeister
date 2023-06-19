@@ -290,13 +290,11 @@
 	--tooltipAccentTxt: #fff;
 	--tooltipBorder: #dedede;
 	--tooltipG: #e6e6e6;
+	--menuItemActiveTxt: #24ba9d;
+	--menuItemTxt: #fff;
 }/*
 */
 
-.dg_sport_navigation_wrapper {
-	--bodyTxt: #24ba9d;
-	--bodyTxt2: #fff;
-}
 /*PinUp Colors*/
 /*SKINNING START*****************************************************************************************************************/
 .tg__btn-primary {

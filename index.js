@@ -10,12 +10,7 @@ let loggedData = [];
 
 const logFilePath = path.resolve(__dirname, "logs", "log.txt");
 
-// const SPORT_PARTNER_SPATH = path.resolve(
-//   "D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners"
-// );
-
 // const SPORT_PARTNER_SPATH = path.resolve(__dirname, "starter");
-
 
 const SPORT_PARTNER_SPATH = path.resolve(
   "D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners"
@@ -24,7 +19,6 @@ const SPORT_PARTNER_SPATH = path.resolve(
 fse.emptyDir(path.resolve(__dirname, "output"))
 
 async function processFiles(files) {
-  
   for (const file of files) {
     await processFile(file);
   }
@@ -33,7 +27,7 @@ async function processFiles(files) {
 async function processFile(file) {
   const inputPath = path.resolve(SPORT_PARTNER_SPATH, file, "Styles", "web.css");
   const outputPath = path.resolve(__dirname, "output", `${file}.css`);
-  // await fs.appendFile(logFilePath, `\n-----------${file}-----------\n`, "utf8");
+
   try {
     const css = await fs.readFile(inputPath, "utf8");
     // Process the CSS with PostCSS
@@ -44,7 +38,7 @@ async function processFile(file) {
     await fs.writeFile(outputPath, modifiedCss, "utf8");
     for (const message of messages) {
       if (message.type === "selector") {
-        loggedData.push({
+        await loggedData.push({
           id: file,
           accurances: message.matchedSelectors.length,
           active: true,
@@ -55,8 +49,7 @@ async function processFile(file) {
       }
     }
 
-    console.log(`File ${file} processed successfully.`);
-
+    // console.log(`File ${file} processed successfully.`);
    
   } catch (error) {
     loggedData.push({
@@ -80,10 +73,22 @@ ${file} partner doesnot exist"
     const filesArray = await fs.readdir(SPORT_PARTNER_SPATH);
     await fs.writeFile(logFilePath, 'new log file\n', "utf8");
     await processFiles(filesArray);
+
   } catch (error) {
     console.error("Error reading directory:", error);
   }
 })().then(() => {
-  console.log(loggedData);
+  let empty = loggedData.filter(a => {
+    return !a.active
+  })
+  let active = loggedData.filter(a => {
+    return a.active
+  })
+  console.log(`${empty.length} partners has no css file`);
+  empty.forEach(p => {
+  console.log(p.id);
+
+  })
   console.log("done");
+  
 });

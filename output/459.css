@@ -323,8 +323,6 @@
     --betSlipButtonTxt: rgba(0, 0, 0, 0.9);
     --betSlipButtonRadius: 0px;
     --spritePositionX: 0px;
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 
 

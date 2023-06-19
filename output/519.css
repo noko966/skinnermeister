@@ -352,12 +352,6 @@
     
 
     --spritePositionX: 0px;
-    
-
-    --menuItemActiveTxt:  var(--bodyTxt2);
-    
-
-    --menuItemTxt:  var(--bodyTxt);
 }
 
 :root,
@@ -713,10 +707,6 @@
     --betSlipButtonRadius: 0px;
     
     --spritePositionX: 0px;
-    
-    --menuItemActiveTxt:  var(--bodyTxt2);
-    
-    --menuItemTxt:  var(--bodyTxt);
 }
 
 

@@ -324,20 +324,12 @@
     --betSlipButtonTxt: rgba(255, 255, 255, 0.9);
     --betSlipButtonRadius: 0px;
     --spritePositionX: 0px;
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 
 :root {
     --sidebar_start_width: 312px;
     --sidebar_end_width: 312px;
     --px_m: 8px;
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 
 .tg__main_left,
@@ -356,10 +348,6 @@
     :root {
         --sidebar_start_width: 312px;
         --sidebar_end_width: 312px;
-        --menuItemActiveTxt: var(--bodyTxt2);
-        --menuItemTxt: var(--bodyTxt);
-        --menuItemActiveTxt: var(--bodyTxt2);
-        --menuItemTxt: var(--bodyTxt);
     }
 }
 
@@ -367,10 +355,6 @@
     :root {
         --sidebar_start_width: 200px;
         --sidebar_end_width: 312px;
-        --menuItemActiveTxt: var(--bodyTxt2);
-        --menuItemTxt: var(--bodyTxt);
-        --menuItemActiveTxt: var(--bodyTxt2);
-        --menuItemTxt: var(--bodyTxt);
     }
 }
 
@@ -1640,10 +1624,6 @@ body,
     --betSlipButtonTxt: rgba(0, 0, 0, 0.9);
     --betSlipButtonRadius: 0px;
     --spritePositionX: 0px;
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 
 [class^='digi_tournament_']:before, [class*='digi_tournament_']:before {
@@ -2590,10 +2570,6 @@ body,
 /*Coupon custom width*/
 :root{
     --coupon_width: 288px;
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 .tg--coupon-container,
 .tg__coupon {

@@ -324,10 +324,6 @@
     --betSlipButtonTxt: rgba(0, 0, 0, 0.9);
     --betSlipButtonRadius: 0px;
     --spritePositionX: 0px;
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 
 [class^='digi_tournament_']:before, [class*='digi_tournament_']:before {
@@ -1595,10 +1591,6 @@ body,
     --betSlipButtonTxt: rgba(255, 255, 255, 0.9);
     --betSlipButtonRadius: 0px;
     --spritePositionX: 0px;
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 
 [class^='digi_tournament_']:before, [class*='digi_tournament_']:before {

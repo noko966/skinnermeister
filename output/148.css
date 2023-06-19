@@ -290,7 +290,6 @@
 --tooltipG:#e6e6e6;
 --menuItemActiveTxt:#ccc;
 --menuItemTxt:#fff;
---menuItemActiveTxt:#999;
 }/*
 */
   
@@ -381,7 +380,6 @@
     --bottomBirderRadius:  2px;
     --menuItemActiveTxt:#ccc;
     --menuItemTxt:#fff;
-    --menuItemActiveTxt:#999;
 
 }
 /*---*/
@@ -894,6 +892,25 @@
 .cp_footer .tg__btn-coupon {
     background-color: #1C1E21;
     color: #999999;
+}
+.tg__match_header.tg_widget_header .tg-ico,
+.tg__match_header.tg_widget_header .tg-ico-arrow,
+.tg-ico-arrow,
+.gameContentTitle.tg_widget_header .tg-ico-arrow,
+.stake_item_panel .tg-ico-sm,
+.livesecScore,
+.liveSportDate,
+.liveGameSelected .tg_sidebar_bg_3 .tg-ico,
+.tg__match_item,
+.calcOddItem .tg__chb,
+.tg__calc_odd_count,
+#calc_new,
+.tg__banner__date,
+.tab_selector,
+.tg_widget_bg_2 .selectorWrapper .tg__fix_btn,
+.tg_widget_bg_2 .tg__fix_btn,
+#MaPage .tg__filter {
+    color: #999;
 }
 .tab_selector_active{
     color:#fff;

@@ -14,6 +14,8 @@ module.exports = plugin = (opts = {}) => {
       color: "",
       bgName: "--menuItemBg",
       txtName: "--menuItemTxt",
+      initialVariable: "var(--bodyTxt)",
+
     },
     {
       selector: "tg__submenu__item",
@@ -22,6 +24,7 @@ module.exports = plugin = (opts = {}) => {
       color: "",
       bgName: "--menuItemActiveBg",
       txtName: "--menuItemActiveTxt",
+      initialVariable: "var(--bodyTxt2)",
     },
   ];
 
@@ -49,14 +52,15 @@ module.exports = plugin = (opts = {}) => {
           // Loop through each variable and check if the selector matches exactly
           variables.forEach((variable) => {
             if (variable.selector.test(trimmedSelector)) {
-              variable.count++;
               rule.walkDecls("color", (decl) => {
                 variable.color = decl.value;
-                matchedSelectors.push({
-                  prop: variable.txtName,
-                  val: decl.value,
-                  rule: rule
-                });
+                  variable.count++;
+                  matchedSelectors.push({
+                    prop: variable.txtName,
+                    val: decl.value,
+                    initialVariable: variable.initialVariable,
+                    rule: rule,
+                  });
               });
             }
           });
@@ -105,8 +109,7 @@ ${variables[1].selector} spotted ${variables[1].count} times | ${variables[1].co
     },
 
     RootExit(root, { result }) {
-      // console.log(data);
-      console.log(`plugin_nik has processed ${opts.partnerId} css`);
+      // console.log(`plugin_nik has processed ${opts.partnerId} css`);
     },
   };
 };

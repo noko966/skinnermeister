@@ -325,8 +325,6 @@
     --betSlipButtonTxt: rgba(255, 255, 255, 0.9);
     --betSlipButtonRadius: 0px;
     --spritePositionX: 0px;
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 
 
@@ -424,8 +422,6 @@
     --inputBirderRadius: 0px;
     --bottomBirderRadius: 0px;
     --spritePositionX: 0px;
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 
 

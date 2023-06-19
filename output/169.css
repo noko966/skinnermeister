@@ -289,9 +289,7 @@
 --tooltipBorder:#dedede;
 --tooltipG:#e6e6e6;
 --menuItemActiveTxt:#979797;
---menuItemActiveTxt:var(--txt-color-2);
 --menuItemTxt:#fff;
---menuItemTxt:var(--txt-color);
 }/*
 */
   
@@ -381,9 +379,7 @@
     --inputBirderRadius:  2px;
     --bottomBirderRadius:  2px;
     --menuItemActiveTxt:#979797;
-    --menuItemActiveTxt:var(--txt-color-2);
     --menuItemTxt:#fff;
-    --menuItemTxt:var(--txt-color);
 
 }
 /*---*/
@@ -424,9 +420,7 @@
     --btn-7-bg: transparent;
     --btn-7-clr: #979797;
     --menuItemActiveTxt:#979797;
-    --menuItemActiveTxt:var(--txt-color-2);
     --menuItemTxt:#fff;
-    --menuItemTxt:var(--txt-color);
 }
 
 /*super toto circle*/

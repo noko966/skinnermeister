@@ -290,8 +290,6 @@
 --tooltipG:#e6e6e6;
 --menuItemActiveTxt:#FFFFFF;
 --menuItemTxt:#034D7F;
---menuItemActiveTxt:#FFFFFF;
---menuItemTxt:#034D7F;
 }/*
 */
   
@@ -380,8 +378,6 @@
     --borderRadius: 2px;
     --inputBirderRadius:  2px;
     --bottomBirderRadius:  2px;
-    --menuItemActiveTxt:#FFFFFF;
-    --menuItemTxt:#034D7F;
     --menuItemActiveTxt:#FFFFFF;
     --menuItemTxt:#034D7F;
 

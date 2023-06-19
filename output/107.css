@@ -324,8 +324,6 @@
     --betSlipButtonTxt: rgba(255, 255, 255, 0.9);
     --betSlipButtonRadius: 2px;
     --spritePositionX: 0px;
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 
     :root,
@@ -654,8 +652,6 @@
         --betSlipButtonTxt: rgba(255, 255, 255, 0.9);
         --betSlipButtonRadius: 0px;
         --spritePositionX: 0px;
-        --menuItemActiveTxt: var(--bodyTxt2);
-        --menuItemTxt: var(--bodyTxt);
     }
 
 [class^='digi_tournament_']:before, [class*='digi_tournament_']:before {
@@ -1179,14 +1175,10 @@ body,
 
 :root .tg_sidebar_text_akcent, :root, :root[data-theme="light"] .tg_sidebar_text_akcent, :root [data-theme="light"] .tg_sidebar_text_akcent {
     color: var(--menu_1Accent);
-    --menuItemActiveTxt: var(--bodyTxt2);
-    --menuItemTxt: var(--bodyTxt);
 }
 
     :root .tg_sidebar_text_akcent, :root, :root[data-theme="dark"] .tg_sidebar_text_akcent, :root [data-theme="dark"] .tg_sidebar_text_akcent {
         color: #fff;
-        --menuItemActiveTxt: var(--bodyTxt2);
-        --menuItemTxt: var(--bodyTxt);
     }
 
 

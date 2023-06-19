@@ -288,8 +288,6 @@
 --tooltipAccentTxt:rgba(0, 0, 0, 0.9);
 --tooltipBorder:#dedede;
 --tooltipG:#e6e6e6;
---menuItemActiveTxt:#999;
---menuItemTxt:#fff;
 --menuItemActiveTxt:#000;
 }/*
 */
@@ -379,8 +377,6 @@
     --borderRadius: 2px;
     --inputBirderRadius:  2px;
     --bottomBirderRadius:  2px;
-    --menuItemActiveTxt:#999;
-    --menuItemTxt:#fff;
     --menuItemActiveTxt:#000;
 
 }
@@ -474,6 +470,10 @@
     -webkit-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
     -moz-box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
     box-shadow: 1px 1px 4px 0px rgba(0,0,0,0.2);
+}
+
+.tg__banner__date {
+    color: #999
 }
 
 .prematch_event_caption,
