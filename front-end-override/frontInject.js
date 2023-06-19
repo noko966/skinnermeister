@@ -11,7 +11,7 @@ fetch("http://127.0.0.1:5500/directories")
 const head = document.getElementsByTagName("head")[0];
 let current = 0;
 
-function changeCSS(id) {
+function setCSSOverride(id) {
   console.log("==========   Current partner: ", id);
   let link = document.getElementById("partnerStyleCssLink");
   if (link) {
@@ -28,7 +28,14 @@ function changeCSS(id) {
   }
 }
 
-document.addEventListener("keyup", function () {
-  console.log("DEBUG ", partners[current++]);
-  changeCSS(partners[current++]);
+
+document.addEventListener("keyup", function (event) {
+  if (event.key === "ArrowLeft") {
+    setCSSOverride(partners[current--]);
+  }
+});
+document.addEventListener("keyup", function (event) {
+  if (event.key === "ArrowRight") {
+    setCSSOverride(partners[current++]);
+  }
 });
