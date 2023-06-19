@@ -4,16 +4,13 @@ const fse = require("fs-extra");
 const path = require("path");
 const pluginAnalyze = require("./js/plugins/analyze");
 const pluginTransform = require("./js/plugins/transform");
+const getFileNames = require("./js/testOnLocal/frontInject");
+
+// import getFileNames from "./js/output/output";
 
 let loggedData = [];
 
 const logFilePath = path.resolve(__dirname, "logs", "log.txt");
-
-// const SPORT_PARTNERS_PATH = path.resolve(
-//   "D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners"
-// );
-
-// const SPORT_PARTNERS_PATH = path.resolve(__dirname, "starter");
 
 const SPORT_PARTNERS_PATH = path.resolve(
   "D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners"
@@ -34,19 +31,22 @@ async function processFile(file) {
     "Styles",
     "web.css"
   );
+
   const outputPath = path.resolve(__dirname, "output", `${file}.css`);
+
   // await fs.appendFile(logFilePath, `\n-----------${file}-----------\n`, "utf8");
   try {
     const css = await fs.readFile(inputPath, "utf8");
     // Process the CSS with PostCSS
     const result = await postcss([
-      pluginAnalyze({ partnerId: file }),
-      pluginTransform({ partnerId: file }),
+      pluginAnalyze({ partnerID: file }),
+      pluginTransform({ partnerID: file }),
     ]).process(css, { from: undefined });
-    const modifiedCss = result.css;
+
+    const modifiedCSS = result.css;
     const messages = result.messages;
     // Write the modified CSS to a file
-    await fs.writeFile(outputPath, modifiedCss, "utf8");
+    await fs.writeFile(outputPath, modifiedCSS, "utf8");
     for (const message of messages) {
       if (message.type === "selector") {
         loggedData.push({
@@ -88,4 +88,7 @@ ${file} partner doesn't exist"
 })().then(() => {
   console.log(loggedData);
   console.log("done");
+  getFileNames(path.resolve(__dirname, "output"))
+    .then((names) => console.log(names))
+    .catch((err) => console.error(err));
 });

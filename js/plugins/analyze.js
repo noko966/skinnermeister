@@ -2,7 +2,7 @@ function createExactMatchRegExp(selector) {
   return new RegExp(selector.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$");
 }
 
-module.exports = plugin = (opts = {}) => {
+module.exports = plugin = (partnerID, opts = {}) => {
   const matchedRoots = [];
   const matchedSelectors = [];
 
@@ -49,7 +49,6 @@ module.exports = plugin = (opts = {}) => {
           // Loop through each variable and check if the selector matches exactly
           variables.forEach((variable) => {
             if (variable.selector.test(trimmedSelector)) {
-              console.log("~~ DEBUG: ", variable.selector, trimmedSelector);
               variable.count++;
               rule.walkDecls("color", (decl) => {
                 variable.color = decl.value;
@@ -81,7 +80,7 @@ module.exports = plugin = (opts = {}) => {
       result.messages.push({
         type: "custom",
         plugin: "analyzer",
-        text: `${opts.partnerId}----------------
+        text: `${partnerID}----------------
 ------------
 contains ${data.rootSelectors} root selectors
 contains ${data.darkThemeCount} dark theme
@@ -107,7 +106,7 @@ ${variables[1].selector} spotted ${variables[1].count} times | ${variables[1].co
 
     RootExit(root, { result }) {
       // console.log(data);
-      console.log(`plugin_nik has processed ${opts.partnerId} css`);
+      console.log(`plugin_nik has processed ${partnerID} css`);
     },
   };
 };

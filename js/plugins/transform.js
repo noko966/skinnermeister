@@ -1,4 +1,4 @@
-module.exports = plugin = (opts = {}) => {
+module.exports = plugin = (partnerID, opts = {}) => {
   return {
     postcssPlugin: "transformer",
     Once(root, { result }) {
@@ -29,7 +29,7 @@ module.exports = plugin = (opts = {}) => {
     },
 
     RootExit(root, { result }) {
-      console.log(`transformer has processed ${opts.partnerId} css`);
+      console.log(`transformer has processed ${partnerID} css`);
     },
   };
 };
