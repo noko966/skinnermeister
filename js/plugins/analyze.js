@@ -2,7 +2,7 @@ function createExactMatchRegExp(selector) {
   return new RegExp(selector.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$");
 }
 
-module.exports = plugin = (partnerID, opts = {}) => {
+module.exports = plugin = (opts = {}) => {
   const matchedRoots = [];
   const matchedSelectors = [];
 
@@ -94,7 +94,7 @@ module.exports = plugin = (partnerID, opts = {}) => {
       result.messages.push({
         type: "custom",
         plugin: "analyzer",
-        text: `${partnerID}----------------
+        text: `${opts.partnerID}----------------
 ------------
 contains ${data.rootSelectors} root selectors
 contains ${data.darkThemeCount} dark theme
@@ -120,7 +120,7 @@ ${variables[1].selector} spotted ${variables[1].count} times | ${variables[1].co
 
     RootExit(root, { result }) {
       // console.log(data);
-      console.log(`plugin_nik has processed ${partnerID} css`);
+      console.log(`plugin has processed ${opts.partnerID} css`);
     },
   };
 };
