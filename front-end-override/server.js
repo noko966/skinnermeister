@@ -1,16 +1,16 @@
 const express = require("express");
 const fs = require("fs");
 const path = require("path");
-const cors = require("cors"); // import cors module
-const helmet = require("helmet");
+const cors = require("cors");
+
+const dirPath = path.join(__dirname, "../", "output");
 
 const app = express();
-
-// use cors middleware
+// CORS middleware
 app.use(cors());
 
 // serve static files from 'output' directory
-app.use("/partners", express.static(path.join(__dirname, "output")));
+app.use("/partners", express.static(dirPath));
 
 function fileList(dirPath) {
   return new Promise((resolve, reject) => {
@@ -26,7 +26,6 @@ function fileList(dirPath) {
 }
 
 app.get("/directories", async (req, res) => {
-  const dirPath = path.join(__dirname, "output");
   console.log(dirPath);
 
   try {
