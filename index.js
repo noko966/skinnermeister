@@ -4,7 +4,6 @@ const fse = require("fs-extra");
 const path = require("path");
 const pluginAnalyze = require("./js/plugins/analyze");
 const pluginTransform = require("./js/plugins/transform");
-const getFileNames = require("./js/testOnLocal/frontInject");
 
 // import getFileNames from "./js/output/output";
 
@@ -12,9 +11,9 @@ let loggedData = [];
 
 const logFilePath = path.resolve(__dirname, "logs", "log.txt");
 
-// const SPORT_PARTNER_SPATH = path.resolve(__dirname, "starter");
+// const SPORT_PARTNERS_PATH = path.resolve(__dirname, "starter");
 
-const SPORT_PARTNER_SPATH = path.resolve(
+const SPORT_PARTNERS_PATH = path.resolve(
   "D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners"
 );
 
@@ -62,7 +61,6 @@ async function processFile(file) {
     }
 
     // console.log(`File ${file} processed successfully.`);
-   
   } catch (error) {
     loggedData.push({
       id: file,
@@ -84,22 +82,19 @@ ${file} partner doesn't exist"
     const filesArray = await fs.readdir(SPORT_PARTNERS_PATH);
     await fs.writeFile(logFilePath, "new log file\n", "utf8");
     await processFiles(filesArray);
-
   } catch (error) {
     console.error("Error reading directory:", error);
   }
 })().then(() => {
-  let empty = loggedData.filter(a => {
-    return !a.active
-  })
-  let active = loggedData.filter(a => {
-    return a.active
-  })
+  let empty = loggedData.filter((a) => {
+    return !a.active;
+  });
+  let active = loggedData.filter((a) => {
+    return a.active;
+  });
   console.log(`${empty.length} partners has no css file`);
-  empty.forEach(p => {
-  console.log(p.id);
-
-  })
+  empty.forEach((p) => {
+    console.log(p.id);
+  });
   console.log("done");
-  
 });
