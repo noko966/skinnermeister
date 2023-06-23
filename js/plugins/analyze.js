@@ -1,5 +1,9 @@
+// function createExactMatchRegExp(selector) {
+//   return new RegExp(selector.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$");
+// }
+
 function createExactMatchRegExp(selector) {
-  return new RegExp(selector.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$");
+  return new RegExp(`(^|\\s)(\\.tg__results(\\.tg__results_header)?\\s\\.tg_input)($|\\s)`);
 }
 
 module.exports = plugin = (opts = {}) => {
@@ -8,22 +12,13 @@ module.exports = plugin = (opts = {}) => {
 
   const variables = [
     {
-      selector: "tg__submenu__item:hover",
+      selector: ".tg__results .tg_input",
       count: 0,
       background: "",
       color: "",
-      bgName: "--menuItemActiveBg",
-      txtName: "--menuItemActiveTxt",
-      initialVariableTxt: "var(--bodyTxt)",
-    },
-    {
-      selector: "tg__submenu__item",
-      count: 0,
-      background: "",
-      color: "",
-      bgName: "--menuItemBg",
-      txtName: "--menuItemTxt",
-      initialVariableTxt: "var(--bodyTxt2)",
+      bgName: "--inputResultBg",
+      txtName: "--inputResultTxt",
+      // initialVariableTxt: "var(--bodyTxt)",
     },
   ];
 
@@ -35,14 +30,15 @@ module.exports = plugin = (opts = {}) => {
     darkThemeCount: 0,
   };
 
-  variables.forEach((variable) => {
-    variable.selector = createExactMatchRegExp(variable.selector);
-  });
+  // variables.forEach((variable) => {
+  //   variable.selector = createExactMatchRegExp(variable.selector);
+  // });
 
   return {
     postcssPlugin: "analyzer",
     Once(root, { result }) {
       root.walkRules((rule) => {
+        
         const individualSelectors = rule.selector.split(",");
         individualSelectors.forEach((individualSelector) => {
           // Trim the selector
@@ -50,25 +46,28 @@ module.exports = plugin = (opts = {}) => {
 
           // Loop through each variable and check if the selector matches exactly
           variables.forEach((variable) => {
-            if (variable.selector.test(trimmedSelector)) {
+            if (rule.selector.includes(variable.selector)) {
+            // if (new RegExp(`(^|\\s)(\\.tg__results(\\.tg__results_header)?\\s\\.tg_input)($|\\s)`).test(rule.selector)) {
               rule.walkDecls("color", (decl) => {
                 variable.count++;
                 variable.color = decl.value;
                 matchedSelectors.push({
                   prop: variable.txtName,
                   val: decl.value,
-                  initialVariable: variable.initialVariableTxt,
+                  sel: variable.selector,
+                  // initialVariable: variable.initialVariableTxt,
                   rule: rule,
                 });
               });
 
-              rule.walkDecls("background", (decl) => {
+              rule.walkDecls(/^(background|background-color)$/, (decl) => {
                 variable.count++;
                 variable.background = decl.value;
                 matchedSelectors.push({
                   prop: variable.bgName,
                   val: decl.value,
-                  initialVariable: variable.initialVariableTxt,
+                  sel: variable.selector,
+                  // initialVariable: variable.initialVariableTxt,
                   rule: rule,
                 });
               });
@@ -99,8 +98,7 @@ module.exports = plugin = (opts = {}) => {
 contains ${data.rootSelectors} root selectors
 contains ${data.darkThemeCount} dark theme
 contains ${data.lightThemeCount} light theme
-${variables[0].selector} spotted ${variables[0].count} times | ${variables[0].color}
-${variables[1].selector} spotted ${variables[1].count} times | ${variables[1].color}
+${variables[0].selector} spotted ${variables[0].count} times | color ${variables[0].color} background ${variables[0].background}
 ..................................
 
 `,

@@ -19,15 +19,23 @@ module.exports = plugin = (partnerID, opts = {}) => {
 
       matchedRoots.forEach((rule) => {
         matchedSelectors.forEach((selector) => {
-          if (selector.initialVariable === selector.val) {
-            return;
-          }
+          // if (selector.initialVariable === selector.val) {
+          //   return;
+          // }
           rule.rule.append({ prop: selector.prop, value: selector.val });
         });
       });
 
       matchedSelectors.forEach((rule) => {
-        rule.rule.remove();
+        if(partnerID === 95) {
+          console.log(rule);
+        }
+        let _selectors = rule.rule.selector.split(',');
+        _selectors = _selectors.filter(s => !s.includes(rule.sel));
+       rule.rule.selector = _selectors.join(',');
+       if (rule.rule.selector.trim().length === 0) {
+         rule.rule.remove();
+       }
       });
     },
 

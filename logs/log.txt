@@ -4,8 +4,7 @@ new log file
 contains 0 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 0 times | 
-/tg__submenu__item$/ spotted 0 times | 
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 1----------------
@@ -13,8 +12,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #979797
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 100----------------
@@ -22,8 +20,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #fff
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 105----------------
@@ -31,17 +28,15 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 107----------------
 ------------
 contains 0 root selectors
-contains 2 dark theme
-contains 2 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+contains 1 dark theme
+contains 1 light theme
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 109----------------
@@ -49,8 +44,7 @@ contains 2 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 11----------------
@@ -58,8 +52,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #f0841f
-/tg__submenu__item$/ spotted 1 times | #fff
+.tg__results .tg_input spotted 3 times | color #fff background #474e58
 ..................................
 
 110----------------
@@ -67,8 +60,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 1102420----------------
@@ -76,8 +68,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 4 times | color var(--inputTxt2) background var(--inputG)
 ..................................
 
 113----------------
@@ -85,8 +76,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #979797
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 114----------------
@@ -94,8 +84,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000
-/tg__submenu__item$/ spotted 1 times | #252323
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 117----------------
@@ -103,8 +92,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #696969
+.tg__results .tg_input spotted 3 times | color #fff background 
 ..................................
 
 118----------------
@@ -112,8 +100,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FAFF47
-/tg__submenu__item$/ spotted 1 times | #fff
+.tg__results .tg_input spotted 2 times | color #999 background #042e39
 ..................................
 
 119----------------
@@ -121,8 +108,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #787878
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 120----------------
@@ -130,8 +116,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #0e4d0b
-/tg__submenu__item$/ spotted 1 times | #696969
+.tg__results .tg_input spotted 3 times | color #fff background #A1A1A1
 ..................................
 
 121----------------
@@ -139,8 +124,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #878787
+.tg__results .tg_input spotted 2 times | color #fff background #1c1c1c
 ..................................
 
 122----------------
@@ -148,17 +132,15 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #d59f26
-/tg__submenu__item$/ spotted 1 times | #fffefd
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 125----------------
 ------------
-contains 2 root selectors
+contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #979797
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 126----------------
@@ -166,8 +148,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #1DB954
-/tg__submenu__item$/ spotted 1 times | #585D6D
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 127----------------
@@ -175,8 +156,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 128----------------
@@ -184,8 +164,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 130----------------
@@ -193,8 +172,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 131----------------
@@ -202,8 +180,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #4d5059
+.tg__results .tg_input spotted 2 times | color #999 background #2b2b2b
 ..................................
 
 132----------------
@@ -211,8 +188,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #979797
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 134----------------
@@ -220,8 +196,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFE71E
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 2 times | color #999 background #111
 ..................................
 
 136----------------
@@ -229,8 +204,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #9299A2
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 137----------------
@@ -238,8 +212,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #b7b7b7
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 139----------------
@@ -247,8 +220,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 14----------------
@@ -256,8 +228,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #449539
-/tg__submenu__item$/ spotted 1 times | #696969
+.tg__results .tg_input spotted 2 times | color #fff background #2b2b2b
 ..................................
 
 143----------------
@@ -265,8 +236,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 144----------------
@@ -274,8 +244,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 145----------------
@@ -283,8 +252,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 146----------------
@@ -292,8 +260,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #A60303
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 147----------------
@@ -301,8 +268,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--menuActiveTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterInputTxt) background var(--filterInputBg)
 ..................................
 
 148----------------
@@ -310,8 +276,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #ccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 151----------------
@@ -319,8 +284,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 157----------------
@@ -328,8 +292,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000000
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 3 times | color #686A6B background #fff
 ..................................
 
 163----------------
@@ -337,8 +300,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 164----------------
@@ -346,8 +308,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #024E7C
-/tg__submenu__item$/ spotted 1 times | #B1AFAF
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 165----------------
@@ -355,8 +316,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 3 times | color #D0D0D0 background #2B2B2B
 ..................................
 
 166----------------
@@ -364,8 +324,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #034D7F
-/tg__submenu__item$/ spotted 1 times | #FFFFFF
+.tg__results .tg_input spotted 6 times | color #fff background #1B3555
 ..................................
 
 167----------------
@@ -373,17 +332,15 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 169----------------
 ------------
-contains 2 root selectors
+contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #979797
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 170----------------
@@ -391,8 +348,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 3 times | color #fff background #3B3838
 ..................................
 
 173----------------
@@ -400,8 +356,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #DDDDDD
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 179----------------
@@ -409,8 +364,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 3 times | color #fff background #292929
 ..................................
 
 181----------------
@@ -418,8 +372,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FE0000
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 3 times | color #515151 background #EEEEEE
 ..................................
 
 182----------------
@@ -427,8 +380,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000000
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 3 times | color #515151 background #424C56
 ..................................
 
 183----------------
@@ -436,8 +388,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 185----------------
@@ -445,8 +396,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 0 times | 
-/tg__submenu__item$/ spotted 1 times | #CCCCCC
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 188----------------
@@ -454,8 +404,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #899aaf
+.tg__results .tg_input spotted 2 times | color #999 background #171f3c
 ..................................
 
 189----------------
@@ -463,8 +412,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 4 times | color #999 background #222A30
 ..................................
 
 190----------------
@@ -472,8 +420,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #979797
+.tg__results .tg_input spotted 4 times | color #999999 background #1D1D1D
 ..................................
 
 191----------------
@@ -481,8 +428,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 2 times | #000
-/tg__submenu__item$/ spotted 2 times | #000
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 193----------------
@@ -490,8 +436,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #24639B
-/tg__submenu__item$/ spotted 1 times | #666
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 197----------------
@@ -499,8 +444,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 198----------------
@@ -508,8 +452,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 200----------------
@@ -517,8 +460,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFFFFF
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 201----------------
@@ -526,8 +468,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 205----------------
@@ -535,8 +476,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 206----------------
@@ -544,8 +484,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000
-/tg__submenu__item$/ spotted 1 times | #B3B3B3
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 209----------------
@@ -553,8 +492,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #899aaf
+.tg__results .tg_input spotted 2 times | color #999 background #171f3c
 ..................................
 
 210----------------
@@ -562,8 +500,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 211----------------
@@ -571,8 +508,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #131516
-/tg__submenu__item$/ spotted 1 times | #707070
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 212----------------
@@ -580,8 +516,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFFFFF
-/tg__submenu__item$/ spotted 1 times | #BFBFBF
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 213----------------
@@ -589,8 +524,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #ccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 215----------------
@@ -598,8 +532,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #ccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 217----------------
@@ -607,8 +540,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000
-/tg__submenu__item$/ spotted 1 times | #333
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 221----------------
@@ -616,8 +548,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 222----------------
@@ -625,8 +556,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #94A0AC
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 225----------------
@@ -634,8 +564,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 226----------------
@@ -643,8 +572,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 227----------------
@@ -652,8 +580,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 228----------------
@@ -661,8 +588,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 23----------------
@@ -670,8 +596,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #b7b7b7
+.tg__results .tg_input spotted 2 times | color #fff background #666
 ..................................
 
 230----------------
@@ -679,8 +604,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #75848E
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 231----------------
@@ -688,8 +612,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFCC05
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 233----------------
@@ -697,8 +620,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 234----------------
@@ -706,8 +628,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #6C52B8
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 235----------------
@@ -715,8 +636,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 2 times | #1A1A1A
-/tg__submenu__item$/ spotted 2 times | #fff
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 236----------------
@@ -724,8 +644,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 237----------------
@@ -733,8 +652,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 238----------------
@@ -742,8 +660,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | #ccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 24----------------
@@ -751,8 +668,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 0 times | 
-/tg__submenu__item$/ spotted 0 times | 
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 240----------------
@@ -760,8 +676,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 243----------------
@@ -769,8 +684,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFFFFF
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 245----------------
@@ -778,8 +692,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #ccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 247----------------
@@ -787,8 +700,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 248----------------
@@ -796,8 +708,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #F3DD16
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 249----------------
@@ -805,8 +716,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 250----------------
@@ -814,8 +724,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 252----------------
@@ -823,8 +732,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 253----------------
@@ -832,8 +740,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #666666
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 255----------------
@@ -841,8 +748,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 256----------------
@@ -850,8 +756,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #2C3033
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 257----------------
@@ -859,8 +764,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #131516
-/tg__submenu__item$/ spotted 1 times | #707070
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 258----------------
@@ -868,8 +772,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--menuActiveTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterInputTxt) background var(--filterInputBg)
 ..................................
 
 259----------------
@@ -877,8 +780,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #899aaf
+.tg__results .tg_input spotted 2 times | color #999 background #171f3c
 ..................................
 
 260----------------
@@ -886,8 +788,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFFFFF
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 261----------------
@@ -895,8 +796,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 262----------------
@@ -904,8 +804,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 2 times | #FFFFFF
-/tg__submenu__item$/ spotted 2 times | #fff
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 264----------------
@@ -913,8 +812,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 265----------------
@@ -922,8 +820,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 2 times | #FFFFFF
-/tg__submenu__item$/ spotted 2 times | #fff
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 266----------------
@@ -931,8 +828,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFFFFF
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 267----------------
@@ -940,8 +836,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 269----------------
@@ -949,8 +844,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFFFFF
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 271----------------
@@ -958,8 +852,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 272----------------
@@ -967,8 +860,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 273----------------
@@ -976,8 +868,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFFFFF
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 277----------------
@@ -985,8 +876,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 2 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 279----------------
@@ -994,8 +884,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 280----------------
@@ -1003,8 +892,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 281----------------
@@ -1012,8 +900,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 282----------------
@@ -1021,8 +908,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--menuActiveTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterInputTxt) background var(--filterInputBg)
 ..................................
 
 283----------------
@@ -1030,8 +916,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000
-/tg__submenu__item$/ spotted 1 times | #4D4D4D
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 284----------------
@@ -1039,8 +924,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFFFFF
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 285----------------
@@ -1048,8 +932,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #2b2b2b
-/tg__submenu__item$/ spotted 1 times | #666
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 286----------------
@@ -1057,8 +940,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFFFFF
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 29----------------
@@ -1066,8 +948,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #525349
-/tg__submenu__item$/ spotted 1 times | #b4b4b6
+.tg__results .tg_input spotted 2 times | color #999 background #262b32
 ..................................
 
 290----------------
@@ -1075,8 +956,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000000
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 291----------------
@@ -1084,8 +964,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFFFFF
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 294----------------
@@ -1093,8 +972,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 295----------------
@@ -1102,8 +980,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 297----------------
@@ -1111,8 +988,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 299----------------
@@ -1120,8 +996,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 300----------------
@@ -1129,8 +1004,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 3000004--------------------------
@@ -1142,8 +1016,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 3000013--------------------------
@@ -1155,8 +1028,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 3000023--------------------------
@@ -1188,8 +1060,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 0 times | 
-/tg__submenu__item$/ spotted 0 times | 
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 3000067----------------
@@ -1197,8 +1068,15 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 4 times | color var(--inputTxt2) background var(--inputG)
+..................................
+
+3000100----------------
+------------
+contains 0 root selectors
+contains 1 dark theme
+contains 1 light theme
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 301----------------
@@ -1206,8 +1084,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 2 times | color #fff background #010101
 ..................................
 
 302----------------
@@ -1215,8 +1092,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--brandBg)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 303----------------
@@ -1224,8 +1100,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 304----------------
@@ -1233,8 +1108,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 305----------------
@@ -1242,8 +1116,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 307----------------
@@ -1251,8 +1124,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #1A1A1A
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 4 times | color #fff background #BA85C4
 ..................................
 
 308----------------
@@ -1260,8 +1132,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 2 times | color #fff background #11141a
 ..................................
 
 309----------------
@@ -1269,8 +1140,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #B3B3B3
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 310----------------
@@ -1278,8 +1148,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #1A1A1A
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 311----------------
@@ -1287,8 +1156,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 4 times | color #fff background #262626
 ..................................
 
 312----------------
@@ -1296,8 +1164,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 313----------------
@@ -1305,8 +1172,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000
-/tg__submenu__item$/ spotted 1 times | #666666
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 314----------------
@@ -1314,8 +1180,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 315----------------
@@ -1323,8 +1188,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--menuActiveTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterInputTxt) background var(--filterInputBg)
 ..................................
 
 316----------------
@@ -1332,8 +1196,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 317----------------
@@ -1341,8 +1204,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 318----------------
@@ -1350,8 +1212,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 2 times | #1A1A1A
-/tg__submenu__item$/ spotted 2 times | #000
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 319----------------
@@ -1359,8 +1220,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 321----------------
@@ -1368,8 +1228,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 322----------------
@@ -1377,8 +1236,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 323----------------
@@ -1386,8 +1244,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #899aaf
+.tg__results .tg_input spotted 2 times | color #999 background #171f3c
 ..................................
 
 324----------------
@@ -1395,8 +1252,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #FFFFFF
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 325----------------
@@ -1404,8 +1260,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 326----------------
@@ -1413,8 +1268,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 327----------------
@@ -1422,8 +1276,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 328----------------
@@ -1431,8 +1284,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 329----------------
@@ -1440,8 +1292,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 330----------------
@@ -1449,8 +1300,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 331----------------
@@ -1458,8 +1308,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 332----------------
@@ -1467,8 +1316,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 333----------------
@@ -1476,8 +1324,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 4 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 334----------------
@@ -1485,8 +1332,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 335----------------
@@ -1494,8 +1340,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 336----------------
@@ -1503,8 +1348,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 337----------------
@@ -1512,8 +1356,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 340----------------
@@ -1521,8 +1364,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 341----------------
@@ -1530,8 +1372,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 342----------------
@@ -1539,8 +1380,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 343----------------
@@ -1548,8 +1388,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 344----------------
@@ -1557,8 +1396,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 346----------------
@@ -1566,8 +1404,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 350----------------
@@ -1575,8 +1412,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 355----------------
@@ -1584,8 +1420,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 357----------------
@@ -1593,8 +1428,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 358----------------
@@ -1602,8 +1436,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 359----------------
@@ -1611,8 +1444,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 360----------------
@@ -1620,8 +1452,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 362----------------
@@ -1629,8 +1460,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 368--------------------------
@@ -1642,8 +1472,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 38----------------
@@ -1651,8 +1480,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #00AABE
-/tg__submenu__item$/ spotted 1 times | #666
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 384----------------
@@ -1660,8 +1488,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 385----------------
@@ -1669,8 +1496,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 387----------------
@@ -1678,8 +1504,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 388----------------
@@ -1687,8 +1512,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 389----------------
@@ -1696,8 +1520,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 390----------------
@@ -1705,8 +1528,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 391----------------
@@ -1714,8 +1536,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 392----------------
@@ -1723,8 +1544,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000
-/tg__submenu__item$/ spotted 1 times | #333333
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 393----------------
@@ -1732,8 +1552,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 394----------------
@@ -1741,8 +1560,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000
-/tg__submenu__item$/ spotted 1 times | #333333
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 395----------------
@@ -1750,8 +1568,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 396----------------
@@ -1759,8 +1576,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 397----------------
@@ -1768,8 +1584,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 398----------------
@@ -1777,8 +1592,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 399----------------
@@ -1786,8 +1600,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 40----------------
@@ -1795,8 +1608,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 400----------------
@@ -1804,8 +1616,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 401----------------
@@ -1813,8 +1624,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 402----------------
@@ -1822,8 +1632,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 403----------------
@@ -1831,8 +1640,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 404----------------
@@ -1840,8 +1648,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 406--------------------------
@@ -1853,8 +1660,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #cccccc
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 409----------------
@@ -1862,8 +1668,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 41----------------
@@ -1871,8 +1676,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 410----------------
@@ -1880,8 +1684,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 412----------------
@@ -1889,8 +1692,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 413----------------
@@ -1898,8 +1700,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 414----------------
@@ -1907,8 +1708,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 415----------------
@@ -1916,8 +1716,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 416----------------
@@ -1925,8 +1724,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 418----------------
@@ -1934,8 +1732,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 419----------------
@@ -1943,8 +1740,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 421----------------
@@ -1952,8 +1748,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 422----------------
@@ -1961,8 +1756,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 424----------------
@@ -1970,8 +1764,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt3)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 425----------------
@@ -1979,8 +1772,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 427----------------
@@ -1988,8 +1780,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 428----------------
@@ -1997,8 +1788,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 429----------------
@@ -2006,8 +1796,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt3)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 43----------------
@@ -2015,8 +1804,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #5a6872
+.tg__results .tg_input spotted 2 times | color #fff background transparent
 ..................................
 
 430----------------
@@ -2024,8 +1812,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt3)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 433----------------
@@ -2033,8 +1820,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 434----------------
@@ -2042,8 +1828,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--accentBg)
-/tg__submenu__item$/ spotted 1 times | #000
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 435----------------
@@ -2051,8 +1836,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 436----------------
@@ -2060,8 +1844,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 438----------------
@@ -2069,8 +1852,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 4 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 439----------------
@@ -2078,8 +1860,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 440----------------
@@ -2087,8 +1868,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 441----------------
@@ -2096,8 +1876,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 444----------------
@@ -2105,8 +1884,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 446----------------
@@ -2114,8 +1892,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 447----------------
@@ -2123,8 +1900,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 449----------------
@@ -2132,8 +1908,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 45----------------
@@ -2141,8 +1916,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fcdf50
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 451----------------
@@ -2150,8 +1924,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 452----------------
@@ -2159,8 +1932,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 453----------------
@@ -2168,8 +1940,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 455----------------
@@ -2177,8 +1948,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 456----------------
@@ -2186,8 +1956,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 457----------------
@@ -2195,8 +1964,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 458----------------
@@ -2204,8 +1972,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 459----------------
@@ -2213,8 +1980,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 46----------------
@@ -2222,8 +1988,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #222
-/tg__submenu__item$/ spotted 1 times | #686868
+.tg__results .tg_input spotted 2 times | color #fff background #686868
 ..................................
 
 461----------------
@@ -2231,8 +1996,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 462----------------
@@ -2240,8 +2004,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 463----------------
@@ -2249,8 +2012,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 464----------------
@@ -2258,8 +2020,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--primaryTxt)
-/tg__submenu__item$/ spotted 1 times | var(--primaryTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 466----------------
@@ -2267,8 +2028,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 468----------------
@@ -2276,8 +2036,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 469----------------
@@ -2285,8 +2044,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 4 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 472--------------------------
@@ -2298,8 +2056,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 474----------------
@@ -2307,8 +2064,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 478----------------
@@ -2316,8 +2072,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 479----------------
@@ -2325,8 +2080,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 480----------------
@@ -2334,8 +2088,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 483----------------
@@ -2343,8 +2096,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 484----------------
@@ -2352,8 +2104,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 4 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 486----------------
@@ -2361,8 +2112,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 4 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 488----------------
@@ -2370,8 +2120,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 4 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 490----------------
@@ -2379,8 +2128,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 496----------------
@@ -2388,8 +2136,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 497----------------
@@ -2397,8 +2144,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 4 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 498----------------
@@ -2406,8 +2152,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 499----------------
@@ -2415,8 +2160,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 4 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 500----------------
@@ -2424,8 +2168,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 502----------------
@@ -2433,8 +2176,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 504----------------
@@ -2442,8 +2184,7 @@ contains 1 light theme
 contains 4 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 4 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 506----------------
@@ -2451,8 +2192,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 507----------------
@@ -2460,8 +2200,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 509----------------
@@ -2469,8 +2208,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 510----------------
@@ -2478,8 +2216,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 513----------------
@@ -2487,8 +2224,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 514----------------
@@ -2496,8 +2232,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 515----------------
@@ -2505,8 +2240,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 516----------------
@@ -2514,8 +2248,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 518----------------
@@ -2523,8 +2256,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 519----------------
@@ -2532,8 +2264,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 524----------------
@@ -2541,8 +2272,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 525----------------
@@ -2550,8 +2280,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #000000
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 3 times | color #515151 background #424C56
 ..................................
 
 526----------------
@@ -2559,8 +2288,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 527----------------
@@ -2568,8 +2296,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 528----------------
@@ -2577,8 +2304,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 53----------------
@@ -2586,8 +2312,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 2 times | color #999999 background #1A1A1A
 ..................................
 
 532----------------
@@ -2595,8 +2320,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 533----------------
@@ -2604,8 +2328,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 534----------------
@@ -2613,8 +2336,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 54----------------
@@ -2622,8 +2344,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #61BC47
-/tg__submenu__item$/ spotted 1 times | #484848
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 540----------------
@@ -2631,8 +2352,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 555----------------
@@ -2640,8 +2360,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 557----------------
@@ -2649,8 +2368,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 563----------------
@@ -2658,8 +2376,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 565----------------
@@ -2667,8 +2384,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 566----------------
@@ -2676,8 +2392,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 567----------------
@@ -2685,8 +2400,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 568----------------
@@ -2694,8 +2408,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 569----------------
@@ -2703,8 +2416,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 570----------------
@@ -2712,8 +2424,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 572----------------
@@ -2721,8 +2432,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 573----------------
@@ -2730,8 +2440,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 576----------------
@@ -2739,8 +2448,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 578----------------
@@ -2748,8 +2456,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 581----------------
@@ -2757,8 +2464,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 584----------------
@@ -2766,8 +2472,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 586----------------
@@ -2775,8 +2480,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 588----------------
@@ -2784,8 +2488,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 591----------------
@@ -2793,8 +2496,7 @@ contains 1 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 62----------------
@@ -2802,26 +2504,23 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #7ed64c
-/tg__submenu__item$/ spotted 1 times | #999
+.tg__results .tg_input spotted 6 times | color #999 background #282b34
 ..................................
 
 63----------------
 ------------
-contains 2 root selectors
+contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #979797
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 64----------------
 ------------
-contains 2 root selectors
+contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #ffb701
-/tg__submenu__item$/ spotted 1 times | #979797
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 65----------------
@@ -2829,8 +2528,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 0 times | 
-/tg__submenu__item$/ spotted 0 times | 
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 69----------------
@@ -2838,8 +2536,7 @@ contains 0 light theme
 contains 0 root selectors
 contains 1 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 71----------------
@@ -2847,8 +2544,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 0 times | 
-/tg__submenu__item$/ spotted 0 times | 
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 72----------------
@@ -2856,8 +2552,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #4a88b9
-/tg__submenu__item$/ spotted 1 times | #696969
+.tg__results .tg_input spotted 2 times | color #fff background #2b2b2b
 ..................................
 
 76----------------
@@ -2865,8 +2560,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 0 times | 
-/tg__submenu__item$/ spotted 0 times | 
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 79----------------
@@ -2874,8 +2568,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #f8e800
-/tg__submenu__item$/ spotted 1 times | #999999
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 80----------------
@@ -2883,8 +2576,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 0 times | 
-/tg__submenu__item$/ spotted 1 times | #b8984d
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 81----------------
@@ -2892,8 +2584,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #ffb600
-/tg__submenu__item$/ spotted 1 times | #a3a8ae
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 83----------------
@@ -2901,8 +2592,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 0 times | 
-/tg__submenu__item$/ spotted 0 times | 
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 89----------------
@@ -2910,17 +2600,15 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #f9d616
-/tg__submenu__item$/ spotted 1 times | #fff
+.tg__results .tg_input spotted 2 times | color #999 background #434754
 ..................................
 
 9----------------
 ------------
-contains 2 root selectors
+contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #979797
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 
 90----------------
@@ -2928,8 +2616,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | var(--bodyTxt)
-/tg__submenu__item$/ spotted 1 times | var(--bodyTxt2)
+.tg__results .tg_input spotted 2 times | color var(--filterTxt) background var(--filterG)
 ..................................
 
 94----------------
@@ -2937,8 +2624,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #899aaf
+.tg__results .tg_input spotted 2 times | color #999 background #171f3c
 ..................................
 
 95----------------
@@ -2946,8 +2632,7 @@ contains 0 light theme
 contains 1 root selectors
 contains 0 dark theme
 contains 1 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #222629
-/tg__submenu__item$/ spotted 1 times | #A2A2A2
+.tg__results .tg_input spotted 2 times | color #858585 background #fff
 ..................................
 
 97----------------
@@ -2955,8 +2640,7 @@ contains 1 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #bfc3c8
+.tg__results .tg_input spotted 2 times | color #fff background #2E2E4C
 ..................................
 
 98----------------
@@ -2964,16 +2648,14 @@ contains 0 light theme
 contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #6d7d94
+.tg__results .tg_input spotted 3 times | color #fff background #22252d
 ..................................
 
 99----------------
 ------------
-contains 2 root selectors
+contains 1 root selectors
 contains 1 dark theme
 contains 0 light theme
-/tg__submenu__item:hover$/ spotted 1 times | #fff
-/tg__submenu__item$/ spotted 1 times | #979797
+.tg__results .tg_input spotted 0 times | color  background 
 ..................................
 

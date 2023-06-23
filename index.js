@@ -5,6 +5,8 @@ const path = require("path");
 const pluginAnalyze = require("./js/plugins/analyze");
 const pluginTransform = require("./js/plugins/transform");
 
+const pluginCleanSelector = require("./js/plugins/cleanSelector");
+
 // import getFileNames from "./js/output/output";
 
 let loggedData = [];
@@ -34,11 +36,13 @@ async function processFile(file) {
   );
 
   const outputPath = path.resolve(__dirname, "output", `${file}.css`);
+  // const outputPath = path.resolve(`D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners\\${file}\\Styles\\web.css`);
 
   try {
     const css = await fs.readFile(inputPath, "utf8");
     // Process the CSS with PostCSS
     const result = await postcss([
+      // pluginCleanSelector({ partnerID: file }),
       pluginAnalyze({ partnerID: file }),
       pluginTransform({ partnerID: file }),
     ]).process(css, { from: undefined });
@@ -77,9 +81,11 @@ ${file} partner doesn't exist"
   }
 }
 
+let filesArray;
+
 (async () => {
   try {
-    const filesArray = await fs.readdir(SPORT_PARTNERS_PATH);
+    filesArray = await fs.readdir(SPORT_PARTNERS_PATH);
     await fs.writeFile(logFilePath, "new log file\n", "utf8");
     await processFiles(filesArray);
   } catch (error) {
