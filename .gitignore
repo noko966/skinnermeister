@@ -3,8 +3,5 @@ package-lock.json
 yarn.lock
 output/
 
-testOnLocal/node_modules
-testOnLocal/package-lock.json
-testOnLocal/yarn.lock
 logs/log.txt
 yarn-error.log
