@@ -500,7 +500,7 @@ module.exports = class Skinner {
         let _config = config;
 
         if (!_config) {
-            console.error("asd");
+            console.error("no config provided");
             return false;
         }
 
@@ -547,8 +547,7 @@ module.exports = class Skinner {
 
     init() {
         this.generateTheme();
-        // return this.cssCb(this.skin);
-        console.log(this.skin);
+        // console.log(this.skin);
         return this.skin;
     }
 

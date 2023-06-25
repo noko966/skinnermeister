@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@inquirer/prompts": "^2.2.0",
     "cuid": "^3.0.0",
     "front-end-override": "file:./front-end-override",
     "fs-extra": "^11.1.1",
@@ -17,5 +18,8 @@
     "polished": "^4.2.2",
     "postcss": "^8.4.24",
     "tinycolor2": "^1.6.0"
+  },
+  "devDependencies": {
+    "postcss-prettify": "^0.3.4"
   }
 }

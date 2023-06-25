@@ -1,3 +1,4 @@
+const inquirer = require("@inquirer/prompts");
 const Skinner = require("../Skinner/Skinner");
 
 const tinycolor = require("tinycolor2");
@@ -50,14 +51,13 @@ const verbalData = (name, prefix) => {
 
   data.nameRadius = data.name + "Radius";
 
-  if(prefix) {
+  if (prefix) {
     for (let key in data) {
       if (data.hasOwnProperty(key)) {
         data[key] = prefix + data[key];
       }
-  }
     }
-  
+  }
 
   return data;
 };
@@ -194,7 +194,7 @@ module.exports = plugin = (opts = {}) => {
       matchedRoots.forEach((root) => {
         root.walkDecls((decl) => {
           skinKeys.forEach((key) => {
-            const bg = verbalData(key.name, '--').nameBg;
+            const bg = verbalData(key.name, "--").nameBg;
             if (decl.prop === bg) {
               matchedKeys[key.name] = {
                 Background: {
@@ -211,18 +211,20 @@ module.exports = plugin = (opts = {}) => {
           //     variableName: decl.prop,
           //     variableValue: decl.value
           // });
-
         });
-
       });
 
       const SKINNER = new Skinner(() => {}, matchedKeys, tinycolor);
 
       const skin = SKINNER.init();
 
+      console.log(opts.essences);
       matchedRoots.forEach((rule) => {
-        skinKeys.forEach(key => {
-          const vdk = verbalData(key.name, '--');
+        skinKeys.forEach((key) => {
+          if(!opts.essences.includes(key.nameyy)){
+            return
+          }
+          const vdk = verbalData(key.name, "--");
           const vdv = verbalData(key.name);
           rule.append({ prop: vdk.nameG, value: skin[vdv.nameG] });
           rule.append({ prop: vdk.nameBg, value: skin[vdv.nameBg] });
@@ -231,16 +233,17 @@ module.exports = plugin = (opts = {}) => {
           rule.append({ prop: vdk.nameBg2Hov, value: skin[vdv.nameBg2Hov] });
           rule.append({ prop: vdk.nameBg3, value: skin[vdv.nameBg3] });
           rule.append({ prop: vdk.nameBg3Hov, value: skin[vdv.nameBg3Hov] });
-
           rule.append({ prop: vdk.nameTxt, value: skin[vdv.nameTxt] });
           rule.append({ prop: vdk.nameTxt2, value: skin[vdv.nameTxt2] });
           rule.append({ prop: vdk.nameTxt3, value: skin[vdv.nameTxt3] });
-
           rule.append({ prop: vdk.nameAccent, value: skin[vdv.nameAccent] });
-          rule.append({ prop: vdk.nameAccentTxt, value: skin[vdv.nameAccentTxt] });
+          rule.append({
+            prop: vdk.nameAccentTxt,
+            value: skin[vdv.nameAccentTxt],
+          });
           rule.append({ prop: vdk.nameRadius, value: skin[vdv.nameRadius] });
           rule.append({ prop: vdk.nameBorder, value: skin[vdv.nameBorder] });
-        })
+        });
       });
     },
   };

@@ -1,8 +1,10 @@
+const inquirer = require("@inquirer/prompts");
 const fs = require("fs").promises;
 const path = require("path");
 const fse = require("fs-extra");
 const postcss = require("postcss");
 const pluginSkinner = require("./plugins/addSkinnerVariables");
+const pluginPrettier = require("postcss-prettify");
 // const pluginAnalyze = require('plugin-analyze');
 // const pluginTransform = require('plugin-transform');
 
@@ -21,7 +23,7 @@ const config = {
   outputFilePath: (id) => {
     return path.resolve(__dirname, "..", "output", `${id}.css`);
   },
-  plugins: [pluginSkinner],
+  plugins: [pluginSkinner, pluginPrettier],
 };
 
 class CSSProcessor {
@@ -32,26 +34,180 @@ class CSSProcessor {
     fse.emptyDir(path.resolve(__dirname, "output"));
 
     this.config = config;
-
   }
 
   async processFiles(files) {
     for (const file of files) {
-      await this.processFile(file);
+      // await inquirer.confirm({ message: `Proceed? with file ${file}?`});
+      //   await this.processFile(file);
+
+      const prompt = await inquirer.confirm({
+        message: `Should I process file ${file}?`,
+      });
+
+      if (prompt) {
+        await this.processFile(file);
+      } else {
+        console.log(`Skipping file ${file}`);
+      }
     }
   }
 
   async processFile(file) {
-    const f = file.split('.')[0];
+    const prompt = await inquirer.checkbox({
+      message: "Select desired Skinner essences",
+      choices: [
+        { 
+          name: "body", 
+          value: "body", 
+          checked: true, 
+          // disabled: 'this one is mandatory' 
+        },
+        { 
+          name: "accent", 
+          value: "accent", 
+          checked: true, 
+          // disabled: 'this one is mandatory' 
+        }, 
+        new inquirer.Separator(),
+        {
+          name: "dominant",
+          value: "dominant",
+          checked: true
+        },
+        {
+          name: "button",
+          value: "button",
+          checked: true
+        },
+        {
+          name: "buttonSecondary",
+          value: "buttonSecondary",
+          checked: true
+        },
+        {
+          name: "navbar",
+          value: "navbar",
+          checked: true
+        },
+        {
+          name: "slider",
+          value: "slider",
+          checked: true
+        },
+        {
+          name: "header",
+          value: "header",
+          checked: true
+        },
+        {
+          name: "subHeader",
+          value: "subHeader",
+          checked: true
+        },
+        {
+          name: "event",
+          value: "event",
+          checked: true
+        },
+        {
+          name: "eventLive",
+          value: "eventLive",
+          checked: true
+        },
+        {
+          name: "odd",
+          value: "odd",
+          checked: true
+        },
+        {
+          name: "oddActive",
+          value: "oddActive",
+          checked: true
+        },
+        {
+          name: "showMore",
+          value: "showMore",
+          checked: true
+        },
+        {
+          name: "marketHeader",
+          value: "marketHeader",
+          checked: true
+        },
+        {
+          name: "collapse",
+          value: "collapse",
+          checked: true
+        },
+        {
+          name: "tab",
+          value: "tab",
+          checked: true
+        },
+        {
+          name: "tabActive",
+          value: "tabActive",
+          checked: true
+        },
+        {
+          name: "tabSecondaryActive",
+          value: "tabSecondaryActive",
+          checked: true
+        },
+        {
+          name: "menu_1",
+          value: "menu_1",
+          checked: true
+        },
+        {
+          name: "menu_2",
+          value: "menu_2",
+          checked: true
+        },
+        {
+          name: "menu_3",
+          value: "menu_3",
+          checked: true
+        },
+        {
+          name: "input",
+          value: "input",
+          checked: true
+        },
+        {
+          name: "inputSecondary",
+          value: "inputSecondary",
+          checked: true
+        },
+        {
+          name: "filter",
+          value: "filter",
+          checked: true
+        },
+        {
+          name: "tooltip",
+          value: "tooltip",
+          checked: true
+        },
+        {
+          name: "modal",
+          value: "modal",
+          checked: true
+        },
+      ],
+    });
+
+
+    const f = file.split(".")[0];
     const inputPath = this.config.inputFilePath(f);
     const outputPath = this.config.outputFilePath(f);
 
     try {
       const css = await fs.readFile(inputPath, "utf8");
-      const result = await postcss(this.config.plugins.map((p) => p({id:f}))).process(
-        css,
-        { from: undefined }
-      );
+      const result = await postcss(
+        this.config.plugins.map((p) => p({ id: f, essences: prompt }))
+      ).process(css, { from: undefined });
 
       const modifiedCSS = result.css;
       const messages = result.messages;
@@ -66,9 +222,9 @@ class CSSProcessor {
           });
         }
 
-        if (message.type === "custom" && message.plugin === "analyzer") {
-          await fs.appendFile(this.logFilePath, message.text, "utf8");
-        }
+        // if (message.type === "custom" && message.plugin === "analyzer") {
+        await fs.appendFile(this.logFilePath, message.text, "utf8");
+        // }
       }
     } catch (error) {
       this.loggedData.push({
@@ -76,11 +232,9 @@ class CSSProcessor {
         occurrences: 0,
         active: false,
       });
-      const message = `${file}--------------------------
-
-${file} partner doesn't exist"
-
-..................................`;
+      const message = `${file}---------------------
+${file} partner doesn't exist
+.............................`;
       await fs.appendFile(this.logFilePath, message, "utf8");
       console.error(`Error processing file ${file}:`, error);
     }

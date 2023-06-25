@@ -1,0 +1,34 @@
+
+:root {
+    --bodyBg:  #101010;
+    --bodyBg2:  #292929;
+    --bodyBg3: #363636;  
+    --bodyBgHover:  #181818;
+    --bodyBg2Hover:  #313131;
+    --bodyBg3Hover: #3e3e3e;
+    --bodyRGBA:  rgba(16, 16, 16, 0.7);
+    --bodyRGBA2:  rgba(16, 16, 16, 0.5);
+    --bodyRGBA3:  rgba(16, 16, 16, 0.3);
+    --bodyTxt: rgba(255, 255, 255, 0.9);
+    --bodyTxt2: rgba(255, 255, 255, 0.6);
+    --bodyTxt3: rgba(255, 255, 255, 0.4);
+    --bodyAccent: #FF8600;
+    --bodyAccentTxt: rgba(0, 0, 0, 0.9);
+    --bodyBorder:  #101010;
+    --bodyRadius:  0px;
+
+   
+
+    --accentBg: #FF8600;
+    --accentBg2:  #ff9e33;
+    --accentBg3: #ffaa4d;
+    --accentBgHover:  #ff8d0f;
+    --accentBg2Hover:  #ffa542;
+    --accentBg3Hover:  #ffb15c;
+    --accentG: #FF8600;
+    --accentTxt: rgba(0, 0, 0, 0.9);
+    --accentTxt2: rgba(0, 0, 0, 0.6);
+    --accentTxt3: rgba(0, 0, 0, 0.4);        
+  
+}
+

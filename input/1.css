@@ -1,14 +1,12 @@
 
 :root {
-    --bodyBg:  #101010;
-    --bodyBg2:  #292929;
-    --bodyBg3: #363636;  
-    --bodyBgHover:  #181818;
+    --bodyBg:  #101010;--bodyBg2:  #292929;--bodyBgHover:  #181818;
     --bodyBg2Hover:  #313131;
-    --bodyBg3Hover: #3e3e3e;
-    --bodyRGBA:  rgba(16, 16, 16, 0.7);
-    --bodyRGBA2:  rgba(16, 16, 16, 0.5);
-    --bodyRGBA3:  rgba(16, 16, 16, 0.3);
+    --bodyBg3Hover: #3e3e3e;--bodyRGBA:  rgba(16, 16, 16, 0.7);
+
+
+    
+    --bodyRGBA2:  rgba(16, 16, 16, 0.5); --bodyRGBA3:  rgba(16, 16, 16, 0.3);
     --bodyTxt: rgba(255, 255, 255, 0.9);
     --bodyTxt2: rgba(255, 255, 255, 0.6);
     --bodyTxt3: rgba(255, 255, 255, 0.4);
