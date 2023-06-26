@@ -4,12 +4,12 @@ function setCSSOverride(id) {
     console.log("==========   Current partner: ", id);
     let link = document.getElementById("partnerStyleCssLink");
     if (link) {
-      link.href = `https://localhost:44397/Partners/${id}/Styles/web.css`;
+      link.href = `https://localhost:44397/Partners/${id}/Styles/web.css?${Date.now()}`;
     } else {
       link = document.createElement("link");
       link.rel = "stylesheet";
       link.type = "text/css";
-      link.href =  `https://localhost:44397/Partners/${id}/Styles/web.css`;
+      link.href =  `https://localhost:44397/Partners/${id}/Styles/web.css?${Date.now()}`;
       link.media = "all";
       link.id = "partnerStyleCssLink";
       head.appendChild(link);

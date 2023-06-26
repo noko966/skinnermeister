@@ -4,57 +4,70 @@ const path = require("path");
 const fse = require("fs-extra");
 const postcss = require("postcss");
 const pluginSkinner = require("./plugins/addSkinnerVariables");
+const pluginCleanShit = require("./plugins/cutShitPasteInVars");
+
 const pluginPrettier = require("postcss-prettify");
 // const pluginAnalyze = require('plugin-analyze');
 // const pluginTransform = require('plugin-transform');
 
-// const config = {
-//     inputFolder: path.resolve('D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners'),
-//     inputFilePath: (id) => {path.resolve(this.SPORT_PARTNERS_PATH, id, 'Styles', 'web.css')},
-//     outputFilePath: (id) => {path.resolve(__dirname, 'output', `${id}.css`)},
-//     plugins: [pluginSkinner]
-// }
-
 const config = {
-  inputFolder: path.resolve(__dirname, "..", "input"),
-  inputFilePath: (id) => {
-    return path.resolve(__dirname, "..", "input", `${id}.css`);
-  },
-  outputFilePath: (id) => {
-    return path.resolve(__dirname, "..", "output", `${id}.css`);
-  },
-  plugins: [pluginSkinner, pluginPrettier],
-};
+    inputFolder: path.resolve('D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners'),
+    inputFilePath: (id) => {
+      return path.resolve('D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners', id, 'Styles', 'web.css')
+    },
+    outputFilePath: (id) => {return path.resolve(__dirname, "..", 'output', `${id}.css`)},
+    // outputFilePath: (id) => {
+    //   return path.resolve('D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners', id, 'Styles', 'web.css')
+    // },
+    plugins: [pluginPrettier, pluginCleanShit],
+    prompt: false
+}
+
+// const config = {
+//   inputFolder: path.resolve(__dirname, "..", "input"),
+//   inputFilePath: (id) => {
+//     return path.resolve(__dirname, "..", "input", `${id}.css`);
+//   },
+//   outputFilePath: (id) => {
+//     return path.resolve(__dirname, "..", "output", `${id}.css`);
+//   },
+//   plugins: [pluginPrettier],
+// };
 
 class CSSProcessor {
   constructor(config) {
     this.loggedData = [];
     this.logFilePath = path.resolve(__dirname, "..", "logs", "log.txt");
 
-    fse.emptyDir(path.resolve(__dirname, "output"));
+    fse.emptyDir(path.resolve(__dirname, "..", "output"));
 
     this.config = config;
   }
 
   async processFiles(files) {
     for (const file of files) {
-      // await inquirer.confirm({ message: `Proceed? with file ${file}?`});
-      //   await this.processFile(file);
 
-      const prompt = await inquirer.confirm({
-        message: `Should I process file ${file}?`,
-      });
-
-      if (prompt) {
-        await this.processFile(file);
-      } else {
-        console.log(`Skipping file ${file}`);
+      if(config.prompt) {
+        const prompt = await inquirer.confirm({
+          message: `Should I process file ${file}?`,
+        });
+        if (prompt) {
+          await this.processFile(file);
+        } else {
+          console.log(`Skipping file ${file}`);
+        }
       }
+      else{
+        await this.processFile(file);
+      }
+      
     }
   }
 
   async processFile(file) {
-    const prompt = await inquirer.checkbox({
+    let prompt = false
+    if(config.prompt) {
+    prompt = await inquirer.checkbox({
       message: "Select desired Skinner essences",
       choices: [
         { 
@@ -197,7 +210,7 @@ class CSSProcessor {
         },
       ],
     });
-
+    }
 
     const f = file.split(".")[0];
     const inputPath = this.config.inputFilePath(f);
@@ -242,8 +255,9 @@ ${file} partner doesn't exist
 
   async run() {
     try {
-      const filesArray = await fs.readdir(this.config.inputFolder);
+      const filesArray = await fs.readdir(this.config.inputFolder);      
       await fs.writeFile(this.logFilePath, "new log file\n", "utf8");
+
       await this.processFiles(filesArray);
     } catch (error) {
       console.error("Error reading directory:", error);

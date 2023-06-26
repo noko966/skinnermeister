@@ -221,9 +221,9 @@ module.exports = plugin = (opts = {}) => {
       console.log(opts.essences);
       matchedRoots.forEach((rule) => {
         skinKeys.forEach((key) => {
-          if(!opts.essences.includes(key.nameyy)){
-            return
-          }
+          // if(!opts.essences.includes(key.name)){
+          //   return
+          // }
           const vdk = verbalData(key.name, "--");
           const vdv = verbalData(key.name);
           rule.append({ prop: vdk.nameG, value: skin[vdv.nameG] });
