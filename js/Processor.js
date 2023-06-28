@@ -2,7 +2,7 @@ const inquirer = require("@inquirer/prompts");
 const fs = require("fs").promises;
 const path = require("path");
 const fse = require("fs-extra");
-const puppeteer = require("puppeteer");
+// const puppeteer = require("puppeteer");
 
 const postcss = require("postcss");
 const pluginSkinner = require("./plugins/addSkinnerVariables");
@@ -42,52 +42,52 @@ const config = {
 //   plugins: [pluginPrettier],
 // };
 
-async function openBrowser(id, cssPath) {
-  console.log(cssPath);
-  const browser = await puppeteer.launch({
-    headless: false,
-    defaultViewport: null,
-    args: ["--window-size=1920,1080", '--window-position=1920,0'],
-  });
+// async function openBrowser(id, cssPath) {
+//   console.log(cssPath);
+//   const browser = await puppeteer.launch({
+//     headless: false,
+//     defaultViewport: null,
+//     args: ["--window-size=1920,1080", '--window-position=1920,0'],
+//   });
 
-  // Open a new page
-  const pages = await browser.pages();
-  const page = pages[0];
-  // Navigate to the desired URL
-  // await page.goto(
-  //   "https://sportiframe.tst-digi.com/SportsBook/Home?token=-&d=d&l=hy&tz=&of=0&ofl=&parent=sport.tst-digi.com&customCssUrl=&sportsBookView=&clearSiteStyles=false&resetAllStyles=false&theme="
-  // );
-await page.goto(
-    "https://localhost:44397/SportsBook/Home"
-  );
+//   // Open a new page
+//   const pages = await browser.pages();
+//   const page = pages[0];
+//   // Navigate to the desired URL
+//   // await page.goto(
+//   //   "https://sportiframe.tst-digi.com/SportsBook/Home?token=-&d=d&l=hy&tz=&of=0&ofl=&parent=sport.tst-digi.com&customCssUrl=&sportsBookView=&clearSiteStyles=false&resetAllStyles=false&theme="
+//   // );
+// await page.goto(
+//     "https://localhost:44397/SportsBook/Home"
+//   );
   
 
-  const cssContent = await fs.readFile(cssPath, "utf-8");
+//   const cssContent = await fs.readFile(cssPath, "utf-8");
 
-  await page.waitForSelector("#calcBtn");
+//   await page.waitForSelector("#calcBtn");
 
-  // Return a Promise that resolves once the browser is closed
-  return new Promise((resolve) => {
-    page.exposeFunction("onCustomButtonClick", async () => {
-      console.log(`button clicked! Closing the browser for partner ${id}...`);
-      await browser.close();
-      resolve(); // Resolve the Promise here
-    });
+//   // Return a Promise that resolves once the browser is closed
+//   return new Promise((resolve) => {
+//     page.exposeFunction("onCustomButtonClick", async () => {
+//       console.log(`button clicked! Closing the browser for partner ${id}...`);
+//       await browser.close();
+//       resolve(); // Resolve the Promise here
+//     });
 
-    // Attach an event listener to the button for the 'click' event
-    page.evaluate((cssContentInBrowser) => {
-      document.querySelector(".tg__subhead").addEventListener("click", () => {
-        onCustomButtonClick();
-      });
-      let styleTag = document.getElementById("partnerStyleCssLink");
-      styleTag.remove();
-      const style = document.createElement('style');
-  style.type = 'text/css';
-  style.appendChild(document.createTextNode(cssContentInBrowser));
-  document.head.appendChild(style);
-    }, cssContent);
-  });
-}
+//     // Attach an event listener to the button for the 'click' event
+//     page.evaluate((cssContentInBrowser) => {
+//       document.querySelector(".tg__subhead").addEventListener("click", () => {
+//         onCustomButtonClick();
+//       });
+//       let styleTag = document.getElementById("partnerStyleCssLink");
+//       styleTag.remove();
+//       const style = document.createElement('style');
+//   style.type = 'text/css';
+//   style.appendChild(document.createTextNode(cssContentInBrowser));
+//   document.head.appendChild(style);
+//     }, cssContent);
+//   });
+// }
 
 class CSSProcessor {
   constructor(config) {
@@ -112,12 +112,13 @@ class CSSProcessor {
         }
       } else {
         // await new Promise(resolve => this.processFile(file));
-        await this.processFile(file).then(
-          await openBrowser(
-            file,
-            path.resolve(__dirname, "..", "output", `${file}.css`)
-          )
-        );
+        await this.processFile(file)
+        // await this.processFile(file).then(
+        //   await openBrowser(
+        //     file,
+        //     path.resolve(__dirname, "..", "output", `${file}.css`)
+        //   )
+        // );
       }
     }
   }
