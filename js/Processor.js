@@ -2,26 +2,34 @@ const inquirer = require("@inquirer/prompts");
 const fs = require("fs").promises;
 const path = require("path");
 const fse = require("fs-extra");
+const puppeteer = require("puppeteer");
+
 const postcss = require("postcss");
 const pluginSkinner = require("./plugins/addSkinnerVariables");
 const pluginCleanShit = require("./plugins/cutShitPasteInVars");
 
 const pluginPrettier = require("postcss-prettify");
 // const pluginAnalyze = require('plugin-analyze');
-// const pluginTransform = require('plugin-transform');
 
 const config = {
-    inputFolder: path.resolve('D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners'),
-    inputFilePath: (id) => {
-      return path.resolve('D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners', id, 'Styles', 'web.css')
-    },
-    outputFilePath: (id) => {return path.resolve(__dirname, "..", 'output', `${id}.css`)},
-    // outputFilePath: (id) => {
-    //   return path.resolve('D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners', id, 'Styles', 'web.css')
-    // },
-    plugins: [pluginPrettier, pluginCleanShit],
-    prompt: false
-}
+  inputFolder: path.resolve("D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners"),
+  inputFilePath: (id) => {
+    return path.resolve(
+      "D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners",
+      id,
+      "Styles",
+      "web.css"
+    );
+  },
+  outputFilePath: (id) => {
+    return path.resolve(__dirname, "..", "output", `${id}.css`);
+  },
+  // outputFilePath: (id) => {
+  //   return path.resolve('D:\\Projects\\Sport\\Dev\\Sport.MVC\\Partners', id, 'Styles', 'web.css')
+  // },
+  plugins: [pluginPrettier, pluginCleanShit],
+  prompt: false,
+};
 
 // const config = {
 //   inputFolder: path.resolve(__dirname, "..", "input"),
@@ -33,6 +41,53 @@ const config = {
 //   },
 //   plugins: [pluginPrettier],
 // };
+
+async function openBrowser(id, cssPath) {
+  console.log(cssPath);
+  const browser = await puppeteer.launch({
+    headless: false,
+    defaultViewport: null,
+    args: ["--window-size=1920,1080", '--window-position=1920,0'],
+  });
+
+  // Open a new page
+  const pages = await browser.pages();
+  const page = pages[0];
+  // Navigate to the desired URL
+  // await page.goto(
+  //   "https://sportiframe.tst-digi.com/SportsBook/Home?token=-&d=d&l=hy&tz=&of=0&ofl=&parent=sport.tst-digi.com&customCssUrl=&sportsBookView=&clearSiteStyles=false&resetAllStyles=false&theme="
+  // );
+await page.goto(
+    "https://localhost:44397/SportsBook/Home"
+  );
+  
+
+  const cssContent = await fs.readFile(cssPath, "utf-8");
+
+  await page.waitForSelector("#calcBtn");
+
+  // Return a Promise that resolves once the browser is closed
+  return new Promise((resolve) => {
+    page.exposeFunction("onCustomButtonClick", async () => {
+      console.log(`button clicked! Closing the browser for partner ${id}...`);
+      await browser.close();
+      resolve(); // Resolve the Promise here
+    });
+
+    // Attach an event listener to the button for the 'click' event
+    page.evaluate((cssContentInBrowser) => {
+      document.querySelector(".tg__subhead").addEventListener("click", () => {
+        onCustomButtonClick();
+      });
+      let styleTag = document.getElementById("partnerStyleCssLink");
+      styleTag.remove();
+      const style = document.createElement('style');
+  style.type = 'text/css';
+  style.appendChild(document.createTextNode(cssContentInBrowser));
+  document.head.appendChild(style);
+    }, cssContent);
+  });
+}
 
 class CSSProcessor {
   constructor(config) {
@@ -46,8 +101,7 @@ class CSSProcessor {
 
   async processFiles(files) {
     for (const file of files) {
-
-      if(config.prompt) {
+      if (config.prompt) {
         const prompt = await inquirer.confirm({
           message: `Should I process file ${file}?`,
         });
@@ -56,160 +110,164 @@ class CSSProcessor {
         } else {
           console.log(`Skipping file ${file}`);
         }
+      } else {
+        // await new Promise(resolve => this.processFile(file));
+        await this.processFile(file).then(
+          await openBrowser(
+            file,
+            path.resolve(__dirname, "..", "output", `${file}.css`)
+          )
+        );
       }
-      else{
-        await this.processFile(file);
-      }
-      
     }
   }
 
   async processFile(file) {
-    let prompt = false
-    if(config.prompt) {
-    prompt = await inquirer.checkbox({
-      message: "Select desired Skinner essences",
-      choices: [
-        { 
-          name: "body", 
-          value: "body", 
-          checked: true, 
-          // disabled: 'this one is mandatory' 
-        },
-        { 
-          name: "accent", 
-          value: "accent", 
-          checked: true, 
-          // disabled: 'this one is mandatory' 
-        }, 
-        new inquirer.Separator(),
-        {
-          name: "dominant",
-          value: "dominant",
-          checked: true
-        },
-        {
-          name: "button",
-          value: "button",
-          checked: true
-        },
-        {
-          name: "buttonSecondary",
-          value: "buttonSecondary",
-          checked: true
-        },
-        {
-          name: "navbar",
-          value: "navbar",
-          checked: true
-        },
-        {
-          name: "slider",
-          value: "slider",
-          checked: true
-        },
-        {
-          name: "header",
-          value: "header",
-          checked: true
-        },
-        {
-          name: "subHeader",
-          value: "subHeader",
-          checked: true
-        },
-        {
-          name: "event",
-          value: "event",
-          checked: true
-        },
-        {
-          name: "eventLive",
-          value: "eventLive",
-          checked: true
-        },
-        {
-          name: "odd",
-          value: "odd",
-          checked: true
-        },
-        {
-          name: "oddActive",
-          value: "oddActive",
-          checked: true
-        },
-        {
-          name: "showMore",
-          value: "showMore",
-          checked: true
-        },
-        {
-          name: "marketHeader",
-          value: "marketHeader",
-          checked: true
-        },
-        {
-          name: "collapse",
-          value: "collapse",
-          checked: true
-        },
-        {
-          name: "tab",
-          value: "tab",
-          checked: true
-        },
-        {
-          name: "tabActive",
-          value: "tabActive",
-          checked: true
-        },
-        {
-          name: "tabSecondaryActive",
-          value: "tabSecondaryActive",
-          checked: true
-        },
-        {
-          name: "menu_1",
-          value: "menu_1",
-          checked: true
-        },
-        {
-          name: "menu_2",
-          value: "menu_2",
-          checked: true
-        },
-        {
-          name: "menu_3",
-          value: "menu_3",
-          checked: true
-        },
-        {
-          name: "input",
-          value: "input",
-          checked: true
-        },
-        {
-          name: "inputSecondary",
-          value: "inputSecondary",
-          checked: true
-        },
-        {
-          name: "filter",
-          value: "filter",
-          checked: true
-        },
-        {
-          name: "tooltip",
-          value: "tooltip",
-          checked: true
-        },
-        {
-          name: "modal",
-          value: "modal",
-          checked: true
-        },
-      ],
-    });
+    let prompt = false;
+    if (config.prompt) {
+      prompt = await inquirer.checkbox({
+        message: "Select desired Skinner essences",
+        choices: [
+          {
+            name: "body",
+            value: "body",
+            checked: true,
+            // disabled: 'this one is mandatory'
+          },
+          {
+            name: "accent",
+            value: "accent",
+            checked: true,
+            // disabled: 'this one is mandatory'
+          },
+          new inquirer.Separator(),
+          {
+            name: "dominant",
+            value: "dominant",
+            checked: true,
+          },
+          {
+            name: "button",
+            value: "button",
+            checked: true,
+          },
+          {
+            name: "buttonSecondary",
+            value: "buttonSecondary",
+            checked: true,
+          },
+          {
+            name: "navbar",
+            value: "navbar",
+            checked: true,
+          },
+          {
+            name: "slider",
+            value: "slider",
+            checked: true,
+          },
+          {
+            name: "header",
+            value: "header",
+            checked: true,
+          },
+          {
+            name: "subHeader",
+            value: "subHeader",
+            checked: true,
+          },
+          {
+            name: "event",
+            value: "event",
+            checked: true,
+          },
+          {
+            name: "eventLive",
+            value: "eventLive",
+            checked: true,
+          },
+          {
+            name: "odd",
+            value: "odd",
+            checked: true,
+          },
+          {
+            name: "oddActive",
+            value: "oddActive",
+            checked: true,
+          },
+          {
+            name: "showMore",
+            value: "showMore",
+            checked: true,
+          },
+          {
+            name: "marketHeader",
+            value: "marketHeader",
+            checked: true,
+          },
+          {
+            name: "collapse",
+            value: "collapse",
+            checked: true,
+          },
+          {
+            name: "tab",
+            value: "tab",
+            checked: true,
+          },
+          {
+            name: "tabActive",
+            value: "tabActive",
+            checked: true,
+          },
+          {
+            name: "tabSecondaryActive",
+            value: "tabSecondaryActive",
+            checked: true,
+          },
+          {
+            name: "menu_1",
+            value: "menu_1",
+            checked: true,
+          },
+          {
+            name: "menu_2",
+            value: "menu_2",
+            checked: true,
+          },
+          {
+            name: "menu_3",
+            value: "menu_3",
+            checked: true,
+          },
+          {
+            name: "input",
+            value: "input",
+            checked: true,
+          },
+          {
+            name: "inputSecondary",
+            value: "inputSecondary",
+            checked: true,
+          },
+          {
+            name: "filter",
+            value: "filter",
+            checked: true,
+          },
+          {
+            name: "tooltip",
+            value: "tooltip",
+            checked: true,
+          },
+          {
+            name: "modal",
+            value: "modal",
+            checked: true,
+          },
+        ],
+      });
     }
 
     const f = file.split(".")[0];
@@ -255,7 +313,7 @@ ${file} partner doesn't exist
 
   async run() {
     try {
-      const filesArray = await fs.readdir(this.config.inputFolder);      
+      const filesArray = await fs.readdir(this.config.inputFolder);
       await fs.writeFile(this.logFilePath, "new log file\n", "utf8");
 
       await this.processFiles(filesArray);

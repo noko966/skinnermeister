@@ -75,7 +75,8 @@ async function processFile(file) {
 
 ${file} partner doesn't exist"
 
-..................................`;
+..................................
+`;  
     await fs.appendFile(logFilePath, message, "utf8");
     console.error(`Error processing file ${file}:`, error);
   }
