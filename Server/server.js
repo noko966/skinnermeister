@@ -22,9 +22,15 @@ function startServer(dir) {
 
 async function openBrowser(port, data) {
   const browser = await puppeteer.launch({
+    ignoreDefaultArgs: ["--enable-automation"],
     headless: false,
     defaultViewport: null,
-    args: ["--window-size=1920,1080", "--window-position=1920,0"],
+    args: [
+      "--window-size=1920,1080",
+      "--window-position=1920,0",
+      "--test-type",
+      "--disable-infobars"
+    ],
   });
 
   // Open a new page
@@ -65,22 +71,21 @@ async function openBrowser(port, data) {
             console.log("CSS link created");
           }
 
-        console.log(current, data);
-
+          console.log(current, data);
         }
 
         document.addEventListener("keyup", function (event) {
           if (event.key === "ArrowLeft") {
-            if(current < 0 ) {
-              current = data.length
+            if (current < 0) {
+              current = data.length;
             }
             setCSSOverride(port, data[--current]);
           }
         });
         document.addEventListener("keyup", function (event) {
           if (event.key === "ArrowRight") {
-            if(current > data.length ) {
-              current = 0
+            if (current > data.length) {
+              current = 0;
             }
             setCSSOverride(port, data[++current]);
           }
@@ -90,14 +95,13 @@ async function openBrowser(port, data) {
 
         setCSSOverride(port, data[current]);
       },
-      port, data);
+      port,
+      data
+    );
   });
 }
 
 const partners = fs.readdir(DIRECTORY, (err, data) => {
   startServer(DIRECTORY);
   openBrowser(PORT, data);
-})
-
-
-
+});
