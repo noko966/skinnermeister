@@ -27,15 +27,15 @@ module.exports = plugin = (partnerID, opts = {}) => {
       });
 
       matchedSelectors.forEach((rule) => {
-        if(partnerID === 95) {
+        if (partnerID === 95) {
           console.log(rule);
         }
-        let _selectors = rule.rule.selector.split(',');
-        _selectors = _selectors.filter(s => !s.includes(rule.sel));
-       rule.rule.selector = _selectors.join(',');
-       if (rule.rule.selector.trim().length === 0) {
-         rule.rule.remove();
-       }
+        let _selectors = rule.rule.selector.split(",");
+        _selectors = _selectors.filter((s) => !s.includes(rule.sel));
+        rule.rule.selector = _selectors.join(",");
+        if (rule.rule.selector.trim().length === 0) {
+          rule.rule.remove();
+        }
       });
     },
 

@@ -5,3 +5,4 @@ output/
 
 logs/log.txt
 yarn-error.log
+yarn.lock
