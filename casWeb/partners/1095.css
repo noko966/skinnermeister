@@ -1,0 +1,989 @@
+﻿/*ADDED FOR REASON REMOVE LATER*/
+body {
+    --bg-level-1: #F1F0EC;
+    --bg-level-2: #ffffff;
+    --text-level-high: #21201f;
+    --primary: #FCE000;
+    --text-on-primary: #000;
+}
+/*all important styles*/
+body, #wrapper, .bgMain {
+    background-color: #F1F0EC;
+    color: #000;
+}
+
+.heading {
+    color: #21201f;
+    background-color: #ffffff;
+}
+
+.sub_heading {
+    color: #106046;
+}
+
+.text_capitalize {
+    text-transform: capitalize;
+}
+
+.footer_links > div:first-child a {
+    text-align: right;
+}
+/*inputs*/
+
+#wrapper input::placeholder {
+    color: #999999;
+}
+
+#wrapper input:-ms-input-placeholder {
+    color: #999999;
+}
+
+#wrapper input::-ms-input-placeholder {
+    color: #999999;
+}
+
+/*header*/
+.casino_h_link_cont .clr_sec {
+    background: #F1F0ED;
+}
+
+.casino_links_tabs .home_icon:before {
+    color: #000;
+}
+
+.casino_links_tabs a {
+    font-size: 12px;
+    color: #666;
+}
+ 
+
+#header {
+    background: #21201F;
+}
+
+.LinkToLeftPanel:before {
+    color: #666666;
+}
+
+.LogoMobilePlatform {
+    background-image: url('/Img/mobile/partners/1095/logo.png');
+    width: 100px;
+    height: 34px;
+    margin-right: 20px;
+}
+
+.ic, #header .txt {
+    color: #fff;
+}
+
+.go_to_right_menu {
+    position: relative;
+}
+
+.refresh-captcha:before {
+    color: #000;
+}
+/*all buttons*/
+.btn_sec {
+    background-color: #FCE000 !important;
+    color: #21201F !important;
+}
+
+.btn_prim {
+    background-color: #FCE000 !important;
+    color: #21201F !important;
+}
+
+
+.platformMobReg {
+    background-color: transparent !important;
+    color: #fff !important;
+    padding: 0px 10px;
+    margin: 0 5px;
+    border-radius: 5px;
+    border: 1px solid #FCE000;
+}
+
+.platformMobLog {
+    padding: 0px 10px;
+    text-transform: uppercase;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: -0.7px;
+}
+/*new landing homepage*/
+.tl_popup_content {
+    color: #fff;
+}
+
+.matches_block iframe {
+    height: 460px;
+}
+
+.tl_navigation {
+    min-width: 250px;
+    background: #e6e6e6;
+    margin-bottom: 15px;
+}
+
+.flex-direction-nav {
+    display: flex;
+    width: 100vw;
+    height: 30px;
+}
+
+    .flex-direction-nav a {
+        background: rgba(0,0,0,0.3);
+        height: 32px;
+        width: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 4px;
+        font-family: ProductIconsFont;
+    }
+
+        .flex-direction-nav a:before {
+            display: none
+        }
+
+.slideControls {
+    display: none
+}
+
+.flexslider .flex-prev {
+    opacity: 1 !important;
+    left: 40px !important;
+}
+
+.flexslider .flex-next {
+    opacity: 1 !important;
+    right: 40px !important;
+    transform: rotate(180deg);
+}
+.nav_title {
+    top: 8%;
+    bottom: auto;
+    position: absolute;
+    width: 100%;
+    font-size: 12px;
+    -ms-flex-pack: center;
+    -ms-flex-align: center;
+    text-shadow: none;
+    background-color: transparent;
+    color: #21201F;
+    line-height: 1.2;
+}
+
+
+.block_title {
+    background: #106046;
+    color: #fff;
+}
+
+.nav_item {
+    width: 100%;
+    background: #fff;
+    position: relative;
+    flex-direction: column;
+    display: flex;
+    box-shadow: none;
+}
+
+.tl_nav_link {
+    border: 1px solid #f1f0ec;
+    background-color: #f1f0ec;
+}
+
+.block_title:before {
+    color: #fff;
+}
+
+/*popup after login*/
+.tl_popup_container {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 101;
+    top: 0;
+    left: 0;
+}
+
+.tl_popup_header {
+    background-color: #2b2b2b;
+    border-radius: 2px 2px 0 0;
+    height: 47px;
+    width: 100%;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.tl_head_text {
+    width: calc((100%) - 20px);
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
+    line-height: 30px;
+}
+
+.tl_head_close {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #757575;
+    cursor: pointer;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+.tl_popup_header .tl_head_close {
+    top: 12px;
+}
+
+.tl_head_close:after {
+    content: "\35";
+    font-family: ProductIconsFont;
+}
+
+/*footer*/
+
+#footer {
+    background: #fff;
+}
+
+.call_us {
+    background-color: #E0E0E0;
+    color: #21201F;
+}
+
+    .call_us a {
+        color: #21201F;
+    }
+
+.drop_down_lang {
+    background: #e0e0e0;
+    border-radius: 3px;
+    color: #000;
+    width: 100%;
+}
+
+#footer-links {
+    padding: 30px 0;
+}
+
+.footer_links a {
+    color: #999999;
+    font-size: 14px;
+}
+
+.toWeb.btn_sec {
+    height: 44px;
+    color: #106046 !important;
+    background: #CECECE !important;
+    line-height: 44px !important;
+    padding: 0 20px;
+    margin: 20px 0;
+    width: 100%;
+}
+
+.toWebText:before {
+    content: "\3a";
+    font-family: ProductIconsFont !important;
+    font-size: 25px;
+    line-height: 25px;
+    width: 33px;
+    float: left;
+    margin-top: 4px;
+}
+
+.app_block,
+.new_pay,
+.footer_social_icons a {
+    background: url(../../../Img/partners/1095/footer_sprite.png) no-repeat;
+}
+/*social icons*/
+.footer_social_icons a {
+    height: 29px;
+    width: 32px;
+    display: block;
+    margin: 0 0 0 16px;
+}
+
+.footer_social_icons .vk {
+    background-position: 0 -177px;
+}
+
+.footer_social_icons .insta {
+    background-position: 0 -207px;
+}
+
+.footer_social_icons .facebook {
+    background-position: 0 -244px;
+}
+
+.footer_social_icons .telegram {
+    background-position: 0 -283px;
+}
+
+.app_block {
+    width: 157px;
+    height: 47px;
+    margin-left: auto;
+    background-position: 0 -520px;
+    margin-top: 20px;
+    background-size: 161px;
+    border-radius: 7px;
+}
+
+    .app_block.google_play {
+        background-position: 0 -572px;
+    }
+
+    .app_block.app_store {
+        background-position: 0 -520px;
+    }
+/*footer payment icons*/
+.footer_payments {
+    margin-bottom: 24px;
+}
+
+.new_pay {
+    margin: 13px 23px;
+}
+
+    .new_pay.visa {
+        background-position: 0 -50px;
+        width: 57px;
+        height: 20px;
+    }
+
+    .new_pay.master {
+        background-position: 0 -73px;
+        width: 51px;
+        height: 35px;
+    }
+
+    .new_pay.qiwi {
+        background-position: 0 -156px;
+        width: 61px;
+        height: 25px;
+    }
+
+    .new_pay.paybox {
+        background-position: 0 0;
+        width: 50px;
+        height: 46px;
+    }
+
+    .new_pay.cassa {
+        background-position: 0 -112px;
+        width: 61px;
+        height: 41px;
+    }
+
+.footer_bottom {
+    padding: 0 30px 30px;
+}
+
+.copy {
+    color: #21201F;
+    margin: 15px 0;
+}
+
+.drop_down_lang_arrow {
+    width: 48%;
+}
+/*welcome to the*/
+.footer__dropdown_content {
+    width: 100%;
+    margin: auto;
+    padding: 20px 0 40px;
+}
+
+.footer__dropdown {
+    width: 100%;
+    flex-direction: column;
+}
+
+.hiddenContentButton {
+    cursor: pointer;
+    color: #fff;
+    font-size: 12px;
+    padding: 20px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.hiddenContent {
+    display: none;
+    box-sizing: border-box;
+    font-size: 13px;
+    line-height: 13px;
+    color: #CECECE;
+    text-align: justify;
+    background: rgba(0,0,0,0.1);
+    padding: 0 20px;
+    border-radius: 10px;
+}
+
+    .hiddenContent p {
+        font-size: 15px;
+        color: #fff;
+        padding: 20px 0 10px;
+        margin: 0;
+    }
+
+.hiddenContentButton i {
+    padding: 0 10px;
+    line-height: 16px;
+}
+
+.hiddenContentButton.active i {
+    transform: rotate(180deg);
+}
+
+.footer_payments .frow {
+    justify-content: center;
+    align-items: center;
+}
+
+
+.payment_title {
+    color: #CECECE;
+}
+
+.footer_text {
+    color: #CECECE;
+    margin-top: 10px;
+}
+
+/*footer copy*/
+.footer_title {
+    color: #CECECE;
+    font-size: 8px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 7px;
+    margin: 0;
+}
+
+
+/*left and right menu*/
+.left-logo:before {
+    content: "\3c";
+}
+
+#left-panel {
+    background: #F1F0EC;
+}
+
+#right-panel .ic {
+    color: #000;
+}
+
+#right-panel .bgMain {
+    background: #F1F0EC;
+}
+
+#left-panel .menuBtn {
+    background: #FFFFFF;
+    color: #21201F !important;
+}
+
+.left-menu a:before {
+    font-size: 30px;
+}
+
+.menuBtn {
+    background: #FFFFFF;
+    margin-bottom: 3px;
+}
+
+.menuBtnSm {
+    background: #F3F3F3;
+    color: #000 !important;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 3px;
+    padding: 0 20px;
+}
+
+.menuBtn .txt {
+    font-size: 12px;
+}
+
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn, #right-panel .menuBtn {
+    color: #000 !important;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 14px;
+}
+
+.ui-collapsible-inset, .ui-collapsible-set {
+    margin: 0;
+}
+
+.platformForgPass {
+    color: #000 !important;
+}
+
+.menuRow {
+    color: #000 !important;
+    background: #FFFFFF;
+    text-transform: uppercase;
+    height: 40px;
+    margin-bottom: 3px;
+}
+
+.ui-collapsible-inset.ui-collapsible-themed-content .ui-collapsible-content {
+    background-color: #F3F3F3 !important;
+    color: #000 !important;
+    padding: 0;
+}
+
+#right-panel .ui-collapsible-inset.ui-collapsible-themed-content .ui-collapsible-content > .menuBtn {
+    background: #E8E5E0;
+    margin: 0;
+    color: #737373 !important;
+    border-bottom: 2px solid #F1F0EC;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+
+.row {
+    margin: 5px auto;
+}
+
+.right_menu_header {
+    background: #333333;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    line-height: 44px;
+    padding: 10px 0 5px;
+}
+
+.right_menu_close {
+    color: #999;
+    font-size: 24px;
+    position: absolute;
+    right: 16px;
+    top: 3px;
+    cursor: pointer;
+}
+
+.account_title {
+    color: #000000;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.playerId {
+    margin: 12px 8px 24px;
+}
+
+.right_menu_logo {
+    width: 106px;
+    height: 32px;
+    background-image: url('/Img/mobile/partners/1095/logo.png');
+    background-size: contain;
+    margin: 0px auto 5px;
+    background-repeat: no-repeat;
+}
+
+#left-panel .menuBtnSm {
+    text-align: left;
+    color: #21201f !important;
+    background-color: #ffffff;
+}
+
+#registerForm .drop-down {
+    font-size: 14px;
+}
+
+.reg_content {
+    padding: 18px;
+}
+.all_buttons_styles{
+    color: #333;
+}
+/*bonuses*/
+#bonusesNavBar > .ui-link {
+    background: #DDDDDD;
+    color: #000;
+}
+
+    #bonusesNavBar > .ui-link.active {
+        background: #861621;
+        color: #fff;
+    }
+
+#bonuses_content {
+    color: #000;
+    padding: 30px 15px;
+}
+
+    #bonuses_content .activate_btn {
+        background-color: #106046 !important;
+        color: #fff !important;
+    }
+
+#privacyPolicyLink {
+    color: #000;
+}
+/*casino*/
+.clr_sec {
+    background-color: #106046;
+}
+
+.casino-tabs .clr_prim {
+    background: #fff;
+    color: #106046 !important;
+}
+
+.clr_prim {
+    background-color: #fce000;
+    color: #000 !important;
+}
+
+.list-menu1 li {
+    background: #FFF !important;
+    color: #000;
+}
+/*promotions*/
+.promo_mobile_cont {
+    background-color: #ddd;
+}
+
+.promo_mobile_title {
+    color: #861621;
+}
+
+.promo_mobile_descr, .promo_img {
+    color: #000;
+}
+
+/*inbox*/
+.tl_mail_item {
+    background: #EBEBEB;
+    border-bottom: 2px solid #fff;
+}
+
+.tl_mail_details {
+    color: #000000;
+}
+
+.tl_mail_msgId {
+    color: #861621;
+}
+
+.tl_mail_item.unread {
+    background: #fff;
+}
+
+textarea.ui-input-text {
+    background-color: #fff !important;
+    color: #999999;
+}
+
+.tl_mail_attachfiel_screp, .tl_mail_attachfiel {
+    color: #000;
+}
+
+.tl_mail_row {
+    background: #EBEBEB;
+}
+
+.reply_btn_answer {
+    margin: 0 15px;
+}
+
+.tl_mail_message_cont .ui-corner-all {
+    margin: 20px 0 !important
+}
+/*deposit && withdrawal*/
+.collapse_btn h3 > a {
+    background: #ddd;
+}
+
+.paym_txt, .paym_cond > span {
+    color: #000;
+}
+
+.lbl-success {
+    background: #861621;
+}
+
+.left-skillgames {
+    text-transform: capitalize;
+}
+
+.hiddenContentButton.active i {
+    transform: rotate(180deg);
+}
+
+
+#left-panel .menuBtn .txt, #left-panel .menuBtnSm {
+    text-transform: uppercase;
+}
+
+.btn_affiliate {
+    color: #b3b3b3;
+    font-size: 16px;
+    margin: 0 0 25px 0;
+}
+
+#ceg-e7e54e3c-71a9-4e8f-8155-5185d21063dc img {
+    width: 36px !important;
+} 
+.tl_msg_attach_button, .tl_mail_attachfiel_content {
+    margin: 0 8px;
+    padding-left: 0;
+    padding-right: 0
+}
+
+/*Profile upload file start*/
+
+.profile_upload { 
+    background-color: #474747; 
+}
+ 
+.yellowBtn {
+    background-color: #ffb802;
+}
+
+.sucMsgUpload {
+    color: #13792e;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+div.tl_profile_attachfiel_content {
+    margin: 0;
+    line-height: 36px;
+    color: gray;
+    text-indent: 10px;
+}
+
+    div.tl_profile_attachfiel_content .profile_upload {
+        background: white
+    }
+
+    div.tl_profile_attachfiel_content .tl_mail_attachfiel {
+        background: #ffeb8f
+    }
+
+    div.tl_profile_attachfiel_content .upload_file_btn {
+        width: 100%;
+        text-align: center
+    }
+
+.tl_mail_rows_cont > div.tl_mail_message_cont:last-child .tl_mail_message_body {
+    border: 1px solid #E6B01A;
+}
+
+div.tl_profile_attachfiel_content .tl_mail_attachfiel {
+    color: #000000
+}
+
+/*Profile upload file End*/
+
+/*forgot username*/
+#forgotusernameForm .refresh-captcha:before {
+    color: #999;
+}
+ 
+
+#forgotusernameForm .forgot_username_btn,
+#forgotusernameForm .done_button,
+#forgotusernameForm .try_again_button {
+    background: #106046 !important;
+}
+
+#forgotusernameForm .reg_newacc_button {
+    background: #861621 !important;
+}
+
+#forgotusernameForm .succestext {
+    margin: 20px 5px;
+}
+/*not found page*/
+.notFound {
+    padding-top: 20vw;
+}
+
+.fourOfour > h3 {
+    color: #106046;
+}
+
+.fourOfour > h2,
+.fourOfour > h1 {
+    color: #CECECE;
+}
+
+.fourOfour > a {
+    background-color: #1A926A;
+    color: #FFFFFF;
+}
+
+.fourOfour {
+    background-image: none;
+    max-width: 375px;
+    padding: 15px;
+    text-align: center;
+    height: auto;
+}
+/*not found page*/
+
+.safecharge {
+    width: 80px;
+    height: 28px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -6869px -153px;
+}
+
+/*inputs optimisation*/
+input,
+.reg_input, .tl_mail_send_area,
+.custon_select__front_el, .drop-down, .drop-down-small, #content_paym .ui-select span, #content_paym .ui-select select, .favorite_amounts > div,
+.reg__checkboxes_row,
+.reg__gender_row label, .profile_container .reg__gender_row label {
+    background-color: #ffffff;
+    color: #999999;
+}
+
+.reg__row_title, .profile_container label, .transfer2friend_cont label, #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+    color: #a3a3a3;
+}
+.forgot_pass__row p{
+    text-align: center;
+}
+/*responsible gaming*/
+#submit_btn {
+    background-color: #106046;
+}
+
+#right-panel .ui-btn-icon-right:after {
+    top: 20px !important;
+    background-color: #000;
+}
+
+#right-panel .menuBtn a,
+#right-panel .menuBtn {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 13px;
+}
+/*tournament*/
+.tour__leaderboard_table_me {
+    border-bottom: 2px solid #861621;
+}
+
+.tr_col_me {
+    color: #861621;
+}
+
+.tour_text_color, .tour__leaderboard_active_title.active {
+    color: #1A1A1A;
+}
+
+.trnments_drop__button:before {
+    border-color: #1A1A1A transparent transparent transparent;
+}
+
+.custom_swicher {
+    border: 2px solid #c4c4c4;
+}
+
+    .custom_swicher:before {
+        background-color: #1A1A1A;
+    }
+
+.tour__leaderboard_table_me {
+    background-color: #FFFFFF;
+    color: #1a1a1a;
+}
+
+.tour__leaderboard_table_item {
+    background-color: #FAFAFA;
+    color: #1a1a1a;
+}
+
+#tr_leaderboard {
+    box-shadow: 0px 0px 6px 0px rgba(0,0,0, 0.3);
+}
+
+.trnments_drop__custom_ul {
+    background: #fff;
+}
+
+.col_game_tabs a, .new_livecs_container .tl_game_tab_item {
+    background-color: #F1F1F1;
+    box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.3);
+    height: 136px;
+}
+
+.games .col_game_tabs {
+    width: 100%;
+}
+
+.bg_img_stars img {
+    max-height: 100%;
+}
+.text-primary {
+    color: #FCE000;
+}
+
+
+/*27.4.21 optims*/
+body .bg-primary, body .h-bg-primary {
+    background: #FCE000;
+    color: #000;
+}
+
+    body .h-bg-primary:hover {
+        background-color: #ffb700;
+        color: #000;
+    }
+
+body .text-primary {
+    color: #FCE000;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    background: transparent;
+    color: #fff;
+    border: 1px solid #FCE000;
+}
+
+    body .h-bg-secondary:hover {
+        border: 1px solid #ffb700;
+    }
+
+body .bg-tert, body .h-bg-tert {
+    background-color: #1A1A1A;
+    color: #fff;
+}
+
+    body .h-bg-tert:hover {
+        background-color: #1A1A1A;
+        color: #fff;
+    }

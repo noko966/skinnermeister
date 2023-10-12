@@ -1,0 +1,207 @@
+:root{
+/*CMS colors 257*/
+--sport-digi-background:#FFFFFF;
+--sport-digi-background-foreground:#000000;
+--sport-digi-background--level--4:#fff;
+--sport-digi-background--level-5:#f2f2f2;
+--sport-digi-background--level-10:#e6e6e6;
+--sport-digi-background--level-15:#d9d9d9;
+--sport-digi-background--opacity-50:rgba(255,255,255,0.5);
+--sport-digi-foreground:#000000;
+--sport-digi-foreground-foreground:#ffffff;
+--sport-digi-foreground--level-20:#333;
+--sport-digi-foreground--level-40:#666;
+--sport-digi-foreground--level-60:#999;
+--sport-digi-accent:#00CFA6;
+--sport-digi-accent-foreground:#ffffff;
+--sport-digi-accent--darken-20:#006954;
+--sport-digi-accent--darken-10:#009c7d;
+--sport-digi-accent--opacity-50:rgba(0,207,166,0.5);
+--sport-digi-brand:#00CFA6;
+--sport-digi-brand-foreground:#ffffff;
+--sport-digi-brand--darken-20:#006954;
+--sport-digi-brand--darken-10:#009c7d;
+--sport-digi-brand--opacity-50:rgba(0,207,166,0.5);
+--sport-digi-border-radius--static:2px;
+--sport-digi-border-radius--multiply-2:NaN;
+--sport-digi-border-radius--multiply-3:NaN;
+--sport-digi-border-radius--multiply-4:NaN;
+--sport-digi-border-radius--divide-2:NaN;
+--sport-digi-odd--static:#262626;
+--sport-digi-header--static:#404040;
+--sport-digi-background-mobile:#1a1a1a;
+--sport-digi-background-mobile-foreground:#ffffff;
+--sport-digi-star:#ffb700;
+--sport-digi-star-foreground:#000000;
+--sport-digi-red:#d40000;
+--sport-digi-red-foreground:#ffffff;
+--sport-digi-green:#00912C;
+--sport-digi-green-foreground:#ffffff;
+--sport-digi-white:#fff;
+--sport-digi-white-foreground:#000000;
+--sport-digi-black:#000;
+--sport-digi-black-foreground:#ffffff;
+--sport-digi-button-background:#4D4D4D;
+--sport-digi-button-background-foreground:#ffffff;
+--sport-digi-button-foreground:#999;
+--sport-digi-button-foreground-foreground:#ffffff;
+--sport-digi-id--static:257;
+}
+/*header*/
+#e-sport-root .esp_mob_header_main_link.esp_mob_header_main_link_active,
+#e-sport-root .esp_mob_header_main_link:hover,
+#e-sport-root .esp_mob_filter_main_item.esp_mob_filter_main_item_active {
+  color: #131516;
+}
+#e-sport-root .esp_game_content_team .esp_game_content_score {
+  color: #ff2400;
+}
+
+#e-sport-root .esp_betslip .esp_checkbox_wrapper,
+#e-sport-root .esp_betslip [class*='sport_front_icon-'],
+#e-sport-root .esp_betslip .sport_front_icon-remove,
+#e-sport-root .esp_betslip .component_betslip_filters i {
+  color: #a9a8a8;
+}
+#e-sport-root .esp_betslip .esp_betslip_stake {
+  background-color: #eeeeee;
+}
+#e-sport-root .component_betslip_input {
+  border: 2px solid #cac7c7;
+  background-color: #ffffff !important;
+}
+#e-sport-root .component_betslip_favorites_bet_buttons_wrapper .component_betslip_button,
+#e-sport-root .component_betslip_input_control .component_betslip_button {
+  background-color: #d7eee7 !important;
+}
+#e-sport-root .component_betslip_favorites_bet_buttons_wrapper .component_betslip_button:hover,
+#e-sport-root .component_betslip_input_control .component_betslip_button:hover {
+  background-color: #009c7d !important;
+}
+#e-sport-root .esp_filter_icons > i.esp_icon_active,
+#e-sport-root .esp_filter_icons > i:hover {
+  color: #46ba9d;
+}
+#e-sport-root .esp_odd {
+  background-color: #d7eee7;
+  color: #000;
+  font-weight: 400;
+}
+#e-sport-root .esp_odd.esp_odd_active,
+#e-sport-root .esp_odd:hover {
+  background-color: #46ba9d;
+  color: #fff;
+}
+#e-sport-root .component_betslip_button_akcent,
+#e-sport-root .component_betslip_button_akcent:hover {
+  background-color: #46ba9d !important;
+}
+#e-sport-root .component_sidebar_search_input {
+  background-color: #fff;
+  box-shadow: 0px 0 4px 0px #c1c1c1;
+}
+
+#e-sport-root
+  .esp_layout_right
+  .component_format_filter_container
+  > div
+  .component_select_wrapper
+  .component_select_imitator,
+#e-sport-root .esp_main_header,
+#e-sport-root .component_sidebar_list_item,
+#e-sport-root .component_sidebar_list_wrapper,
+#e-sport-root .esp_game_row,
+#e-sport-root .component_sidebar_collapse_toggle,
+#e-sport-root .esp_betslip,
+#e-sport-root .esp_betslip .esp_tab.esp_tab_active,
+#e-sport-root .component_betslip_header {
+  background-color: #ffffff;
+}
+#e-sport-root .component_betslip_header {
+  position: relative;
+  box-shadow: 0 0 4px 0 rgba(0, 0, 0, 0.5);
+}
+#e-sport-root
+  .esp_layout_right
+  .component_format_filter_container
+  > div
+  .component_select_wrapper
+  .component_select_imitator {
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+}
+#e-sport-root .component_sidebar_list_item.component_sidebar_list_item_active,
+#e-sport-root .component_sidebar_list_item:hover {
+  background-color: #eeeeee;
+}
+#e-sport-root .esp_mob_game_filter,
+#e-sport-root .esp_betslip_mob_pin {
+  box-shadow: 0 1px 4px 0 rgba(15, 0, 15, 0.3);
+}
+#e-sport-root .component_betslip_stake_factor {
+  background-color: #46ba9d;
+  color: #fff;
+}
+#e-sport-root .esp_betslip .esp_tab {
+  background-color: #eeeeee;
+  color: #666666;
+}
+#e-sport-root > div:not(.esp_mob_wrapper) .esp_betslip .esp_tab:hover,
+#e-sport-root > div:not(.esp_mob_wrapper) .esp_tab.esp_tab_active,
+#e-sport-root > div:not(.esp_mob_wrapper) .esp_tab.esp_tab_active:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+/*Mobile*/
+#e-sport-root .esp_mob_header_main,
+#e-sport-root .esp_mob_legend {
+  background-color: #f2f2f2;
+}
+#e-sport-root .esp_mob_filter_main {
+  background-color: #ffffff;
+}
+#e-sport-root .esp_mob_game_filter {
+  background-color: #e6e6e6;
+}
+#e-sport-root .esp_game_mob {
+  background-color: #f7f7f7;
+}
+#e-sport-root .esp_game_mob_wrapper .digi_fav {
+  color: #f41e00;
+}
+#e-sport-root .esp_mob_odd {
+  background-color: #d7eee7;
+  color: #000;
+  font-weight: 400;
+}
+#e-sport-root .esp_odd_factor {
+  color: #000;
+}
+#e-sport-root .esp_mob_odd:hover,
+#e-sport-root .esp_mob_odd.esp_mob_odd_active {
+  color: #fff;
+}
+#e-sport-root .component_sidebar_list_filter_tab {
+  color: #666;
+}
+#e-sport-root .component_sidebar_list_filter_tab.component_sidebar_list_filter_tab_active {
+  font-weight: 500;
+}
+#e-sport-root .esp_betslip_item_factor {
+  background-color: #a9a8a8;
+  color: #fff;
+}
+#e-sport-root .sport_front_icon-star.digi_fav_active {
+  color: #f41e00;
+}
+#e-sport-root .esp_mob_wrapper .esp_odd_factor {
+  font-size: 16px;
+}
+#e-sport-root .esp_game_details_odd .esp_odd_factor {
+  font-weight: 400;
+  color: #000;
+}
+
+#e-sport-root .component_sidebar_list_filter_tab_count {
+  background-color: #e6e6e6;
+}

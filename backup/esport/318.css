@@ -1,0 +1,16 @@
+#e-sport-root .esp_main_header .esp_main_header_link.esp_main_header_link_active,
+#e-sport-root .esp_main_header .esp_main_header_link:hover,
+#e-sport-root .esp_odd_factor,
+#e-sport-root .esp_game_details_odd .esp_odd_factor,
+#e-sport-root .esp_filter_icons > i.esp_icon_active,
+#e-sport-root .esp_game_content_team .esp_game_content_score,
+#e-sport-root .esp_mob_game_filter_item.esp_mob_game_filter_item_active .esp_mob_game_filter_item__name,
+#e-sport-root .esp_filter_icons > i:hover,
+#e-sport-root .esp_betslip .component_betslip_possible_winning strong,
+#e-sport-root .esp_game_banner_score {
+  color: #e29d01;
+}
+#e-sport-root .component_betslip_stake_factor {
+  background-color: #d9d9d9;
+  color: #e29d01;
+}

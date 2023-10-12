@@ -1,0 +1,1724 @@
+﻿@import url('https://fonts.googleapis.com/css?family=Droid+Sans');
+@import url('https://fonts.googleapis.com/css?family=Exo:300,400,500,600,700,900i&display=swap');
+
+@font-face {
+    font-family: 'casinoIcons';
+    src: url('/Content/fonts/icons_vers/icons.eot'), url('/Content/fonts/icons_vers/icons.eot?#iefix') format('embedded-opentype'), url('/Content/fonts/icons_vers/icons.woff') format('woff'), url('/Content/fonts/icons_vers/icons.ttf') format('truetype');
+}
+body {
+    --bg-level-1: #e8e8e8;
+    --bg-level-2: #ededed;
+    --bg-level-3: #f5f5f5;
+    --bg-level-4: #ffffff;
+    --text-level-high: #000000;
+    --text-level-medium: #333333;
+    --text-level-low: #666666;
+    --icon-level-high: #000000;
+    --icon-level-medium: #333333;
+    --icon-level-low: #666666;
+    --btn-primary: #ff9000;
+    --btn-secondary: #000;
+    --badge-notification: #ff9000;
+    --badge-bonus: #ff9000;
+    --primary: #ff9000;
+    --btn-primary-text: #ffffff;
+    --btn-secondary-text: #ffffff;
+    --text-on-primary: #ffffff
+}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    font-family: Roboto, sans-serif;
+}
+
+
+#wrapper, html, body {
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-position: bottom 400px center;
+    color: #000000;
+}
+
+.bgMain {
+    background: #fff;
+}
+/*buttons*/
+.btn_prim {
+    color: #fff;
+    background: #F77E0B;
+}
+
+.clr_prim {
+    background: #292929;
+    color: #fff;
+}
+/*header*/
+#header{
+    position: static;
+}
+
+.casino_h_link_cont .clr_sec {
+    background: #000;
+}
+
+.casino_h_link_cont:before {
+    content: "";
+    width: 1px;
+    height: 44px;
+    background: red;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    background: #000;
+    right: 0;
+    top: 0;
+    -webkit-box-shadow: 0px 0px 100px 99px rgba(0,0,0,0.85);
+    -moz-box-shadow: 0px 0px 100px 99px rgba(0,0,0,0.85);
+    box-shadow: 0px 0px 100px 99px rgba(0,0,0,0.85);
+}
+
+.to_right:before {
+    right: 40px;
+}
+
+.casino_links_tabs {
+    padding-right: 30px;
+}
+
+.casino_links_tabs a, .casino_links_tabs a span {
+    font-family: 'Exo', sans-serif;
+    font-weight: 900;
+    font-style: italic;
+    text-transform: uppercase;
+}
+
+.casino_links_tabs .home_icon {
+    line-height: 36px;
+}
+
+.casino_links_tabs .home_icon:before {
+    color: #F77E0B
+}
+
+.casino_h_link_cont {
+    display: flex;
+    background: #000;
+    position: relative;
+}
+
+.platformMobLog {
+    color: #fff !important;
+    background: #000 !important;
+    padding: 0px 10px;
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: lighter;
+    height: 30px;
+    line-height: 30px !important;
+    margin: 3px 10px;
+    position: sticky;
+    z-index: 2;
+}
+
+.LogoMobilePlatform {
+    width: 136px;
+    height: 45px;
+}
+
+#header {
+    background-color: #fff;
+}
+
+.tl_head_close {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #757575;
+    cursor: pointer;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+
+@media screen and (min-width: 1200px) {
+    #header {
+        -webkit-background-size: auto 80px;
+        -moz-background-size: auto 80px;
+        -o-background-size: auto 80px;
+        background-size: auto 80px;
+    }
+}
+
+.deposit_header {
+    min-width: 72px;
+    height: 32px;
+    background-color: #53B864 !important;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+    border-radius: 4px;
+    line-height: 32px;
+    justify-content: center;
+    color: #ffffff;
+    font-weight: 500;
+    margin-bottom: 0;
+}
+
+.ic_arrow_down:after {
+    content: "";
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 4px 0 4px;
+    border-color: #4B4B4B transparent transparent transparent;
+    margin-left: 4px;
+} 
+
+#header .user {
+    display: inline-block;
+    vertical-align: text-top;
+    top: -10px;
+    left: -2px;
+}
+
+.platformMobReg {
+    color: #fff !important;
+    font-size: 11px;
+    background: #4fba60 !important;
+    padding: 0 10px;
+}
+
+@media screen and (max-width: 450px) {
+    .LogoMobilePlatform {
+        width: 75px;
+        height: 33px;
+        background-size: cover;
+    }
+
+    #header {
+        padding: 0
+    }
+
+    .platformMobLog,
+    .platformMobReg {
+        padding: 0 5px;
+    }
+}
+
+.LinkToLeftPanel:hover,
+.LinkToLeftPanel {
+    color: #000;
+}
+
+.LinkToLeftPanel:before {
+    font-size: 27px;
+}
+/*register via*/
+.register-via {
+    display: flex;
+    color: #000;
+    font-size: 8px;
+    align-items: center;
+    font-weight: bold;
+    width: 70px;
+    flex-wrap: wrap;
+}
+
+.register-via span {
+    width: 100%;
+    text-align: center
+}
+
+.register-via .fic-box {
+    background: #000;
+    border: 1px solid #fff;
+    border-radius: 2px;
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+}
+
+.register-via .fic-box a {
+    background-size: auto 20px;
+    background-position-y: -1px;
+}
+
+.register-via .fic-box .facebook {
+    background-position-x: -43px;
+}
+
+.register-via .fic-box .twitter {
+    background-position-x: -23px;
+}
+
+#sidebar-login .register-via {
+    width: 100%;
+    justify-content: center;
+    padding-top: 25px;
+    border-top: 1px solid #707070;
+    width: 200px;
+    margin: 10px auto 0;
+}
+
+#sidebar-login .register-via span {
+    font-size: 10px;
+    text-transform: uppercase;
+}
+
+#sidebar-login .register-via .fic-box {
+    width: 30px;
+    height: 30px;
+}
+
+#sidebar-login .register-via .fic-box a {
+    background-size: auto 30px;
+    background-position-y: -1px;
+}
+
+#sidebar-login .register-via .fic-box .facebook {
+    background-position-x: -64px;
+}
+
+#sidebar-login .register-via .fic-box .twitter {
+    background-position-x: -34px;
+}
+
+.payment_title {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.footer-payments {
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-payments .footer-payments-icons {
+    background-size: 150px auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.toTopBox { 
+    background-color: #292929;
+    color: #B3B3B3;
+    margin-bottom: 0;
+}
+
+.fp-todito {
+    width: 150px;
+    background-position: 0px -300px;
+    height: 41px;
+}
+
+.fp-mastercard {
+    width: 125px;
+    background-position: -12px -33px;
+    height: 40px;
+    background-color: #fff;
+    margin-left: 10px;
+}
+
+.footer-payments .fp-icons {
+    width: 150px;
+    background-position: 1px -73px;
+    background-size: 148px auto;
+    background-repeat: no-repeat;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.footer-payments .fp-directa {
+    background-position: 1px -127px;
+    background-size: 143px auto;
+    background-repeat: no-repeat;
+    width: 135px;
+    height: 40px;
+    margin-left: 10px;
+}
+
+.footer-payments .fp-skrill {
+    background-position: -20px -206px;
+    background-size: 160px auto;
+    background-repeat: no-repeat;
+    width: 122px;
+    height: 38px;
+    margin-left: 10px;
+}
+
+.fp-neteller {
+    background-position: 0 -253px;
+    height: 26px;
+    width: 150px;
+}
+/*landing page*/
+.landing_contet {
+    background-color: #FFCB00;
+}
+.block_title {
+    color: #fff;
+    letter-spacing: 0.2px;
+    font-size: 14px;
+    background: #000;
+    margin: 20px 0 0;
+}
+
+.block_title:before {
+    color: #fff;
+    top: 1px;
+    left: 12px;
+    font-size: 18px;
+}
+
+.matches_block iframe {
+    height: 415px;
+}
+
+.tl_navigation {
+    margin-top: 20px;
+}
+/*main nav*/
+.nav_item {
+    height: 122px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.7);
+    border-radius: 8px;
+}
+
+.nav_item > img {
+    width: 42px;
+    margin-bottom: 30px;
+}
+
+.nav_title {
+    text-shadow: none;
+    background-color: transparent;
+}
+/*dynamic_featured*/
+
+.landing_register_button {
+    width: calc(100% - 20px);
+    padding: 10px 0;
+    text-align: center;
+    background: #4fba60;
+    margin: 10px;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+/*footer*/
+
+.license img {
+    max-width: 100%;
+}
+
+#footer {
+    background: #000;
+}
+
+.phone_lang_cont {
+    flex-direction: column;
+}
+
+.drop_down_lang {
+    padding-left: 24px !important;
+    background: #292929 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    margin-bottom: 16px;
+}
+
+.call_us, .drop_down_lang {
+    color: #B3B3B3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.call_us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 64px;
+    padding: 0 19px;
+    background-color: #292929;
+}
+
+.call-info {
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin-right: auto;
+}
+
+.call_us img {
+    width: 40px;
+    margin-right: auto;
+}
+
+.call_us a {
+    font-size: 23px;
+    line-height: 28px;
+    color: #3BA64C;
+}
+
+.call_us p {
+    font-size: 12px;
+    line-height: 16px;
+    margin: 0;
+}
+
+.drop_down_lang_arrow:after {
+    border-top: 5px solid #B3B3B3;
+    right: 24px;
+}
+
+.footer_links a {
+    color: #fff;
+}
+
+.toWeb {
+    background: #292929 !important;
+    color: #B3B3B3 !important;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 10px 0 25px;
+}
+
+.footer_social-item{
+    color: #b3b3b3;
+    background-color: #292929;
+}
+
+.fic-box {
+    width: 44px;
+    height: 44px;
+    background: #292929;
+}
+
+.fic-box a {
+    display: block;
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+    background-position-y: -1px;
+}
+
+.casweb_payment-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 12px;
+    row-gap: 16px;
+    max-width: 472px;
+    margin: 40px auto;
+}
+.casweb_footer-payment-item {
+    border-radius: 5px;
+}
+
+
+.bg-Image_8 {
+    width: 72px;
+    height: 36px;
+    background-position: -10px -10px;
+}
+
+.bg-Image_7 {
+    width: 72px;
+    height: 36px;
+    background-position: -102px -10px;
+}
+
+.bg-Image_6 {
+    width: 72px;
+    height: 36px;
+    background-position: -10px -66px;
+}
+
+.bg-Image_5 {
+    width: 72px;
+    height: 36px;
+    background-position: -102px -66px;
+}
+
+.bg-Image_4 {
+    width: 72px;
+    height: 36px;
+    background-position: -10px -122px;
+}
+
+.bg-Group_30098 {
+    width: 72px;
+    height: 36px;
+    background-position: -102px -122px;
+}
+
+.bg-Group_30100 {
+    width: 72px;
+    height: 36px;
+    background-position: -194px -10px;
+}
+
+.bg-Image_12 {
+    width: 72px;
+    height: 36px;
+    background-position: -194px -66px;
+}
+
+.bg-Image_11 {
+    width: 72px;
+    height: 36px;
+    background-position: -194px -122px;
+}
+
+.bg-Image_10 {
+    width: 72px;
+    height: 36px;
+    background-position: -10px -178px;
+}
+
+.bg-Image_9 {
+    width: 72px;
+    height: 36px;
+    background-position: -102px -178px;
+}
+
+
+.license-wrapper {
+    column-gap: 24px;
+}
+
+.license {
+    width: 42px;
+    height: 42px;
+}
+
+.plus18Icon {
+    font-size: 24px;
+    color: #B3B3B3;
+    line-height: 1;
+}
+
+/*left/right menus*/
+.tl_main_nav_item-active {
+    text-shadow: 0px 0px 6px #fff;
+}
+
+.left_menu_block {
+    padding-bottom: 80px
+}
+
+.ui-collapsible-heading,
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn,
+.menuBtn, .menuBtnSm, .menuRow {
+    font-weight: 500 !important;
+    background-color: #dcdcdc;
+    margin-bottom: 2px;
+    height: 36px;
+    color: #3A3A3A !important;
+    font-size: 16px !important;
+    font-family: Roboto, sans-serif;
+}
+
+.menuBtn,
+.menuRow {
+    justify-content: space-between;
+    padding: 0 15px;
+}
+
+.menu_account span {
+    margin: 0;
+}
+
+.ui-collapsible-inset {
+    margin: 0;
+}
+
+.menuBtn.sub_link {
+    background-color: #C9C9C9;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+}
+
+.PlatformLoggedUser {
+    padding: 25px 0;
+}
+
+.account_title {
+    color: #3A3A3A;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    padding: 0 15px;
+    margin-bottom: 7px;
+}
+
+.playerId {
+    color: #3A3A3A;
+    font-size: 14px;
+    font-weight: 600;
+    padding: 0 15px;
+    margin-bottom: 20px;
+}
+
+.playerId span {
+    font-weight: 400;
+}
+
+.ui-collapsible-themed-content .ui-collapsible-content {
+    background: #fff !important;
+    padding: 0;
+}
+.forgot_smth_buttons {
+    text-align: center;
+}
+a.platformForgPass {
+    color: #000 !important
+}
+
+
+#left-panel .collapse_dropdown_leftmenu a {
+    background-color: #C9C9C9;
+}
+
+.collapse_dropdown_leftmenu_btn:after, #right-panel .ui-btn-icon-right:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #605d5d transparent transparent transparent;
+    margin-left: auto;
+    margin-right: 10px;
+}
+
+#right-panel .ui-btn-icon-right:after {
+    background-image: none;
+    background-color: transparent;
+    right: 0;
+    top: 0 !important;
+    bottom: 0;
+    margin: auto;
+}
+
+#left-panel .menuBtn {
+    color: #605d5d !important;
+    background-color: #dcdcdc;
+    margin-bottom: 2px;
+    height: 36px;
+}
+
+.collapse_dropdown_leftmenu {
+    height: 40px;
+}
+
+#left-panel .menuBtn .txt {
+    font-size: 16px;
+    line-height: 15px;
+    height: 15px;
+    padding: 0 8px;
+    color: #3A3A3A;
+}
+
+#left-panel li:last-of-type .menuBtn {
+    margin-bottom: 0;
+}
+
+#left-panel .collapse_dropdown_leftmenu a .txt {
+    font-size: 14px;
+    font-weight: 400;
+    color: #3A3A3A !important;
+}
+
+.lm_title {
+    color: #3A3A3A;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 40px 15px 20px;
+    display: inline-block;
+}
+
+/*account pages*/
+.heading {
+    background: #000;
+    color: #fff;
+    text-transform: uppercase;
+}
+/*inbox*/
+.tl_mail_item {
+    background: #f5f5f5;
+}
+
+.tl_mail_details {
+    color: #454545
+}
+
+.tl_mail_msgId {
+    color: #F77E0B;
+}
+
+.tl_mail_attachfiel_screp,
+.tl_mail_attachfiel {
+    color: #fff;
+}
+
+.tl_mail_row {
+    background: #f5f5f5;
+    border: 1px solid #000;
+}
+
+.tl_mail_message_body {
+    background: #f5f5f5;
+}
+
+.tl_mail_msgId .tf_arrow_icon {
+    font-style: normal;
+    margin: 2px 5px 0 -6px;
+}
+/*deposit && withdrawal*/
+.paym_txt {
+    color: #000
+}
+
+.paym_cond > span {
+    color: #999;
+    margin: 0 5px;
+}
+
+.justpay {
+    width: 70px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -1114px -91px;
+}
+
+.directa24 {
+    width: 76px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -2891px -181px;
+}
+
+.justpayoffline {
+    width: 70px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -1702px -181px;
+}
+
+.toditocash {
+    width: 69px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png?);
+    background-position: -959px -59px;
+}
+/*bonuses*/
+#bonusesNavBar > .ui-link,
+#bonuses_content .col50 {
+    color: #000;
+}
+
+.navigation-bar {
+    background-color: #fff;
+}
+
+.tab_item.active {
+    border-bottom: 2px solid transparent;
+}
+.pagIt.active {
+    background-color: #53b864;
+    color: #fff;
+}
+
+#bonuses_content {
+    background-color: #ffffff;
+}
+/*casino*/
+.list-menu1 li {
+    color: #000;
+}
+
+.clr_sec {
+    background: #000;
+    color: #fff
+}
+/*promotions*/
+.promo_clicked {
+    background: #4FBA60 !important
+}
+
+.promo_mobile_title {
+    color: #F77E0B;
+}
+
+.promo_img, .promo_mobile_descr {
+    color: #000;
+}
+
+.promo_mobile_cont {
+    background-color: #f5f5f5;
+    border: 1px solid #000;
+}
+
+.left-live span {
+    padding: 0 8px;
+}
+
+.left-logo:before {
+    content: "<";
+}
+/*new design*/
+.flexslider .slides img {
+    border-radius: 10px;
+}
+
+#mob_mibble_banner {
+    display: flex;
+    justify-content: center;
+}
+
+#mob_mibble_banner .banner_middle {
+    width: 50%;
+}
+
+#mob_mibble_banner img {
+    width: 100%;
+    border-radius: 10px;
+    padding: 3px
+}
+
+#mob_bottom_banner {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap
+}
+
+#mob_bottom_banner .banner_bottom {
+    width: 50%;
+}
+
+#mob_bottom_banner img {
+    width: 100%;
+    border-radius: 8px;
+    padding: 3px
+}
+
+.switch input.sw:checked + label:before {
+    background-color: rgb(255, 220, 0);
+}
+
+.switch input.sw + label {
+    -webkit-transform: rotate(180deg);
+    -ms-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.switch label {
+    margin: 0 8px;
+}
+
+#header .txt {
+    color: #000;
+    display: inline-block;
+    width: auto;
+}
+
+#menu-right .PLUlblICt {
+    position: static;
+    margin: -10px -1px 0 -4px;
+}
+
+/*register via popup*/
+.popup_register_via {
+    top: 94px;
+    width: 100%;
+    background: #fff;
+    height: 100%;
+    z-index: 999;
+    pointer-events: painted;
+}
+
+.popup_register_via__body {
+    overflow: hidden;
+    pointer-events: none;
+}
+
+.popup_register_via__content {
+    padding: 30px 10px;
+}
+
+.popup_register_via__input {
+    padding-bottom: 16px;
+}
+
+.popup_register_via__input .lbl_reg {
+    color: #404040;
+    font-size: 12px;
+    padding-bottom: 5px;
+    display: block;
+}
+
+.popup_register_via__input input,
+.popup_register_via__input select {
+    width: 100%;
+    height: 36px;
+    background: #FFFFFF;
+    color: #000000;
+    border: 1px solid #707070;
+}
+
+.popup_register_via__button {
+    display: block;
+    border: none;
+    padding: 9px 40px;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 8px 0;
+    margin: 16px auto;
+}
+
+.popup_register_via .tl_head_close {
+    position: absolute;
+    z-index: 1000;
+    top: 5px;
+    right: 15px;
+    color: #fff;
+    font-size: 30px;
+}
+/*new login*/
+.regHeading .reg_close:before {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: #999999;
+    top: 9px;
+    left: 0;
+    -webkit-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.regHeading .reg_close:after {
+    content: "";
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background: #999999;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    top: 9px;
+    left: 0px;
+}
+
+.regHeading span {
+    text-align: left;
+}
+
+.regHeading .reg_close {
+    position: relative;
+    width: 22px;
+    height: 20px;
+    text-indent: -200px;
+    overflow: hidden;
+}
+
+#forgotPassForm input,
+#staticLoginForm input {
+    background: #FFFFFF 0% 0% no-repeat padding-box !important;
+    box-shadow: 0px 1px 4px rgba(0,0,0,0.3);
+    border: none;
+    height: 44px;
+    color: #4B4B4B !important;
+}
+
+#forgotPassForm span:not(.error),
+#staticLoginForm span:not(.error),
+#forgotPassForm label,
+#staticLoginForm label {
+    color: #4B4B4B;
+    font-size: 14px;
+    width: auto;
+}
+
+.reg_input.input-validation-error, .custon_select__front_el.input-validation-error, .input-validation-error, .reg_input.error {
+    border: 1px solid #f00!important;
+}
+
+#forgotPassForm .required-field {
+    line-height: 2.2;
+    padding: 0 2px;
+}
+.forgotpassFirstStep ~ .forgot_pass__row label{
+    display: inline-block;
+}
+
+.forgotpassFirstStep ~ .forgot_pass__row label + .required-field {
+    float: none;
+}
+
+.forgotpassFirstStep ~ .forgot_pass__row .recovery_txt{
+    margin: 0;
+}
+
+#staticLoginForm .symbol {
+    color: #4B4B4B;
+    display: inline;
+    width: auto
+}
+
+#forgotPassForm {
+    padding: 25px;
+}
+
+#staticLogin {
+    padding: 0 25px;
+}
+
+#forgotPassForm .warning {
+    background-color: transparent;
+}
+
+#forgotPassForm,
+#staticLoginForm {
+    min-height: calc(100vh - 40px);
+    background-color: #F5F5F5;
+}
+
+#staticLoginForm a.platformForgPass {
+    color: #666666 !important;
+    font-size: 14px;
+}
+
+#forgotPassForm .tl_sup_link,
+#staticLogin .tl_sup_link {
+    color: #666666;
+    background-color: transparent;
+    border: 2px solid #888787;
+    width: 100%;
+    height: 44px;
+    line-height: 44px;
+    border-radius: 5px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.forgotpass p {
+    color: #000000;
+}
+
+.forgot_pass__row.pt-medium {
+    display: flex;
+    justify-content: center;
+}
+
+#forgotPassForm .btn_prim,
+#staticLoginForm .btn_prim {
+    width: auto;
+    display: inline-block;
+    height: 44px;
+    line-height: 44px !important;
+    background-color: #3BA64C;
+    min-width: 98px;
+    font-size: 16px;
+    border-radius: 10px 0;
+    padding: 0 10px;
+}
+
+.ic_lock:before {
+    content: "\e91d";
+    font-family: "casinoIcons";
+    color: #4B4B4B;
+    font-size: 22px;
+    margin: 0 5px;
+}
+
+.accRowClr .btn_prim {
+    background-color: #3BA64C;
+}
+
+.tf_support_icon:before {
+    font-family: ProductIconsFont;
+    content: "\6C";
+}
+
+.tf_support_icon {
+    font-size: 32px;
+    margin-right: 11px;
+    font-style: normal;
+}
+
+.tf_mail_icon {
+    font-family: ProductIconsFont;
+    height: 36px;
+    display: block;
+    font-size: 20px;
+}
+
+.login_label_info {
+    display: flex;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+#staticLoginForm .ui-input-text {
+    width: 100%;
+}
+
+.login_captcha_block {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+#staticLoginForm .login_captcha_block .ui-input-text {
+    width: 50%;
+}
+
+#staticLoginForm .login_captcha_block label {
+    width: 100%;
+}
+
+#staticLoginForm .login_captcha_block label:before,
+#forgotPassForm .captcha_block__row label:before {
+    content: "\e91b";
+    font-family: "casinoIcons";
+    color: #4B4B4B;
+    font-size: 22px;
+    margin: 0 5px;
+    position: relative;
+    bottom: -4px;
+}
+
+#recaptchaError {
+    width: 100%;
+}
+
+.refresh-captcha:before {
+    color: #111;
+    height: 100%;
+    line-height: 44px;
+    padding-bottom: 0;
+}
+
+.refresh-captcha {
+    position: absolute;
+    right: 0;
+    top: 39px;
+}
+
+input#Captcha {
+    padding-right: 40px;
+}
+
+.captcha_block__row {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    position: relative;
+}
+
+.captcha_block__row .ui-input-text {
+    width: 50%;
+}
+
+#forgotPassForm .captcha_block__row .ui-input-text,
+#forgotPassForm .captcha_block__row label {
+    width: 100%;
+}
+
+.tl_refresh_container,
+.captchaImage {
+    height: 100%;
+}
+
+#forgotPassForm .refresh-captcha {
+    top: 0;
+    height: 100%;
+}
+
+.icon_line_forgotpass {
+    align-items: flex-end;
+}
+
+.icon_line_forgotpass i {
+    font-style: normal;
+    color: #111;
+    display: block;
+    position: relative;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    font-size: 22px;
+}
+
+.regHeading {
+    font-size: 16px;
+}
+
+#forgotButton {
+    text-transform: uppercase;
+}
+
+.dis_none {
+    display: none;
+}
+
+#left-panel .menuBtn {
+    height: 38px;
+}
+
+#left-panel .collapse_dropdown_leftmenu li:last-child {
+    margin-bottom: 2px;
+}
+/*inputs optimisation*/
+input,
+.reg_input, .tl_mail_send_area,
+.custon_select__front_el, .drop-down, .drop-down-small, #content_paym .ui-select span, #content_paym .ui-select select, .favorite_amounts > div,
+.reg__checkboxes_row,
+.reg__gender_row label, .profile_container .reg__gender_row label {
+    background: #fff;
+    border: 1px solid #000 !important;
+    color: #000;
+}
+
+.reg__row_title, .profile_container label, .transfer2friend_cont label, #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+    color: #a3a3a3;
+}
+
+#generalTermsLink {
+    color: #000;
+}
+
+.login_label {
+    margin-bottom: 10px
+}
+
+.login_label label {
+    margin: 0;
+}
+
+.login_label i {
+    margin: 0 7px;
+}
+
+.tour_text_color,
+.tour__leaderboard_active_title.active {
+    color: #000
+}
+
+.custom_swicher:before {
+    background-color: #1A1A1A;
+}
+
+.text-primary {
+    color: #3BA64C;
+}
+/*27.4.21 optims*/
+body .bg-primary, body .h-bg-primary {
+    background-color: #3BA64C;
+    color: #fff;
+}
+
+body .h-bg-primary:hover {
+    background-color: #3BA64C;
+    color: #fff;
+}
+
+body .text-primary {
+    color: #3BA64C;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    background-color: #000;
+    color: #fff;
+}
+
+body .h-bg-secondary:hover {
+    background-color: #0a0a0a;
+    color: #fff;
+}
+
+body .bg-tert, body .h-bg-tert {
+    background-color: #fff;
+    color: #000;
+}
+
+body .h-bg-tert:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+.bonus_card_body {
+    background-color: #e4e4e4;
+}
+
+.new_bonus_content {
+    color: #000;
+}
+
+.banners-relative .slick-slide a {
+    position: relative;
+}
+
+.banners-relative .slick-slide a::after {
+    content: "";
+    position: absolute;
+    box-shadow: inset 0px -72px 40px -22px #ffcb00;
+    height: 0;
+    width: 100%;
+    bottom: 0;
+    z-index: 10;
+}
+
+
+/*left menu*/
+.lm__container {
+    padding-bottom: 60px;
+}
+/*top slider*/
+
+.with_shadow_slider .swiper-slide {
+    -webkit-box-shadow: inset 0px -72px 40px -22px #fbcd15;
+    -moz-box-shadow: inset 0px -72px 40px -22px #fbcd15;
+    box-shadow: inset 0px -72px 40px -22px #fbcd15;
+}
+/*------*/
+
+/*Live casino skinning*/
+.lca-main-content {
+    background-color: #fbcd15;
+    color: #000;
+}
+/*Menu*/
+.lca_search_cont, .lca-menu {
+    background-color: #d8d8d8;
+}
+
+.lca-menu {
+    width: 100%;
+}
+
+.lca-menu-link {
+    color: #000;
+}
+
+    .lca-menu-link.active {
+        background-color: #3BA64C;
+        color: #fff;
+    }
+
+        .lca-menu-link.active .lca-menu-badge {
+            background-color: #d8d8d8;
+            color: #3BA64C;
+        }
+
+.lca-menu-badge {
+    background-color: #3BA64C;
+    color: #fff;
+}
+/*Submenu*/
+.lca-submenu {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.lca-submenu-link {
+    color: #fff;
+}
+
+    .lca-submenu-link.active {
+        color: #3BA64C;
+    }
+/*Game card*/
+.lca-card-footer {
+    background-color: #d8d8d8;
+    color: #000;
+}
+
+.lca-card-footer-btn .star_icon.active, .lca-card-price {
+    color: #3BA64C;
+}
+
+.lca-card-footer-btn {
+    background-color: #bbbbbb;
+    color: #fff;
+}
+
+    .lca-card-footer-btn .like_icon:after,
+    .lca-card-footer-btn .star_icon {
+        color: #fff;
+    }
+
+.lca-category-title,
+.name_vidget {
+    background: rgba(0, 0, 0, 0.5) 0% 0% no-repeat padding-box;
+    border-radius: 4px;
+    color: #ffffff;
+}
+
+.lca-main-content .star_icon.active:after {
+    color: #3BA64C;
+    text-shadow: 0px 0px 6px #1b92d6;
+}
+
+.lca-card-badge.type-1 {
+    background-color: #3BA64C;
+    color: #fff;
+}
+/*Filter and search*/
+.lca-title {
+    color: #000;
+}
+
+.lca-input {
+    background-color: #fff;
+    color: #333333;
+}
+
+.lca-filter-toggle {
+    color: #000;
+}
+
+.lca-filter-price {
+    background-color: #fff;
+    color: #000;
+}
+
+.lca-filter-price-input {
+    color: #000;
+}
+
+.lca-filter-range-divider {
+    background-color: #3BA64C;
+}
+
+.lca-main-content .noUi-target {
+    background: #fff;
+}
+
+.lca-main-content .noUi-connect {
+    background: #3BA64C;
+}
+
+.lca-main-content .noUi-handle {
+    border-color: #fff;
+    background: #3BA64C;
+}
+
+.lca-filter-category-item {
+    background-color: #fff;
+    color: #000;
+}
+
+    .lca-filter-category-item.active {
+        background-color: #3BA64C;
+        color: #fff;
+    }
+
+.lca-search-result-title {
+    color: #000;
+}
+
+.lca-search-result-filter-item {
+    color: #333333;
+}
+
+.lca-search-result-filter-item-description {
+    color: #000;
+}
+
+.lca-dropdown-toggle {
+    color: #000;
+}
+
+.lca-dropdown {
+    background-color: rgb(187,187,187);
+    color: #000;
+}
+
+.lca-dropdown-item {
+    color: #000;
+}
+
+.lca-back-link {
+    color: #333333;
+}
+
+.lca-card-more-wrapper {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+.lca-card-more {
+    color: #fff;
+}
+
+.lca-filter-footer {
+    background-color: #d8d8d8;
+    color: #000;
+}
+
+.lca-filter-footer-btn-reset {
+    background-color: #f1f1f1;
+    color: #000;
+}
+
+.lca-filter-footer-btn-show {
+    background-color: #3BA64C;
+    color: #fff;
+}
+/*Promotions*/
+.lca-promo-text-wrapper {
+    background-color: #d8d8d8;
+    color: #000;
+}
+
+.lca-promo-title {
+    color: #000;
+}
+
+.lca-main-content .promo_mobile_cont {
+    background-color: #d8d8d8;
+    color: #000;
+}
+
+.lca-main-content .promo_mobile_title {
+    color: #000;
+}
+
+.lca-main-content .promo_mobile_text_cont {
+    box-shadow: 0 -14px 29px 19px #d8d8d8;
+}
+
+.lca-card-promo-img::after {
+    box-shadow: inset 0px -71px 39px -35px #d8d8d8;
+}
+
+/*casino navigation*/
+
+.fixed_menu__play_button {
+    background: #1a1a1a;
+}
+
+.menu_circle:before {
+    box-shadow: 4px 3px 40px 1200px #1a1a1a;
+}
+
+.fixed_menu__li.active svg .yellow, .fixed_menu__li.active .fixed_menu__play_button,
+.fixed_menu__li.active {
+    color: #3BA64C;
+}
+
+.fixed_menu__li {
+    color: #fff;
+}
+
+.casino_nav__links_block {
+    background: #fff;
+}
+
+.links_block_x_scroll_hidden::before {
+    background: #000;
+    -webkit-box-shadow: 0 0 30px 29px rgba(255,255,255,.85);
+    -moz-box-shadow: 0 0 30px 29px rgba(255,255,255,.85);
+    box-shadow: 0 0 30px 29px rgba(255,255,255,.85);
+}
+
+.casino_nav__links_block a {
+    color: #000;
+}
+
+.casino_nav__links_block a.active {
+    color: #3BA64C;
+}
+
+/*game view popup*/
+
+.game__link_play {
+    background: #4fba60;
+    color: #fff;
+}
+
+.game__link_demo {
+    background: #111;
+    color: #fff;
+}
+
+.close__game__more_block::after {
+    color: #fff;
+} 
+/*search switcher*/
+
+.search_switcher {
+    background-color: #e5e5e5;
+}
+
+.search_switcher:before {
+    background-color: #fff;
+}
+
+.checked .search_switcher {
+    background-color: #3ba64c;
+}
+
+.search__icon::after {
+    color: #707070;
+}
+
+/*bonus history redesign*/
+
+.bonus-history .bonus-block {
+    background-color: #E0E1E4;
+}
+
+#bonuses_content.bonus-history .bonus-block .item {
+    border-bottom-color: rgba(120,120,120, 0.8);
+}
+
+#bonuses_content.bonus-history .col50 {
+    color: rgba(120, 120, 120, 0.9);
+}
+
+#bonuses_content.bonus-history .col50.text-right {
+    color: #262626;
+}
+
+
+.bonus-history .bonus_details p {
+    border-bottom: 1px solid rgba(120, 120, 120, 0.8);
+    color: rgba(120, 120, 120, 0.8);
+}
+
+.bonus-history .bonus_details p span {
+    color: #000000;
+}
+
+/*----------------*/
+
+
+/*balance switcher*/
+.real-tab {
+    background: linear-gradient(to left, transparent 50%, #000000 50%) right;
+    background-size: 200%;
+}
+
+.real-tab.active {
+    color: #ffffff;
+}
+
+/*----------*/

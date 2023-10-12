@@ -1,0 +1,55 @@
+:root{
+/*CMS colors 326*/
+--sport-digi-background:#11161C;
+--sport-digi-background-foreground:#ffffff;
+--sport-digi-background--level--4:#090c0f;
+--sport-digi-background--level-5:#1b222c;
+--sport-digi-background--level-10:#242f3c;
+--sport-digi-background--level-15:#2e3b4c;
+--sport-digi-background--opacity-50:rgba(17,22,28,0.5);
+--sport-digi-foreground:#FFFFFF;
+--sport-digi-foreground-foreground:#000000;
+--sport-digi-foreground--level-20:#ccc;
+--sport-digi-foreground--level-40:#999;
+--sport-digi-foreground--level-60:#666;
+--sport-digi-accent:#129D48;
+--sport-digi-accent-foreground:#ffffff;
+--sport-digi-accent--darken-20:#08411e;
+--sport-digi-accent--darken-10:#0d6f33;
+--sport-digi-accent--opacity-50:rgba(18,157,72,0.5);
+--sport-digi-brand:#129D48;
+--sport-digi-brand-foreground:#ffffff;
+--sport-digi-brand--darken-20:#08411e;
+--sport-digi-brand--darken-10:#0d6f33;
+--sport-digi-brand--opacity-50:rgba(18,157,72,0.5);
+--sport-digi-border-radius--static:2px;
+--sport-digi-border-radius--multiply-2:NaN;
+--sport-digi-border-radius--multiply-3:NaN;
+--sport-digi-border-radius--multiply-4:NaN;
+--sport-digi-border-radius--divide-2:NaN;
+--sport-digi-odd--static:#262626;
+--sport-digi-header--static:#404040;
+--sport-digi-background-mobile:#1a1a1a;
+--sport-digi-background-mobile-foreground:#ffffff;
+--sport-digi-star:#ffb700;
+--sport-digi-star-foreground:#000000;
+--sport-digi-red:#d40000;
+--sport-digi-red-foreground:#ffffff;
+--sport-digi-green:#00912C;
+--sport-digi-green-foreground:#ffffff;
+--sport-digi-white:#fff;
+--sport-digi-white-foreground:#000000;
+--sport-digi-black:#000;
+--sport-digi-black-foreground:#ffffff;
+--sport-digi-button-background:#4D4D4D;
+--sport-digi-button-background-foreground:#ffffff;
+--sport-digi-button-foreground:#999;
+--sport-digi-button-foreground-foreground:#ffffff;
+--sport-digi-id--static:326;
+}
+#e-sport-root .esp_betslip_item_factor {
+  background-color: #666666;
+}
+#e-sport-root .component_betslip_stake_factor {
+  background-color: #283442;
+}

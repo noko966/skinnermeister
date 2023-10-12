@@ -1,0 +1,211 @@
+﻿
+/* Casino Mobile page */
+:root {
+    --bodyBg: #F0F0F0;
+    --bodyBg2: #e1e1e1;
+    --bodyBg3: #d1d1d1;
+    --bodyBgHover: #e8e8e8;
+    --bodyBg2Hover: #d9d9d9;
+    --bodyBg3Hover: #c9c9c9;
+    --bodyRGBA: rgba(240, 240, 240, 0.7);
+    --bodyRGBA2: rgba(240, 240, 240, 0.5);
+    --bodyRGBA3: rgba(240, 240, 240, 0.3);
+    --bodyTxt: rgba(0, 0, 0, 0.9);
+    --bodyTxt2: rgba(0, 0, 0, 0.6);
+    --bodyTxt3: rgba(0, 0, 0, 0.4);
+    --bodyAccent: #D90038;
+    --bodyAccentTxt: rgba(255, 255, 255, 0.9);
+    --bodyBorder: #F0F0F0;
+    --bodyRadius: 0px;
+    --dominantG: #DCDCDC;
+    --dominantRGBA: rgba(220, 220, 220, 0.7);
+    --dominantRGBA2: rgba(220, 220, 220, 0.5);
+    --dominantRGBA3: rgba(220, 220, 220, 0.3);
+    --dominantBg: #DCDCDC;
+    --dominantBg2: #cdcdcd;
+    --dominantBg3: #bdbdbd;
+    --dominantBgHover: #d4d4d4;
+    --dominantBg2Hover: #c5c5c5;
+    --dominantBg3Hover: #b5b5b5;
+    --dominantTxt: rgba(0, 0, 0, 0.9);
+    --dominantTxt2: rgba(0, 0, 0, 0.6);
+    --dominantTxt3: rgba(0, 0, 0, 0.4);
+    --dominantAccent: #D90038;
+    --dominantAccentTxt: rgba(255, 255, 255, 0.9);
+    --dominantTxtInverse: #fff;
+    --dominantRadius: 0px;
+    --accentBg: #D90038;
+    --accentBg2: #ff0d4b;
+    --accentBg3: #ff265e;
+    --accentBgHover: #e8003c;
+    --accentBg2Hover: #ff1c56;
+    --accentBg3Hover: #ff3569;
+    --accentG: #D90038;
+    --accentTxt: rgba(255, 255, 255, 0.9);
+    --accentTxt2: rgba(255, 255, 255, 0.6);
+    --accentTxt3: rgba(255, 255, 255, 0.4);
+    --buttonG: #D90038;
+    --buttonBg: #D90038;
+    --buttonBg2: #ff0d4b;
+    --buttonBg3: #ff265e;
+    --buttonBgHover: #e8003c;
+    --buttonBg2Hover: #ff1c56;
+    --buttonBg3Hover: #ff3569;
+    --buttonTxt: rgba(255, 255, 255, 0.9);
+    --buttonTxt2: rgba(255, 255, 255, 0.6);
+    --buttonTxt3: rgba(255, 255, 255, 0.4);
+    --buttonAccent: #D90038;
+    --buttonAccentTxt: rgba(255, 255, 255, 0.9);
+    --buttonBorder: #D90038;
+    --buttonRadius: 4px;
+    --buttonSecondaryG: #FFFFFF;
+    --buttonSecondaryBg: #FFFFFF;
+    --buttonSecondaryBg2: #f0f0f0;
+    --buttonSecondaryBg3: #e0e0e0;
+    --buttonSecondaryBgHover: #f7f7f7;
+    --buttonSecondaryBg2Hover: #e8e8e8;
+    --buttonSecondaryBg3Hover: #d8d8d8;
+    --buttonSecondaryTxt: rgba(0, 0, 0, 0.9);
+    --buttonSecondaryTxt2: rgba(0, 0, 0, 0.6);
+    --buttonSecondaryTxt3: rgba(0, 0, 0, 0.4);
+    --buttonSecondaryAccent: #D90038;
+    --buttonSecondaryAccentTxt: rgba(255, 255, 255, 0.9);
+    --buttonSecondaryBorder: #F0F0F0;
+    --buttonSecondaryRadius: 4px;
+    --inputG: #cdcdcd;
+    --inputBg: #cdcdcd;
+    --inputBg2: #bebebe;
+    --inputBg3: #aeaeae;
+    --inputBgHover: #c5c5c5;
+    --inputBg2Hover: #b6b6b6;
+    --inputBg3Hover: #a6a6a6;
+    --inputTxt: rgba(0, 0, 0, 0.9);
+    --inputTxt2: rgba(0, 0, 0, 0.6);
+    --inputTxt3: rgba(0, 0, 0, 0.4);
+    --inputAccent: #D90038;
+    --inputAccentTxt: rgba(255, 255, 255, 0.9);
+    --inputRadius: 0px;
+    --inputBorder: #F0F0F0;
+    --inputSecondaryG: #c5c5c5;
+    --inputSecondaryBg: #c5c5c5;
+    --inputSecondaryBg2: #b6b6b6;
+    --inputSecondaryBg3: #a6a6a6;
+    --inputSecondaryBgHover: #bdbdbd;
+    --inputSecondaryBg2Hover: #aeaeae;
+    --inputSecondaryBg3Hover: #9e9e9e;
+    --inputSecondaryTxt: rgba(0, 0, 0, 0.9);
+    --inputSecondaryTxt2: rgba(0, 0, 0, 0.6);
+    --inputSecondaryTxt3: rgba(0, 0, 0, 0.4);
+    --inputSecondaryAccent: #D90038;
+    --inputSecondaryAccentTxt: rgba(255, 255, 255, 0.9);
+    --inputSecondaryRadius: 0px;
+    --inputSecondaryBorder: #F0F0F0;
+    --headerG: #DCDCDC;
+    --headerBg: #DCDCDC;
+    --headerBg2: #cdcdcd;
+    --headerBg3: #bdbdbd;
+    --headerBgHover: #d4d4d4;
+    --headerBg2Hover: #c5c5c5;
+    --headerBg3Hover: #b5b5b5;
+    --headerTxt: rgba(0, 0, 0, 0.9);
+    --headerTxt2: rgba(0, 0, 0, 0.6);
+    --headerTxt3: rgba(0, 0, 0, 0.4);
+    --headerAccent: #D90038;
+    --headerAccentTxt: rgba(255, 255, 255, 0.9);
+    --headerBorder: #F0F0F0;
+    --headerRadius: 0px;
+    --subHeaderG: #c5c5c5;
+    --subHeaderBg: #c5c5c5;
+    --subHeaderBg2: #b6b6b6;
+    --subHeaderBg3: #a6a6a6;
+    --subHeaderBgHover: #bdbdbd;
+    --subHeaderBg2Hover: #aeaeae;
+    --subHeaderBg3Hover: #9e9e9e;
+    --subHeaderTxt: rgba(0, 0, 0, 0.9);
+    --subHeaderTxt2: rgba(0, 0, 0, 0.6);
+    --subHeaderTxt3: rgba(0, 0, 0, 0.4);
+    --subHeaderAccent: #000000;
+    --subHeaderAccentTxt: rgba(255, 255, 255, 0.9);
+    --subHeaderBorder: #F0F0F0;
+    --subHeaderRadius: 0px;
+    --modalG: #cdcdcd;
+    --modalBg: #cdcdcd;
+    --modalBg2: #bebebe;
+    --modalBg3: #aeaeae;
+    --modalBgHover: #c5c5c5;
+    --modalBg2Hover: #b6b6b6;
+    --modalBg3Hover: #a6a6a6;
+    --modalTxt: rgba(0, 0, 0, 0.9);
+    --modalTxt2: rgba(0, 0, 0, 0.6);
+    --modalTxt3: rgba(0, 0, 0, 0.4);
+    --modalAccent: #D90038;
+    --modalAccentTxt: rgba(255, 255, 255, 0.9);
+    --modalRadius: 0px;
+    --modalBorder: #F0F0F0;
+    --tabG: #cdcdcd;
+    --tabBg: #cdcdcd;
+    --tabBg2: #bebebe;
+    --tabBg3: #aeaeae;
+    --tabBgHover: #c5c5c5;
+    --tabBg2Hover: #b6b6b6;
+    --tabBg3Hover: #a6a6a6;
+    --tabTxt: rgba(0, 0, 0, 0.9);
+    --tabTxt2: rgba(0, 0, 0, 0.6);
+    --tabTxt3: rgba(0, 0, 0, 0.4);
+    --tabAccent: #D90038;
+    --tabAccentTxt: rgba(255, 255, 255, 0.9);
+    --tabRadius: 0px;
+    --tabBorder: #F0F0F0;
+    --tabActiveG: #c5c5c5;
+    --tabActiveBg: #c5c5c5;
+    --tabActiveBg2: #b6b6b6;
+    --tabActiveBg3: #a6a6a6;
+    --tabActiveBgHover: #bdbdbd;
+    --tabActiveBg2Hover: #aeaeae;
+    --tabActiveBg3Hover: #9e9e9e;
+    --tabActiveTxt: rgba(0, 0, 0, 0.9);
+    --tabActiveTxt2: rgba(0, 0, 0, 0.6);
+    --tabActiveTxt3: rgba(0, 0, 0, 0.4);
+    --tabActiveAccent: #D90038;
+    --tabActiveAccentTxt: rgba(255, 255, 255, 0.9);
+    --tabActiveRadius: 0px;
+    --tabActiveBorder: #F0F0F0;
+    --tooltipG: #cdcdcd;
+    --tooltipBg: #cdcdcd;
+    --tooltipBg2: #bebebe;
+    --tooltipBg3: #aeaeae;
+    --tooltipBgHover: #c5c5c5;
+    --tooltipBg2Hover: #b6b6b6;
+    --tooltipBg3Hover: #a6a6a6;
+    --tooltipTxt: rgba(0, 0, 0, 0.9);
+    --tooltipTxt2: rgba(0, 0, 0, 0.6);
+    --tooltipTxt3: rgba(0, 0, 0, 0.4);
+    --tooltipAccent: #D90038;
+    --tooltipAccentTxt: rgba(255, 255, 255, 0.9);
+    --tooltipRadius: 0px;
+    --tooltipBorder: #F0F0F0;
+}
+
+/*registration*/
+.reg_width_calc {
+    width: 100%;
+}
+
+.registration__container {
+    padding: 10px 25px;
+}
+
+.errorCheck p {
+    color: red;
+}
+
+.errorCheck p a {
+    color: var(--bodyTxt);
+}
+/*-------*/
+/*footer*/
+.footer_copy, .footer_text {
+    font-size: 11px;
+}
+
+/*------*/

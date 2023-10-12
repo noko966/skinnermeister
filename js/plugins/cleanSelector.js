@@ -1,53 +1,48 @@
-function createExactMatchRegExp(selector) {
-  return new RegExp(selector.replace(/[.*+?^${}()|[\]\\]/g, "\\$&") + "$");
-}
+module.exports = plugin = (opts = {}) => {
+  let matchedRoots = [];
+  let matchedSelectors = [];
 
-module.exports = plugin = () => {
+  let loggerData = {
+    id: opts.id,
+    rootSelectors: 0,
+    darkThemeCount: 0,
+    lightThemeCount: 0,
+  };
 
-  const SELECTORS = ['.tg__results .tg_input:'];
-  let variables = [
-    {
-      selector: "tg__submenu__item:hover",
-      count: 0,
-      background: "",
-      color: "",
-      bgName: "--menuItemBg",
-      txtName: "--menuItemTxt"
-    },
-    {
-      selector: "tg__submenu__item",
-      count: 0,
-      background: "",
-      color: "",
-      bgName: "--menuItemActiveBg",
-      txtName: "--menuItemActiveTxt"
-    }
-  ];
+  const selector = {
+    selector: ".tg__info_panel .tg_input_coupon_amount",
+  };
+
   return {
-    postcssPlugin: "postcss-reverse-props",
+    postcssPlugin: "postcss-clear",
+
+    Once(root, { result }) {
+
+      root.walkRules((rule) => {
+        if(rule.selector === selector.selector) {
+          matchedSelectors.push(rule);
+          
+        }
+      });
 
 
-Once(root, { result }) {
-      root.walkRules(rule => {
-        SELECTORS.forEach(S => {
-          if(rule.selector.includes(S)){
-            let selectors = rule.selector.split(',');
-            selectors = selectors.filter(selector => !selector.includes(S));
-            rule.selector = selectors.join(',');
-  
-          }
-          // If there are no selectors left, remove the rule
-          if (rule.selector.trim().length === 0) {
-              rule.remove();
-          }
+
+
+      root.walkRules((rule) => {
+        matchedSelectors.forEach(S => {
+
+          console.log(S.selector);
+
+          S.remove();
+
         })
-        
-    });
+      });
+
+      
+
 
     },
-
-    }
-
+  };
 };
-plugin.postcss = true;
 
+plugin.postcss = true;

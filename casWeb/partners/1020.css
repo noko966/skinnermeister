@@ -1,0 +1,609 @@
+﻿/*ADDED FOR REASON REMOVE LATER*/
+body {
+    --bg-level-1: #292929;
+    --bg-level-2: #1a1a1a;
+    --text-level-high: #fff;
+    --primary: #fad639;
+    --text-on-primary: #000;
+}
+
+
+html, body,
+#wrapper {
+    background-color: #292929;
+}
+
+.bgMain {
+    background-color: #1a1a1a !important;
+}
+
+
+
+.user .ic {
+	color: #fff;
+}
+
+.btn_prim,
+.clr_prim,
+.promo_clicked {
+    background-color: #fad639 !important;
+    color: #000000 !important;
+}
+
+/*.ui-checkbox label {
+	color: #111 !important;
+}*/
+
+.heading {
+    background-color: #fad639 !important;
+    color: #292929 !important;
+    border-bottom: 2px solid #ffb700;
+}
+
+.ui-collapsible-content {
+ background-color: #191919 !important;
+}
+
+.sub_heading,
+.row label {
+	color: #fff;
+}
+.menuBtn {
+	background-color: #fff;
+	color: #000 !important;
+}
+
+    .menuBtn a {
+        color: #fad639 !important
+    }
+
+.menuBtnSm {
+	background-color: #fff;
+	color: #000 !important;
+}
+
+#header .txt {
+	color: #fff;
+}
+
+.menuRow {
+    background-color: #292929;
+    color: #fad639 !important;
+}
+
+.pagIt {
+	background-color: #111;
+	color: #fff;
+}
+
+#copyright {
+	background: none;
+}
+
+.list-menu li a span,
+.platformForgPass {
+    color: #ffffff !important;
+}
+
+.list-menu li a i {
+	visibility: hidden;
+}
+
+.LinkToLeftPanel {
+	color: #999999 !important;
+}
+
+.panel ul li.activated {
+	background-color: #30862f !important;
+	border-color: #30862f;
+}
+
+	.panel ul li.activated .PLspText,
+	.panel ul li.activated a:before {
+		color: #111 !important;
+	}
+
+.nav {
+	background: none;
+}
+
+/* header */
+#header {
+    background-color: #181818 !important;
+    height: 80px;
+}
+.link_icons {
+    width: 50px;
+    height: 50px;
+    margin: 25% 10px 0;
+}
+
+    .link_icons img {
+        height: 100%;
+        width: 100%;
+        object-fit: contain;
+    }
+/*main content*/
+.slidesjs-pagination li a.active, .paging li a.active {
+    border: 1px solid #30862f;
+    color: #555;
+}
+
+#inbox .unread td, #inbox .unread td a {
+	color: #30862f !important;
+}
+
+.PLUlblICt,
+.lblInboxCount1 {
+	background-color: #cc0001;
+}
+
+.left-logo:before {
+	content: "<";
+}
+
+/*	datepicker color changes	*/
+.ui-widget-header {
+	background: #02954e !important;
+	border: none;
+}
+
+	.ui-state-highlight, .ui-widget-content .ui-state-highlight, .ui-widget-header .ui-state-highlight {
+		border: 1px solid #02954e;
+		background: #02954e;
+	}
+
+	.ui-state-hover, .ui-widget-content .ui-state-hover, .ui-widget-header .ui-state-hover, .ui-state-focus, .ui-widget-content .ui-state-focus, .ui-widget-header .ui-state-focus {
+		border: 1px solid #02954e;
+		background: green url(images/ui-bg_glass_100_fdf5ce_1x400.png) 50% 50% repeat-x;
+	}
+
+	.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active {
+		border: 1px solid #02954e;
+	}
+
+.ui-state-hover .ui-icon, .ui-state-focus .ui-icon {
+}
+
+#footer {
+    background-color: #1a1a1a !important;
+}
+
+.horizontal-list .footer_social-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.social__twitter-icon {
+    background-color: #000000;
+}
+
+.social__telegram-icon {
+    background-color: #0088CC;
+}
+
+.social__instagram-icon {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+
+#footer-links ul li {
+    margin: 0 8px;
+}
+
+.LogoMobilePlatform {
+    background-image: url(/img/mobile/partners/1020/logo.png);
+    height: 33px;
+    width: 87px;
+}
+
+#betSlip a {
+	background-color: #013a65 !important;
+	color:#fff !important;
+	border: 0;
+	border-radius: 3px 3px 0 0;
+}
+
+
+
+.PLUlblICt, .lblInboxCount1 {
+	background-color: #e0e0e0;
+	color: #000;
+}
+
+.list-menu li a:after {
+	color: #fff;
+}
+
+.list-menu li,
+.list-menu li a div {
+    background-color: #292929;
+}
+
+	.list-menu li,
+	.list-menu li:last-child {
+		border-color: #999;
+	}
+
+        .list-menu li a,
+        .refresh-captcha,
+        .refresh-captcha:before {
+            color: #b2b2b2;
+        }
+
+.list-menu strong:before {
+    color: #fad639;
+}
+
+.list-menu li a strong {
+    color: #fad639;
+}
+
+
+
+#scroll {
+    background-color: #30862f;
+}
+
+/*my acc*/
+.data-tbl2 tbody th {
+	background: none;
+}
+
+#content.mobPlUserCont {
+	background-color: #a7a7a7;
+}
+
+.ui-shadow-inset {
+	-webkit-box-shadow: none !important;
+	-ms-box-shadow: none !important;
+	box-shadow: none !important;
+}
+
+#footer_coupon_count {background-color:#000; color:#013a65;}
+
+/*Unification*/
+.tl_my_inbox_msg_box, .tl_my_inbox_mails_cont{background: #e0e0e0;}
+.tl_mail_row{ background: #d6d6d6;}
+.tl_mail_details_title{ color: #474747}
+.tl_mail_msgId {color: #4ea1cc;}
+.tl_mail_details{ color: #000;}
+
+.unread .tl_mail_details {
+    color: #999!important;
+}
+.tl_popup_clr {
+    background: #f0f0f0
+}
+.tl_my_inbox_msg_box, .tl_my_inbox_mails_cont{background: #e0e0e0}
+
+
+@media screen and (min-width: 433px) {
+    .LogoMobilePlatform {
+        background-image: url(/img/mobile/partners/1020/logo.png);
+        height: 33px;
+        width: 87px;
+    }
+}
+
+
+
+
+
+
+    /*collapsable deposit withdrowal*/
+    .collapse_btn h3 > a {
+        background-color: #013a65;
+        color: #fff;
+        border-color: #013a65;
+    }
+
+    .paym_txt, #generalTermsLink, .paym_txt1, .paym_cond, .paym_cond > span {
+        color: #111;
+    }
+
+    .collapse_btn .ui-collapsible-content {
+        background-color: #e0e0e0 !important;
+    }
+
+
+
+    #wrapper #left-panel.panel.bgMain.ui-panel, .ui-panel-inner .platformRightLoginPanel {
+        background-color: #1a1a1a !important;
+    }
+
+
+.menuBtn, .menuBtnSm {
+    background-color: #292929;
+    color: #fad639 !important;
+}
+
+
+ 
+#menu-right .platformMobLog {
+    background-color: #4d4d4d !important;
+    color: #fff !important;
+}
+
+
+    .MobileIcon {
+        background: #1a1a1a !important;
+    }
+
+    /*Betslip*/
+
+    #betSlip a, #footer_coupon_div, #footer_bet_history {
+        background-color: #c1d201 !important;
+        border-top-color: #8e9b00 !important;
+        color: #000 !important;
+    }
+
+    #footer_coupon_count {
+        color: #c1d201;
+    }
+
+#genderMob.row label {
+    color: #1a1a1a;
+}
+
+.MobileIcon {
+    border: 1px solid;
+}
+
+
+#footer_coupon #footer_coupon_div {
+    color: #111 !important;
+    background: #fad639 !important;
+    border-top: 1px solid #fad639;
+}
+@media only screen and (min-width: 800px) {
+    #home-keno {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/keno.jpg);
+    }
+    #home-backgammon5 {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/Backgammon.jpg);
+    }
+    #home-domino5 {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/domino.jpg);
+    }
+    #fast-games {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/fast_games.jpg);
+    }
+    #home-skillgames {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/multinetwork_banner.jpg);
+    }
+    #home-Crash {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/BetRealX_Crash.png);
+    }
+    #home-hilo {
+        background-size: cover;
+        background-image: url(/Img/mobile/partners/1020/BetRealX_Hilo.jpg);
+    }
+}
+
+.bonus-block div {
+    color: #fff;
+}
+
+.partner_color {
+    color: #fad639;
+}
+
+.depositForms label, .withdrawalForms label {
+    color: #013a65;
+}
+
+.tl_mail_message_cont .tl_mail_details, .tl_mail_message_cont .tl_mail_details_title {
+    color: #fff;
+}
+
+.regMobBody #phone {
+    width: 100%;
+    margin-left: 10px;
+}
+
+.reg_width_block {
+    width: 90px;
+}
+
+#countryNumber-button .ui-btn-icon-right:after {
+    right: 0!important;
+}
+
+#countrycodewidth {
+width:100px
+}
+.footer-check {
+    justify-content: center;
+}
+.cepbank, .cepbankdeposit {
+    width: 70px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -4714px -153px;
+}
+
+.ui-loading .ui-loader {
+    display: none;
+}
+
+.papara {
+    width: 69px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -4485px -153px;
+}
+
+.qrkod {
+    width: 76px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -2148px -181px;
+}
+/*inputs optimisation*/
+input,
+.reg_input, .tl_mail_send_area, 
+.custon_select__front_el, .drop-down, .drop-down-small, #content_paym .ui-select span,#content_paym .ui-select select, .favorite_amounts > div,
+.reg__checkboxes_row,
+.reg__gender_row label, .profile_container .reg__gender_row label {
+    background-color: #f5f5f5;
+    color: #000;
+}
+.reg__row_title, .profile_container label, .transfer2friend_cont label,  #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+    color: #a3a3a3;
+}
+
+/*footer sprite*/
+.plus18Icon {
+    color: #ff0000;
+    height: 32px;
+    line-height: 28px;
+    font-size: 30px;
+}
+.fpay {
+    width: 86px;
+    height: 42px;
+    background-image: url(/Img/partners/1020/footer_payments.png);
+    background-size: 100% auto;
+    background-position-x: 0;
+    margin: 6px
+}
+
+    .fpay.sekerbank {
+        background-position-y: 0;
+    }
+
+    .fpay.denizbank {
+        background-position-y: -44px;
+    }
+
+    .fpay.kuveytbank {
+        background-position-y: -88px;
+    }
+
+    .fpay.ziraat {
+        background-position-y: -132px;
+    }
+
+    .fpay.vakif {
+        background-position-y: -176px;
+    }
+
+    .fpay.pttbank {
+        background-position-y: -220px;
+    }
+
+    .fpay.ing {
+        background-position-y: -264px;
+    }
+
+    .fpay.teb {
+        background-position-y: -308px;
+    }
+
+    .fpay.yapikredi {
+        background-position-y: -352px;
+    }
+
+    .fpay.turkiyebankasi {
+        background-position-y: -396px;
+    }
+
+    .fpay.akbank {
+        background-position-y: -440px;
+    }
+
+    .fpay.envoyqrkod {
+        background-position-y: -484px;
+    }
+
+    .fpay.envoyhizlihavale {
+        background-position-y: -528px;
+    }
+
+    .fpay.maksikripto {
+        background-position-y: -572px;
+    }
+
+    .fpay.maksipayfix {
+        background-position-y: -616px;
+    }
+
+    .fpay.maksikredi {
+        background-position-y: -660px;
+    }
+
+    .fpay.maksibanka {
+        background-position-y: -704px;
+    }
+
+    .fpay.maksipapara {
+        background-position-y: -748px;
+    }
+
+    .fpay.payfix {
+        background-position-y: -792px;
+    }
+
+    .fpay.bankahavalesi {
+        background-position-y: -836px;
+    }
+
+    .fpay.butcoin {
+        background-position-y: -880px;
+    }
+
+    .fpay.papara {
+        background-position-y: -924px;
+    }
+
+.footer_payments {
+    margin: 60px 10px 40px;
+}
+.text-primary {
+    color: #fad639;
+}
+
+/*27.4.21 optims*/
+body .bg-primary, body .h-bg-primary {
+    background-color: #fad639;
+    color: #000;
+}
+
+    body .h-bg-primary:hover {
+        background-color: #ffb700;
+        color: #000;
+    }
+
+body .text-primary {
+    color: #fad639;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    background-color: #2b2b2b;
+    color: #ffffff;
+}
+
+    body .h-bg-secondary:hover {
+        background-color: #2b2b2b;
+        color: #fff;
+    }
+
+body .bg-tert, body .h-bg-tert {
+    background-color: #000;
+    color: #fff;
+}
+
+    body .h-bg-tert:hover {
+        background-color: #000;
+        color: #fff;
+    }

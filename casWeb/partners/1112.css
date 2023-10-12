@@ -1,0 +1,454 @@
+﻿
+/* Casino Mobile page */
+:root {
+    --bodyBg: #0C1C23;
+    --bodyBg2: #193a49;
+    --bodyBg3: #204a5c;
+    --bodyBgHover: #10252e;
+    --bodyBg2Hover: #1d4354;
+    --bodyBg3Hover: #245367;
+    --bodyRGBA: rgba(12, 28, 35, 0.7);
+    --bodyRGBA2: rgba(12, 28, 35, 0.5);
+    --bodyRGBA3: rgba(12, 28, 35, 0.3);
+    --bodyTxt: rgba(255, 255, 255, 0.9);
+    --bodyTxt2: rgba(255, 255, 255, 0.6);
+    --bodyTxt3: rgba(255, 255, 255, 0.4);
+    --bodyAccent: #57EEB6;
+    --bodyAccentTxt: rgba(0, 0, 0, 0.9);
+    --bodyBorder: #0C1C23;
+    --bodyRadius: 0px;
+    --dominantG: #143336;
+    --dominantRGBA: rgba(20, 51, 54, 0.7);
+    --dominantRGBA2: rgba(20, 51, 54, 0.5);
+    --dominantRGBA3: rgba(20, 51, 54, 0.3);
+    --dominantBg: #143336;
+    --dominantBg2: #22565b;
+    --dominantBg3: #29686e;
+    --dominantBgHover: #183e41;
+    --dominantBg2Hover: #266066;
+    --dominantBg3Hover: #2d7379;
+    --dominantTxt: rgba(255, 255, 255, 0.9);
+    --dominantTxt2: rgba(255, 255, 255, 0.6);
+    --dominantTxt3: rgba(255, 255, 255, 0.4);
+    --dominantAccent: #57EEB6;
+    --dominantAccentTxt: rgba(0, 0, 0, 0.9);
+    --dominantTxtInverse: #262626;
+    --dominantRadius: 0px;
+    --accentBg: #57EEB6;
+    --accentBg2: #85f3ca;
+    --accentBg3: #9cf5d4;
+    --accentBgHover: #65efbc;
+    --accentBg2Hover: #93f4d0;
+    --accentBg3Hover: #aaf6da;
+    --accentG: #57EEB6;
+    --accentTxt: rgba(0, 0, 0, 0.9);
+    --accentTxt2: rgba(0, 0, 0, 0.6);
+    --accentTxt3: rgba(0, 0, 0, 0.4);
+    --buttonG: linear-gradient(0deg, #2ED885 0%, #57EEB6 100%);
+    --buttonBg: #57EEB6;
+    --buttonBg2: #85f3ca;
+    --buttonBg3: #9cf5d4;
+    --buttonBgHover: #65efbc;
+    --buttonBg2Hover: #93f4d0;
+    --buttonBg3Hover: #aaf6da;
+    --buttonTxt: rgba(0, 0, 0, 0.9);
+    --buttonTxt2: rgba(0, 0, 0, 0.6);
+    --buttonTxt3: rgba(0, 0, 0, 0.4);
+    --buttonAccent: #57EEB6;
+    --buttonAccentTxt: rgba(0, 0, 0, 0.9);
+    --buttonBorder: #0C1C23;
+    --buttonRadius: 12px;
+    --buttonSecondaryG: #122F39;
+    --buttonSecondaryBg: #122F39;
+    --buttonSecondaryBg2: #1e4f60;
+    --buttonSecondaryBg3: #245f73;
+    --buttonSecondaryBgHover: #163945;
+    --buttonSecondaryBg2Hover: #22596c;
+    --buttonSecondaryBg3Hover: #28697f;
+    --buttonSecondaryTxt: rgba(255, 255, 255, 0.9);
+    --buttonSecondaryTxt2: rgba(255, 255, 255, 0.6);
+    --buttonSecondaryTxt3: rgba(255, 255, 255, 0.4);
+    --buttonSecondaryAccent: #57EEB6;
+    --buttonSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --buttonSecondaryBorder: #5EF3BC;
+    --buttonSecondaryRadius: 12px;
+    --inputG: #22565b;
+    --inputBg: #22565b;
+    --inputBg2: #307980;
+    --inputBg3: #378b93;
+    --inputBgHover: #266066;
+    --inputBg2Hover: #34838b;
+    --inputBg3Hover: #3b959e;
+    --inputTxt: rgba(255, 255, 255, 0.9);
+    --inputTxt2: rgba(255, 255, 255, 0.6);
+    --inputTxt3: rgba(255, 255, 255, 0.4);
+    --inputAccent: #57EEB6;
+    --inputAccentTxt: rgba(0, 0, 0, 0.9);
+    --inputRadius: 0px;
+    --inputBorder: #0C1C23;
+    --inputSecondaryG: #266066;
+    --inputSecondaryBg: #266066;
+    --inputSecondaryBg2: #34838b;
+    --inputSecondaryBg3: #3b949e;
+    --inputSecondaryBgHover: #2a6a71;
+    --inputSecondaryBg2Hover: #388d96;
+    --inputSecondaryBg3Hover: #3f9ea9;
+    --inputSecondaryTxt: rgba(255, 255, 255, 0.9);
+    --inputSecondaryTxt2: rgba(255, 255, 255, 0.6);
+    --inputSecondaryTxt3: rgba(255, 255, 255, 0.4);
+    --inputSecondaryAccent: #57EEB6;
+    --inputSecondaryAccentTxt: rgba(0, 0, 0, 0.9);
+    --inputSecondaryRadius: 0px;
+    --inputSecondaryBorder: #0C1C23;
+    --headerG: #13434A;
+    --headerBg: #13434A;
+    --headerBg2: #1d6873;
+    --headerBg3: #237a87;
+    --headerBgHover: #164e56;
+    --headerBg2Hover: #20737f;
+    --headerBg3Hover: #268593;
+    --headerTxt: rgba(255, 255, 255, 0.9);
+    --headerTxt2: rgba(255, 255, 255, 0.6);
+    --headerTxt3: rgba(255, 255, 255, 0.4);
+    --headerAccent: #57EEB6;
+    --headerAccentTxt: rgba(0, 0, 0, 0.9);
+    --headerBorder: #0C1C23;
+    --headerRadius: 0px;
+    --subHeaderG: #20737f;
+    --subHeaderBg: #20737f;
+    --subHeaderBg2: #2a98a8;
+    --subHeaderBg3: #2faabc;
+    --subHeaderBgHover: #237e8b;
+    --subHeaderBg2Hover: #2da3b4;
+    --subHeaderBg3Hover: #32b5c8;
+    --subHeaderTxt: rgba(255, 255, 255, 0.9);
+    --subHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --subHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --subHeaderAccent: #57EEB6;
+    --subHeaderAccentTxt: rgba(0, 0, 0, 0.9);
+    --subHeaderBorder: #0C1C23;
+    --subHeaderRadius: 0px;
+    --modalG: #22565b;
+    --modalBg: #22565b;
+    --modalBg2: #307980;
+    --modalBg3: #378b93;
+    --modalBgHover: #266066;
+    --modalBg2Hover: #34838b;
+    --modalBg3Hover: #3b959e;
+    --modalTxt: rgba(255, 255, 255, 0.9);
+    --modalTxt2: rgba(255, 255, 255, 0.6);
+    --modalTxt3: rgba(255, 255, 255, 0.4);
+    --modalAccent: #57EEB6;
+    --modalAccentTxt: rgba(0, 0, 0, 0.9);
+    --modalRadius: 0px;
+    --modalBorder: #0C1C23;
+    --tabG: #22565b;
+    --tabBg: #22565b;
+    --tabBg2: #307980;
+    --tabBg3: #378b93;
+    --tabBgHover: #266066;
+    --tabBg2Hover: #34838b;
+    --tabBg3Hover: #3b959e;
+    --tabTxt: rgba(255, 255, 255, 0.9);
+    --tabTxt2: rgba(255, 255, 255, 0.6);
+    --tabTxt3: rgba(255, 255, 255, 0.4);
+    --tabAccent: #57EEB6;
+    --tabAccentTxt: rgba(0, 0, 0, 0.9);
+    --tabRadius: 0px;
+    --tabBorder: #0C1C23;
+    --tabActiveG: #266066;
+    --tabActiveBg: #266066;
+    --tabActiveBg2: #34838b;
+    --tabActiveBg3: #3b949e;
+    --tabActiveBgHover: #2a6a71;
+    --tabActiveBg2Hover: #388d96;
+    --tabActiveBg3Hover: #3f9ea9;
+    --tabActiveTxt: rgba(255, 255, 255, 0.9);
+    --tabActiveTxt2: rgba(255, 255, 255, 0.6);
+    --tabActiveTxt3: rgba(255, 255, 255, 0.4);
+    --tabActiveAccent: #57EEB6;
+    --tabActiveAccentTxt: rgba(0, 0, 0, 0.9);
+    --tabActiveRadius: 0px;
+    --tabActiveBorder: #0C1C23;
+    --tooltipG: #22565b;
+    --tooltipBg: #22565b;
+    --tooltipBg2: #307980;
+    --tooltipBg3: #378b93;
+    --tooltipBgHover: #266066;
+    --tooltipBg2Hover: #34838b;
+    --tooltipBg3Hover: #3b959e;
+    --tooltipTxt: rgba(255, 255, 255, 0.9);
+    --tooltipTxt2: rgba(255, 255, 255, 0.6);
+    --tooltipTxt3: rgba(255, 255, 255, 0.4);
+    --tooltipAccent: #57EEB6;
+    --tooltipAccentTxt: rgba(0, 0, 0, 0.9);
+    --tooltipRadius: 0px;
+    --tooltipBorder: #0C1C23;
+}
+  
+/*footer*/
+#footer {
+    padding: 30px 10px 100px;
+}
+
+#footer .grey-text {
+    color: var(--headerTxt2);
+    font-size: 14px;
+}
+
+#footer-links {
+    padding: 30px 0;
+}
+
+.footer_links{
+    padding: 0 8px;
+}
+
+.footer_links a {
+    font-size: 14px;
+    color: var(--text-level-medium);
+}
+.footer_links a:not(.footer_links__title) {
+    color: var(--text-level-medium);
+}
+.footer-license-text {
+    margin: 24px auto;
+    line-height: 20px;
+    font-size: 14px;
+    color: var(--text-level-medium);
+}
+
+.footer-license-text .text-underline {
+    text-decoration: underline;
+}
+
+.tl_footer_links_heading {
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.social_icons_title {
+    margin-bottom: 16px;
+    margin-top: 24px;
+}
+
+.footer_text {
+    width: 100%;
+    text-align: center;
+    margin: 15px auto;
+}
+
+.footer_text img {
+    width: 100%;
+    height: auto;
+}
+
+.footer_cont {
+    max-width: 100%;
+}
+.footer_sponsors {
+    width: 100%;
+    margin: 24px auto 22px;
+}
+
+.footer_sponsors img,
+.footer_sponsors_text img {
+    max-width: 100%;
+}
+
+.footer_sponsors_text {
+    width: 100%;
+    align-items: flex-start;
+    justify-content: space-around;
+/*    padding-bottom: 18px;
+    border-bottom: 2px solid #5E809A;*/
+}
+
+.footer_sponsors_text p {
+    color: var(--headerTxt2);
+    max-width: 144px;
+    margin-top: 0;
+}
+
+
+.dmca_licence_box img {
+    width: 170px;
+}
+
+.plus18Icon {
+    color: var(--headerAccent);
+}
+
+.plus18Icon:after {
+    line-height: 1;
+}
+
+.footer_text {
+    color: var(--headerAccent);
+    font: normal normal medium 11px/13px Roboto;
+}
+
+/*.footer_social-list {
+    margin-bottom: 24px;
+}
+.social__telegram-icon {
+    background-color: #0088CC;
+}
+.social__facebook-icon{
+    background-color: #3b5998;
+}
+.social__pinterest-icon {
+    background-color: #c8232c;
+}
+.social__twitter-icon {
+    background-color: #000000;
+}
+.social__instagram-icon {
+    background: #f09433;
+    background: -moz-linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    background: -webkit-linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+    background: linear-gradient(45deg, #f09433 0%,#e6683c 25%,#dc2743 50%,#cc2366 75%,#bc1888 100%);
+}
+
+.social__whatsApp-icon {
+    background-color: #25D366;
+}
+
+.social__youtube-icon {
+    background-color: #FF0000;
+}
+
+.footer_social-item{
+    color: #FFFFFF;
+}*/
+
+/*---------*/
+/*Registration*/
+.D_reg_step:not(.hidden) {
+    display: block;
+}
+
+.register_next_step > div {
+    width: 100%;
+}
+
+.register_step_number {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.register_step_number span {
+    display: inline-block;
+    min-width: 46px;
+    font-size: 14px;
+    white-space: nowrap;
+}
+
+.reg__dateofbirth_row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+}
+
+.reg__dateofbirth_row>div {
+    width: 32%;
+}
+
+.phone_number_reg{
+    width: 30%;
+}
+
+.phone_number_inp_reg {
+    width: 100%;
+}
+
+.reg__gender_row label {
+    border: 0;
+    width: 100%;
+    min-height: 30px;
+    padding: 0 10px;
+    border-radius: 2px;
+    font-size: 14px;
+    display: flex;
+    align-items: center;
+    line-height: 30px;
+    padding: 0 0 0 40px;
+    position: relative;
+}
+
+.reg__gender_row input {
+    z-index: -1;
+    position: absolute;
+    top: 7px;
+    left: 2px;
+    opacity: 0;
+    width: 9px;
+}
+
+.reg__gender_row .col50 {
+    width: 50%;
+}
+
+.reg__checkboxes_row{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.reg__dateofbirth_row+.field-validation-error>span {
+    color: #f00!important;
+}
+
+.reg__dateofbirth_row + .field-validation-error > span,
+.regErMes .field-validation-error,
+.regErMes .field-validation-valid {
+    display: none;
+    position: absolute;
+    top: 104%;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    border-radius: 2px;
+    padding: 8px;
+    z-index: 12;
+    color: #ff0000;
+    font-size: 12px;
+}
+
+.reg__dateofbirth_row + .field-validation-error > span:not(:empty),
+regErMes .field-validation-error:not(:empty),
+.field-validation-error:not(:empty):not(:first-child){
+    display: block;
+}
+
+.reg__dateofbirth_row + .field-validation-error > span:not(:empty):before,
+.regErMes .field-validation-error span:before{
+    border: 5px solid transparent;
+    border-bottom: 5px solid #ddd;
+    top: -10px;
+    left: 8px;
+    content: "";
+    position: absolute;
+}
+
+.field-validation-error.regErMes{
+    padding: 0;
+}
+
+.reg__dateofbirth_row + .field-validation-error > span:not(:empty),
+.regErMes .field-validation-error {
+    background: #ffcfcf;
+    color: var(--tooltipTxt);
+}
+
+.reg__dateofbirth_row + .field-validation-error > span:not(:empty):before,
+.regErMes .field-validation-error span:before {
+    border-bottom: 5px solid #ffcfcf;
+}
+
+.licenzion_logo img {
+    width: 90px;
+    height: 100px;
+}

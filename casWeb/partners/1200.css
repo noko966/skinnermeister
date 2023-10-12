@@ -1,0 +1,207 @@
+
+/* casWeb page */
+:root {
+    --bodyBg: #171B24;
+    --bodyBg2: #2b3243;
+    --bodyBg3: #353e53;
+    --bodyBgHover: #1d222d;
+    --bodyBg2Hover: #31394c;
+    --bodyBg3Hover: #3b455c;
+    --bodyRGBA: rgba(23, 27, 36, 0.7);
+    --bodyRGBA2: rgba(23, 27, 36, 0.5);
+    --bodyRGBA3: rgba(23, 27, 36, 0.3);
+    --bodyTxt: rgba(255, 255, 255, 0.9);
+    --bodyTxt2: rgba(255, 255, 255, 0.6);
+    --bodyTxt3: rgba(255, 255, 255, 0.4);
+    --bodyAccent: #00A8BC;
+    --bodyAccentTxt: rgba(255, 255, 255, 0.9);
+    --bodyBorder: #171B24;
+    --bodyRadius: 0px;
+    --dominantG: #151820;
+    --dominantRGBA: rgba(21, 24, 32, 0.7);
+    --dominantRGBA2: rgba(21, 24, 32, 0.5);
+    --dominantRGBA3: rgba(21, 24, 32, 0.3);
+    --dominantBg: #151820;
+    --dominantBg2: #292f3f;
+    --dominantBg3: #333b4e;
+    --dominantBgHover: #1b1f29;
+    --dominantBg2Hover: #2f3648;
+    --dominantBg3Hover: #394257;
+    --dominantTxt: rgba(255, 255, 255, 0.9);
+    --dominantTxt2: rgba(255, 255, 255, 0.6);
+    --dominantTxt3: rgba(255, 255, 255, 0.4);
+    --dominantAccent: #00A8BC;
+    --dominantAccentTxt: rgba(255, 255, 255, 0.9);
+    --dominantTxtInverse: #262626;
+    --dominantRadius: 0px;
+    --accentBg: #00A8BC;
+    --accentBg2: #00d6ef;
+    --accentBg3: #09e5ff;
+    --accentBgHover: #00b6cb;
+    --accentBg2Hover: #00e4fe;
+    --accentBg3Hover: #18e7ff;
+    --accentG: #00A8BC;
+    --accentTxt: rgba(255, 255, 255, 0.9);
+    --accentTxt2: rgba(255, 255, 255, 0.6);
+    --accentTxt3: rgba(255, 255, 255, 0.4);
+    --buttonG: #00A8BC;
+    --buttonBg: #00A8BC;
+    --buttonBg2: #00d6ef;
+    --buttonBg3: #09e5ff;
+    --buttonBgHover: #00b6cb;
+    --buttonBg2Hover: #00e4fe;
+    --buttonBg3Hover: #18e7ff;
+    --buttonTxt: rgba(255, 255, 255, 0.9);
+    --buttonTxt2: rgba(255, 255, 255, 0.6);
+    --buttonTxt3: rgba(255, 255, 255, 0.4);
+    --buttonAccent: #00A8BC;
+    --buttonAccentTxt: rgba(255, 255, 255, 0.9);
+    --buttonBorder: #171B24;
+    --buttonRadius: 5px;
+    --buttonSecondaryG: #31394A;
+    --buttonSecondaryBg: #31394A;
+    --buttonSecondaryBg2: #455169;
+    --buttonSecondaryBg3: #4f5c78;
+    --buttonSecondaryBgHover: #374053;
+    --buttonSecondaryBg2Hover: #4b5872;
+    --buttonSecondaryBg3Hover: #556381;
+    --buttonSecondaryTxt: rgba(255, 255, 255, 0.9);
+    --buttonSecondaryTxt2: rgba(255, 255, 255, 0.6);
+    --buttonSecondaryTxt3: rgba(255, 255, 255, 0.4);
+    --buttonSecondaryAccent: #00A8BC;
+    --buttonSecondaryAccentTxt: rgba(255, 255, 255, 0.9);
+    --buttonSecondaryBorder: #31394A;
+    --buttonSecondaryRadius: 5px;
+    --inputG: #292f3f;
+    --inputBg: #292f3f;
+    --inputBg2: #3d465e;
+    --inputBg3: #47526d;
+    --inputBgHover: #2f3648;
+    --inputBg2Hover: #434d67;
+    --inputBg3Hover: #4d5976;
+    --inputTxt: rgba(255, 255, 255, 0.9);
+    --inputTxt2: rgba(255, 255, 255, 0.6);
+    --inputTxt3: rgba(255, 255, 255, 0.4);
+    --inputAccent: #00A8BC;
+    --inputAccentTxt: rgba(255, 255, 255, 0.9);
+    --inputRadius: 0px;
+    --inputBorder: #171B24;
+    --inputSecondaryG: #2f3648;
+    --inputSecondaryBg: #2f3648;
+    --inputSecondaryBg2: #434d67;
+    --inputSecondaryBg3: #4d5976;
+    --inputSecondaryBgHover: #353d51;
+    --inputSecondaryBg2Hover: #495470;
+    --inputSecondaryBg3Hover: #53607f;
+    --inputSecondaryTxt: rgba(255, 255, 255, 0.9);
+    --inputSecondaryTxt2: rgba(255, 255, 255, 0.6);
+    --inputSecondaryTxt3: rgba(255, 255, 255, 0.4);
+    --inputSecondaryAccent: #00A8BC;
+    --inputSecondaryAccentTxt: rgba(255, 255, 255, 0.9);
+    --inputSecondaryRadius: 0px;
+    --inputSecondaryBorder: #171B24;
+    --headerG: #1E2430;
+    --headerBg: #1E2430;
+    --headerBg2: #323c4f;
+    --headerBg3: #3b475f;
+    --headerBgHover: #242b39;
+    --headerBg2Hover: #384358;
+    --headerBg3Hover: #414e68;
+    --headerTxt: rgba(255, 255, 255, 0.9);
+    --headerTxt2: rgba(255, 255, 255, 0.6);
+    --headerTxt3: rgba(255, 255, 255, 0.4);
+    --headerAccent: #00A8BC;
+    --headerAccentTxt: rgba(255, 255, 255, 0.9);
+    --headerBorder: #171B24;
+    --headerRadius: 0px;
+    --subHeaderG: #384358;
+    --subHeaderBg: #384358;
+    --subHeaderBg2: #4c5b77;
+    --subHeaderBg3: #566787;
+    --subHeaderBgHover: #3e4a61;
+    --subHeaderBg2Hover: #526280;
+    --subHeaderBg3Hover: #5c6e90;
+    --subHeaderTxt: rgba(255, 255, 255, 0.9);
+    --subHeaderTxt2: rgba(255, 255, 255, 0.6);
+    --subHeaderTxt3: rgba(255, 255, 255, 0.4);
+    --subHeaderAccent: #00A8BC;
+    --subHeaderAccentTxt: rgba(255, 255, 255, 0.9);
+    --subHeaderBorder: #171B24;
+    --subHeaderRadius: 0px;
+    --modalG: #292f3f;
+    --modalBg: #292f3f;
+    --modalBg2: #3d465e;
+    --modalBg3: #47526d;
+    --modalBgHover: #2f3648;
+    --modalBg2Hover: #434d67;
+    --modalBg3Hover: #4d5976;
+    --modalTxt: rgba(255, 255, 255, 0.9);
+    --modalTxt2: rgba(255, 255, 255, 0.6);
+    --modalTxt3: rgba(255, 255, 255, 0.4);
+    --modalAccent: #00A8BC;
+    --modalAccentTxt: rgba(255, 255, 255, 0.9);
+    --modalRadius: 0px;
+    --modalBorder: #171B24;
+    --tabG: #292f3f;
+    --tabBg: #292f3f;
+    --tabBg2: #3d465e;
+    --tabBg3: #47526d;
+    --tabBgHover: #2f3648;
+    --tabBg2Hover: #434d67;
+    --tabBg3Hover: #4d5976;
+    --tabTxt: rgba(255, 255, 255, 0.9);
+    --tabTxt2: rgba(255, 255, 255, 0.6);
+    --tabTxt3: rgba(255, 255, 255, 0.4);
+    --tabAccent: #00A8BC;
+    --tabAccentTxt: rgba(255, 255, 255, 0.9);
+    --tabRadius: 0px;
+    --tabBorder: #171B24;
+    --tabActiveG: #2f3648;
+    --tabActiveBg: #2f3648;
+    --tabActiveBg2: #434d67;
+    --tabActiveBg3: #4d5976;
+    --tabActiveBgHover: #353d51;
+    --tabActiveBg2Hover: #495470;
+    --tabActiveBg3Hover: #53607f;
+    --tabActiveTxt: rgba(255, 255, 255, 0.9);
+    --tabActiveTxt2: rgba(255, 255, 255, 0.6);
+    --tabActiveTxt3: rgba(255, 255, 255, 0.4);
+    --tabActiveAccent: #00A8BC;
+    --tabActiveAccentTxt: rgba(255, 255, 255, 0.9);
+    --tabActiveRadius: 0px;
+    --tabActiveBorder: #171B24;
+    --tooltipG: #292f3f;
+    --tooltipBg: #292f3f;
+    --tooltipBg2: #3d465e;
+    --tooltipBg3: #47526d;
+    --tooltipBgHover: #2f3648;
+    --tooltipBg2Hover: #434d67;
+    --tooltipBg3Hover: #4d5976;
+    --tooltipTxt: rgba(255, 255, 255, 0.9);
+    --tooltipTxt2: rgba(255, 255, 255, 0.6);
+    --tooltipTxt3: rgba(255, 255, 255, 0.4);
+    --tooltipAccent: #00A8BC;
+    --tooltipAccentTxt: rgba(255, 255, 255, 0.9);
+    --tooltipRadius: 0px;
+    --tooltipBorder: #171B24;
+}
+
+.header__logo svg {
+    width: 100%;
+    height: 100%;
+}
+
+.header__logo svg path,
+.header__logo svg rect  {
+    transition: .23s;
+}
+
+.header__logo svg path,
+.header__logo svg rect {
+    fill: var(--headerTxt);
+}
+
+.header__logo:hover svg path, 
+.header__logo:hover svg rect {
+    fill: var(--headerAccent);
+}

@@ -1,0 +1,567 @@
+﻿/*ADDED FOR REASON REMOVE LATER*/
+body {
+    --bg-level-1: #fff;
+    --bg-level-2: #D1D1D1;
+    --text-level-high: #fff;
+    --primary: #F06544;
+    --text-on-primary: #fff;
+}
+/*all important styles*/
+body, #wrapper, .bgMain {
+    background-color: #fff;
+    color: #000;
+}
+.heading {
+    color: #000;
+    background-color: #D1D1D1;
+}
+.sub_heading {
+    color: #F06544;
+}
+/*header*/
+.casino_h_link_cont .clr_sec {
+    background: #C0CBDF;
+}
+.casino_links_tabs .home_icon:before {
+    color: #181B2C
+}
+.casino_links_tabs a {
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #181B2C;
+    font-weight: bold;
+}
+ 
+#header {
+    background: #fff;
+}
+
+.LinkToLeftPanel:before {
+    color: #666666;
+}
+
+.LogoMobilePlatform {
+    background-image: url('../../../Img/mobile/partners/1073/logo.png');
+    width: 80px;
+    height: 23px;
+}
+
+.ic, #header .txt {
+    color: #000
+}
+.go_to_right_menu {
+    position: relative;
+}
+/*all buttons*/
+.btn_sec, .btn_prim {
+    background-color: #F06544 !important;
+    color: #fff !important;
+}
+
+.platformMobReg {
+    padding: 0px 8px;
+    border: none;
+    margin: 0 5px;
+    border-radius: 5px;
+    background: transparent !important;
+    color: #000 !important;
+}
+
+.platformMobLog {
+    padding: 0px 8px;
+    text-transform: uppercase;
+    margin: 0 5px;
+    border-radius: 5px;
+    background: transparent !important;
+    color: #F06544 !important;
+}
+#recNews .row{
+    flex-wrap: wrap;
+}
+/*new landing homepage*/
+.landing_contet {
+    padding: 0 16px
+}
+.sliderControlsCont .slick-dots .slick-active button {
+    color: #F06544;
+}
+.tl_popup_content {
+    color: #fff;
+}
+.matches_block iframe {
+    height: 460px;
+}
+.tl_navigation {
+    min-width: 250px;
+}
+
+.nav_item {
+    margin-bottom: 0.5vw;
+    background: transparent;
+    box-shadow: none;
+    padding: 4px
+}
+
+.nav_title {
+    font-size: 15px;
+    background: rgba(22,20,21, 0.5);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 40%;
+    width: 80%; 
+    margin-bottom: 15px;
+    border-radius: 4px;
+    text-shadow: none;
+}
+
+.block_title {
+    background: #000;
+    color: #fff;
+    border-radius: 10px 0 0 0;
+}
+
+    .block_title:before {
+        color: #fff;
+    }
+
+/*popup after login*/
+.tl_popup_container {
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.7);
+    z-index: 101;
+    top: 0;
+    left: 0;
+}
+.tl_popup_header {
+    background-color: #2b2b2b;
+    border-radius: 2px 2px 0 0;
+    height: 47px;
+    width: 100%;
+    align-items: center;
+    padding: 0 16px;
+}
+.tl_head_text {
+    width: calc((100%) - 20px);
+    color: #fff;
+    font-size: 13px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    height: 30px;
+    line-height: 30px;
+}
+.tl_head_close {
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    line-height: 20px;
+    text-align: center;
+    color: #757575;
+    cursor: pointer;
+    -webkit-transition: color 0.3s ease;
+    -moz-transition: color 0.3s ease;
+    transition: color 0.3s ease;
+}
+.tl_popup_header .tl_head_close {
+    top: 12px;
+}
+.tl_head_close:after {
+    content: "\35";
+    font-family: ProductIconsFont;
+}
+
+/*footer*/
+#footer {
+    background: #fff;
+}
+.drop_down_lang {
+    background: #000000;
+    border-radius: 10px 0 10px 0;
+    color: #fff;
+    text-align: left;
+    padding: 0px 0 0 32px;
+    line-height: 44px;
+    height: 44px;
+    text-indent: 34%; 
+}
+.drop_down_lang_arrow,
+.drop_down_lang {
+    width: 100%;
+}
+    .drop_down_lang_arrow:after {
+        content: "O";
+        top: 0px;
+        line-height: 44px;
+        font-family: ProductIconsFont !important;
+        right: 15px;
+        border: none;
+        color: #fff;
+    }
+
+
+.toWeb.btn_sec {
+    border-radius: 10px 0 10px 0;
+    height: 44px;
+    color: #fff !important;
+    background: #000000 !important;
+    line-height: 44px !important;
+    padding: 0 20px;
+    margin: 20px 0 30px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.copy {
+    color: #181B2C;
+    margin: 20px 0;
+    text-indent: 10px;
+}
+
+.plus18Icon{
+    font-size: 30px;
+    color: #999;
+    width: 42px;
+}
+
+/*left and right menu*/
+.left-logo:before {
+    content: "\3c";
+}
+#left-panel {
+    background: #fff;
+}
+.left_menu_block {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+#right-panel .bgMain {
+    background: #FFFFFF;
+}
+
+#left-panel .menuBtn a,
+#left-panel .menuBtn {
+    background: #F0F0F0;
+    color: #181B2C !important;
+}
+
+.left-menu a:before {
+    font-size: 30px;
+}
+.left_menu_block_links {
+    margin-top: auto;
+}
+.menuBtn {
+    background: #333333;
+    margin-bottom: 3px;
+}
+
+.menuBtnSm {
+    background: #F0F0F0;
+    color: #181B2C !important;
+    font-weight: 100 !important;
+    font-size: 12px;
+    height: 35px;
+    line-height: 35px;
+    width: 100%;
+    margin-bottom: 3px;
+    padding: 0 20px;
+}
+
+.menuBtn .txt {
+    font-weight: 100;
+    font-size: 12px;
+}
+
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn, #right-panel .menuBtn {
+    color: #181B2C !important;
+    background: #F0F0F0;
+    text-transform: uppercase;
+    font-weight: 100;
+    font-size: 12px;
+    line-height: 40px;
+}
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br {
+    margin: 0;
+}
+
+.platformForgPass {
+    color: #fff !important;
+}
+
+.menuRow {
+    color: #181B2C !important;
+    background: #F0F0F0;
+    text-transform: uppercase;
+    margin-bottom: 2px;
+    font-size: 12px;
+}
+
+.ui-collapsible-inset.ui-collapsible-themed-content .ui-collapsible-content {
+    background-color: #C0CBDF !important;
+    color: #111 !important;
+    padding: 0;
+}
+
+#right-panel .ui-collapsible-inset.ui-collapsible-themed-content .ui-collapsible-content > .menuBtn {
+    background: #E0E0E0;
+    margin: 0;
+    color: #999 !important;
+    border-bottom: 2px solid #fff;
+    font-weight: 100;
+    text-transform: capitalize;
+    font-size: 12px;
+}
+.row {
+    margin: 5px auto;
+}
+
+.right_menu_header {
+    background: #D1D1D1;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    line-height: 35px;
+    padding: 10px 0 5px;
+}
+
+.right_menu_close {
+    color: #D1D1D1;
+    font-size: 15px;
+    position: absolute;
+    right: 16px;
+    top: 10px;
+    cursor: pointer;
+    background-color: #1A1A1A;
+    height: 20px;
+    width: 20px;
+    line-height: 19px;
+    border-radius: 3px;
+}
+
+.account_title {
+    color: #000;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 25px;
+    font-size: 14px;
+    padding: 0 8px;
+}
+
+.playerId {
+    margin: 12px 8px 24px;
+}
+
+.right_menu_logo {
+    width: 79px;
+    height: 28px;
+    background-image: url('../../../Img/partners/1073/logoBig.png');
+    background-size: contain;
+    margin: 0px auto;
+    background-repeat: no-repeat;
+}
+/*bonuses*/
+#bonusesNavBar > .ui-link {
+    background: transparent;
+    color: #000;
+    border: 1px solid;
+}
+    #bonusesNavBar > .ui-link.active {
+        color: #F06544;
+    }
+
+#bonuses_content {
+    color: #000;
+    padding: 30px 15px;
+}
+    #bonuses_content .activate_btn {
+        background-color: #ccc !important;
+        color: #000 !important;
+    }
+#privacyPolicyLink {
+    color: #000;
+}
+/*casino*/
+.clr_sec {
+    background-color: #000;
+}
+
+.casino-tabs .clr_prim {
+    background: #2b2b2b;
+    color: #fff !important;
+}
+
+.clr_prim {
+    background-color: #F06544;
+    color: #fff !important;
+}
+.list-menu1 li {
+    background: #000 !important;
+    color: #fff;
+}
+/*promotions*/
+
+.promo_mobile_title {
+    color: #F06544;
+}
+/*inbox*/
+.tl_mail_item {
+    background: #E0E0E0;
+    border-bottom: 2px solid #fff;
+}
+.tl_mail_msgId {
+    color: #F06544;
+}
+.tl_mail_item.unread {
+    background: #fff;
+}
+
+textarea.ui-input-text {
+    margin: 15px 0;
+}
+.tl_mail_row {
+    background: #E0E0E0;
+}
+.tl_mail_message_body {
+    background: #E0E0E0;
+    color: #666666;
+}
+.reply_btn_answer {
+    margin: 0 15px;
+}
+.tl_mail_message_cont .ui-corner-all {
+    margin: 20px 0!important
+}
+.tl_mail_details, .tl_mail_details_title {
+    color: #181B2C;
+}
+.tl_mail_attachfiel, .tl_mail_attachfiel_screp {
+    color: #000;
+}
+#attachfile_btn {
+    color: #666666;
+    background-color: #D1D1D1;
+}
+/*deposit && withdrawal*/
+.collapse_btn h3 > a {
+    background: #ddd;
+}
+
+.paym_txt, .paym_cond > span {
+    color: #000;
+}
+
+.lbl-success {
+    background: #F06544;
+}
+
+.left-skillgames {
+    text-transform: capitalize;
+}
+
+.hiddenContentButton.active i {
+    transform: rotate(180deg);
+}
+.btn_affiliate {
+    color: #b3b3b3;
+    font-size: 16px;
+    margin: 0 0 25px 0;
+}
+
+#ceg-e7e54e3c-71a9-4e8f-8155-5185d21063dc img {
+    width: 36px !important;
+}
+
+.papara {
+    width: 76px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -4027px -153px;
+}
+
+.atm {
+    width: 76px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -4588px -181px;
+}
+
+.transfertoaccount {
+    width: 76px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -4659px -181px;
+}
+
+.hizliqroffline {
+    width: 76px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -4735px -181px;
+}
+
+.cepbank, .cepbankwithdrawal, .cepbankdeposit {
+    width: 68px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -3408px -181px;
+}
+/*inputs optimisation*/
+input,
+.reg_input, .tl_mail_send_area,
+.custon_select__front_el, .drop-down, .drop-down-small, #content_paym .ui-select span, #content_paym .ui-select select, .favorite_amounts > div,
+.reg__checkboxes_row,
+.reg__gender_row label, .profile_container .reg__gender_row label {
+    background-color: #EFEFEF;
+    color: #181B2C;
+}
+
+.reg__row_title, .profile_container label, .transfer2friend_cont label,  #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+    color: #a3a3a3;
+}
+.text-primary {
+    color: #F06544;
+}
+/*27.4.21 optims*/
+body .bg-primary, body .h-bg-primary {
+    background: #F06544;
+    color: #fff;
+}
+
+    body .h-bg-primary:hover {
+        background: #f47958;
+        opacity: 1;
+    }
+
+body .text-primary {
+    color: #F06544;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    background-color: #C0CBDF;
+    color: #181B2C;
+}
+
+    body .h-bg-secondary:hover {
+        background-color: #ccc;
+        color: #181B2C;
+    }
+
+body .bg-tert, body .h-bg-tert {
+    background-color: #fff;
+    color: #000;
+}
+
+    body .h-bg-tert:hover {
+        background-color: #fff;
+        color: #000;
+    }
+/*very new bonus*/
+.bonus_card_body {
+    background-color: #e4e4e4;
+}

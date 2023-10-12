@@ -1,0 +1,34 @@
+#e-sport-root .esp_odd.esp_odd_active,
+#e-sport-root .esp_game_details_odd.esp_game_details_odd_active,
+#e-sport-root .component_betslip_header_tab .component_betslip_header_tab_count,
+#e-sport-root
+  .esp_video_wrapper
+  .esp_video_stakes_wrapper
+  .esp_video_stake
+  .esp_video_stake_stake.esp_video_stake_stake_active,
+#e-sport-root .esp_betslip_mob_pin_count,
+#e-sport-root .esp_mob_filter_main_item .esp_mob_filter_main_item_fav_count {
+  background-color: #fce000;
+}
+
+#e-sport-root .component_betslip_button_akcent,
+#e-sport-root .component_betslip_button_akcent:hover {
+  background-color: #fce000 !important;
+  color: #000 !important;
+}
+
+#e-sport-root .component_sidebar_list_filter_tab.component_sidebar_list_filter_tab_active {
+  border-color: #fce000;
+}
+
+#e-sport-root .esp_betslip_mob_pin {
+  border-right: 4px solid #fce000;
+}
+
+#e-sport-root .esp_odd.esp_odd_active .esp_odd_factor,
+#e-sport-root .esp_game_details_odd.esp_game_details_odd_active span,
+#e-sport-root .esp_mob_filter_main_item .esp_mob_filter_main_item_fav_count,
+#e-sport-root .component_betslip_header_tab .component_betslip_header_tab_count,
+#e-sport-root .esp_betslip_mob_pin_count {
+  color: #000;
+}

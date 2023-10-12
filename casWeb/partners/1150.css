@@ -1,0 +1,571 @@
+﻿body {
+    --bg-level-1: #364d91;
+    --bg-level-2: #3c55a0;
+    --bg-level-3: #415dae;
+    --bg-level-4: #516cbe;
+    --text-level-high: #FFFFFF;
+    --text-level-medium: #CCCCCC;
+    --text-level-low: #999999;
+    --icon-level-high: #FFFFFF;
+    --icon-level-medium: #CCCCCC;
+    --icon-level-low: #999999;
+    --btn-primary: #FFFC09;
+    --btn-primary-text: #000000;
+    --btn-secondary: #293A6C;
+    --btn-secondary-text: #ffffff;
+    --badge-notification: #FFFC09;
+    --badge-bonus: #FFFC09;
+    --primary: #FFFC09;
+    --text-on-primary: #000000;
+}
+
+#wrapper, html, body {
+    background-color: #3A539B;
+}
+
+.bgMain {
+    background: #293A6C;
+}
+
+input.valid {
+    background: #293A6C url(/Img/mobile/common/valid.png) no-repeat left 50% !important;
+}
+
+/*buttons*/
+.btn_prim {
+    color: #000 !important;
+    background: #FFFC09;
+}
+
+.clr_prim {
+    background: #FFFC09;
+    color: #000 !important;
+}
+
+/*header*/
+#menu-right .PLUlblICt {
+    line-height: 1.5;
+}
+.casino_h_link_cont .clr_sec {
+    background: #293A6C;
+}
+
+.clr_sec {
+    background: #3A539B;
+}
+
+.casino-tabs, .casino_links_tabs { 
+    display: flex;
+}
+
+    .casino_links_tabs a {
+        font-size: 12px;
+        padding: 0 16px;
+        color: #fff;
+    }
+
+.LogoMobilePlatform {
+    background-image: url(/Img/mobile/partners/1150/logo.png);
+    background-size: contain;
+    width: 93px;
+    height: 30px;
+}
+
+.right_menu_logo {
+    background-image: url(/Img/mobile/partners/1150/logo.png);
+    background-size: contain;
+    width: 87px;
+    height: 32px;
+    margin: auto;
+    background-repeat: no-repeat;
+}
+
+#header {
+    background-color: #010781;
+}
+
+.platformMobReg {
+    color: #FFFC09 !important;
+    background: transparent !important;
+    padding: 0 10px;
+    padding: 0 0 0 10px;
+}
+
+.platformMobLog {
+    color: #fff;
+    background: transparent;
+    padding: 0 10px;
+}
+
+.LinkToLeftPanel {
+    color: #fff;
+}
+/*footer*/
+#footer {
+    background: #293A6C;
+}
+
+.footer_links a {
+    color: #B3B3B3;
+    text-align: right;
+}
+
+.footer_links > div:first-child a {
+    text-align: left;
+}
+
+.toWeb {
+    background: #3A539B !important;
+    color: #fff !important;
+    font-size: 14px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    margin: 10px 0 15px;
+}
+
+.copy {
+    color: #FFFC09;
+    margin-bottom: 15px;
+}
+
+/*left/right menus*/
+.collapse_dropdown_leftmenu_btn:after {
+    border-color: #fff transparent transparent transparent;
+}
+
+.left-logo:before {
+    content: "<"
+}
+
+.playerId, .account_title {
+    margin: 10px 10px;
+    padding: 0;
+}
+
+#right-panel, #left-panel {
+    background: #111111;
+}
+
+.menuBtn, .menuBtnSm, .menuRow,
+.ui-collapsible-inset .ui-collapsible-heading .ui-btn {
+    background-color: #3A539B;
+    color: #CCCCCC !important;
+    margin-bottom: 3px;
+    font-weight: 100 !important;
+}
+
+.menuBtn {
+    color: #fff !important;
+}
+
+.left-menu a:before {
+    font-size: 30px;
+}
+
+.account_title {
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.ui-btn-icon-left:after, .ui-btn-icon-right:after, .ui-btn-icon-top:after,
+.ui-btn-icon-bottom:after, .ui-btn-icon-notext:after {
+    background-color: #293A6C;
+}
+
+.ui-collapsible-inset, .ui-collapsible-set {
+    margin: 0;
+}
+
+.menuBtnSm {
+    font-size: 14px;
+    height: 36px;
+    line-height: 36px;
+    text-align: center;
+}
+
+.menuRow, #right-panel .menuBtn {
+    text-transform: uppercase;
+}
+
+.ui-collapsible-themed-content .ui-collapsible-content {
+    background: #293A6C !important;
+    padding: 0;
+}
+
+.ui-collapsible-content.ui-body-inherit > .menuBtn.flex.alCen {
+    background: #293A6C;
+    color: #929397 !important;
+    text-transform: capitalize !important;
+}
+
+.telegram_ico {
+    background-image: url(/Img/mobile/partners/1150/telegram_ico.png);
+    background-repeat: no-repeat;
+    background-size: 20px;
+    padding: 5px 12px;
+    background-position: 0 3px;
+}
+
+.right_menu_header {
+    display: flex;
+    width: 100%;
+    background: #010781;
+    justify-content: space-between;
+    height: 45px;
+    padding: 10px;
+}
+
+.right_menu_close {
+    font-size: 18px;
+    color: #ccc;
+}
+
+/*inbox*/
+.tl_mail_item {
+    background: #293A6C;
+    border-color: #363636;
+}
+
+    .tl_mail_item.unread {
+        background: #000000;
+    }
+
+.tl_mail_details {
+    color: #FFFFFF;
+}
+
+.tl_mail_details_title {
+    color: #B3B3B3;
+}
+
+.tl_mail_msgId {
+    color: #FFFC09;
+}
+
+.tl_mail_row {
+    background: #293A6C;
+}
+
+    .tl_mail_row .tl_mail_details, .tl_mail_row .tl_mail_details_title {
+        color: #ccc;
+    }
+
+    .tl_mail_row .tl_mail_msgId {
+        color: #fff;
+    }
+
+.tl_mail_message_body {
+    background: #3A539B;
+    border: 1px solid #FFFC09;
+    color: #fff;
+}
+
+/*account pages*/
+.heading {
+    background: #010781;
+    color: #fff;
+    border-bottom: 1px solid #FFFC09;
+    text-transform: uppercase;
+}
+
+.drop-down {
+    background-color: #293A6C;
+    color: #fff !important;
+}
+
+#bonusesNavBar > .ui-link.active {
+    background-color: #293A6C;
+}
+
+#profileContainer .inp {
+    font-size: 14px;
+    padding: 6px !important;
+    border-radius: 5px;
+}
+
+.pokerInfo_cont {
+    width: 100%;
+    height: 100%;
+    padding: 50px 0;
+    background-image: url('/Img/pokerBg.png');
+    background-size: cover;
+    background-position: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+
+.pokerInfo_block {
+    border-radius: 16px;
+    background: rgba(0,0,0,0.7);
+    width: 376px;
+    text-align: center;
+    padding: 32px;
+}
+
+    .pokerInfo_block img {
+        max-width: 200px;
+    }
+
+.pokerInfo {
+    color: #fff;
+    font-size: 17px;
+    margin-top: 30px;
+    line-height: 26px;
+}
+
+
+.btn_log_poker {
+    width: 126px;
+    height: 44px;
+    margin-top: 30px;
+    line-height: 44px !important;
+    font-size: 17px;
+    text-transform: uppercase;
+    padding: 0;
+}
+
+.btn_poker_block {
+    -webkit-box-pack: space-between;
+    -ms-flex-pack: space-between;
+    justify-content: space-between;
+}
+
+.btn_log_poker.platformMobLog {
+    background: transparent !important;
+    border: 1px solid #707070;
+    color: #fff !important;
+}
+
+.btn_log_poker.platformMobReg {
+    background: #FFFC09 !important;
+    color: #000 !important;
+}
+
+input#Captcha.error {
+    background-color: #293A6C;
+}
+
+.tvgames_d {
+    padding: 0;
+}
+/*inputs optimisation*/
+input,
+.reg_input, .tl_mail_send_area,
+.custon_select__front_el, .drop-down, .drop-down-small, #content_paym .ui-select span, #content_paym .ui-select select, .favorite_amounts > div,
+.reg__checkboxes_row,
+.reg__gender_row label, .profile_container .reg__gender_row label {
+    background-color: #3A539B;
+    color: #fff;
+}
+
+.reg__row_title, .profile_container label, .transfer2friend_cont label, #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+    color: #a3a3a3;
+}
+.phone_number_reg {
+    direction: ltr;
+}
+
+.first_reg_template .reg_mobile_code {
+    background-color: #BFBFBF;
+    color: #fff;
+    direction: ltr;
+    text-align: right;
+}
+.tour__leaderboard_table_item {
+    background-color: #222;
+}
+
+.custom_swicher {
+    border-color: #222;
+}
+
+.nonsamanbank {
+    width: 59px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -674px -91px;
+}
+
+.casino_links_tabs {
+    min-width: 100%;
+}
+/*left menu without icons*/
+#left-panel .menuBtnSm,
+#left-panel .menuBtn {
+    height: 64px;
+    justify-content: center;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.collapse_dropdown_leftmenu {
+    height: 67px;
+}
+
+.collapse_dropdown_leftmenu_btn:before {
+    content: "";
+    width: 35px;
+    height: 2px;
+    display: block;
+}
+
+#left-panel .menuBtnSm {
+    line-height: 64px;
+}
+
+.menuBtn .txt {
+    font-size: 15px;
+}
+
+/*live casino and betgames albatross*/
+.project_col_game_tabs .title_name {
+    background: #FFFC09;
+}
+
+.social_icons_footer a {
+    display: block;
+    height: 36px;
+    width: 36px;
+    background-size: 200% auto;
+    background-image: url(/Img/partners/1150/socials_footer.png);
+    background-repeat: no-repeat;
+    background-position-x: -36px;
+    margin: 20px 6px 0;
+}
+.social_icons_footer .telegram {
+    background-position-y: -144px;
+}
+
+.social_icons_footer .facebook {
+    background-position-y: -108px;
+}
+
+.social_icons_footer .pinterest {
+    background-position-y: -72px;
+}
+
+.social_icons_footer .reddit {
+    background-position-y: -36px;
+}
+
+.social_icons_footer .twitter {
+    background-position-y: 0;
+}
+
+.text-primary {
+    color: #FFFC09;
+}
+
+.list-menu li {
+    background-color: #293A6C;
+}
+
+body .bg-primary, body .h-bg-primary {
+    background-color: #fffc09;
+    color: #293A6C;
+}
+
+    body .h-bg-primary:hover {
+        color: #ffffff;
+        background-color: #d51815;
+        border-color: #d51815;
+    }
+
+body .text-primary {
+    color: #fffc09;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    color: #ffffff;
+    background-color: #010781;
+}
+
+    body .h-bg-secondary:hover {
+        background-color: #ffff3b;
+        color: #293A6C;
+    }
+
+body .bg-tert, body .h-bg-tert {
+    background: rgba(0,0,0,0.5);
+    color: #fff;
+}
+
+    body .h-bg-tert:hover {
+        background: rgba(0,0,0,0.5);
+        color: #fff;
+    }
+/*very new bonus*/
+.bonus_card_body {
+    background-color: #293a6c;
+}
+
+/*bonus history redesign*/
+
+.bonus-history .bonus-block {
+    background-color: #E0E1E4;
+}
+
+#bonuses_content.bonus-history .bonus-block .item {
+    border-bottom-color: rgba(120,120,120, 0.8);
+}
+
+#bonuses_content.bonus-history .col50 {
+    color: rgba(120, 120, 120, 0.9);
+}
+
+#bonuses_content.bonus-history .col50.text-right {
+    color: #262626;
+}
+
+
+.bonus-history .bonus_details p {
+    border-bottom: 1px solid rgba(120, 120, 120, 0.8);
+    color: rgba(120, 120, 120, 0.8);
+}
+
+.bonus-history .bonus_details p span {
+    color: #000000;
+}
+
+/*----------------*/
+
+
+/*balance switcher*/
+.real-tab {
+    background: linear-gradient(to left, transparent 50%, #000000 50%) right;
+    background-size: 200%;
+}
+
+.real-tab.active {
+    color: #ffffff;
+}
+
+/*----------*/
+
+.irDivMob {
+    width: 30px;
+    background-color: #242424;
+    color: white;
+    height: 34px;
+    position: relative;
+    display: inline-flex;
+    border: none;
+    min-height: 34px;
+    padding: 0 10px;
+    border-radius: 2px;
+    font-size: 14px;
+    display: block;
+    line-height: 34px;
+    text-align: center;
+    justify-content: center;
+    margin-right: 5px;
+}

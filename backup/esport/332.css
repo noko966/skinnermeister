@@ -1,0 +1,80 @@
+:root{
+/*CMS colors 332*/
+--sport-digi-background:#000000;
+--sport-digi-background-foreground:#ffffff;
+--sport-digi-background--level--4:#000;
+--sport-digi-background--level-5:#0d0d0d;
+--sport-digi-background--level-10:#1a1a1a;
+--sport-digi-background--level-15:#262626;
+--sport-digi-background--opacity-50:rgba(0,0,0,0.5);
+--sport-digi-foreground:#FFFFFF;
+--sport-digi-foreground-foreground:#000000;
+--sport-digi-foreground--level-20:#ccc;
+--sport-digi-foreground--level-40:#999;
+--sport-digi-foreground--level-60:#666;
+--sport-digi-accent:#F5BC3D;
+--sport-digi-accent-foreground:#000000;
+--sport-digi-accent--darken-20:#c2890a;
+--sport-digi-accent--darken-10:#f3ab0c;
+--sport-digi-accent--opacity-50:rgba(245,188,61,0.5);
+--sport-digi-brand:#F5BC3D;
+--sport-digi-brand-foreground:#000000;
+--sport-digi-brand--darken-20:#c2890a;
+--sport-digi-brand--darken-10:#f3ab0c;
+--sport-digi-brand--opacity-50:rgba(245,188,61,0.5);
+--sport-digi-border-radius--static:2px;
+--sport-digi-border-radius--multiply-2:NaN;
+--sport-digi-border-radius--multiply-3:NaN;
+--sport-digi-border-radius--multiply-4:NaN;
+--sport-digi-border-radius--divide-2:NaN;
+--sport-digi-odd--static:#262626;
+--sport-digi-header--static:#404040;
+--sport-digi-background-mobile:#1a1a1a;
+--sport-digi-background-mobile-foreground:#ffffff;
+--sport-digi-star:#ffb700;
+--sport-digi-star-foreground:#000000;
+--sport-digi-red:#d40000;
+--sport-digi-red-foreground:#ffffff;
+--sport-digi-green:#00912C;
+--sport-digi-green-foreground:#ffffff;
+--sport-digi-white:#fff;
+--sport-digi-white-foreground:#000000;
+--sport-digi-black:#000;
+--sport-digi-black-foreground:#ffffff;
+--sport-digi-button-background:#4D4D4D;
+--sport-digi-button-background-foreground:#ffffff;
+--sport-digi-button-foreground:#999;
+--sport-digi-button-foreground-foreground:#ffffff;
+--sport-digi-id--static:332;
+}
+
+#e-sport-root .esp_odd:hover,
+#e-sport-root .esp_odd.esp_odd_active,
+#e-sport-root .esp_video_wrapper .esp_video_stakes_wrapper .esp_video_stake .esp_video_stake_stake:hover,
+#e-sport-root
+  .esp_video_wrapper
+  .esp_video_stakes_wrapper
+  .esp_video_stake
+  .esp_video_stake_stake.esp_video_stake_stake_active,
+#e-sport-root .es_game_complex .esp_odd:hover,
+#e-sport-root .es_game_complex .esp_odd.esp_odd_active,
+#e-sport-root .component_betslip_button_akcent:hover,
+#e-sport-root .component_betslip_button_akcent,
+#e-sport-root .esp_game_details_odd:hover,
+#e-sport-root .esp_game_details_odd.esp_game_details_odd_active,
+#e-sport-root .esp_mob_odd.esp_mob_odd_active,
+#e-sport-root .esp_game_details_odd.esp_game_details_odd_active,
+#e-sport-root .esp_betslip_mob_pin_count,
+#e-sport-root .component_button,
+#e-sport-root .component_button:hover,
+#e-sport-root .esp_bonus_settings_wrapper .esp_bonus_settings_body .esp_bonus_save_btn,
+#dm-main-container .dm__popup_filter .dm__btn--primary {
+  background: linear-gradient(to right, rgb(245, 188, 61), rgb(201, 152, 55), rgb(102, 71, 34));
+  color: #000;
+}
+
+@media (hover: hover) {
+  #e-sport-root .component_betslip_button:hover {
+    background-color: #f5bc3d !important;
+  }
+}

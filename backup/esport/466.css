@@ -1,0 +1,1092 @@
+:root {
+  --bodyBg: #ffffff;
+  --bodyBg2: #f0f0f0;
+  --bodyBg3: #e0e0e0;
+  --bodyBgHover: #f7f7f7;
+  --bodyBg2Hover: #e8e8e8;
+  --bodyBg3Hover: #d8d8d8;
+  --bodyRGBA: rgba(255, 255, 255, 0.7);
+  --bodyRGBA2: rgba(255, 255, 255, 0.5);
+  --bodyRGBA3: rgba(255, 255, 255, 0.5);
+  --bodyTxt: rgba(0, 0, 0, 0.9);
+  --bodyTxt2: rgba(0, 0, 0, 0.6);
+  --bodyTxt3: rgba(0, 0, 0, 0.4);
+  --bodyAccent: #4c4c56;
+  --bodyAccentTxt: rgba(255, 255, 255, 0.9);
+  --bodyBorder: #ffffff;
+  --bodyRadius: 0px;
+
+  --accentBg: #4c4c56;
+  --accentBg2: #646471;
+  --accentBg3: #70707f;
+  --accentBgHover: #53535e;
+  --accentBg2Hover: #6b6b79;
+  --accentBg3Hover: #777787;
+  --accentG: #4c4c56;
+  --accentTxt: rgba(255, 255, 255, 0.9);
+  --accentTxt2: rgba(255, 255, 255, 0.6);
+  --accentTxt3: rgba(255, 255, 255, 0.4);
+
+  --dominantG: #f3f3f3;
+  --dominantRGBA: rgba(243, 243, 243, 0.7);
+  --dominantRGBA2: rgba(243, 243, 243, 0.5);
+  --dominantRGBA3: rgba(243, 243, 243, 0.3);
+  --dominantBg: #f3f3f3;
+  --dominantBg2: #e4e4e4;
+  --dominantBg3: #d4d4d4;
+  --dominantBgHover: #ebebeb;
+  --dominantBg2Hover: #dcdcdc;
+  --dominantBg3Hover: #cccccc;
+  --dominantTxt: rgba(0, 0, 0, 0.9);
+  --dominantTxt2: rgba(0, 0, 0, 0.6);
+  --dominantTxt3: rgba(0, 0, 0, 0.4);
+  --dominantTxtInverse: #fff;
+  --dominantRadius: 0px;
+
+  --buttonG: #4c4c56;
+  --buttonBg: #4c4c56;
+  --buttonBg2: #646471;
+  --buttonBg3: #70707f;
+  --buttonBgHover: #53535e;
+  --buttonBg2Hover: #6b6b79;
+  --buttonBg3Hover: #777787;
+  --buttonTxt: rgba(255, 255, 255, 0.9);
+  --buttonTxt2: rgba(255, 255, 255, 0.6);
+  --buttonTxt3: rgba(255, 255, 255, 0.4);
+  --buttonAccent: #4c4c56;
+  --buttonAccentTxt: rgba(255, 255, 255, 0.9);
+  --buttonBorder: #ffffff;
+  --buttonRadius: 0px;
+
+  --buttonSecondaryG: #d8d8d8;
+  --buttonSecondaryBg: #d8d8d8;
+  --buttonSecondaryBg2: #c9c9c9;
+  --buttonSecondaryBg3: #b9b9b9;
+  --buttonSecondaryBgHover: #d0d0d0;
+  --buttonSecondaryBg2Hover: #c1c1c1;
+  --buttonSecondaryBg3Hover: #b1b1b1;
+  --buttonSecondaryTxt: rgba(0, 0, 0, 0.9);
+  --buttonSecondaryTxt2: rgba(0, 0, 0, 0.6);
+  --buttonSecondaryTxt3: rgba(0, 0, 0, 0.4);
+  --buttonSecondaryAccent: #4c4c56;
+  --buttonSecondaryAccentTxt: rgba(255, 255, 255, 0.9);
+  --buttonSecondaryBorder: #ffffff;
+  --buttonSecondaryRadius: 0px;
+
+  --inputG: #e7e7e7;
+  --inputBg: #e7e7e7;
+  --inputBg2: #d8d8d8;
+  --inputBg3: #c8c8c8;
+  --inputBgHover: #dfdfdf;
+  --inputBg2Hover: #d0d0d0;
+  --inputBg3Hover: #c0c0c0;
+  --inputTxt: rgba(0, 0, 0, 0.9);
+  --inputTxt2: rgba(0, 0, 0, 0.6);
+  --inputTxt3: rgba(0, 0, 0, 0.4);
+  --inputAccent: #4c4c56;
+  --inputAccentTxt: rgba(255, 255, 255, 0.9);
+  --inputRadius: 0px;
+  --inputBorder: #ffffff;
+
+  --inputSecondaryG: #d0d0d0;
+  --inputSecondaryBg: #d0d0d0;
+  --inputSecondaryBg2: #c1c1c1;
+  --inputSecondaryBg3: #b1b1b1;
+  --inputSecondaryBgHover: #c8c8c8;
+  --inputSecondaryBg2Hover: #b9b9b9;
+  --inputSecondaryBg3Hover: #a9a9a9;
+  --inputSecondaryTxt: rgba(0, 0, 0, 0.9);
+  --inputSecondaryTxt2: rgba(0, 0, 0, 0.6);
+  --inputSecondaryTxt3: rgba(0, 0, 0, 0.4);
+  --inputSecondaryAccent: #4c4c56;
+  --inputSecondaryAccentTxt: rgba(255, 255, 255, 0.9);
+  --inputSecondaryRadius: 0px;
+  --inputSecondaryBorder: #ffffff;
+
+  --headerG: #d3d3d3;
+  --headerBg: #d3d3d3;
+  --headerBg2: #c4c4c4;
+  --headerBg3: #b4b4b4;
+  --headerBgHover: #cbcbcb;
+  --headerBg2Hover: #bcbcbc;
+  --headerBg3Hover: #acacac;
+  --headerTxt: rgba(0, 0, 0, 0.9);
+  --headerTxt2: rgba(0, 0, 0, 0.6);
+  --headerTxt3: rgba(0, 0, 0, 0.4);
+  --headerAccent: #4c4c56;
+  --headerAccentTxt: rgba(255, 255, 255, 0.9);
+  --headerBorder: #ffffff;
+  --headerRadius: 0px;
+
+  --subHeaderG: #c1c1c1;
+  --subHeaderBg: #c1c1c1;
+  --subHeaderBg2: #b2b2b2;
+  --subHeaderBg3: #a2a2a2;
+  --subHeaderBgHover: #b9b9b9;
+  --subHeaderBg2Hover: #aaaaaa;
+  --subHeaderBg3Hover: #9a9a9a;
+  --subHeaderTxt: rgba(0, 0, 0, 0.9);
+  --subHeaderTxt2: rgba(0, 0, 0, 0.6);
+  --subHeaderTxt3: rgba(0, 0, 0, 0.4);
+  --subHeaderAccent: #4c4c56;
+  --subHeaderAccentTxt: rgba(255, 255, 255, 0.9);
+  --subHeaderBorder: #ffffff;
+  --subHeaderRadius: 0px;
+
+  --oddG: #ffffff;
+  --oddBg: #ffffff;
+  --oddBg2: #f0f0f0;
+  --oddBg3: #e0e0e0;
+  --oddBgHover: #f7f7f7;
+  --oddBg2Hover: #e8e8e8;
+  --oddBg3Hover: #d8d8d8;
+  --oddTxt: rgba(0, 0, 0, 0.9);
+  --oddTxt2: rgba(0, 0, 0, 0.6);
+  --oddTxt3: rgba(0, 0, 0, 0.4);
+  --oddAccent: #4c4c56;
+  --oddAccentTxt: rgba(255, 255, 255, 0.9);
+  --oddRadius: 0px;
+  --oddBorder: #ffffff;
+
+  --oddActiveG: #4c4c56;
+  --oddActiveBg: #4c4c56;
+  --oddActiveBg2: #646471;
+  --oddActiveBg3: #70707f;
+  --oddActiveBgHover: #53535e;
+  --oddActiveBg2Hover: #6b6b79;
+  --oddActiveBg3Hover: #777787;
+  --oddActiveTxt: rgba(255, 255, 255, 0.9);
+  --oddActiveTxt2: rgba(255, 255, 255, 0.6);
+  --oddActiveTxt3: rgba(255, 255, 255, 0.4);
+  --oddActiveAccent: #4c4c56;
+  --oddActiveAccentTxt: rgba(255, 255, 255, 0.9);
+  --oddActiveRadius: 0px;
+  --oddActiveBorder: #ffffff;
+
+  --eventWrapperG: undefined;
+  --eventWrapperBg: undefined;
+  --eventWrapperBg2: undefined;
+  --eventWrapperBg3: undefined;
+  --eventWrapperBgHover: undefined;
+  --eventWrapperBg2Hover: undefined;
+  --eventWrapperBg3Hover: undefined;
+  --eventWrapperTxt: undefined;
+  --eventWrapperTxt2: undefined;
+  --eventWrapperTxt3: undefined;
+  --eventWrapperAccent: undefined;
+  --eventWrapperAccentTxt: undefined;
+  --eventWrapperBorder: undefined;
+  --eventWrapperRadius: undefinedpx;
+
+  --eventG: #eaeaea;
+  --eventBg: #eaeaea;
+  --eventBg2: #dbdbdb;
+  --eventBg3: #cbcbcb;
+  --eventBgHover: #e2e2e2;
+  --eventBg2Hover: #d3d3d3;
+  --eventBg3Hover: #c3c3c3;
+  --eventTxt: rgba(0, 0, 0, 0.9);
+  --eventTxt2: rgba(0, 0, 0, 0.6);
+  --eventTxt3: rgba(0, 0, 0, 0.4);
+  --eventAccent: #4c4c56;
+  --eventAccentTxt: rgba(255, 255, 255, 0.9);
+  --eventBorder: #ffffff;
+  --eventRadius: 0px;
+
+  --modalG: #e4e4e4;
+  --modalBg: #e4e4e4;
+  --modalBg2: #d5d5d5;
+  --modalBg3: #c5c5c5;
+  --modalBgHover: #dcdcdc;
+  --modalBg2Hover: #cdcdcd;
+  --modalBg3Hover: #bdbdbd;
+  --modalTxt: rgba(0, 0, 0, 0.9);
+  --modalTxt2: rgba(0, 0, 0, 0.6);
+  --modalTxt3: rgba(0, 0, 0, 0.4);
+  --modalAccent: #4c4c56;
+  --modalAccentTxt: rgba(255, 255, 255, 0.9);
+  --modalRadius: 0px;
+  --modalBorder: #ffffff;
+
+  --showMoreG: #ffffff;
+  --showMoreBg: #ffffff;
+  --showMoreBg2: #f0f0f0;
+  --showMoreBg3: #e0e0e0;
+  --showMoreBgHover: #f7f7f7;
+  --showMoreBg2Hover: #e8e8e8;
+  --showMoreBg3Hover: #d8d8d8;
+  --showMoreTxt: rgba(0, 0, 0, 0.9);
+  --showMoreTxt2: rgba(0, 0, 0, 0.6);
+  --showMoreTxt3: rgba(0, 0, 0, 0.4);
+  --showMoreAccent: #4c4c56;
+  --showMoreAccentTxt: rgba(255, 255, 255, 0.9);
+  --showMoreRadius: 0px;
+  --showMoreBorder: #ffffff;
+
+  --tabG: #e5e5e5;
+  --tabBg: #e5e5e5;
+  --tabBg2: #d6d6d6;
+  --tabBg3: #c6c6c6;
+  --tabBgHover: #dddddd;
+  --tabBg2Hover: #cecece;
+  --tabBg3Hover: #bebebe;
+  --tabTxt: rgba(0, 0, 0, 0.9);
+  --tabTxt2: rgba(0, 0, 0, 0.6);
+  --tabTxt3: rgba(0, 0, 0, 0.4);
+  --tabAccent: #4c4c56;
+  --tabAccentTxt: rgba(255, 255, 255, 0.9);
+  --tabRadius: 0px;
+  --tabBorder: #ffffff;
+
+  --tabActiveG: #d3d3d3;
+  --tabActiveBg: #d3d3d3;
+  --tabActiveBg2: #c4c4c4;
+  --tabActiveBg3: #b4b4b4;
+  --tabActiveBgHover: #cbcbcb;
+  --tabActiveBg2Hover: #bcbcbc;
+  --tabActiveBg3Hover: #acacac;
+  --tabActiveTxt: rgba(0, 0, 0, 0.9);
+  --tabActiveTxt2: rgba(0, 0, 0, 0.6);
+  --tabActiveTxt3: rgba(0, 0, 0, 0.4);
+  --tabActiveAccent: #4c4c56;
+  --tabActiveAccentTxt: rgba(255, 255, 255, 0.9);
+  --tabActiveRadius: 0px;
+  --tabActiveBorder: #ffffff;
+
+  --tabSecondaryActiveBg: #cecece;
+  --tabSecondaryActiveBg2: #bfbfbf;
+  --tabSecondaryActiveBg3: #afafaf;
+  --tabSecondaryActiveBgHover: #c6c6c6;
+  --tabSecondaryActiveBg2Hover: #b7b7b7;
+  --tabSecondaryActiveBg3Hover: #a7a7a7;
+  --tabSecondaryActiveTxt: rgba(0, 0, 0, 0.9);
+  --tabSecondaryActiveTxt2: rgba(0, 0, 0, 0.6);
+  --tabSecondaryActiveTxt3: rgba(0, 0, 0, 0.4);
+  --tabSecondaryActiveAccent: #4c4c56;
+  --tabSecondaryActiveAccentTxt: rgba(255, 255, 255, 0.9);
+  --tabSecondaryActiveRadius: 0px;
+  --tabSecondaryActiveBorder: #ffffff;
+
+  --filterG: #d0d0d0;
+  --filterBg: #d0d0d0;
+  --filterBg2: #c1c1c1;
+  --filterBg3: #b1b1b1;
+  --filterBgHover: #c8c8c8;
+  --filterBg2Hover: #b9b9b9;
+  --filterBg3Hover: #a9a9a9;
+  --filterTxt: rgba(0, 0, 0, 0.9);
+  --filterTxt2: rgba(0, 0, 0, 0.6);
+  --filterTxt3: rgba(0, 0, 0, 0.4);
+  --filterAccent: #4c4c56;
+  --filterAccentTxt: rgba(255, 255, 255, 0.9);
+  --filterRadius: 0px;
+  --filterBorder: #ffffff;
+
+  --menu_1G: #e4e4e4;
+  --menu_1Bg: #e4e4e4;
+  --menu_1Bg2: #d5d5d5;
+  --menu_1Bg3: #c5c5c5;
+  --menu_1BgHover: #dcdcdc;
+  --menu_1Bg2Hover: #cdcdcd;
+  --menu_1Bg3Hover: #bdbdbd;
+  --menu_1Txt: rgba(0, 0, 0, 0.9);
+  --menu_1Txt2: rgba(0, 0, 0, 0.6);
+  --menu_1Txt3: rgba(0, 0, 0, 0.4);
+  --menu_1Accent: #4c4c56;
+  --menu_1AccentTxt: rgba(255, 255, 255, 0.9);
+  --menu_1Radius: 0px;
+  --menu_1Border: #ffffff;
+
+  --menu_2G: #dcdcdc;
+  --menu_2Bg: #dcdcdc;
+  --menu_2Bg2: #cdcdcd;
+  --menu_2Bg3: #bdbdbd;
+  --menu_2BgHover: #d4d4d4;
+  --menu_2Bg2Hover: #c5c5c5;
+  --menu_2Bg3Hover: #b5b5b5;
+  --menu_2Txt: rgba(0, 0, 0, 0.9);
+  --menu_2Txt2: rgba(0, 0, 0, 0.6);
+  --menu_2Txt3: rgba(0, 0, 0, 0.4);
+  --menu_2Accent: #4c4c56;
+  --menu_2AccentTxt: rgba(255, 255, 255, 0.9);
+  --menu_2Radius: 0px;
+  --menu_2Border: #ffffff;
+
+  --menu_3G: #d4d4d4;
+  --menu_3Bg: #d4d4d4;
+  --menu_3Bg2: #c5c5c5;
+  --menu_3Bg3: #b5b5b5;
+  --menu_3BgHover: #cccccc;
+  --menu_3Bg2Hover: #bdbdbd;
+  --menu_3Bg3Hover: #adadad;
+  --menu_3Txt: rgba(0, 0, 0, 0.9);
+  --menu_3Txt2: rgba(0, 0, 0, 0.6);
+  --menu_3Txt3: rgba(0, 0, 0, 0.4);
+  --menu_3Accent: #4c4c56;
+  --menu_3AccentTxt: rgba(255, 255, 255, 0.9);
+  --menu_3Radius: 0px;
+  --menu_3Border: #ffffff;
+
+  --tooltipG: #e4e4e4;
+  --tooltipBg: #e4e4e4;
+  --tooltipBg2: #d5d5d5;
+  --tooltipBg3: #c5c5c5;
+  --tooltipBgHover: #dcdcdc;
+  --tooltipBg2Hover: #cdcdcd;
+  --tooltipBg3Hover: #bdbdbd;
+  --tooltipTxt: rgba(0, 0, 0, 0.9);
+  --tooltipTxt2: rgba(0, 0, 0, 0.6);
+  --tooltipTxt3: rgba(0, 0, 0, 0.4);
+  --tooltipAccent: #4c4c56;
+  --tooltipAccentTxt: rgba(255, 255, 255, 0.9);
+  --tooltipRadius: 0px;
+  --tooltipBorder: #ffffff;
+
+  /* Old betslip */
+
+  --betSlipBg: #e4e4e4;
+  --betSlipTxt: rgba(0, 0, 0, 0.9);
+  --betSlipBg2: #d5d5d5;
+  --betSlipBg3: #c5c5c5;
+
+  --betSlipHeaderBg: #dcdcdc;
+  --betSlipHeaderTxt: rgba(0, 0, 0, 0.9);
+  --betSlipHeaderG: #dcdcdc;
+
+  --betSlipStakeTxt: rgba(0, 0, 0, 0.9);
+  --betSlipStakeBg2: #cdcdcd;
+  --betSlipStakeTxt2: rgba(0, 0, 0, 0.6);
+  --betSlipStakeG: #dcdcdc;
+
+  --borderRadius: undefinedpx;
+  --borderRadiusHalf: NaNpx;
+  --bottomBorderRadiusHalf: NaNpx;
+}
+#e-sport-root .component_notification {
+  background-color: var(--dominantRGBA);
+  color: var(--dominantTxt);
+}
+#e-sport-root .component_notification .sport_front_icon-issue {
+  color: var(--accentBg);
+}
+#e-sport-root ::-webkit-scrollbar {
+  background-color: var(--bodyBg);
+}
+#e-sport-root ::-webkit-scrollbar-thumb {
+  background-color: var(--dominantBg2);
+}
+#e-sport-root .component_loader_component .component_loader_component_loader_wrapper > div {
+  background-color: var(--accentBg);
+}
+#e-sport-root .esp_layout_main,
+#e-sport-root .component_sidebar_header {
+  background-color: var(--bodyBg);
+  color: var(--bodyTxt);
+}
+#e-sport-root .component_sidebar_list_filter {
+  background-color: var(--bodyBg);
+  color: var(--bodyTxt);
+}
+#e-sport-root .sport_front_icon-star {
+  color: var(--eventTxt);
+}
+/*sidebar*/
+#e-sport-root .component_sidebar_list {
+  background-color: var(--dominantBg);
+  color: var(--dominantTxt);
+}
+#e-sport-root .component_sidebar_arrow {
+  color: var(--dominantTxt2);
+}
+#e-sport-root .component_sidebar_collapse_toggle {
+  background-color: var(--dominantBg);
+  color: var(--dominantTxt);
+}
+#e-sport-root .component_sidebar_collapse_toggle .sport_front_icon-double_arrow_l,
+#e-sport-root .component_sidebar_search_wrapper .sport_front_icon-search,
+#e-sport-root .component_sidebar_search_input::placeholder {
+  color: var(--dominantTxt2);
+}
+#e-sport-root .component_sidebar_collapse_toggle:hover .sport_front_icon-double_arrow_l {
+  color: var(--dominantTxt);
+}
+#e-sport-root .component_sidebar_search_input {
+  background-color: var(--dominantBg);
+  color: var(--dominantTxt);
+}
+
+/*sidebar tabs*/
+#e-sport-root .component_sidebar_list_filter_tab_count {
+  background-color: var(--bodyBg);
+  color: var(--bodyTxt);
+}
+#e-sport-root
+  .component_sidebar_list_filter_tab.component_sidebar_list_filter_tab_active
+  .component_sidebar_list_filter_tab_count,
+#e-sport-root .component_sidebar_list_filter_tab:hover .component_sidebar_list_filter_tab_count {
+  background-color: var(--accentBg);
+  color: var(--accentTxt);
+}
+#e-sport-root .component_sidebar_list_filter_tab,
+#e-sport-root .esp_tabs_wrapper_markets .esp_tab {
+  background: var(--tabG);
+  color: var(--tabTxt);
+  border-color: transparent;
+  border-top-left-radius: var(--tabRadius);
+  border-top-right-radius: var(--tabRadius);
+}
+#e-sport-root .component_sidebar_list_filter_tab.component_sidebar_list_filter_tab_active,
+#e-sport-root .component_sidebar_list_filter_tab:hover,
+#e-sport-root .esp_tabs_wrapper_markets .esp_tab.esp_tab_active,
+#e-sport-root .esp_tabs_wrapper_markets .esp_tab:hover {
+  background: var(--tabActiveG);
+  color: var(--tabActiveTxt);
+  border-color: var(--tabActiveBorder);
+  font-weight: 500;
+  border-top-left-radius: var(--tabActiveRadius);
+  border-top-right-radius: var(--tabActiveRadius);
+}
+
+.esp_tab.esp_tab_active span {
+  color: var(--tabActiveTxt) !important;
+}
+
+#e-sport-root .component_sidebar_list_item_separator {
+  background-color: var(--menu_1Border);
+  margin: 0 8px;
+}
+/*sidebar items*/
+#e-sport-root .component_sidebar_list_item {
+  background: var(--menu_1BgHover);
+  color: var(--menu_1Txt);
+}
+#e-sport-root .component_sidebar_list_item.component_sidebar_list_item_active,
+#e-sport-root .component_sidebar_list_item:hover {
+  background: var(--menu_1G);
+  color: var(--menu_1Txt);
+}
+#e-sport-root .component_sidebar_list_item_name {
+  color: var(--menu_1Txt);
+}
+#e-sport-root .component_sidebar_list_item_count {
+  color: var(--menu_1Txt2);
+}
+#e-sport-root .component_sidebar_list_item_sub_wrapper {
+  background-color: var(--menu_1Bg2);
+  color: var(--menu_1Txt);
+}
+#e-sport-root .component_sidebar_list_item_sub {
+  background: var(--menu_1Bg2);
+  color: var(--menu_1Txt);
+}
+#e-sport-root .component_sidebar_list_item_sub.component_sidebar_list_item_sub_active,
+#e-sport-root .component_sidebar_list_item_sub:hover {
+  background: var(--menu_1G);
+  color: var(--menu_1Txt);
+}
+#e-sport-root .component_sidebar_list_item_sub_count {
+  color: var(--menu_1Txt2);
+}
+
+/*homepage mid*/
+#e-sport-root .esp_main_header {
+  background: var(--dominantBg);
+  color: var(--dominantTxt);
+}
+#e-sport-root .esp_main_header .esp_main_header_link {
+  color: var(--dominantTxt);
+}
+#e-sport-root .esp_main_header .esp_main_header_link.esp_main_header_link_active,
+#e-sport-root .esp_main_header .esp_main_header_link:hover {
+  color: var(--accentBg);
+}
+
+/*games*/
+#e-sport-root .esp_game_filter {
+  background: var(--headerG);
+  color: var(--headerTxt);
+}
+#e-sport-root .esp_game_filter strong {
+  color: var(--headerTxt);
+}
+#e-sport-root .esp_game_filter span {
+  color: var(--headerTxt);
+}
+#e-sport-root .esp_game_filter i {
+  color: var(--headerTxt);
+}
+#e-sport-root .esp_filter_icons,
+#e-sport-root .esp_filter_icons > i {
+  color: var(--headerTxt2);
+}
+#e-sport-root .esp_filter_icons > i.esp_icon_active,
+#e-sport-root .esp_filter_icons > i:hover {
+  color: var(--accentBg);
+}
+
+#e-sport-root .esp_games_wrapper,
+#e-sport-root .esp_games_details_wrapper {
+  background: var(--eventWrapperBg);
+  color: var(--eventWrapperTxt);
+}
+
+#e-sport-root .esp_games_wrapper > h2 {
+  color: var(--eventWrapperTxt2);
+}
+#e-sport-root .esp_game_row,
+#e-sport-root .esp_game_details_item {
+  background: var(--eventG);
+  color: var(--eventTxt);
+}
+#e-sport-root .esp_game_row:hover {
+  background: var(--eventBgHover);
+  color: var(--eventTxt);
+}
+
+#e-sport-root .sport_front_icon-star {
+  color: var(--eventTxt2);
+}
+#e-sport-root .sport_front_icon-star.digi_fav_active {
+  color: var(--accentBg);
+}
+#e-sport-root .esp_game_row .esp_team {
+  color: var(--eventTxt);
+}
+#e-sport-root .esp_odd.esp_odd_vs,
+#e-sport-root .esp_game_row .sport_front_icon-arrow_right {
+  color: var(--eventTxt2);
+}
+#e-sport-root .esp_tabs_wrapper_markets {
+  background: var(--bodyBg);
+}
+#e-sport-root .esp_game_details_item .esp_game_details_item_header .esp_game_details_item_market_name {
+  color: var(--eventTxt);
+}
+/*odds*/
+#e-sport-root .esp_odd,
+#e-sport-root .esp_video_stake_stake,
+#e-sport-root .esp_game_details_odd,
+#e-sport-root .esp_video_wrapper .esp_video_stakes_wrapper .esp_video_stake .esp_video_stake_stake {
+  background: var(--oddG);
+  border-radius: var(--oddRadius);
+}
+
+#e-sport-root .esp_odd .esp_odd_factor,
+#e-sport-root .esp_game_details_odd .esp_odd_factor {
+  color: var(--oddTxt);
+}
+#e-sport-root .esp_game_details_odd .esp_game_details_odd_name {
+  color: var(--oddTxt2);
+}
+#e-sport-root .esp_odd.esp_odd_active,
+#e-sport-root .esp_odd:hover,
+#e-sport-root .esp_game_details_odd.esp_game_details_odd_active,
+#e-sport-root .esp_game_details_odd.esp_game_details_odd:hover,
+#e-sport-root
+  .esp_video_wrapper
+  .esp_video_stakes_wrapper
+  .esp_video_stake
+  .esp_video_stake_stake.esp_video_stake_stake_active,
+#e-sport-root .esp_video_wrapper .esp_video_stakes_wrapper .esp_video_stake .esp_video_stake_stake:hover {
+  background: var(--oddActiveG);
+  border-radius: var(--oddActiveRadius);
+}
+#e-sport-root .esp_odd.esp_odd_active .esp_odd_factor,
+#e-sport-root .esp_odd:hover .esp_odd_factor,
+#e-sport-root .esp_game_details_odd:hover span,
+#e-sport-root .esp_game_details_odd.esp_game_details_odd_active span,
+#e-sport-root
+  .esp_video_wrapper
+  .esp_video_stakes_wrapper
+  .esp_video_stake
+  .esp_video_stake_stake.esp_video_stake_stake_active
+  .esp_odd_factor,
+#e-sport-root
+  .esp_video_wrapper
+  .esp_video_stakes_wrapper
+  .esp_video_stake
+  .esp_video_stake_stake:hover
+  .esp_odd_factor {
+  color: var(--oddActiveTxt);
+}
+
+/*complex single game*/
+#e-sport-root .es_game_complex {
+  background: transparent;
+}
+#e-sport-root .es_game_complex .es_game_row_2_header {
+  background: var(--subHeaderG);
+  color: var(--subHeaderTxt2);
+}
+#e-sport-root .es_game_complex .es_game_row_2_header_name {
+  color: var(--subHeaderTxt);
+}
+
+#e-sport-root .es_game_complex .es_game_complex_content {
+  background: var(--eventG);
+  color: var(--eventTxt);
+}
+#e-sport-root .es_game_complex .sport_front_icon-star {
+  color: var(--eventTxt2);
+}
+#e-sport-root .es_game_complex .esp_odd {
+  border-color: var(--eventBg);
+  color: var(--eventTxt) !important;
+}
+#e-sport-root .es_game_complex .esp_odd:hover {
+  background: var(--oddActiveG);
+  color: var(--oddActiveTxt) !important;
+}
+#e-sport-root .es_game_complex .esp_show_more i {
+  color: var(--eventTxt2);
+}
+/*results page*/
+#e-sport-root .esp_maximise_stream {
+  background: var(--filterBg);
+  color: var(--filterTxt);
+}
+#e-sport-root .component_filter_header {
+  background: var(--filterBg2);
+}
+#e-sport-root .component_filter_header .component_input_group_label {
+  color: var(--filterTxt2);
+}
+
+#e-sport-root .component_filter_header .component_input,
+#e-sport-root .component_filter_header .component_select_wrapper .component_select_imitator,
+#e-sport-root .component_filter_header .component_datepicker,
+#e-sport-root .component_filter_header .component_datepicker > div,
+#e-sport-root .component_filter_header .component_datepicker > div input,
+#e-sport-root .component_filter_header .component_select_dropdown_imitator {
+  background: var(--filterBg) !important;
+  color: var(--filterTxt) !important;
+}
+
+#e-sport-root .component_filter_header .component_select_dropdown_imitator > div {
+  color: var(--filterTxt2) !important;
+}
+
+#e-sport-root .component_filter_header .component_select_dropdown_imitator > div:hover {
+  background: var(--filterBg2) !important;
+  color: var(--filterTxt) !important;
+}
+
+#e-sport-root .component_select,
+#e-sport-root .component_datepicker,
+#e-sport-root .component_datepicker > div,
+#e-sport-root .component_datepicker > div input,
+#e-sport-root .component_input {
+  background: var(--inputG) !important;
+  color: var(--inputTxt) !important;
+}
+
+#e-sport-root .component_datepicker > div input,
+#e-sport-root .component_datepicker > div input::placeholder,
+#e-sport-root .component_filter_header .component_datepicker input,
+#e-sport-root .component_filter_header .component_input::placeholder,
+#e-sport-root .component_select_wrapper .component_select_imitator span,
+#e-sport-root .component_select_wrapper .component_select_imitator i {
+  color: var(--inputTxt) !important;
+}
+
+#e-sport-root .component_filter_header .component_button {
+  background: var(--buttonG) !important;
+  color: var(--buttonTxt) !important;
+}
+
+/*video stake*/
+#e-sport-root .esp_video_wrapper .esp_video_stake_team .esp_video_stake_score {
+  color: var(--accentBg);
+}
+#e-sport-root .esp_video_wrapper .esp_video_stakes_wrapper .esp_video_stake {
+  border-bottom: 4px solid var(--bodyBg);
+  background-color: var(--bodyBg);
+}
+#e-sport-root .esp_video_wrapper .esp_video_stake_header {
+  background: var(--dominantBg);
+  color: var(--dominantTxt) !important;
+  border-color: var(--bodyBg);
+}
+#e-sport-root .esp_video_wrapper .esp_video_stake_header span {
+  color: var(--dominantTxt) !important;
+}
+
+#e-sport-root .esp_video_wrapper .esp_video_stake_team {
+  background: var(--eventBg);
+  color: var(--eventTxt);
+  border-color: var(--bodyBg);
+}
+
+#e-sport-root .esp_video_wrapper .esp_video_stake_active .esp_video_stake_team {
+  background: var(--eventBgHover);
+  color: var(--eventTxt);
+}
+
+#e-sport-root .esp_video_wrapper .esp_video_stake_team .esp_video_stake_team_name {
+  color: var(--eventTxt);
+}
+
+/*dropdowns*/
+#e-sport-root .component_select_wrapper .component_select_dropdown_imitator {
+  background: var(--dominantBg);
+  color: var(--dominantTxt);
+}
+#e-sport-root .component_select_wrapper .component_select_dropdown_imitator > div {
+  color: var(--dominantTxt);
+}
+#e-sport-root .component_select_wrapper .component_select_dropdown_imitator > div:hover {
+  background: var(--dominantBg2);
+  color: var(--dominantTxt);
+}
+
+/*right side*/
+#e-sport-root
+  .esp_layout_right
+  .component_format_filter_container
+  > div
+  .component_select_wrapper
+  .component_select_imitator {
+  background: var(--dominantBg) !important;
+  color: var(--dominantTxt) !important;
+}
+#e-sport-root
+  .esp_layout_right
+  .component_format_filter_container
+  > div
+  .component_select_wrapper
+  .component_select_imitator
+  i,
+#e-sport-root
+  .esp_layout_right
+  .component_format_filter_container
+  > div
+  .component_select_wrapper
+  .component_select_imitator
+  span {
+  color: var(--dominantTxt) !important;
+}
+
+/*betslip*/
+#e-sport-root .esp_betslip {
+  background: var(--betSlipBg) !important;
+  color: var(--betSlipTxt) !important;
+}
+#e-sport-root .esp_betslip .component_betslip_possible_winning strong {
+  color: var(--accentBg);
+}
+#e-sport-root .component_betslip_header {
+  background: var(--betSlipHeaderG) !important;
+  color: var(--betSlipHeaderTxt) !important;
+}
+#e-sport-root .component_betslip_header_tab .component_betslip_header_tab_count {
+  background: var(--accentBg) !important;
+  color: var(--accentTxt) !important;
+  border-color: var(--betSlipHeaderBg) !important;
+}
+#e-sport-root .component_betslip_header i.component_betlip_pin_active,
+#e-sport-root .component_betslip_header i:not(.component_betlip_pin_disabled):hover {
+  color: var(--accentBg) !important;
+}
+#e-sport-root .esp_component_message {
+  background: var(--inputBg) !important;
+  color: var(--inputTxt) !important;
+  border: 1px solid var(--inputBorder) !important;
+}
+#e-sport-root .esp_component_message i,
+#e-sport-root .esp_component_message span {
+  background: var(--inputBg) !important;
+  color: var(--inputTxt) !important;
+}
+
+#e-sport-root .esp_betslip .component_betslip_stake_factor {
+  background: transparent;
+  color: var(--accentBg);
+}
+
+#e-sport-root .component_betslip_input {
+  background: var(--inputG) !important;
+  color: var(--inputTxt) !important;
+  border-radius: var(--inputRadius);
+}
+#e-sport-root .component_betslip_button {
+  background: var(--betSlipBg2) !important;
+  color: var(--betSlipTxt) !important;
+  border-radius: var(--inputRadius);
+}
+#e-sport-root .component_betslip_button:hover {
+  background: var(--betSlipBg2) !important;
+  color: var(--betSlipTxt) !important;
+}
+#e-sport-root .component_betslip_tax_wrapper {
+  background: var(--betSlipBg3) !important;
+  color: var(--betSlipTxt) !important;
+}
+#e-sport-root .component_betslip_button_akcent {
+  background: var(--accentG) !important;
+  color: var(--accentTxt) !important;
+  border-radius: var(--inputRadius);
+}
+#e-sport-root .component_betslip_button_akcent:hover {
+  background: var(--accent2) !important;
+  color: var(--accentTxt) !important;
+}
+/*Bet history*/
+#e-sport-root .digi_table_body,
+#e-sport-root .digi_table_header {
+  background: var(--bodyBg) !important;
+}
+#e-sport-root .digi_table {
+  color: var(--dominantTxt2) !important;
+}
+#e-sport-root .digi_table_row {
+  background: var(--dominantBg) !important;
+}
+#e-sport-root .component_history_content_item_id,
+#e-sport-root .component_history_status_pending {
+  color: var(--accentBg) !important;
+}
+#e-sport-root .component_history_button_cashout {
+  background: var(--accentBg) !important;
+  color: var(--accentTxt) !important;
+}
+#e-sport-root .component_cashout_popup_amount {
+  color: var(--accentBg) !important;
+}
+#e-sport-root .component_button {
+  background: var(--accentBg) !important;
+  color: var(--accentTxt) !important;
+}
+.MuiPickersDay-day.MuiPickersDay-daySelected,
+.MuiIconButton-root:hover {
+  background: var(--accentBg) !important;
+  color: var(--accentTxt) !important;
+}
+.MuiPickersDay-current:not(.MuiPickersDay-daySelected) {
+  color: var(--accentBg) !important;
+}
+
+#e-sport-root .component_popup_header {
+  background: var(--betSlipHeaderG) !important;
+  color: var(--betSlipHeaderTxt) !important;
+}
+
+#e-sport-root .component_popup_body {
+  background: var(--betSlipBg) !important;
+  color: var(--betSlipTxt) !important;
+}
+
+#e-sport-root .component_partial_cashout_inpu {
+  background: var(--betSlipBg2) !important;
+  color: var(--betSlipTxt) !important;
+}
+
+/*tabs*/
+#e-sport-root .esp_betslip .esp_tab {
+  background: var(--tabG);
+  color: var(--tabTxt);
+}
+#e-sport-root .esp_betslip .esp_tab.esp_tab_active {
+  background: var(--tabActiveG);
+  color: var(--tabActiveTxt);
+}
+
+@media (hover: hover) and (min-width: 992px) {
+  #e-sport-root .esp_betslip .esp_tab:hover {
+    background: var(--tabActiveG);
+    color: var(--tabActiveTxt);
+  }
+}
+
+#e-sport-root .esp_betslip .esp_betslip_stake {
+  background: var(--betSlipStakeG);
+  color: var(--betSlipStakeTxt2);
+  border-color: var(--betSlipBg);
+}
+#e-sport-root .esp_betslip .esp_checkbox_wrapper,
+#e-sport-root .esp_betslip_stake_name {
+  color: var(--betSlipStakeTxt2);
+}
+#e-sport-root .esp_betslip_stake_teams {
+  color: var(--betSlipStakeTxt) !important;
+}
+#e-sport-root .esp_betslip_item_factor {
+  background: var(--betSlipStakeBg2);
+  color: var(--betSlipStakeTxt);
+}
+/*border radius*/
+#e-sport-root .component_datepicker > div {
+  overflow: hidden;
+}
+
+/*Mobile*/
+
+#e-sport-root .esp_mob_wrapper {
+  background-color: var(--bodyBg);
+  color: var(--bodyTxt);
+}
+#e-sport-root .esp_mob_wrapper .esp_add_settings_wrapper > div > i {
+  color: var(--headerTxt2);
+}
+#e-sport-root .esp_mob_legend {
+  background-color: var(--headerBg);
+  color: var(--headerTxt2);
+}
+#e-sport-root .esp_mob_header_main {
+  background-color: var(--dominantBg);
+  color: var(--dominantTxt);
+  margin-bottom: 2px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.3);
+}
+#e-sport-root .esp_mob_wrapper .esp_add_settings_wrapper .esp_add_settings .esp_add_settings_links {
+  background-color: var(--headerBg2);
+}
+#e-sport-root .esp_mob_wrapper .esp_add_settings_wrapper .esp_add_settings .esp_add_settings_links > ul li a {
+  background-color: var(--headerBg);
+}
+#e-sport-root .esp_mob_header_mini {
+  background-color: var(--subHeaderG);
+  color: var(--subHeaderTxt2);
+}
+#e-sport-root .esp_mob_header_main_link.esp_mob_header_main_link_active,
+#e-sport-root .esp_mob_header_main_link:hover {
+  color: var(--accentBg);
+}
+#e-sport-root .esp_mob_filter_main {
+  background-color: var(--dominantBg);
+}
+#e-sport-root .esp_mob_filter_main_item,
+#e-sport-root .component_search_mob .sport_front_icon-remove {
+  color: var(--dominantTxt2);
+}
+#e-sport-root .component_search_mob .component_search_input {
+  background-color: var(--dominantBg2) !important;
+}
+#e-sport-root .esp_mob_filter_main_item.esp_mob_filter_main_item_active {
+  color: var(--accentBg);
+}
+#e-sport-root .esp_mob_filter_main_item .esp_mob_filter_main_item_fav_count {
+  background-color: var(--accentBg);
+  color: var(--accentTxt);
+  border: 1px solid var(--accentTxt);
+}
+#e-sport-root .esp_mob_game_filter {
+  background-color: var(--bodyBg);
+}
+#e-sport-root .esp_game_filter.esp_game_filter_no_header {
+  background-color: var(--headerBg);
+}
+#e-sport-root .esp_mob_game_filter_item.esp_mob_game_filter_item_active .esp_mob_game_filter_item__name {
+  color: var(--accentBg);
+}
+#e-sport-root .esp_mob_game_filter_item .esp_mob_game_filter_item__more,
+#e-sport-root .esp_mob_game_filter_item .esp_mob_game_filter_item__name {
+  color: var(--bodyTxt);
+}
+#e-sport-root .esp_mob_game_filter_item .esp_mob_game_filter_item__more {
+  right: 28px;
+}
+#e-sport-root .esp_game_mob {
+  background-color: var(--eventG);
+}
+#e-sport-root .esp_typography_mob-primary {
+  color: var(--eventTxt);
+}
+#e-sport-root .esp_typography_mob {
+  color: var(--eventTxt2);
+}
+#e-sport-root .esp_mob_games_wrapper {
+  background-color: var(--bodyBg);
+}
+#e-sport-root .esp_game_mob_wrapper .digi_fav {
+  color: var(--accentBg);
+}
+#e-sport-root .esp_mob_odd {
+  background: var(--oddG);
+  color: var(--oddTxt);
+  font-weight: 400;
+}
+#e-sport-root .esp_odd_factor {
+  color: var(--oddTxt);
+}
+#e-sport-root .esp_mob_odd:hover,
+#e-sport-root .esp_mob_odd.esp_mob_odd_active {
+  background-color: var(--oddActiveG);
+}
+#e-sport-root .esp_mob_odd:hover .esp_odd_factor,
+#e-sport-root .esp_mob_odd.esp_mob_odd_active .esp_odd_factor {
+  color: var(--oddActiveTxt);
+}
+
+#e-sport-root .es_game_result .esp_odd.esp_odd_active {
+  background-color: var(--oddActiveG);
+  color: var(--oddActiveTxt);
+}
+
+/*End mobile*/
+
+#e-sport-root .esp_betslip_item_factor {
+  background: var(--betSlipStakeBg2);
+  color: var(--betSlipStakeTxt);
+}
+#e-sport-root .sport_front_icon-star.digi_fav_active {
+  color: var(--accentBg);
+}
+#e-sport-root .esp_mob_wrapper .esp_odd_factor,
+#e-sport-root .esp_odd.esp_odd_vs {
+  font-size: 14px;
+}
+#e-sport-root .esp_game_details_odd .esp_odd_factor {
+  font-weight: 400;
+  color: var(--oddTxt);
+}
+#e-sport-root .component_sidebar_list_filter_tab_count {
+  background-color: var(--bodyBg);
+}
+#e-sport-root .esp_betslip_mob_pin_count {
+  background: var(--accentG);
+  color: var(--accentTxt);
+}
+#e-sport-root .esp_betslip_mob_pin {
+  border-right: 4px solid var(--accentBg);
+}
+#e-sport-root .component_betslip_input_imit {
+  background: var(--inputBg);
+  color: var(--inputTxt);
+}
+#e-sport-root .esp_mob_wrapper .esp_game_details_item .esp_game_details_item_content {
+  background-color: var(--oddBorder);
+}
+#e-sport-root .esp_mob_wrapper .esp_game_details_odd {
+  border-bottom: 2px solid var(--oddBorder);
+}
+
+#e-sport-root .esp_mob_wrapper .esp_game_details_item .esp_game_details_item_header {
+  border-bottom: 2px solid var(--eventBorder);
+}
+
+#e-sport-root .esp_match_tabs_wrapper_with_collapse_icon .component_collapse_all {
+  color: var(--bodyTxt);
+}
+
+#e-sport-root .esp_tabs_wrapper_markets .esp_tab.esp_tab_active > strong,
+#e-sport-root .esp_tabs_wrapper_markets .esp_tab:hover > strong {
+  color: var(--tabActiveTxt2);
+}
+
+#e-sport-root .esp_game_details_item [class*='sport_front_icon-arrow'] {
+  color: var(--eventTxt2);
+}
+
+#e-sport-root [class*='esp_live_badge_wrapper'] .esp_game_time-set {
+  color: var(--eventTxt2);
+}
+@media (hover: hover) {
+  #e-sport-root .esp_betslip .esp_tab.esp_tab_active:hover {
+    background: var(--tabActiveG);
+    color: var(--tabActiveTxt);
+  }
+  #e-sport-root .esp_mob_filter_main_item:hover,
+  #e-sport-root .esp_mob_game_filter_item:hover .esp_mob_game_filter_item__name {
+    color: var(--accentBg);
+  }
+}

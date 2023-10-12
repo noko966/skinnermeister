@@ -1,0 +1,1179 @@
+﻿
+/*ADDED FOR REASON REMOVE LATER*/
+body {
+    --bg-level-1: #191919;
+    --bg-level-2: #333;
+    --text-level-high: #fff;
+    --primary: #f15922;
+    --text-on-primary: #fff;
+}
+/*main styles*/
+.panel-footer {
+    background: #f15922;
+}
+
+.main-menu li a.active {
+    background-color: #f15922;
+}
+
+.slidesjs-pagination li a.active {
+    border: 1px solid #f15922;
+}
+
+.flex-control-paging li a {
+    background: #f15922 !important;
+}
+
+
+.list-menu li a span {
+    color: #f15922;
+}
+
+#methods li a.active {
+    border-color: #f15922;
+}
+
+.row input[type=submit] {
+    background: #f15922;
+}
+
+.picker__button--clear:before {
+    color: #f15922;
+}
+
+.picker__button--today:before,
+.picker__day--today:before {
+    border-top-color: #f15922;
+}
+
+.picker--focused .picker__day--highlighted {
+    background: #f15922;
+}
+
+.tl_mail_icon_dot {
+    background: #f15922;
+}
+
+.flex-control-paging li a.flex-active {
+    background: #f15922 !important;
+    border: 1px solid #f15922 !important;
+}
+
+
+#timer {
+    color: #f15922;
+}
+
+.LogoMobilePlatform {
+    background-image: url("/img/logo-tg-mobile.png");
+}
+
+
+.panel ul li.activated {
+    background-color: #F14100 !important;
+}
+
+
+
+.list-menu li a i {
+    background: -moz-linear-gradient(left, rgba(30,87,153,0) 0%, rgba(241,65,0,1) 50%, rgba(125,185,232,0) 100%); /* FF3.6+ */
+    background: -webkit-gradient(linear, left top, right top, color-stop(0%,rgba(30,87,153,0)), color-stop(50%,rgba(241,65,0,1)), color-stop(100%,rgba(125,185,232,0))); /* Chrome,Safari4+ */
+    background: -webkit-linear-gradient(left, rgba(30,87,153,0) 0%,rgba(241,65,0,1) 50%,rgba(125,185,232,0) 100%); /* Chrome10+,Safari5.1+ */
+    background: -o-linear-gradient(left, rgba(30,87,153,0) 0%,rgba(241,65,0,1) 50%,rgba(125,185,232,0) 100%); /* Opera 11.10+ */
+    background: -ms-linear-gradient(left, rgba(30,87,153,0) 0%,rgba(241,65,0,1) 50%,rgba(125,185,232,0) 100%); /* IE10+ */
+    background: linear-gradient(to right, rgba(30,87,153,0) 0%,rgba(241,65,0,1) 50%,rgba(125,185,232,0) 100%); /* W3C */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#007db9e8',GradientType=1 ); /* IE6-9 */
+}
+
+.left-logo:before {
+    content: "'";
+}
+
+.left-sicbo:before {
+    content: " ";
+    background-image: url("/img/mobile/Partners/1068/Sicbo_toto.png");
+    height: 38px !important;
+    background-size: cover;
+}
+div.tl_profile_attachfiel_content {
+    margin: 0;
+    line-height: 36px;
+    color: gray;
+    text-indent: 10px;
+}
+
+.tl_mail_attachfiel_content {
+    background-color: #fff;
+    border-radius: 4px;
+}
+
+.profile_upload {
+    display: flex;
+    background-color: #474747;
+    border-radius: 4px;
+    margin: .5em 0;
+}
+
+    .profile_upload i {
+        width: 35px;
+        color: #e0e0e0;
+        -webkit-transform: rotate(0);
+        transform: rotate(0);
+        margin: 0 auto;
+        width: 50%;
+        text-align: left;
+        text-indent: 10px;
+    }
+
+.upload_file_btn {
+    width: 50%;
+    line-height: 36px;
+    text-align: right;
+}
+
+.tl_mail_attachfiel {
+    color: grey;
+}
+
+@media screen and (max-width: 350px) {
+    .LogoMobilePlatform {
+        background-image: url("/img/logo-tg-mobile.png");
+    }
+}
+
+
+/*end*/
+
+
+
+
+.LogoMobilePlatform {
+    background-image: url("/img/mobile/Partners/1068/logo-mobile.png");
+    width: 150px;
+    height: 24px;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.tl_loader {
+    background-image: url(/Img/mobile//partners/1068/preloader_last.gif);
+}
+
+.left-logo:before {
+    content: "<";
+}
+
+@media screen and (max-width: 410px) {
+    .LogoMobilePlatform {
+        background-image: url("/img/mobile/Partners/1068/logo-small-mobile.png");
+        width: 32px;
+        height: 32px;
+    }
+}
+
+.row .generalTermsLink {
+    color: #686868 !important;
+    text-decoration: underline;
+    }
+/*NEW DESIGN*/
+body, #wrapper {
+    background-color: #040b13;
+} 
+
+.nav_item {
+    max-height: 33vw;
+    overflow: hidden;
+}
+.unavailable_belote {
+    position: absolute;
+    color: #fff;
+    top: 0;
+    text-align: center;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 12px;
+    text-shadow: 0 0 6px #FF0000;
+}
+
+.block_title {
+    color: #FFB700;
+    background: #2B2B2B;
+}
+
+.sliderControlsCont .slick-dots .slick-active button {
+    background-color: #F14100;
+}
+
+.platformMobReg {
+    color: #00912C !important;
+    font-weight: 700;
+}
+.reg_width_block {
+    width: 80px!important
+}
+.unavailable_belote_mob {
+    position: relative;
+}
+.unavailable_belote_mob img {
+    width: 100%;
+}
+.unavailable_belote_mob div {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    text-align: center;
+    font-size: 18px;
+}
+    /*FOOTER*/
+.call_us, .drop_down_lang {
+   background: #333333;
+}
+
+.call_us img {
+    max-width: 18px;
+    margin-right: 13px;
+}
+
+.drop_down_lang {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    padding-left: 15px;
+}
+
+.drop_down_lang_arrow {
+    position: relative;
+    margin:auto;
+}
+
+    .drop_down_lang_arrow:after {
+        content: "";
+        border-left: 5px solid transparent;
+        border-right: 5px solid transparent;
+        border-top: 5px solid #666666;
+        position: absolute;
+        right: 9px;
+        top: 20px;
+    }
+
+
+
+
+.call_us a {
+    color: #B3B3B3;
+}
+
+.footer_links {
+    justify-content: space-between;
+}
+
+
+    .footer_links > div {
+        width: 156px;
+        margin: 24px 0;
+    }
+
+    .footer_links a {
+        text-decoration: none;
+        color: #B3B3B3;
+        font-size: 12px;
+        display: block;
+        text-align: left;
+        line-height: 29px;
+    }
+
+    .footer_links > div:first-child a {
+        text-align: right;
+    }
+
+
+.footer_links_soacial {
+    justify-content: center;
+    margin-bottom: 16px;
+}
+
+
+    .footer_links_soacial a {
+        background-image: url(/Img/little_sprite.png);
+        background-repeat: no-repeat;
+        display: block;
+        width: 36px;
+        height: 36px;
+        margin: 0 4px;
+        background-position-y: -475px;
+    }
+
+
+.ic_facebook {
+    background-position-x: 0;
+}
+
+.ic_instagram {
+    background-position-x: -40px;
+}
+
+.ic_youtube {
+    background-position-x: -80px;
+}
+
+.ic_telegram {
+    background-position-x: -120px;
+}
+
+.ic_vk {
+    background-position-x: -160px;
+}
+
+.ic_ok {
+    background-position-x: -200px;
+}
+
+
+
+.ic_twitter {
+    background-position-x: -240px;
+}
+
+
+
+.toWeb {
+    height: 44px;
+    background: #333333;
+    color: #B3B3B3 !important;
+    line-height: 44px !important;
+    text-transform: uppercase;
+}
+
+#right-panel, #left-panel {
+    position: fixed;
+    overflow: auto;
+}
+/*footer social icons*/
+
+.footer_social_icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0 20px;
+}
+
+.footer_social_icons li:not(:last-of-type) {
+    margin-right: 15px;
+}
+
+    .footer_social_icons a {
+        display: block;
+        height: 37px;
+        width: 37px;
+        background-image: url(../../../Img/partners/1068/footer_social_icons.png);
+        background-repeat: no-repeat;
+        background-position: 0 0;
+        border-radius: 2px;
+    }
+
+.footer_social_icons .tw {
+   background-position: 0 0;
+}
+
+.footer_social_icons .insta {
+   background-position: -43px 0;
+}
+
+.footer_social_icons .in {
+   background-position: -85px 0;
+}
+/*footer payments*/
+.footer_payments .frow {
+    justify-content: center;
+}
+
+.footer_payments .new_pay {
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    margin-bottom: 10px;
+}
+.cardpay {
+    background-position: -5304px -153px
+}
+.new_pay.arca {
+    background-position-y: 0;
+}
+.new_pay.edram {
+    background-position-y: -50px;
+}
+.new_pay.bank {
+    background-position-y: -102px;
+}
+.new_pay.mobidram {
+    background-position-y: -154px;
+}
+.telcell_visa_mastercard {
+    width: 60px;
+    height: 26px;
+    background-image: url(/Img/Casino-images-allinone.png);
+    background-position: -1203px -6740px;
+}
+
+.telcell, .telcellwithdrawal, .telcelldeposit {
+    width: 73px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -1196px -153px;
+}
+
+.easypay_visa_mastercard, .easypay_visa_mastercardwithdrawal {
+    width: 73px;
+    height: 25px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -1772px -153px;
+}
+
+.new_pay.easypay {
+    background-position-y: -258px;
+}
+
+.new_pay.visaMaster {
+    background-position-y: -310px;
+}
+
+
+.new_pay.cashAmd {
+    background-position-y: -362px;
+}
+
+.new_pay.visa {
+    background-position: -6740px -153px;
+    height: 24px;
+}
+.new_pay.mastercard {
+    background-position: -6807px -153px;
+    height: 24px;
+    width: 59px;
+}
+
+
+.payment_title {
+    font-size: 10px;
+    color: #666666;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 3.5px;
+}
+
+/*end payments*/
+
+.new_fic {
+    background-image: url(/Img/little_sprite.png);
+    background-repeat: no-repeat;
+    display: block;
+    width: 24px;
+    height: 24px;
+    margin: 0 5px;
+    background-position: 0 -438px;
+}
+
+    .new_fic.digLogo {
+        width: 133px;
+        height: 51px;
+        background-position: -174px -42px;
+        margin: auto;
+        margin-top: 7px;
+        margin-bottom: 20px;
+    }
+
+.footer_bottom {
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 66px;
+}
+
+.footer_title {
+    font-size: 8px;
+    color: #666666;
+    text-transform: uppercase;
+    line-height: 10px;
+}
+
+.ministry_title {
+    font-size: 10px;
+    color: #666666;
+    line-height: 13px;
+}
+
+.new_fic.federbet {
+    width: 76px;
+    height: 14px;
+    margin: 10px auto;
+    background-position: -223px 0;
+}
+.currIcon {
+    font-family: ProductIconsFont;
+    position: absolute;
+    right: 20px;
+}
+
+.jack_conts > div:nth-last-child(3n) {
+    padding-left: 10px;
+}
+
+.pointer {
+    padding: 0 2px !important;
+}
+
+.jack_conts {
+    display: inline-block;
+    height: 24px;
+    align-self: center;
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+.jack_conts > div {
+    display: inline-block;
+    padding: 0;
+    height: 20px;
+    margin-top: -8px;
+}
+
+.jack_conts > div > span {
+    width: 15px;
+    height: 20px;
+    display: block;
+    text-align: center;
+}
+
+.anim {
+    -ms-transition: all 0.4s;
+    -o-transition: all 0.4s;
+    -webkit-transition: all 0.4s;
+    transition: transform 0.4s;
+    transform: translateY(-20px);
+}
+
+@media screen and (max-width: 375px) {
+
+    .footer_cont {
+        width: 310px;
+    }
+
+    .call_us, .drop_down_lang {
+        width: 150px;
+    }
+
+    .footer_links > div {
+        width: 150px;
+    }
+
+
+    .footer_links a {
+        font-size: 10px;
+    }
+}
+
+.TotoGyumri {
+    color: #F14100 !important;
+    font-size: 12px;
+    margin-left: 13%;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.ui-checkbox .ui-btn, .ui-radio .ui-btn, #recNews label {
+    color: #000000 !important;
+}
+
+.switch input.sw:checked + label:before {
+    background-color: #ffb705;
+}
+
+.switch input.sw + label:before {
+    background-color: #00912C;
+}
+
+.footer-check {
+    justify-content: center;
+}
+.casino_top_egt {
+    background-image: url(/img/partners/1068/EGT.png);
+}
+
+@media screen and (max-width: 360px) {
+
+    .tabs_cont_item {
+        padding: 0 20px;
+        padding-left: 5px;
+    }
+
+    .tl_casino_ic {
+        left: 55px;
+    }
+}
+
+.bonus-block div {
+    color: #fff;
+}
+
+.btn_affiliate {
+    color: #B3B3B3;
+    font-size: 16px;
+    margin: 0 0 25px 0;
+}
+
+.tournament_name_cont.promoted:after {
+    top: -8px;
+    right: -22px;
+}
+
+.safecharge_text_mob {
+    margin-top: 30px;
+    padding-bottom: 15px;
+    color: #999;
+    font-size: 13px;
+    display: block;
+    width: 100%;
+}
+.height_block {
+    height: 100%;
+}
+
+.remove_span {
+    color: #ff1313;
+    height: 48px;
+    line-height: 48px;
+    width: 30px;
+    -moz-transition: all .2s ease;
+    -webkit-transition: all .2s ease;
+    transition: all .2s ease;
+    padding-left: 5px;
+}
+
+.remove_span:hover {
+    color: #d80606;
+}
+
+.remove_span:after {
+    content: "5";
+    font-family: ProductIconsFont;
+    font-size: 30px;
+}
+
+
+.remove_butt_wrapper {
+    display: flex;
+}
+
+.drop_wrapper {
+    width: calc(100% - 30px);
+}
+
+div#ceg-fd579d0e-25a0-4b7b-bc51-d7e2de32e58b, div.new_fic.mature {
+    display: inline-block;
+}
+
+div#ceg-fd579d0e-25a0-4b7b-bc51-d7e2de32e58b img {
+    margin: 16px auto;
+    width: 24px !important;
+}
+
+#recNews div.row:first-child {
+
+    background: #fff;
+}
+
+.btn_prim {
+    background-color: #f14100 !important;
+    color: #fff !important;
+    border-radius: 2px;
+    height: 30px;
+    line-height: 30px !important;
+    text-align: center !important;
+}
+
+
+.platformMobReg {
+    color: #00912C !important;
+    font-weight: 700;
+    background-color: transparent !important;
+}
+
+.safecharge {
+    width: 80px;
+    height: 28px;
+    background-image: url(/img/Casino-images-allinone.png);
+    background-position: -6869px -153px;
+}
+
+.accessdenied {
+    text-align: center;
+    margin: 30px 0px;
+    font-size: 15px;
+}
+.mobPlatfLabelText {
+    color: #fff;
+}
+.tl_logged_in {
+    position: relative
+}
+ /*new registration*/
+
+.reg_heading, .change_pass_heading {
+    background: #FFFFFF;
+    color: #000;
+    justify-content: space-between;
+    display: flex;
+    padding: 15px 15px 0;
+    height: auto;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif !important;
+}
+
+    .reg_heading .reg_close, .change_pass_heading .reg_close {
+        position: relative;
+        top: 5px;
+        right: 20px;
+        -webkit-box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+        box-shadow: 0px 3px 6px 0px rgba(0,0,0,0.2);
+    }
+        .reg_heading .reg_close:after, .change_pass_heading .reg_close:after {
+            content: "";
+            position: absolute;
+            width: 20px;
+            height: 2px;
+            background: #1A1A1A;
+            -webkit-transform: rotate(45deg);
+            -ms-transform: rotate(45deg);
+            transform: rotate(45deg);
+            top: 9px;
+            left: 0px;
+        }
+
+    .reg_heading .reg_close:before, .change_pass_heading .reg_close:before {
+        content: "";
+        position: absolute;
+        width: 20px;
+        height: 2px;
+        background: #1A1A1A;
+        top: 9px;
+        left: 0;
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+    }
+
+
+/*content*/
+.reg_steps_info {
+    width: 100%;
+}
+
+.reg_progress_dots {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    padding: 30px 0 16px;
+}
+
+    .reg_progress_dots span {
+        width: 24px;
+        height: 24px;
+        border: 2px solid #D9D9D9;
+        -webkit-border-radius: 50%;
+        border-radius: 50%;
+        position: relative;
+    }
+
+        .reg_progress_dots span.active:after {
+            -webkit-border-radius: 50%;
+            border-radius: 50%;
+            content: "";
+            position: absolute;
+            height: 12px;
+            width: 12px;
+            background: #197B30;
+            top: 4px;
+            left: 4px;
+        }
+
+        .reg_progress_dots span.done {
+            background: #197B30;
+            display: -webkit-box;
+            display: -webkit-flex;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -webkit-align-items: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -webkit-box-pack: center;
+            -webkit-justify-content: center;
+            -ms-flex-pack: center;
+            justify-content: center;
+            border: none;
+            height: 22px;
+            width: 22px;
+            top: 2px;
+        }
+
+            .reg_progress_dots span.done:before {
+                background: #197B30;
+            }
+
+        .reg_progress_dots span:before {
+            background: #D9D9D9;
+            content: "";
+            position: absolute;
+            width: calc(50vw - 55px);
+            height: 2px;
+            top: 9px;
+            left: 22px;
+        }
+
+        .reg_progress_dots span:last-child:before {
+            display: none;
+        }
+
+/*banners*/
+.register_left_banner {
+    height: auto;
+    width: 100%;
+}
+
+    .register_left_banner img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+
+/*content*/
+.reg_content {
+    width: 100%;
+    padding: 0 10px;
+    background: #F2F2F2;
+    font-family: "Roboto", sans-serif!important;
+}
+
+.lbl_reg {
+    padding: 24px 0 4px;
+    display: flex;
+    font-family: "Roboto", sans-serif !important;
+}
+.reg_item label {
+    display: inline;
+    color: #808080;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif !important;
+}
+.tl_input_popup_required {
+    line-height: normal;
+}
+/*.ui-input-text input.tl_input_popup_reg, .ui-select .ui-btn > span:not(.ui-li-count) {
+    color: #999;
+    width: 100%;
+    border: none;
+    background: #FFFFFF;
+    height: 36px;
+    padding: 0 16px;
+    border-bottom: 1px solid #CCCCCC;
+    -webkit-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+    font-size: 14px;
+    text-indent: 0;
+    font-family: "Roboto", sans-serif !important;
+}*/
+.register_step_number {
+    font-size: 14px;
+    color: #1a1a1a;
+    min-width: 584px;
+    font-family: "Roboto", sans-serif !important;
+}
+.register_step_descr {
+    display: block;
+    font-size: 20px;
+    text-transform: uppercase;
+    margin-top: 4px;
+    font-family: "Roboto", sans-serif !important;
+}
+/*back and next*/
+.register_next_step {
+    padding: 30px 0 45px;
+    justify-content: center;
+    display: flex;
+}
+#nextBtn, #forgotButton, #gotoLogin {
+    background: #FFB700 !important;
+    color: #000 !important;
+    height: 36px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 14px;
+    border-radius: 2px;
+    font-family: "Roboto", sans-serif !important;
+}
+
+#backBtn {
+    background: #CCCCCC;
+    color: #000;
+    height: 36px;
+    border: none;
+    text-transform: uppercase;
+    margin-right: 24px;
+    font-size: 14px;
+    border-radius: 4px;
+    width: calc(100% - 5px);
+    font-family: "Roboto", sans-serif !important;
+}
+.back_register_button {
+    width: calc(100% + 5px);
+}
+.ui-checkbox span {
+    display: inline;
+    font-size: 12px;
+    color: #999999;
+}
+.ui-checkbox a, #generalTermsLink {
+    color: #999;
+    font-weight: bold;
+}
+.checkbox_item_cont input {
+    position: absolute;
+    z-index: -1;
+}
+.tl_reg_content .popup_lbl_2 {
+    padding-left: 25px;
+    white-space: inherit;
+}
+.D_check .imitator {
+    top: 3px;
+    left: 0px;
+}
+.D_check.ui-checkbox-on .imitator:before {
+    content: "4";
+}
+.reg_footer {
+    padding: 15px 0 35px;
+}
+.field-validation-valid {
+    color: #FF0000
+}
+.reg_item {
+    width: 100%;
+}
+    .reg_item input {
+        width: 100%;
+    }
+.showStep {
+    display: block !important;
+}
+.register_content {
+    display: none;
+    flex-wrap: wrap;
+}
+/*forgotpass*/
+
+#forgotPassForm {
+    position: relative;
+    width: calc(100% + 20px);
+    left: -10px;
+    padding: 10px;
+    background: #F2F2F2;
+    top: -10px;
+    font-family: "Roboto", sans-serif !important;
+}
+#forgotPassForm input {
+    color: #999;
+    width: 100%;
+    border: none;
+    background: #FFFFFF;
+    height: 36px;
+    padding: 0 16px;
+    border-bottom: 1px solid #CCCCCC;
+    -webkit-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+    font-size: 14px;
+    text-indent: 0;
+    font-family: "Roboto", sans-serif !important;
+}
+    #forgotPassForm .refresh-captcha:before {
+        color: #a1a1a1;
+    }
+    #gCaptcha >div {
+        margin: auto
+    }
+.D_logo {
+    background-image: url(/Img/partners/1068/toto_login_logo.svg);
+    width: 122px;
+    height: 67px;
+    background-size: contain;
+    margin: 40px auto;
+}
+#forgotPassForm label, #forgotPassForm .required-field {
+    color: #808080;
+    font-size: 12px;
+    padding: 24px 0 4px;
+}
+#forgotPassForm .warning {
+    width:auto;
+    margin: 12px 0;
+}
+
+.pass_change_done {
+    width: 80px;
+    height: 80px;
+    background: green;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 50px auto 30px;
+}
+#forgotPassForm .successmassage {
+    background: transparent;
+    color: #999999;
+    font-size: 14px;
+    padding: 0 10px;
+    margin-bottom: 100px;
+}
+.reset_pass_descr {
+    color: #999999;
+    font-size: 14px;
+    margin: 10px 0 100px;
+}
+#gotoLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/*new banners*/
+.nav_item > img {
+    padding: 15px 45px 50px;
+}
+
+.nav_item {
+    width: 100%;
+    max-height: 100%;
+    height: auto;
+    background: #10151e;
+    position: relative;
+    text-align: center;
+    box-shadow: 0 1px 4px rgba(0,0,0,.3);
+}
+
+.nav_title {
+    text-shadow: 0 0 6px #FF0000;
+    background: #060b14;
+    margin: 0;
+}
+
+
+/*inputs optimisation*/
+
+.ui-input-text input.tl_input_popup_reg, .ui-select .ui-btn > span:not(.ui-li-count), .reg_input {
+    color: #666;
+    width: 100%;
+    border: none;
+    background-color: #FFFFFF;
+    height: 36px;
+    padding: 0 16px;
+    border-bottom: 1px solid #CCCCCC;
+    -webkit-border-radius: 2px 2px 0 0;
+    border-radius: 2px 2px 0 0;
+    font-size: 14px;
+    text-indent: 0;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.reg__row_title, .transfer2friend_cont label, .forgot_pass__row label, .r_login__row label {
+    color: #111;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.profile_container label, #content_paym label, .search_popup_row label, .changepass__element_row label {
+    color: #a3a3a3;
+}
+
+.valid_icon_error_rc .ui-btn-icon-right:after {
+    display: none
+}
+/*registration*/
+
+/*errors*/
+.valid_icon_error_rc .input-validation-error,
+.valid_icon_error_rc .valid {
+    background-image: none;
+}
+
+.dateOfBirth_errors {
+    position: relative !important;
+    top: -9px !important;
+}
+
+    .dateOfBirth_errors > span {
+        position: absolute !important;
+        top: 0;
+    }
+
+.reg__checkboxes_row {
+    margin: 10px 0;
+    padding: 0 0 0 30px;
+    color: #999;
+}
+
+.tl_input_popup_required {
+    float: right;
+}
+
+.tl_reg_content .ui-btn.ui-checkbox-off:after, .tl_reg_content .ui-btn.ui-checkbox-on:after {
+    display: none;
+}
+
+.reg_footer input {
+    opacity: 0;
+}
+.text-primary {
+    color: #197b30;
+}
+/*27.4.21 optims*/
+body .bg-primary, body .h-bg-primary {
+    background-color: #197b30;
+    color: #fff;
+}
+
+    body .h-bg-primary:hover {
+        background-color: #197b30;
+        color: #fff;
+    }
+
+body .text-primary {
+    color: #197b30;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    background-color: #1a1a1a;
+    color: #fff;
+}
+
+    body .h-bg-secondary:hover {
+        background-color: #0a0a0a;
+        color: #fff;
+    }
+
+body .bg-tert, body .h-bg-tert {
+    background-color: #161415;
+    color: #fff;
+}
+
+    body .h-bg-tert:hover {
+        background-color: #161415;
+        color: #fff;
+    }
+/*very new bonus*/
+.bonus_card_body {
+    background-color: #1b2127;
+}

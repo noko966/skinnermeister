@@ -363,7 +363,7 @@ class Skinner {
    */
   init(colors) {
     this.doSkinning(colors);
-    this.generateCssVariables(colors.id);
+    return this.generateCssVariables(colors.id);
   }
 
   /**
@@ -423,14 +423,18 @@ class Skinner {
 
     let res = ':root{\n';
 
+    res += `/*CMS colors ${id}*/\n`;
+
     cssVariablesArray.forEach(v => {
         res += `${v.name}:${v.value};\n`;
     })
 
     res += '}';
 
+    return res;
 
-    fs.writeFileSync(`./partners/${id}.css`, res)
+
+    // fs.writeFileSync(`./partners/${id}.css`, res)
 
     // console.log(this.generateCssVariablesInstance.init());
 
@@ -528,10 +532,10 @@ const defaultSkin = [
   },
 ];
 
-const skinner = new Skinner(defaultSkin, {
+module.exports.esportSkinner = new Skinner(defaultSkin, {
   generateForegroundColors: true,
 });
 
-for (let i = 0; i < cmsColors.length; i++) {
-  skinner.init(cmsColors[i]);
-}
+module.exports.cmsColors = cmsColors;
+
+

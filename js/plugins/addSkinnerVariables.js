@@ -1,6 +1,7 @@
 const inquirer = require("@inquirer/prompts");
 const Skinner = require("../Skinner/Skinner");
 
+const postcss = require("postcss");
 const tinycolor = require("tinycolor2");
 
 const restoreName = (nameBg) => {
@@ -78,7 +79,11 @@ contains ${data.lightThemeCount} light theme
 
 module.exports = plugin = (opts = {}) => {
   let matchedRoots = [];
-  let matchedKeys = {};
+
+  this.opts = opts;
+
+  const essencesToLook = opts.essencesToLook;
+  const essencesToGenerate = opts.essencesToGenerate;
 
   let loggerData = {
     id: opts.id,
@@ -172,7 +177,7 @@ module.exports = plugin = (opts = {}) => {
   ];
 
   return {
-    postcssPlugin: "postcss-tst",
+    postcssPlugin: "postcss-skinner",
 
     Once(root, { result }) {
       root.walkRules((rule) => {
@@ -191,60 +196,100 @@ module.exports = plugin = (opts = {}) => {
         }
       });
 
-      matchedRoots.forEach((root) => {
-        root.walkDecls((decl) => {
-          skinKeys.forEach((key) => {
-            const bg = verbalData(key.name, "--").nameBg;
+      //     // You can also push it to results if needed.
+      //     // result.messages.push({
+      //     //     type: 'variable',
+      //     //     plugin: 'pluginSkinner',
+      //     //     variableName: decl.prop,
+      //     //     variableValue: decl.value
+      //     // });
+      //   });
+      // });
+
+      const variablesTranspiler = (config) => {
+        let convertedConfig = {};
+        if (!config) return new Error("no config provided");
+        switch (config.type) {
+          case "esport":
+            break;
+          case "latino":
+            // console.log('asd');
+            break;
+          default:
+            break;
+        }
+      };
+
+      matchedRoots.forEach((rule) => {
+        let matchedKeys = {};
+
+        rule.walkDecls((decl) => {
+          essencesToLook.forEach((key) => {
+            const bg = key.from;
             if (decl.prop === bg) {
-              matchedKeys[key.name] = {
+              matchedKeys[key.to] = {
                 Background: {
                   color: decl.value,
                 },
               };
             }
           });
+          // const SKINNER = new Skinner(() => {}, matchedKeys, tinycolor);
+          // const skin = SKINNER.init();
 
-          // You can also push it to results if needed.
-          // result.messages.push({
-          //     type: 'variable',
-          //     plugin: 'pluginSkinner',
-          //     variableName: decl.prop,
-          //     variableValue: decl.value
-          // });
+          rule.id = opts.id;
+          rule.add = matchedKeys;
         });
       });
 
-      const SKINNER = new Skinner(() => {}, matchedKeys, tinycolor);
+      let res;
 
-      const skin = SKINNER.init();
-
-      console.log(opts.essences);
       matchedRoots.forEach((rule) => {
-        skinKeys.forEach((key) => {
-          // if(!opts.essences.includes(key.name)){
-          //   return
-          // }
-          const vdk = verbalData(key.name, "--");
-          const vdv = verbalData(key.name);
-          rule.append({ prop: vdk.nameG, value: skin[vdv.nameG] });
-          rule.append({ prop: vdk.nameBg, value: skin[vdv.nameBg] });
-          rule.append({ prop: vdk.nameBgHov, value: skin[vdv.nameBgHov] });
-          rule.append({ prop: vdk.nameBg2, value: skin[vdv.nameBg2] });
-          rule.append({ prop: vdk.nameBg2Hov, value: skin[vdv.nameBg2Hov] });
-          rule.append({ prop: vdk.nameBg3, value: skin[vdv.nameBg3] });
-          rule.append({ prop: vdk.nameBg3Hov, value: skin[vdv.nameBg3Hov] });
-          rule.append({ prop: vdk.nameTxt, value: skin[vdv.nameTxt] });
-          rule.append({ prop: vdk.nameTxt2, value: skin[vdv.nameTxt2] });
-          rule.append({ prop: vdk.nameTxt3, value: skin[vdv.nameTxt3] });
-          rule.append({ prop: vdk.nameAccent, value: skin[vdv.nameAccent] });
-          rule.append({
+        // console.log(rule.add, rule.id, rule.selector);
+        rule.add.body.Background.isDark = tinycolor(
+          rule.add.body.Background.color
+        ).isLight();
+        const SKINNER = new Skinner(() => {}, rule.add, tinycolor);
+        const skin = SKINNER.init();
+
+        const newRule = postcss.rule({ selector: ":root" });
+        // console.log(newRule);
+
+        essencesToGenerate.forEach((missingKey) => {
+          const vdk = verbalData(missingKey, "--");
+          const vdv = verbalData(missingKey);
+
+          newRule.append({ prop: vdk.nameG, value: skin[vdv.nameG] });
+          newRule.append({ prop: vdk.nameBg, value: skin[vdv.nameBg] });
+          newRule.append({ prop: vdk.nameBgHov, value: skin[vdv.nameBgHov] });
+          newRule.append({ prop: vdk.nameBg2, value: skin[vdv.nameBg2] });
+          newRule.append({ prop: vdk.nameBg2Hov, value: skin[vdv.nameBg2Hov] });
+          newRule.append({ prop: vdk.nameBg3, value: skin[vdv.nameBg3] });
+          newRule.append({ prop: vdk.nameBg3Hov, value: skin[vdv.nameBg3Hov] });
+          newRule.append({ prop: vdk.nameTxt, value: skin[vdv.nameTxt] });
+          newRule.append({ prop: vdk.nameTxt2, value: skin[vdv.nameTxt2] });
+          newRule.append({ prop: vdk.nameTxt3, value: skin[vdv.nameTxt3] });
+          newRule.append({ prop: vdk.nameAccent, value: skin[vdv.nameAccent] });
+          newRule.append({
             prop: vdk.nameAccentTxt,
             value: skin[vdv.nameAccentTxt],
           });
-          rule.append({ prop: vdk.nameRadius, value: skin[vdv.nameRadius] });
-          rule.append({ prop: vdk.nameBorder, value: skin[vdv.nameBorder] });
+          newRule.append({ prop: vdk.nameBorder, value: skin[vdv.nameBorder] });
         });
+
+        // root.append(newRule);
+
+        res = newRule
+
       });
+
+
+      result.messages.push({
+        type: 'new-rule',
+        rule: res
+      });
+
+      
     },
   };
 };

@@ -1,0 +1,222 @@
+﻿
+/*ADDED FOR REASON REMOVE LATER*/
+body {
+    --bg-level-1: #1b232e;
+    --bg-level-2: #111821;
+    --text-level-high: #fff;
+    --primary: #158531;
+    --text-on-primary: #fff;
+}
+
+html, body,
+#wrapper {
+	background-color:#1b232e;
+}
+
+.list-menu li {
+	background-color: #b7b7b7;
+	border: 1px solid #1a232e;
+}
+
+.list-menu li a div {
+	background-color: #b7b7b7;
+}
+
+.list-menu li a i {
+	visibility:hidden;
+}
+#scroll{
+    margin: 0;
+    left: 20px;
+}
+.list-menu strong:before,
+.list-menu li a strong,
+.list-menu li a:after {
+	color:#111821;
+}
+
+.list-menu li a span {
+	color:#eb3944;
+}
+
+#header {
+	background-color:#111821;
+}
+
+.btn_prim {
+    background-color: #158531 !important;
+    color: #fff !important;
+}
+
+.clr_prim,
+.promo_clicked {
+	background-color:#1a232e;
+	color:#fff !important;
+}
+
+.clr_sec {
+	background-color:#1a232e;
+	color:#fff !important;
+}
+
+.btn_sec {
+	background-color:#eb3944 !important;
+	color:#fff !important;
+}
+
+.platformMobLanga {
+	background-color:#1a232e !important;
+}
+
+.bgMain {
+	background-color:#111821;
+}
+
+.menuBtn,
+.menuBtnSm {
+    background-color: #b7b7b7;
+    color: #000 !important;
+}
+
+.menuRow,
+.pagIt {
+    background-color: #b7b7b7;
+    color: #000 !important;
+}
+
+.menuBtn a {
+	color: #000 !important;
+}
+
+.heading {
+	background-color:#1a232e;
+	border-bottom:2px solid #eb3944;
+}
+
+.row label {
+	color:#fff;
+}
+
+/*.ui-checkbox label {
+	color:#000;
+}*/
+#header{height: 70px;}
+.LogoMobilePlatform { 
+    height: 70px;
+    width: 70px;
+    background-position: center;
+} 
+@media only screen and (min-width: 800px) {
+    #home-slots {
+        background-size: cover; 
+    }
+}
+
+/*collapsable deposit withdrowal*/
+.collapse_btn h3 > a{background-color:#1a232e; color:#fff;border-color:#eb3944;}
+.paym_txt {color:#fff;}
+.paym_txt1 {color:#fff;}
+.paym_cond {color:#999;}
+#generalTermsLink{color: #000;}
+.paym_cond > span {color:#fff;}
+.collapse_btn .ui-collapsible-content {background-color:#111821 !important;}
+#footer_coupon_div.btn_prim { background-color: #f4a629 !important;  color: #111821 !important;}
+
+.left-logo:before {
+    content: "\3c";
+}
+
+#resend {
+    width: 100%;
+    border: 0;
+    outline: 0;
+    height: 31px;
+    display: block;
+    line-height: 36px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #333333;
+    background-color: #999;
+    color: #FFF;
+    padding: 0 8px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+#menu-right {
+    margin-left: auto;
+
+}
+
+.bonus-block div {
+    color: #fff;
+}
+
+.partner_color {
+    color: #30862f;
+}
+.plus18Icon {
+    color: #999;
+    font-size: 32px;
+    margin-bottom: 1px;
+}
+#Mobile {
+    padding-left: 37px;
+}
+
+/*inputs optimisation*/
+input,
+.reg_input, .tl_mail_send_area, 
+.custon_select__front_el, .drop-down, .drop-down-small, #content_paym .ui-select span,#content_paym .ui-select select, .favorite_amounts > div,
+.reg__checkboxes_row,
+.reg__gender_row label, .profile_container .reg__gender_row label {
+    background-color: #f5f5f5;
+    color: #111;
+}
+
+.reg__row_title, .profile_container label, .transfer2friend_cont label,  #content_paym label, .forgot_pass__row label, .r_login__row label, .changepass__element_row label, .search_popup_row label {
+    color: #a3a3a3;
+}
+.text-primary {
+    color: #008627;
+}
+/*27.4.21 optims*/
+body .bg-primary, body .h-bg-primary {
+    background-color: #008627;
+    color: #fff;
+}
+
+    body .h-bg-primary:hover {
+        background-color: #18a743;
+        color: #fff;
+    }
+
+body .text-primary {
+    color: #008627;
+}
+
+body .bg-secondary, body .h-bg-secondary {
+    background-color: #e63842;
+    color: #fff;
+}
+
+    body .h-bg-secondary:hover {
+        background-color: #db1523;
+        color: #fff;
+    }
+
+body .bg-tert, body .h-bg-tert {
+    background-color: #111822;
+    color: #fff;
+}
+
+    body .h-bg-tert:hover {
+        background-color: #111822;
+        color: #fff;
+    }
+/*very new bonus*/
+.bonus_card_body {
+    background-color: #2e343d;
+}

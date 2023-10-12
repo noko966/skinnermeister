@@ -5,7 +5,7 @@ const tinycolor = require("tinycolor2");
 
 module.exports = plugin = (opts = {}) => {
   let matchedRoots = [];
-  let matchedKeys = {};
+  let matchedSelectors = [];
 
   let loggerData = {
     id: opts.id,
@@ -15,23 +15,19 @@ module.exports = plugin = (opts = {}) => {
   };
 
   const selector = {
-    selector: ".tg_widget_bg .tg_input",
+    selector: ".tg__coupon .tg_input",
     background: {
       value: null,
-      var: "--inputResultBg",
+      var: "--betslipInputBg",
     },
     color: {
       value: null,
-      var: "--inputResultTxt",
+      var: "--betslipInputTxt",
     },
     border: {
       value: null,
-      var: "--inputResultBorder",
-    },
-    radius: {
-      value: null,
-      var: "--inputResultRadius",
-    },
+      var: "--betslipInputBorder",
+    }
   };
 
   return {
@@ -56,6 +52,7 @@ module.exports = plugin = (opts = {}) => {
 
       root.walkRules((rule) => {
         if(rule.selector === selector.selector) {
+          matchedSelectors.push(rule);
           rule.walkDecls((decl) => {
             if (
               decl.prop === "background" ||
@@ -66,11 +63,8 @@ module.exports = plugin = (opts = {}) => {
             if (decl.prop === "color") {
               selector.color.value = decl.value;
             }
-            if (decl.prop === "border") {
+            if (decl.prop === "border-bottom") {
               selector.border.value = decl.value;
-            }
-            if (decl.prop === "border-radius") {
-              selector.radius.value = decl.value;
             }
           });
         }
@@ -80,6 +74,11 @@ module.exports = plugin = (opts = {}) => {
 
       // console.log(selector, opts.id);
       // }
+
+
+      if(selector.background.value || selector.color.value || selector.border.value) {
+        console.log(opts.id, '');
+      }
 
       matchedRoots.forEach((rule) => {
 
@@ -101,15 +100,24 @@ module.exports = plugin = (opts = {}) => {
             value: selector.border.value,
           });
         }
-        if (selector.radius.value) {
-          rule.append({
-            prop: selector.radius.var,
-            value: selector.radius.value,
-          });
-        }
 
         //
       });
+
+
+      root.walkRules((rule) => {
+        matchedSelectors.forEach(S => {
+
+          console.log(S.selector);
+
+          S.remove();
+
+        })
+      });
+
+      
+
+
     },
   };
 };
